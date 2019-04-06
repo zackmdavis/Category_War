@@ -20,28 +20,13 @@ If we (pretend that we can) visualize animals existing in a very-high-dimensiona
 
 Humans are already functioning intelligences (well, sort of) even if we [don't automatically know _how_](https://www.lesswrong.com/posts/46qnWRSR7L2eyNbMA/the-lens-that-sees-its-flaws), so the categories that humans propose of their own accord won't be _maximally_ wrong: no one would try to propose a word for "configurations of matter that match any of these 29,122 five-megabyte descriptions but have no other useful properties." (Indeed, because we evolved to function in a simple, ordered universe, it actually takes some ingenuity to construct a category _that_ wrong.)
 
-This leaves aspiring instructors of rationality in something of a predicament: in order to _teach_ people how categories can be more or (ahem) [less wrong](https://tvtropes.org/pmwiki/pmwiki.php/Main/TitleDrop), you need some sort of illustrative example, 
+This leaves aspiring instructors of rationality in something of a predicament: in order to _teach_ people how categories can be more or (ahem) [less wrong](https://tvtropes.org/pmwiki/pmwiki.php/Main/TitleDrop), you need some sort of illustrative example, but since the most natural illustrative examples won't be _maximally_ wrong, some people might fail to appreciate the lesson, leaving one of your students to fill in the gap in your lecture series eleven years later.
 
+The _pedagogical_ function of telling people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary) is to point out that, without _denying_ the obvious similarities that motivated the initial categorization `{salmon, guppies, sharks, dolphins, trout, ...}`, there is _more structure_ in the world: to maximize the [(logarithm of the)](http://yudkowsky.net/rational/technical/) probability your model assigns to your observations of dolphins, you need to take into consideration the many aspects of reality in which the grouping `{monkeys, squirrels, dolphins, horses ...}` makes more sense. To the extent that relying on the initial category guess would result in a worse Bayes-score, we might say that that category is "wrong." It might have been good enough for the sailors of yore, but as humanity as learned more, as our model of Thingspace has expanded with more dimensions and more details, we can see the ways in which the original map failed to carve reality at the joints.
 
+The one replies:
 
-The _pedagogical_ function of telling people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary) is to point out that, despite the obvious similarities 
-
-If 
-
-
-
-
-and the biologist's concepts of _mammal_ and _fish_ are all not-wrong
-
-https://en.wikipedia.org/wiki/Linear_subspace
-
-[...]
-
-The one replies—
-
-> Right, but reality doesn't come with its joints pre-labeled. Questions about how to draw category boundaries are best understood as questions about values or priorities rather than about the actual content of the actual world. Everything we identify as a joint is only a joint because we care about it.
-
-
+> But reality doesn't come with its joints pre-labeled. Questions about how to draw category boundaries are best understood as questions about values or priorities rather than about the actual content of the actual world. Everything we identify as a joint is only a joint because we care about it.
 
 Everything we identify as a joint is a joint not "because we care about it", but because it _helps us think about_ the things we care about.
 

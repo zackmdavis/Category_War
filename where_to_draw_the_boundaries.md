@@ -12,7 +12,7 @@ The one comes to you and says:
 
 So, there is a legitimate complaint here. It's true that sailors in the ancient world had a legitimate reason to want a word in their language whose [extension](https://www.lesswrong.com/posts/HsznWM9A7NiuGsp28/extensions-and-intensions) was `{salmon, guppies, sharks, dolphins, ...}`. (And modern scholars writing a translation for present-day English speakers might even be tempted to translate that word as _fish_, because most members of that category are what we would call fish.) It indeed would not necessarily be helping the sailors to tell them that they need to exclude dolphins from the extension of that word, and instead include dolphins in the extension of their word for `{monkeys, squirrels, horses ...}`. Likewise, modern biologists have no need for a word that groups dolphins and guppies together.
 
-When rationalists say that definitions can be wrong, we _don't_ mean that there's One True floating category boundary corresponding to a word, and that all 
+When rationalists say that definitions can be wrong, we _don't_ mean that there's One True floating category boundary corresponding to a word, and that all other boundaries are wrong. 
 
 [...]
 
@@ -20,7 +20,7 @@ The one replies—
 
 > Right! Questions about how to draw category boundaries are best understood as questions about values or priorities rather than about the actual content of the actual world. Reality doesn't come with its joints pre-labeled. Everything we identify as a joint is only a joint because we care about it.
 
-Not quite.
+
 
 Everything we identify as a joint is a joint not "because we care about it", but because it _helps us think about_ the things we care about.
 
@@ -48,19 +48,13 @@ Certainly, this all becomes much more complicated as we move away from the simpl
 
 We could go on listing more such complications. But the fundamental thing is this: _the map is not the territory_. Maybe sometimes we might _want_ something to belong to a category that it currently doesn't.
 
------
 
-Faced with an arbitrary choice, you should make an arbitrary choice
+Miyamoto Musashi [is quoted as saying](http://yudkowsky.net/rational/virtues/):
 
-color vision
+> The primary thing when you take a sword in your hands is your intention to cut the enemy, whatever the means. Whenever you parry, hit, spring, strike or touch the enemy's cutting sword, you must cut the enemy in the same movement. It is essential to attain this. If you think only of hitting, springing, striking or touching the enemy, you will not be able actually to cut him.
 
-if someone honestly believes that the choice between multiple category systems is arbitrary or somewhat-arbitrary, then they should accept the choice being made arbitrarily or somewhat-arbitraril
+Similarly, the primary thing when you take a word in your lips is your intention to reflect the territory, whatever the means. Whenever you categorize, label, name, define, or draw boundaries, you must _cut through to the correct answer in the same movement_. If you think only of categorizing, labeling, naming, defining, or drawing boundaries, you will not be able to actually reflect the territory.
 
-[appeal-to-arbitrariness conversation halter](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters)
+Do not ask whether there's a rule of rationality saying that you shouldn't call dolphins fish. Ask whether dolphins are fish.
 
-[knowing about philosophy-of-language can hurt people](https://www.lesswrong.com/posts/AdYdLP2sRqPMoe8fb/knowing-about-biases-can-hurt-people)
-
-if your preferences are about the map rather than the territory, you could just lie
-
-appeal to values is worse than appeal to dictionary
-
+And if you speak overmuch of the Way you will not attain it.

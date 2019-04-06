@@ -12,13 +12,13 @@ The one comes to you and says:
 
 So, there is a legitimate complaint here. It's true that sailors in the ancient world had a legitimate reason to want a word in their language whose [extension](https://www.lesswrong.com/posts/HsznWM9A7NiuGsp28/extensions-and-intensions) was `{salmon, guppies, sharks, dolphins, ...}`. (And modern scholars writing a translation for present-day English speakers might even be tempted to translate that word as _fish_, because most members of that category are what we would call fish.) It indeed would not necessarily be helping the sailors to tell them that they need to exclude dolphins from the extension of that word, and instead include dolphins in the extension of their word for `{monkeys, squirrels, horses ...}`. Likewise, modern biologists have no need for a word that groups dolphins and guppies together.
 
-When rationalists say that definitions can be wrong, we _don't_ mean that there's One True floating category boundary corresponding to a word, and that all other boundaries are wrong. 
+When rationalists say that definitions can be wrong, we don't mean that there's a _unique_ category boundary that is the True floating essence of a word, and that all other possible boundaries are wrong.
 
 [...]
 
 The one replies—
 
-> Right! Questions about how to draw category boundaries are best understood as questions about values or priorities rather than about the actual content of the actual world. Reality doesn't come with its joints pre-labeled. Everything we identify as a joint is only a joint because we care about it.
+> But reality doesn't come with its joints pre-labeled. Questions about how to draw category boundaries are best understood as questions about values or priorities rather than about the actual content of the actual world. Everything we identify as a joint is only a joint because we care about it.
 
 
 

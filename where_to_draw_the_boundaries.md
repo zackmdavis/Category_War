@@ -10,15 +10,19 @@ The one comes to you and says:
 
 > The list: `{salmon, guppies, sharks, dolphins, trout}` is just a list—you can't say that a list is _wrong_. You draw category boundaries in specific ways to capture tradeoffs you care about: sailors in the ancient world wanted a word to describe the swimming finned creatures that they saw in the sea, which included salmon, guppies, sharks—and dolphins. That grouping may not be the one favored by modern biologists, but an alternative categorization system is not an error, and borders are not objectively true or false. You're not standing in defense of truth if you insist on a word, brought explicitly into question, being used with some particular meaning. So my definition of _fish_ cannot possibly be 'wrong,' as you claim. I can define a word any way I want—in accordance with my values!
 
-So, there is a legitimate complaint here. It's true that sailors in the ancient world had a legitimate reason to want a word in their language whose [extension](https://www.lesswrong.com/posts/HsznWM9A7NiuGsp28/extensions-and-intensions) was `{salmon, guppies, sharks, dolphins, ...}`. (And modern scholars writing a translation for present-day English speakers might even be tempted to translate that word as _fish_, because most members of that category are what we would call fish.) It indeed would not necessarily be helping the sailors to tell them that they need to exclude dolphins from the extension of that word, and instead include dolphins in the extension of their word for `{monkeys, squirrels, horses ...}`. Likewise, modern biologists have no need for a word that groups dolphins and guppies together.
+So, there is a legitimate complaint here. It's true that sailors in the ancient world had a legitimate reason to want a word in their language whose [extension](https://www.lesswrong.com/posts/HsznWM9A7NiuGsp28/extensions-and-intensions) was `{salmon, guppies, sharks, dolphins, ...}`. (And modern scholars writing a translation for present-day English speakers might even be tempted to translate that word as _fish_, because most members of that category are what we would call fish.) It indeed would not necessarily be helping the sailors to tell them that they need to exclude dolphins from the extension of that word, and instead include dolphins in the extension of their word for `{monkeys, squirrels, horses ...}`. Likewise, modern biologists have little use for a word that groups dolphins and guppies together.
 
-When rationalists say that definitions can be wrong, we don't mean that there's a _unique_ category boundary that is the True floating essence of a word, and that all other possible boundaries are wrong.
+When rationalists say that definitions can be wrong, we don't mean that there's a _unique_ category boundary that is the True floating essence of a word, and that all other possible boundaries are wrong. We mean that in order for a proposed category boundary to _not_ be wrong, it needs capture some statistical structure in reality, even if [reality is surprisingly detailed](http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail) and there can be _more than one_ such structure.
+
+The sailor's concept are 
+
+https://en.wikipedia.org/wiki/Linear_subspace
 
 [...]
 
 The one replies—
 
-> But reality doesn't come with its joints pre-labeled. Questions about how to draw category boundaries are best understood as questions about values or priorities rather than about the actual content of the actual world. Everything we identify as a joint is only a joint because we care about it.
+> Right, but reality doesn't come with its joints pre-labeled. Questions about how to draw category boundaries are best understood as questions about values or priorities rather than about the actual content of the actual world. Everything we identify as a joint is only a joint because we care about it.
 
 
 

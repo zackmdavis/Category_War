@@ -16,11 +16,19 @@ When rationalists say that definitions can be wrong, we don't mean that there's 
 
 The reason that the sailor's concept of _water-dwelling animals_ isn't necessarily wrong (at least within a particular domain of application) is because dolphins and fish actually _do_ have things in common [due to convergent evolution](http://www.brooklyn.cuny.edu/bc/ahp/LAD/C21/C21_Convergent.html), despite their differing ancestries. If we've been told that "dolphins" are water-dwellers, we can _correctly_ predict that they're likely to have fins and a hydrodynamic shape, even if we've never seen a dolphin ourselves. On the other hand, if we predict that dolphins probably lay eggs because 97% of known fish species are oviparous, we'd get the _wrong answer_.
 
-The reason to advise people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary)
+If we (pretend that we can) visualize animals existing in a very-high-dimensional [Thingspace](https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace), there would be a cluster of water-dwellers in the [subspace](https://en.wikipedia.org/wiki/Linear_subspace) of dimensions that water-dwelling animals are similar on, and a cluster of mammals in the subspace of dimensions that mammals are similar on, and dolphins would belong to _both_ of them just as the vector [1.1, 2.1, 9.1, 10.2] in ℝ⁴ is simultaneously close to [1, 2, 2, 1] in the subspace spanned by _x₁_ and _x₂_, _and_ close to [8, 9, 9, 10] in the subspace spanned by _x₃_ and _x₄_.
+
+Humans are already functioning intelligences (well, sort of) even if we [don't automatically know _how_](https://www.lesswrong.com/posts/46qnWRSR7L2eyNbMA/the-lens-that-sees-its-flaws), so the categories that humans propose of their own accord won't be _maximally_ wrong: no one would try to propose a word for "configurations of matter that match any of these 29,122 five-megabyte descriptions but have no other useful properties." (Indeed, because we evolved to function in a simple, ordered universe, it actually takes some ingenuity to construct a category _that_ wrong.)
+
+This leaves aspiring instructors of rationality in something of a predicament: in order to _teach_ people how categories can be more or (ahem) [less wrong](https://tvtropes.org/pmwiki/pmwiki.php/Main/TitleDrop), you need some sort of illustrative example, 
+
+
+
+The _pedagogical_ function of telling people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary) is to point out that, despite the obvious similarities 
 
 If 
 
-https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace
+
 
 
 and the biologist's concepts of _mammal_ and _fish_ are all not-wrong

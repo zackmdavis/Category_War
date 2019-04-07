@@ -74,11 +74,11 @@ If your desire isn't currently true in reality, maybe there's some action you co
 
 -----
 
-Imagine you've worked at [a peculiar job in a peculiar factory](https://www.lesswrong.com/posts/4FcxgdvdQP45D6Skg/disguised-queries) for a long time: after mind-numbing years of sorting bleggs and rubes all day and enduring being trolled by Susan the Senior Sorter and her evil sense of humor, you finally work up the courage to ask Bob the Big Boss for a promotion.
+Imagine you've worked at [a peculiar job in a peculiar factory](https://www.lesswrong.com/posts/4FcxgdvdQP45D6Skg/disguised-queries) for a long time. After many mind-numbing years of sorting bleggs and rubes all day and enduring being trolled by Susan the Senior Sorter and her evil sense of humor, you finally work up the courage to ask Bob the Big Boss for a promotion.
 
 "Sure," Bob says. "Starting tomorrow, you're our new Vice President of Sorting!"
 
-"Wow, this is amazing," you say, "I don't know what to ask first! What will my new responsibilities be?"
+"Wow, this is amazing," you say. "I don't know what to ask first! What will my new responsibilities be?"
 
 "Oh, your responsibilities will be the same: sort bleggs and rubes every Monday through Friday from 9 _a.m._ to 5 _p.m._"
 
@@ -92,18 +92,23 @@ You grimace. "O–_kay_. But Vice Presidents get more authority, right? Will I b
 
 You snort. "A Vice President, reporting to a mere Senior Sorter?"
 
-"Oh, no," says Bob. "Susan is also getting promoted, effective tomorrow—to _Senior_ Vice President of Sorting!"
+"Oh, no," says Bob. "Susan is _also_ getting promoted, effective tomorrow—to _Senior_ Vice President of Sorting!"
 
-You lose it. "Bob, this is _bullshit_. When you said I was getting promoted to Vice President, that created a bunch of probabilistic expectations in my mind: you made me _anticipate_ getting more money, new challenges, and more authority, and then you reveal that it's actually just the 
+You lose it. "Bob, this is _bullshit_. When you said I was getting promoted to Vice President, that created a bunch of probabilistic expectations in my mind: you made me _anticipate_ getting more money, new challenges, and more authority, and then you reveal that you're just slapping an inflated title on the same old dead-end job. It's like handing me a rube, and then saying that it happens to be a blue, furry, egg-shaped rube ... or telling me you have a dragon in your garage, except that it's an invisible, silent dragon that doesn't breathe. You may _think_ you're doing me a favor by asking me to believe in an unfalsifiable promotion, but it's actually just cruel. _Stop fucking with my head!_ ... sir."
 
-You may _think_ you're doing me a favor, but it's actually just cruel. _Stop fucking with my head!_ ... sir."
+Bob looks offended. (Which probably doesn't bode well for your continued employment, but you don't care anymore.)
 
+"This promotion isn't _unfalsifiable_," he says. "It _says_, 'Vice President of Sorting' right here on the employee roster. That's an sensory experience that you can make falsifiable predictions about. I'll even get you business cards that say, 'Vice President of Sorting.' That's another falsifiable prediction. Using language in a way _you_ dislike is not lying. The propositions you claim false—about new job tasks, increased pay and authority—is not what the title is meant to convey, and this is known to everyone involved; it is not a secret. The categories were made for man, not—"
 
+You scream and punch him in the face. Clutching his bloody nose, Bob seems more shocked than angry. "You—you _punched_ me."
 
+"I wouldn't say that," you say. "It depends on how you choose to draw the category boundaries of the word 'punch.'"
+
+-------
 
 [...]
 
-
+-------
 
 Miyamoto Musashi [is quoted as writing](http://yudkowsky.net/rational/virtues/):
 

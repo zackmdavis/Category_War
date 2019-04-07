@@ -62,17 +62,24 @@ Or there might be social or psychological forces anchoring word usages on identi
 
 We could go on listing more such complications, where we seem to be faced with somewhat arbitrary choices about how to describe the world in language. But the fundamental thing is this: _the map is not the territory_. Arbitrariness in the map (what color should Texas be?) doesn't correspond to arbitrariness in the territory.
 
-Where the structure of human natural language doesn't fit the structure in reality—where we're not sure whether to say that a sufficiently small collection of sand "is a heap", because we don't know how to specify the positions of the individual grains of sand, or compute that the collection has a Standard Heap-ness Coefficient of 0.64—that's a _bug_ in our human power of [vibratory telpathy](https://www.lesswrong.com/posts/SXK87NgEPszhWkvQm/mundane-magic). You should _never_ say, "The choice of word or category is arbitrary here, therefore I can say whatever I want"—
+Where the structure of human natural language doesn't fit the structure in reality—where we're not sure whether to say that a sufficiently small collection of sand "is a heap", because we don't know how to specify the positions of the individual grains of sand, or compute that the collection has a Standard Heap-ness Coefficient of 0.64—that's a _bug_ in our human power of [vibratory telpathy](https://www.lesswrong.com/posts/SXK87NgEPszhWkvQm/mundane-magic).
+
+Sometimes we might _wish_ that something to belonged to a category that it doesn't (with respect to the category boundaries that we would ordinarily use), so it's tempting to avert our attention from this painful reality with [appeal-to-arbitrainess](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters) language-lawyering, selectively applying our philosophy-of-language skills to pretend that we can [define a word any way we want](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong) with no consequences. ("I'm not late!—well, okay, we agree that I arrived half an hour after the scheduled start time, but whether I was _late_ depends on how you choose to draw the category boundaries of 'late', which is subjective.")
+
+But you should _never_ say, "The choice of word is arbitrary, therefore I can say whatever I want; the choice of category is arbitrary, therefore I can believe whatever I want." Whatever criterion your brain is using to decide which word or belief you want, _is_ your non-arbitrary reason.
+
+If your desire isn't currently true in reality, maybe there's some action you could take to make it _become_ true. To search for that action, you're going to need accurate beliefs about what reality is _currently_. To enlist the help of others in your planning, you're going to need precise terminology to _communicate_ accurate beliefs about what reality is currently. Even when—_especially_ when—the current reality is inconvenient. Even when it hurts.
+
+(Oh, and if you're actually trying to optimize other people's models of the world, rather than the world itself—you could just _lie_, rather than playing category-gerrymandering mind games. It would be a lot simpler!)
+
+
+
 
 [...]
 
-Sometimes we might _wish_ that something to belonged to a category that it doesn't (with respect to the category boundaries that we would ordinarily use), so it's tempting to avert our attention from this painful reality by playing [appeal-to-arbitrainess](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters) mind games, pretending that we can [define a word any way we want](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong) with no consequences. ("I'm not late!—well, okay, we agree that I arrived half an hour after the scheduled start time, but whether I was _late_ depends on how you choose to draw the category boundaries of 'late', which is subjective.")
 
-(And if you're _actually_ trying to optimize other people's models of the world, rather than the world itself—you _could_ just _lie_, rather than playing category-gerrymandering mind games. It would be a lot simpler!)
 
-[...]
-
-Miyamoto Musashi [is quoted as saying](http://yudkowsky.net/rational/virtues/):
+Miyamoto Musashi [is quoted as writing](http://yudkowsky.net/rational/virtues/):
 
 > The primary thing when you take a sword in your hands is your intention to cut the enemy, whatever the means. Whenever you parry, hit, spring, strike or touch the enemy's cutting sword, you must cut the enemy in the same movement. It is essential to attain this. If you think only of hitting, springing, striking or touching the enemy, you will not be able actually to cut him.
 

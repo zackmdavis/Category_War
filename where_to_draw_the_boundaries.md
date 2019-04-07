@@ -22,15 +22,13 @@ Humans are already functioning intelligences (well, sort of) even if we [don't a
 
 This leaves aspiring instructors of rationality in something of a predicament: in order to _teach_ people how categories can be more or (ahem) [less wrong](https://tvtropes.org/pmwiki/pmwiki.php/Main/TitleDrop), you need some sort of illustrative example, but since the most natural illustrative examples won't be _maximally_ wrong, some people might fail to appreciate the lesson, leaving one of your students to fill in the gap in your lecture series eleven years later.
 
-The _pedagogical_ function of telling people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary) is to point out that, without _denying_ the obvious similarities that motivated the initial categorization `{salmon, guppies, sharks, dolphins, trout, ...}`, there is _more structure_ in the world: to maximize the [(logarithm of the)](http://yudkowsky.net/rational/technical/) probability your model assigns to your observations of dolphins, you need to take into consideration the many aspects of reality in which the grouping `{monkeys, squirrels, dolphins, horses ...}` makes more sense. To the extent that relying on the initial category guess would result in a worse Bayes-score, we might say that that category is "wrong." It might have been "good enough" for the purposes of the sailors of yore, but as humanity as learned more, as our model of Thingspace has expanded with more dimensions and more details, we can see the ways in which the original map failed to carve reality at the joints.
+The _pedagogical_ function of telling people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary) is to point out that, without _denying_ the obvious similarities that motivated the initial categorization `{salmon, guppies, sharks, dolphins, trout, ...}`, there is _more structure_ in the world: to maximize the [(logarithm of the)](http://yudkowsky.net/rational/technical/) probability your world-model assigns to your observations of dolphins, you need to take into consideration the many aspects of reality in which the grouping `{monkeys, squirrels, dolphins, horses ...}` makes more sense. To the extent that relying on the initial category guess would result in a worse Bayes-score, we might say that that category is "wrong." It might have been "good enough" for the purposes of the sailors of yore, but as humanity has learned more, as our model of Thingspace has expanded with more dimensions and more details, we can see the ways in which the original map failed to carve reality at the joints.
 
 The one replies:
 
 > But reality doesn't come with its joints pre-labeled. Questions about how to draw category boundaries are best understood as questions about values or priorities rather than about the actual content of the actual world. I can call dolphins "fish" and go on to make just as accurate predictions about dolphins as you can. Everything we identify as a joint is only a joint because we care about it.
 
-Not quite.
-
-Everything we identify as a joint is a joint not "because we care about it", but because it _helps us think about_ the things we care about.
+No. Everything we identify as a joint is a joint not "because we care about it", but because it _helps us think about_ the things we care about.
 
 _Which_ dimensions of Thingspace you bother paying attention to at might depend on your values, and the clusters returned by your brain's [similarity-detection](https://www.lesswrong.com/posts/jMTbQj9XB5ah2maup/similarity-clusters) algorithms might "split" or "collapse" according to which subspace you're looking at. But in order for your map to be _useful_ in the service of your values, it needs to reflect the statistical structure of things in the territory—which depends on the territroy, not your values.
 
@@ -39,6 +37,8 @@ There is an _important difference_ between "not including mountains on a map bec
 There is an _important difference_ between "identifying this pill as not being 'poison' allows me to [focus my uncertainty](https://www.lesswrong.com/posts/GJ4ZQm7crTzTM6xDW/focus-your-uncertainty) about what I'll observe after administering the pill to a human (even if [most possible minds](https://www.lesswrong.com/posts/tnWRXkcDi5Tw9rzXw/the-design-space-of-minds-in-general) have never seen a 'human' and would never waste cycles imagining administering the pill to one)" and "identifying this pill as not being 'poison', because if I publicly called it 'poison', then the manufacturer of the pill might sue me."
 
 There is an _important difference_ between having a utility function defined over a statistical model's _performance_ against specific real-world data (even if another mind with different values would be interested in different data), and having a utility function defined over features of _the model itself_.
+
+Remember how we were taught that [appealing to the dictionary](https://www.lesswrong.com/posts/9ZooAqfh2TC9SBDvq/the-argument-from-common-usage) is irrational when the _actual_ motivation for an argument is about [whether to infer a characteristic shared by most things inside an empirical cluster](https://www.lesswrong.com/posts/4FcxgdvdQP45D6Skg/disguised-queries)? But at _least_ the dictionary has the virtue of documenting typical usage of our shared communication signals: you can at least see how "You're defecting from common usage" might _feel_ like a sensible thing to say, even if one's [true rejection](https://www.lesswrong.com/posts/TGux5Fhcd7GmTfNGC/is-that-your-true-rejection) lies elsewhere. In contrast, this motion of appealing to _personal values_ (!?!) is _so_ deranged that Yudkowsky apparently didn't even realize in 2008 that he might need to warn us against it!
 
 You _can't_ change the categories your mind _actually_ uses and still perform as well on prediction tasks—although you can change your [_verbally reported_](https://www.lesswrong.com/posts/NMoLJuDJEms7Ku9XS/guessing-the-teacher-s-password) categories, much as how one can verbally report "believing" in an [invisible, inaudiable, flour-permeable dragon](https://www.lesswrong.com/posts/CqyJzDZWvGhhFJ7dY/belief-in-belief) in one's garage without having any false anticipations-of-experience about the garage.
 
@@ -52,15 +52,23 @@ But if the one were _actually using_ the new definition of Foo _internally_ and 
 
 Of course, there isn't going to be a _unique_ way to encode the knowledge into natural language: there's no reason the word/symbol "Foo" needs to represent "the stuff near [1, 2, 3]" rather than "both the stuff near [1, 2, 3] and also the stuff near [2, 4, 6]". But if speakers of particular language were _already_ using "Foo" to specifically talk about the stuff near [1, 2, 3], then you can't swap in a new definition of "Foo" without _changing the truth values_ of sentences involving the word "Foo." Or rather: sentences involving Foo-with-respect-to-the-old-definition [are _different_ propositions](https://www.lesswrong.com/posts/shoMpaoZypfkXv84Y/variable-question-fallacies) from sentences involving Foo-with-respect-to-the-new-definition, even if they get written down using the same symbols in the same order.
 
-This becomes much more complicated as we move away from the simplest idealized examples. For example, if the points are more evenly distributed in configuration space rather than belonging to cleanly distinguishable clusters, then essentialist "X is a Y" cognitive algorithms perform less well, and we get [Sorities paradox](https://plato.stanford.edu/entries/sorites-paradox/)-like situations:
+This becomes much more complicated as we move away from the simplest idealized examples.
+
+For example, if the points are more evenly distributed in configuration space rather than belonging to cleanly-distinguishable clusters, then essentialist "X is a Y" cognitive algorithms perform less well, and we get [Sorities paradox](https://plato.stanford.edu/entries/sorites-paradox/)-like situations, where we know _roughly_ what we mean by a word, but are confronted with real-world (not merely hypothetical) edge cases that we're not sure how to classify.
+
+Or it might not be obvious which dimensions of Thingspace are most relevant.
+
+Or there might be social or psychological forces anchoring word usages on easily-identifiable Schelling points that are easy for different people to _agree_ upon, even at the cost of some statistical "fit."
+
+We could go on listing more such complications, where we seem to be faced with somewhat arbitrary choices about how to describe the world in language. But the fundamental thing is this: _the map is not the territory_. Arbitrariness in the map (what color should Texas be?) doesn't correspond to arbitrariness in the territory.
 
 
-where the mapping of structure-in-the-world to human natural language is a lot messier. Or, as with the fish _vs._ _dagim_ example, it might not be clear which aspects of reality are most relevant. (Clusters can "split" or "collapse" depending on _which_ dimensions of configuration space you want to look at.) Or there might be social or psychological forces anchoring word usages on easily-distinguishable Schelling points, even at the cost of some statistical "fit."
-
-We could go on listing more such complications. But the fundamental thing is this: _the map is not the territory_. Maybe sometimes we might _want_ something to belong to a category that it currently doesn't.
 
 
-Miyamoto Musashi [is quoted as saying](http://yudkowsky.net/rational/virtues/):
+Maybe sometimes we might _want_ something to belong to a category that it currently doesn't.
+
+
+Miyamoto Musashi [is quoted](http://yudkowsky.net/rational/virtues/):
 
 > The primary thing when you take a sword in your hands is your intention to cut the enemy, whatever the means. Whenever you parry, hit, spring, strike or touch the enemy's cutting sword, you must cut the enemy in the same movement. It is essential to attain this. If you think only of hitting, springing, striking or touching the enemy, you will not be able actually to cut him.
 

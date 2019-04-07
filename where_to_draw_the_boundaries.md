@@ -16,13 +16,15 @@ When rationalists say that definitions can be wrong, we don't mean that there's 
 
 The reason that the sailor's concept of _water-dwelling animals_ isn't necessarily wrong (at least within a particular domain of application) is because dolphins and fish actually _do_ have things in common [due to convergent evolution](http://www.brooklyn.cuny.edu/bc/ahp/LAD/C21/C21_Convergent.html), despite their differing ancestries. If we've been told that "dolphins" are water-dwellers, we can _correctly_ [predict](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences) that they're likely to have fins and a hydrodynamic shape, even if we've never seen a dolphin ourselves. On the other hand, if we predict that dolphins probably lay eggs because 97% of known fish species are oviparous, we'd get the _wrong answer_.
 
-If we [(pretend that we can)](http://zackmdavis.net/blog/2013/05/dimensionality/) visualize animals existing in a very-high-dimensional [Thingspace](https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace), there would be a cluster of water-dwellers in the [subspace](https://en.wikipedia.org/wiki/Linear_subspace) of dimensions that water-dwelling animals are similar on, and a cluster of mammals in the subspace of dimensions that mammals are similar on, and dolphins would belong to _both_ of them just as the vector [1.1, 2.1, 9.1, 10.2] in ℝ⁴ is simultaneously close to [1, 2, 2, 1] in the subspace spanned by _x₁_ and _x₂_, _and_ close to [8, 9, 9, 10] in the subspace spanned by _x₃_ and _x₄_.
+If we [(pretend that we can)](http://zackmdavis.net/blog/2013/05/dimensionality/) visualize animals existing in a very-high-dimensional [Thingspace](https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace), there would be a cluster of water-dwellers in the [subspace](https://en.wikipedia.org/wiki/Linear_subspace) of dimensions that water-dwelling animals are similar on, and a cluster of mammals in the subspace of dimensions that mammals are similar on, and dolphins would belong to _both_ of them just as the vector [1.1, 2.1, 9.1, 10.2] ∈ ℝ⁴ is simultaneously close to [1, 2, 2, 1] in the subspace spanned by _x₁_ and _x₂_, _and_ close to [8, 9, 9, 10] in the subspace spanned by _x₃_ and _x₄_.
 
-Humans are already functioning intelligences (well, sort of) even if we [don't automatically know _how_](https://www.lesswrong.com/posts/46qnWRSR7L2eyNbMA/the-lens-that-sees-its-flaws), so the categories that humans propose of their own accord won't be _maximally_ wrong: no one would try to propose a word for "configurations of matter that match any of these 29,122 five-megabyte descriptions but have no other useful properties." (Indeed, because we evolved to function in a simple, ordered universe, it actually takes some ingenuity to construct a category _that_ wrong.)
+Humans are already functioning intelligences (well, sort of) even if we [don't automatically know _how_](https://www.lesswrong.com/posts/46qnWRSR7L2eyNbMA/the-lens-that-sees-its-flaws), so the categories that humans propose of their own accord won't be _maximally_ wrong: no one would try to propose a word for "configurations of matter that match any of these 29,122 five-megabyte descriptions but have no other particular properties in common." (Indeed, because we evolved to function in a simple, ordered universe, it actually takes some ingenuity to construct a category _that_ wrong.)
 
 This leaves aspiring instructors of rationality in something of a predicament: in order to _teach_ people how categories can be more or (ahem) [less wrong](https://tvtropes.org/pmwiki/pmwiki.php/Main/TitleDrop), you need some sort of illustrative example, but since the most natural illustrative examples won't be _maximally_ wrong, some people might fail to appreciate the lesson, leaving one of your students to fill in the gap in your lecture series eleven years later.
 
-The _pedagogical_ function of telling people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary) is to point out that, without _denying_ the obvious similarities that motivated the initial categorization `{salmon, guppies, sharks, dolphins, trout, ...}`, there is _more structure_ in the world: to maximize the [(logarithm of the)](http://yudkowsky.net/rational/technical/) probability your world-model assigns to your observations of dolphins, you need to take into consideration the many aspects of reality in which the grouping `{monkeys, squirrels, dolphins, horses ...}` makes more sense. To the extent that relying on the initial category guess would result in a worse Bayes-score, we might say that that category is "wrong." It might have been "good enough" for the purposes of the sailors of yore, but as humanity has learned more, as our model of Thingspace has expanded with more dimensions and more details, we can see the ways in which the original map failed to carve reality at the joints.
+So the _pedagogical_ function of telling people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary) is to point out that, without _denying_ the obvious similarities that motivated the initial categorization `{salmon, guppies, sharks, dolphins, trout, ...}`, there is _more structure_ in the world: to maximize the [(logarithm of the)](http://yudkowsky.net/rational/technical/) probability your world-model assigns to your observations of dolphins, you need to take into consideration the many aspects of reality in which the grouping `{monkeys, squirrels, dolphins, horses ...}` makes more sense. To the extent that relying on the initial category guess would result in a worse Bayes-score, we might say that that category is "wrong." It might have been "good enough" for the purposes of the sailors of yore, but as humanity has learned more, as our model of Thingspace has expanded with more dimensions and more details, we can see the ways in which the original map failed to carve reality at the joints.
+
+-------
 
 The one replies:
 
@@ -30,7 +32,7 @@ The one replies:
 
 No. Everything we identify as a joint is a joint not "because we care about it", but because it _helps us think about_ the things we care about.
 
-_Which_ dimensions of Thingspace you bother paying attention to at might depend on your values, and the clusters returned by your brain's [similarity-detection](https://www.lesswrong.com/posts/jMTbQj9XB5ah2maup/similarity-clusters) algorithms might "split" or "collapse" according to which subspace you're looking at. But in order for your map to be _useful_ in the service of your values, it needs to reflect the statistical structure of things in the territory—which depends on the territroy, not your values.
+_Which_ dimensions of Thingspace you bother paying attention to might depend on your values, and the clusters returned by your brain's [similarity-detection](https://www.lesswrong.com/posts/jMTbQj9XB5ah2maup/similarity-clusters) algorithms might "split" or "collapse" according to which subspace you're looking at. But in order for your map to be _useful_ in the service of your values, it needs to reflect the statistical structure of things in the territory—which depends on the territroy, not your values.
 
 There is an _important difference_ between "not including mountains on a map because it's a political map that doesn't show any mountains" and "not including Mt. Everest on a geographic map, because my sister died trying to climb Everest and seeing it on the map would make me feel sad."
 
@@ -42,7 +44,7 @@ Remember how [appealing to the dictionary](https://www.lesswrong.com/posts/9ZooA
 
 You _can't_ change the categories your mind _actually_ uses and still perform as well on prediction tasks—although you can change your [_verbally reported_](https://www.lesswrong.com/posts/NMoLJuDJEms7Ku9XS/guessing-the-teacher-s-password) categories, much as how one can verbally report "believing" in an [invisible, inaudiable, flour-permeable dragon](https://www.lesswrong.com/posts/CqyJzDZWvGhhFJ7dY/belief-in-belief) in one's garage without having any false anticipations-of-experience about the garage.
 
-This may be easier to see with a simple _numerical_ example.
+This may be easier to see with a [simple _numerical_](https://www.lesswrong.com/posts/HnPEpu5eQWkbyAJCT/the-simple-math-of-everything) example.
 
 Suppose we have some entities that exist in the three-dimensional vector space ℝ³. There's one cluster of entities centered at [1, 2, 3], and we call those entities Foos, and there's another cluster of entities centered at [2, 4, 6], which we call Quuxes.
 
@@ -66,9 +68,9 @@ Sometimes we might _wish_ that something to belonged to a category that it doesn
 
 But you should _never_ say, "The choice of word is arbitrary; therefore I can say whatever I want"—which amounts to, "The choice of category is arbitrary, therefore I can believe whatever I want." Whatever criterion your brain is using to decide which word or belief you want, _is_ your non-arbitrary reason.
 
-If your desire isn't currently true in reality, maybe there's some action you could take to make it _become_ true. To search for that action, you're going to need accurate beliefs about what reality is _currently_ like. To enlist the help of others in your planning, you're going to need precise terminology to _communicate_ accurate beliefs about what reality is currently like. Even when—_especially_ when—the current reality is inconvenient. Even when it hurts.
+If what you want isn't currently true in reality, maybe there's some action you could take to make it _become_ true. To search for that action, you're going to need accurate beliefs about what reality is _currently_ like. To enlist the help of others in your planning, you're going to need precise terminology to _communicate_ accurate beliefs about what reality is currently like. Even when—_especially_ when—the current reality is inconvenient. Even when it hurts.
 
-(Oh, and if you're actually trying to optimize other people's models of the world, rather than the world itself—you could just _lie_, rather than playing category-gerrymandering mind games. It would be a lot simpler!)
+(Oh, and if you're actually trying to optimize other people's models of the world, rather than the world itself—you could just _lie_, rather than playing clever category-gerrymandering mind games. It would be a lot simpler!)
 
 -----
 
@@ -92,7 +94,7 @@ You snort. "A Vice President, reporting to a mere Senior Sorter?"
 
 "Oh, no," says Bob. "Susan is _also_ getting promoted, effective tomorrow—to _Senior_ Vice President of Sorting!"
 
-You lose it. "Bob, this is _bullshit_. When you said I was getting promoted to Vice President, that created a bunch of probabilistic expectations in my mind: you made me _anticipate_ getting more money, new challenges, and more authority, and then you reveal that you're just slapping an inflated title on the same old dead-end job. It's like handing me a rube, and then saying that it happens to be a blue, furry, egg-shaped rube ... or telling me you have a dragon in your garage, except that it's an invisible, silent dragon that doesn't breathe. You may _think_ you're doing me a favor by asking me to believe in an unfalsifiable promotion, but it's actually just cruel. _Stop fucking with my head!_ ... sir."
+You lose it. "Bob, this is _bullshit_. When you said I was getting promoted to Vice President, that created a bunch of probabilistic expectations in my mind: you made me _anticipate_ getting new challenges, more money, and more authority, and then you reveal that you're just slapping an inflated title on the same old dead-end job. It's like handing me a rube, and then saying that it happens to be a blue, furry, egg-shaped rube ... or telling me you have a dragon in your garage, except that it's an invisible, silent dragon that doesn't breathe. You may _think_ you're doing me a favor by asking me to believe in an unfalsifiable promotion, but it's actually just cruel. _Stop fucking with my head!_ ... sir."
 
 Bob looks offended. (Which probably doesn't bode well for your continued employment, but you don't care anymore.)
 
@@ -104,11 +106,15 @@ You scream and punch him in the face. Clutching his bloody nose, Bob seems more 
 
 -------
 
-[...]
+Even having understood that category boundaries can't be drawn arbitrarily, but need to be drawn around empirical clusters in the subspace of Thingspace spanned by the decision-relevant variables, we're still faced with the problem of which variables to select as "relevant." In the parable of the fake promotion, above, Bob the Big Boss argues that "title on employee roster" and "title printed on business card" are the relevant variables. Observing the title on the roster tightly constrains your anticipations of the title on the business card. That's a non-gerrymandered, predictively useful category ... right?
+
+Again, a simple _numerical_ example is instructive to understand what's going on here.
+
+
 
 -------
 
-Miyamoto Musashi [is quoted as writing](http://yudkowsky.net/rational/virtues/):
+Miyamoto Musashi [is quoted](http://yudkowsky.net/rational/virtues/):
 
 > The primary thing when you take a sword in your hands is your intention to cut the enemy, whatever the means. Whenever you parry, hit, spring, strike or touch the enemy's cutting sword, you must cut the enemy in the same movement. It is essential to attain this. If you think only of hitting, springing, striking or touching the enemy, you will not be able actually to cut him.
 

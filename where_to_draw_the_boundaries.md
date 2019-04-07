@@ -38,7 +38,7 @@ There is an _important difference_ between "identifying this pill as not being '
 
 There is an _important difference_ between having a utility function defined over a statistical model's _performance_ against specific real-world data (even if another mind with different values would be interested in different data), and having a utility function defined over features of _the model itself_.
 
-Remember how [appealing to the dictionary](https://www.lesswrong.com/posts/9ZooAqfh2TC9SBDvq/the-argument-from-common-usage) is irrational when the _actual_ motivation for an argument is about [whether to infer a characteristic shared by most things inside an empirical cluster](https://www.lesswrong.com/posts/4FcxgdvdQP45D6Skg/disguised-queries)? But at _least_ the dictionary has the virtue of documenting typical usage of our shared communication signals: you can at least see how "You're defecting from common usage" might _feel_ like a sensible thing to say, even if one's [true rejection](https://www.lesswrong.com/posts/TGux5Fhcd7GmTfNGC/is-that-your-true-rejection) lies elsewhere. In contrast, this motion of appealing to _personal values_ (!?!) is _so_ deranged that Yudkowsky apparently didn't even realize in 2008 that he might need to warn us against it!
+Remember how [appealing to the dictionary](https://www.lesswrong.com/posts/9ZooAqfh2TC9SBDvq/the-argument-from-common-usage) is irrational when the _actual_ motivation for an argument is about [whether to infer a property on the basis of category-membership](https://www.lesswrong.com/posts/4FcxgdvdQP45D6Skg/disguised-queries)? But at _least_ the dictionary has the virtue of documenting typical usage of our shared communication signals: you can at least see how "You're defecting from common usage" might _feel_ like a sensible thing to say, even if one's [true rejection](https://www.lesswrong.com/posts/TGux5Fhcd7GmTfNGC/is-that-your-true-rejection) lies elsewhere. In contrast, this motion of appealing to _personal values_ (!?!) is _so_ deranged that Yudkowsky apparently didn't even realize in 2008 that he might need to warn us against it!
 
 You _can't_ change the categories your mind _actually_ uses and still perform as well on prediction tasks—although you can change your [_verbally reported_](https://www.lesswrong.com/posts/NMoLJuDJEms7Ku9XS/guessing-the-teacher-s-password) categories, much as how one can verbally report "believing" in an [invisible, inaudiable, flour-permeable dragon](https://www.lesswrong.com/posts/CqyJzDZWvGhhFJ7dY/belief-in-belief) in one's garage without having any false anticipations-of-experience about the garage.
 
@@ -71,6 +71,32 @@ But you should _never_ say, "The choice of word is arbitrary, therefore I can sa
 If your desire isn't currently true in reality, maybe there's some action you could take to make it _become_ true. To search for that action, you're going to need accurate beliefs about what reality is _currently_. To enlist the help of others in your planning, you're going to need precise terminology to _communicate_ accurate beliefs about what reality is currently. Even when—_especially_ when—the current reality is inconvenient. Even when it hurts.
 
 (Oh, and if you're actually trying to optimize other people's models of the world, rather than the world itself—you could just _lie_, rather than playing category-gerrymandering mind games. It would be a lot simpler!)
+
+-----
+
+Imagine you've worked at [a peculiar job in a peculiar factory](https://www.lesswrong.com/posts/4FcxgdvdQP45D6Skg/disguised-queries) for a long time: after mind-numbing years of sorting bleggs and rubes all day and enduring being trolled by Susan the Senior Sorter and her evil sense of humor, you finally work up the courage to ask Bob the Big Boss for a promotion.
+
+"Sure," Bob says. "Starting tomorrow, you're our new Vice President of Sorting!"
+
+"Wow, this is amazing," you say, "I don't know what to ask first! What will my new responsibilities be?"
+
+"Oh, your responsibilities will be the same: sort bleggs and rubes every Monday through Friday from 9 _a.m._ to 5 _p.m._"
+
+You frown. "Okay. But Vice Presidents get paid a lot, right? What will my salary be?"
+
+"Still $9.50 hourly wages, just like now."
+
+You grimace. "O–_kay_. But Vice Presidents get more authority, right? Will I be someone's boss?"
+
+"No, you'll still report to Susan, just like now."
+
+You snort. "A Vice President, reporting to a mere Senior Sorter?"
+
+"Oh, no," says Bob. "Susan is also getting promoted, effective tomorrow—to _Senior_ Vice President of Sorting!"
+
+You lose it. "Bob, this is _bullshit_. When you said I was getting promoted to Vice President, that created a bunch of probabilistic expectations in my mind: you made me _anticipate_ getting more money, new challenges, and more authority, and then you reveal that it's actually just the 
+
+You may _think_ you're doing me a favor, but it's actually just cruel. _Stop fucking with my head!_ ... sir."
 
 
 

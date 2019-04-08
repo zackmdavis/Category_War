@@ -22,7 +22,7 @@ Humans are already functioning intelligences (well, sort of) even if we [don't a
 
 This leaves aspiring instructors of rationality in something of a predicament: in order to _teach_ people how categories can be more or (ahem) [less wrong](https://tvtropes.org/pmwiki/pmwiki.php/Main/TitleDrop), you need some sort of illustrative example, but since the most natural illustrative examples won't be _maximally_ wrong, some people might fail to appreciate the lesson, leaving one of your students to fill in the gap in your lecture series eleven years later.
 
-So the _pedagogical_ function of telling people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary) is to point out that, without _denying_ the obvious similarities that motivated the initial categorization `{salmon, guppies, sharks, dolphins, trout, ...}`, there is _more structure_ in the world: to maximize the [(logarithm of the)](http://yudkowsky.net/rational/technical/) probability your world-model assigns to your observations of dolphins, you need to take into consideration the many aspects of reality in which the grouping `{monkeys, squirrels, dolphins, horses ...}` makes more sense. To the extent that relying on the initial category guess would result in a worse Bayes-score, we might say that that category is "wrong." It might have been "good enough" for the purposes of the sailors of yore, but as humanity has learned more, as our model of Thingspace has expanded with more dimensions and more details, we can see the ways in which the original map failed to carve reality at the joints.
+The _pedagogical_ function of telling people to ["stop playing nitwit games and admit that dolphins don't belong on the fish list"](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary) is to point out that, without _denying_ the obvious similarities that motivated the initial categorization `{salmon, guppies, sharks, dolphins, trout, ...}`, there is _more structure_ in the world: to maximize the [(logarithm of the)](http://yudkowsky.net/rational/technical/) probability your world-model assigns to your observations of dolphins, you need to take into consideration the many aspects of reality in which the grouping `{monkeys, squirrels, dolphins, horses ...}` makes more sense. To the extent that relying on the initial category guess would result in a worse Bayes-score, we might say that that category is "wrong." It might have been "good enough" for the purposes of the sailors of yore, but as humanity has learned more, as our model of Thingspace has expanded with more dimensions and more details, we can see the ways in which the original map failed to carve reality at the joints.
 
 -------
 
@@ -44,7 +44,7 @@ Remember how [appealing to the dictionary](https://www.lesswrong.com/posts/9ZooA
 
 You _can't_ change the categories your mind _actually_ uses and still perform as well on prediction tasks—although you can change your [_verbally reported_](https://www.lesswrong.com/posts/NMoLJuDJEms7Ku9XS/guessing-the-teacher-s-password) categories, much as how one can verbally report "believing" in an [invisible, inaudiable, flour-permeable dragon](https://www.lesswrong.com/posts/CqyJzDZWvGhhFJ7dY/belief-in-belief) in one's garage without having any false anticipations-of-experience about the garage.
 
-This may be easier to see with a [simple _numerical_](https://www.lesswrong.com/posts/HnPEpu5eQWkbyAJCT/the-simple-math-of-everything) example.
+This may be easier to see with a [simple](https://www.lesswrong.com/posts/HnPEpu5eQWkbyAJCT/the-simple-math-of-everything) _numerical_ example.
 
 Suppose we have some entities that exist in the three-dimensional vector space ℝ³. There's one cluster of entities centered at [1, 2, 3], and we call those entities Foos, and there's another cluster of entities centered at [2, 4, 6], which we call Quuxes.
 
@@ -64,7 +64,7 @@ Or there might be social or psychological forces anchoring word usages on identi
 
 We could go on listing more such complications, where we seem to be faced with somewhat arbitrary choices about how to describe the world in language. But the fundamental thing is this: _the map is not the territory_. Arbitrariness in the map (what color should Texas be?) doesn't correspond to arbitrariness in the territory. Where the structure of human natural language doesn't fit the structure in reality—where we're not sure whether to say that a sufficiently small collection of sand "is a heap", because we don't know how to specify the positions of the individual grains of sand, or compute that the collection has a Standard Heap-ness Coefficient of 0.64—that's just a _bug_ in our human power of [vibratory telepathy](https://www.lesswrong.com/posts/SXK87NgEPszhWkvQm/mundane-magic).
 
-Sometimes we might _wish_ that something to belonged to a category that it doesn't (with respect to the category boundaries that we would ordinarily use), so it's tempting to avert our attention from this painful reality with [appeal-to-arbitrainess](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters) language-lawyering, selectively applying our philosophy-of-language skills to pretend that we can [define a word any way we want](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong) with no consequences. ("I'm not late!—well, okay, we agree that I arrived half an hour after the scheduled start time, but whether I was _late_ depends on how you choose to draw the category boundaries of 'late', which is subjective.")
+Sometimes we might _wish_ that something to belonged to a category that it doesn't (with respect to the category boundaries that we would ordinarily use), so it's tempting to avert our attention from this painful reality with [appeal-to-arbitrainess](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters) language-lawyering, selectively applying our philosophy-of-language skills to pretend that we can define a word any way we want with no consequences. ("I'm not late!—well, okay, we agree that I arrived half an hour after the scheduled start time, but whether I was _late_ depends on how you choose to draw the category boundaries of 'late', which is subjective.")
 
 But you should _never_ say, "The choice of word is arbitrary; therefore I can say whatever I want"—which amounts to, "The choice of category is arbitrary, therefore I can believe whatever I want." Whatever criterion your brain is using to decide which word or belief you want, _is_ your non-arbitrary reason.
 
@@ -94,15 +94,11 @@ You snort. "A Vice President, reporting to a mere Senior Sorter?"
 
 "Oh, no," says Bob. "Susan is _also_ getting promoted, effective tomorrow—to _Senior_ Vice President of Sorting!"
 
-You lose it. "Bob, this is _bullshit_. When you said I was getting promoted to Vice President, that created a bunch of probabilistic expectations in my mind: you made me _anticipate_ getting new challenges, more money, and more authority, and then you reveal that you're just slapping an inflated title on the same old dead-end job. It's like handing me a rube, and then saying that it happens to be a blue, furry, egg-shaped rube ... or telling me you have a dragon in your garage, except that it's an invisible, silent dragon that doesn't breathe. You may _think_ you're doing me a favor by asking me to believe in an unfalsifiable promotion, but it's actually just cruel. _Stop fucking with my head!_ ... sir."
+You lose it. "Bob, this is _bullshit_. When you said I was getting promoted to Vice President, that created a bunch of probabilistic expectations in my mind: you made me _anticipate_ getting new challenges, more money, and more authority, and then you reveal that you're just slapping an inflated title on the same old dead-end job. It's like handing me a blegg, and then saying that it's a rube that just happens to be blue, furry, and egg-shaped ... or telling me you have a dragon in your garage, except that it's an invisible, silent dragon that doesn't breathe. You may _think_ you're being kind to me asking me to believe in an unfalsifiable promotion, but when you [replace the symbol with the substance](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance), it's actually just cruel. _Stop fucking with my head!_ ... sir."
 
 Bob looks offended. (Which probably doesn't bode well for your continued employment, but you don't care anymore.)
 
-"This promotion isn't _unfalsifiable_," he says. "It _says_, 'Vice President of Sorting' right here on the employee roster. That's an sensory experience that you can make falsifiable predictions about. I'll even get you business cards that say, 'Vice President of Sorting.' That's another falsifiable prediction. Using language in a way _you_ dislike is not lying. The propositions you claim false—about new job tasks, increased pay and authority—is not what the title is meant to convey, and this is known to everyone involved; it is not a secret. The categories were made for man, not—"
-
-You scream and punch him in the face. Clutching his bloody nose, Bob seems more shocked than angry. "You—you _punched_ me."
-
-"I wouldn't say that," you say. "It depends on how you choose to draw the category boundaries of the word 'punch.'"
+"This promotion isn't _unfalsifiable_," he says. "It _says_, 'Vice President of Sorting' right here on the employee roster. That's an sensory experience that you can make falsifiable predictions about. I'll even get you business cards that say, 'Vice President of Sorting.' That's another falsifiable prediction. Using language in a way _you_ dislike is not lying. The propositions you claim false—about new job tasks, increased pay and authority—is not what the title is meant to convey, and this is known to everyone involved; it is not a secret."
 
 -------
 
@@ -110,7 +106,11 @@ Even having understood that category boundaries can't be drawn arbitrarily, but 
 
 Again, a simple _numerical_ example is instructive to understand what's going on here.
 
+[TODO: another example where at first we posit two clusters ℝ⁴ at [3, 3, 3, 3] and [10, 10, 10, 10], and then talk about what happens with predictions-based-on-cluster-membership and [mutual information](https://www.lesswrong.com/posts/yLcuygFfMfrfK8KjF/mutual-information-and-density-in-thingspace) as you start introducing more entities at [3, 3, 3, 10]]
 
+And so to ["37 Ways Words Can Be Wrong"](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong), we might append, "_38._"
+
+https://www.lesswrong.com/posts/y5MxoeacRKKM3KQth/fallacies-of-compression
 
 -------
 

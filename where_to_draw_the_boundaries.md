@@ -110,26 +110,21 @@ Bob _kind of_ has a point. It's tempting to say that things like titles and name
 
 To see the problem, we must turn to information theory.
 
-Let's imagine that an abstract Job has four real-valued properties—task variety, pay, authority, and prestige of title—forming a four-dimensional Jobspace. Suppose that two-thirds of Jobs have `{variety: 4, pay: 4, authority: 4, title: 4}` (which we'll write more briefly as [4, 4, 4, 4]) and the remaining one-third have `{variety: 10, pay: 10, authority: 10, title: 10}` (which we'll write as [10, 10, 10, 10]).
+Let's imagine that an abstract Job has four binary properties that can either be `high` or `low`—task variety, pay, authority, and prestige of title—forming a four-dimensional Jobspace. Suppose that two-thirds of Jobs have `{variety: low, pay: low, authority: low, title: low}` (which we'll write more briefly as [low, low, low, low]) and the remaining one-third have `{variety: high, pay: high, authority: high, title: high}` (which we'll write as [high, high, high, high]).
 
-Task variety and authority are hard to perceive outside of the company, and pay is only negotiated after an offer is made, so people deciding to seek a Job can only make positions based the Job's title: but that's fine, because in the scenario described, you can infer any of the other properties from the title with certainty. Because the properties are either _all_ 4 or _all_ 10, the joint entropy of title and any other property is going to have the same value as either of the individual property entropies, namely ⅔ log₂ 3/2 + ⅓ log₂ 3 ≈ 0.918 bits.
+Task variety and authority are hard to perceive outside of the company, and pay is only negotiated after an offer is made, so people deciding to seek a Job can only make positions based the Job's title: but that's fine, because in the scenario described, you can infer any of the other properties from the title with certainty. Because the properties are either _all_ low or _all_ high, the joint entropy of title and any other property is going to have the same value as either of the individual property entropies, namely ⅔ log₂ 3/2 + ⅓ log₂ 3 ≈ 0.918 bits.
 
-But since H(pay) = H(title) = H(pay, title), then the [mutual information](https://www.lesswrong.com/posts/yLcuygFfMfrfK8KjF/mutual-information-and-density-in-thingspace) I(pay; title) is zero, because I(pay; title) = H(pay) + H(title) − H(pay, title) by definition.
+But since H(pay) = H(title) = H(pay, title), then the [mutual information](https://www.lesswrong.com/posts/yLcuygFfMfrfK8KjF/mutual-information-and-density-in-thingspace) I(pay; title) has the same value, because I(pay; title) = H(pay) + H(title) − H(pay, title) by definition.
 
-Then suppose a _lot_ of companies get Bob's bright idea: half of the Jobs that used to occupy the point [4, 4, 4, 4] in Jobspace, get their title coordinate changed to 10. So now one-third of the jobs are at [4, 4, 4, 4], another third are at [4, 4, 4, 10], and the remaining third are at [10, 10, 10, 10]. What happens to the mutual information I(pay; title)?
+Then suppose a _lot_ of companies get Bob's bright idea: half of the Jobs that used to occupy the point [low, low, low, low] in Jobspace, get their title coordinate changed to high. So now one-third of the jobs are at [low, low, low, low], another third are at [low, low, low, high], and the remaining third are at [high, high, high, high]. What happens to the mutual information I(pay; title)?
 
 I(pay; title) = H(pay) + H(title) − H(pay, title)  
 = (⅔ log 3/2 + ⅓ log 3) + (⅔ log 3/2 + ⅓ log 3) − 3(⅓ log 3)  
 = 4/3 log 3/2 + 2/3 log 3 − log 3 ≈ 0.2516 bits.  
 
-It went down!
+It went down! The Bobs of the world, having observed that employees and Job-seekers prefer Jobs with high-prestige titles, _thought_ they were being benevolent by making more Jobs have the desired titles. But insofar as the prestige of titles derived from their correlation with things like pay and authority, all that's actually been accomplished is _making language less useful_.
 
-
-
-
-And so to ["37 Ways Words Can Be Wrong"](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong), we might append, "_38._ Your definition draws a boundary around a cluster in an inappropriately 'thin' subspace that "
-
-https://www.lesswrong.com/posts/y5MxoeacRKKM3KQth/fallacies-of-compression
+Thus, to ["37 Ways That Words Can Be Wrong"](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong), we may wish to append, "38. Your definition draws a boundary around a cluster in an inappropriately 'thin' subspace of Thingspace that excludes relevant variables, resulting in [fallacies of compression](https://www.lesswrong.com/posts/y5MxoeacRKKM3KQth/fallacies-of-compression)."
 
 -------
 

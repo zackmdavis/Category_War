@@ -15,3 +15,4 @@ appeal to values is worse than appeal to dictionary
 I would nominate this as a case where [knowing about the philosophy of language can hurt people](https://www.lesswrong.com/posts/AdYdLP2sRqPMoe8fb/knowing-about-biases-can-hurt-people).
 
 H(pay|title) = H(pay, title) − H(title) <span style="font-size: 70%;"><em>(<a href="https://en.wikipedia.org/wiki/Conditional_entropy#Chain_rule">chain rule of conditional entropy</a>)</em></span>
+

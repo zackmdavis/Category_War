@@ -56,6 +56,8 @@ The one comes and says, "Well, I'm going redefine the meaning of 'Foo' such that
 
 But if the one were _actually using_ the new definition of Foo _internally_ and not just _saying the words_ "categorize it as a Foo", they _wouldn't_ predict 4 and 6! They'd predict 3 and 4.5, because those are the average values of a generic Foo-with-respect-to-the-new-definition in the 2nd and 3rd coordinates (because (2+4)/2 = 6/2 = 3 and (3+6)/2 = 9/2 = 4.5). (The already-observed 2 in the first coordinate isn't average, but by [conditional independence](https://www.lesswrong.com/posts/gDWvLicHhcMfGmwaK/conditional-independence-and-naive-bayes), that only affects our prediction of the other two variables _by means_ of its effect on our "prediction" of category-membership.) The cluster-structure knowledge that "entities for which x₁≈2, also tend to have x₂≈4 and x₃≈6" needs to be represented _somewhere_ in the one's mind _in order to get the right answer_. And given that that knowledge needs to be represented, it might also be useful to have a _word_ for "the things near [2, 4, 6]" in order to efficiently share that knowledge with others.
 
+[TODO: explain that modeling the two clusters as one in contrast to something farther away is fine]
+
 Of course, there isn't going to be a _unique_ way to encode the knowledge into natural language: there's no reason the word/symbol "Foo" needs to represent "the stuff near [1, 2, 3]" rather than "both the stuff near [1, 2, 3] and also the stuff near [2, 4, 6]". But if speakers of particular language were _already_ using "Foo" to specifically talk about the stuff near [1, 2, 3], then you can't swap in a new definition of "Foo" without _changing the truth values_ of sentences involving the word "Foo." Or rather: sentences involving Foo-with-respect-to-the-old-definition [are _different_ propositions](https://www.lesswrong.com/posts/shoMpaoZypfkXv84Y/variable-question-fallacies) from sentences involving Foo-with-respect-to-the-new-definition, even if they get written down using the same symbols in the same order.
 
 Naturally, all this becomes much more complicated as we move away from the simplest idealized examples.
@@ -106,13 +108,15 @@ Bob looks offended. "This promotion isn't _unfalsifiable_," he says. "It _says_,
 
 -------
 
+[TODO this section: clarify intent in response to feedback]
+
 Bob _kind of_ has a point. It's tempting to say that things like titles and names are part of the map, not the territory. Unless the name is written down. Or spoken aloud (instantiated in sound waves). Or _thought about_ (instantiated in neurons). The map is _part_ of the territory: insisting that the title isn't part of the "job" and therefore has no testable consequences, doesn't quite work. Observing the title on the employee roster indeed tightly constrains your anticipated experience of the title on the business card. So, that's a non-gerrymandered, predictively useful category ... right?
 
 To see the problem, we must turn to information theory.
 
 Let's imagine that an abstract Job has four binary properties that can either be `high` or `low`—task variety, pay, authority, and prestige of title—forming a four-dimensional Jobspace. Suppose that two-thirds of Jobs have `{variety: low, pay: low, authority: low, title: low}` (which we'll write more briefly as [low, low, low, low]) and the remaining one-third have `{variety: high, pay: high, authority: high, title: high}` (which we'll write as [high, high, high, high]).
 
-Task variety and authority are hard to perceive outside of the company, and pay is only negotiated after an offer is made, so people deciding to seek a Job can only make positions based the Job's title: but that's fine, because in the scenario described, you can infer any of the other properties from the title with certainty. Because the properties are either _all_ low or _all_ high, the joint entropy of title and any other property is going to have the same value as either of the individual property entropies, namely ⅔ log₂ 3/2 + ⅓ log₂ 3 ≈ 0.918 bits.
+Task variety and authority are hard to perceive outside of the company, and pay is only negotiated after an offer is made, so people deciding to seek a Job can only make positions based the Job's title: but that's fine, because in the scenario described, you can infer any of the other properties from the title with certainty. Because the properties are either _all_ low or _all_ high, the [joint entropy](https://www.lesswrong.com/posts/QkX2bAkwG2EpGvNug/the-second-law-of-thermodynamics-and-engines-of-cognition) of title and any other property is going to have the same value as either of the individual property entropies, namely ⅔ log₂ 3/2 + ⅓ log₂ 3 ≈ 0.918 bits.
 
 But since H(pay) = H(title) = H(pay, title), then the [mutual information](https://www.lesswrong.com/posts/yLcuygFfMfrfK8KjF/mutual-information-and-density-in-thingspace) I(pay; title) has the same value, because I(pay; title) = H(pay) + H(title) − H(pay, title) by definition.
 
@@ -137,3 +141,5 @@ Similarly, the primary thing when you take a word in your lips is your intention
 Do not ask whether there's a rule of rationality saying that you shouldn't call dolphins fish. Ask whether dolphins are fish.
 
 And if you speak overmuch of the Way you will not attain it.
+
+_(Thanks to Sarah Constantin, Ben Hoffman, Zvi Mowshowitz, Jessica Taylor, and Michael Vassar for feedback and guidance.)_

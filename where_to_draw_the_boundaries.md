@@ -106,12 +106,28 @@ Bob looks offended. "This promotion isn't _unfalsifiable_," he says. "It _says_,
 
 -------
 
-Bob _kind of_ has a point. 
+Bob _kind of_ has a point. It's tempting to say that things like titles and names are part of the map, not the territory. Unless the name is written down. Or spoken aloud (instantiated in sound waves). Or _thought about_ (instantiated in neurons). The map is _part_ of the territory: insisting that the title isn't part of the "job" and therefore has no testable consequences, doesn't quite work. Observing the title on the employee roster indeed tightly constrains your anticipated experience of the title on the business card. So, that's a non-gerrymandered, predictively useful category ... right?
+
+To see the problem, we must turn to information theory.
+
+Let's imagine that an abstract Job has four real-valued properties—task variety, pay, authority, and prestige of title—forming a four-dimensional Jobspace. Suppose that two-thirds of Jobs have `{variety: 4, pay: 4, authority: 4, title: 4}` (which we'll write more briefly as [4, 4, 4, 4]) and the remaining one-third have `{variety: 10, pay: 10, authority: 10, title: 10}` (which we'll write as [10, 10, 10, 10]).
+
+Task variety and authority are hard to perceive outside of the company, and pay is only negotiated after an offer is made, so people deciding to seek a Job can only make positions based the Job's title: but that's fine, because in the scenario described, you can infer any of the other properties from the title with certainty. Because the properties are either _all_ 4 or _all_ 10, the joint entropy of title and any other property is going to have the same value as either of the individual property entropies, namely ⅔ log₂ 3/2 + ⅓ log₂ 3 ≈ 0.918 bits.
+
+But since H(pay) = H(title) = H(pay, title), then the [mutual information](https://www.lesswrong.com/posts/yLcuygFfMfrfK8KjF/mutual-information-and-density-in-thingspace) I(pay; title) is zero, because I(pay; title) = H(pay) + H(title) − H(pay, title) by definition.
+
+Then suppose a _lot_ of companies get Bob's bright idea: half of the Jobs that used to occupy the point [4, 4, 4, 4] in Jobspace, get their title coordinate changed to 10. So now one-third of the jobs are at [4, 4, 4, 4], another third are at [4, 4, 4, 10], and the remaining third are at [10, 10, 10, 10]. What happens to the mutual information I(pay; title)?
+
+I(pay; title) = H(pay) + H(title) − H(pay, title)  
+= (⅔ log 3/2 + ⅓ log 3) + (⅔ log 3/2 + ⅓ log 3) − 3(⅓ log 3)  
+= 4/3 log 3/2 + 2/3 log 3 − log 3 ≈ 0.2516 bits.  
+
+It went down!
 
 
 
 
-And so to ["37 Ways Words Can Be Wrong"](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong), we might append, "_38._"
+And so to ["37 Ways Words Can Be Wrong"](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong), we might append, "_38._ Your definition draws a boundary around a cluster in an inappropriately 'thin' subspace that "
 
 https://www.lesswrong.com/posts/y5MxoeacRKKM3KQth/fallacies-of-compression
 

@@ -12,7 +12,7 @@ Sure. So there's this statistical phenomenon sometimes called the "univariate fa
 
 (Eliezer Yudkowsky [proposes "covariance denial fallacy" or "cluster erasure fallacy"](https://twitter.com/ESYudkowsky/status/1124757043997372416) as potential alternative names.)
 
-Imagine we have two clusters of datapoints in {1, 2, 3, 4}¹⁰⁰, call them A and B; suppose that for every _x_\__i_ for _i_ from 1 to 100, points in the A cluster have the following distribution: [1/4, 7/16, 1/4, 1/16] and points from the B cluster have this distribution [1/16, 1/4, 7/16, 1/4].
+Imagine we have two clusters of datapoints in {1, 2, 3, 4}⁴⁰, call them A and B; suppose that for every _x_\__i_ for _i_ from 1 to 100, points in the A cluster have the following distribution: [1/4, 7/16, 1/4, 1/16] and points from the B cluster have this distribution [1/16, 1/4, 7/16, 1/4].
 
 [TODO: phrase this clearer]
 

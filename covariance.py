@@ -30,3 +30,13 @@ def tally_likelihood(xs, a_dist, b_dist):
         logging.info("x = %s, likelihood ratio is %s", x, n)
         r *= n
     return r
+
+print(
+    odds_to_probability(
+        tally_likelihoods(
+            x,
+            [1/4, 7/16, 1/4, 1/16],
+            [1/16, 1/4, 7/16, 1/4]
+        )
+    )
+)

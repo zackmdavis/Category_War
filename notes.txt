@@ -1,2 +1,16 @@
+(I originally imagined this with normal distributions with different means, but choosing a discrete distribution makes explicit calculations easier, and it doesn't matter for the point I'm trying to make.)
+
 ask mods whether it's possible to upload to images.lesswrong.com
 
+[TODO: use "typical set" reasoning to show that these are distinct clusters
+https://en.wikipedia.org/wiki/Asymptotic_equipartition_property
+http://zackmdavis.net/blog/2019/05/the-typical-set/
+]
+
+[Leaky Generalizations](https://www.lesswrong.com/posts/Tc2H9KbKRjuDJ3WSS/leaky-generalizations)
+
+Make sure to mention that clustering is hard—
+http://alexhwilliams.info/itsneuronalblog/2015/09/11/clustering1/
+http://alexhwilliams.info/itsneuronalblog/2015/10/01/clustering2/
+
+Goodhart's Law: https://www.lesswrong.com/posts/EbFABnst8LsidYs5Y/goodhart-taxonomy regressional Goodhart

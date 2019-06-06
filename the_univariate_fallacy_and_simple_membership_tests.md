@@ -8,21 +8,21 @@ The one comes to you and says, "That paragraph about Schelling points sounded in
 
 Sure. So there's this statistical phenomenon sometimes called the "univariate fallacy", where it's possible for two multivariate distributions to overlap along in any one variable, but be cleanly separable when you look at the entire [configuration space](https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace) at once. This is perhaps easiest to see with an illustrative diagram—
 
-[TODO: diagram like https://en.wikipedia.org/wiki/File:Pattern_classification_medium.JPG but make my own version, because making your own diagram is classier than stealing one from _Wikipedia_]
+[diagram here]
 
 (Eliezer Yudkowsky [proposes "covariance denial fallacy" or "cluster erasure fallacy"](https://twitter.com/ESYudkowsky/status/1124757043997372416) as potential alternative names.)
 
-Let's make this more concrete. Imagine we have some datapoints in the forty-dimensional space {1, 2, 3, 4}⁴⁰ that are sampled from two probability distibutions, which we'll call $P_A$ and $P_B$.
+Let's make this more concrete. Imagine we have some datapoints that live in the forty-dimensional space {1, 2, 3, 4}⁴⁰ that are sampled from one of two probability distibutions, which we'll call $P_A$ and $P_B$.
 
-For simplicity, let's suppose that the individual variables x₁, x₂, ... x₄₀—the coördinates of a point in our forty-dimensional space—are statistically independent. For every individual $x_i$, the marginal distribution of $P_A$ is—
+For simplicity, let's suppose that the individual variables _x₁_, _x₂_, ... _x₄₀_—the coördinates of a point in our forty-dimensional space—are statistically independent. For every individual $x_i$, the marginal distribution of $P_A$ is—
 
 $$P_A(x_i) = \begin{cases} 1/4 & x_i = 1 \\ 7/16 & x_i = 2 \\ 1/4 & x_i = 3 \\ 1/16 & x_i = 4 \\ \end{cases}$$
 
-And the analogous values for $P_B$ are—
+And for $P_B$—
 
 $$P_B(x_i) = \begin{cases} 1/16 & x_i = 1 \\ 1/4 & x_i = 2 \\ 7/16 & x_i = 3 \\ 1/4 & x_i = 4 \\ \end{cases}$$
 
-If you look at any one particular $x_i$-coördinate for a point, you can't tell which distribution the point was sampled from. For example, seeing that x₁ takes the value 2 gives you a 7/4 (= 1.75) likelihood ratio (or probability ~0.64) in favor of that the point having been sampled from $P_A$ rather than $P_B$, which is log₂(7/4) ≈ 0.807 bits of evidence.
+If you look at any one particular $x_i$-coördinate for a point, you can't be confident which distribution the point was sampled from. For example, seeing that x₁ takes the value 2 gives you a 7/4 (= 1.75) likelihood ratio (or probability ~0.64) in favor of that the point having been sampled from $P_A$ rather than $P_B$, which is log₂(7/4) ≈ 0.807 bits of evidence.
 
 That's ... not a whole lot of evidence. If you guessed that the datapoint came from $P_A$ based on that much evidence, you'd be wrong about 4 times out of 10.
 

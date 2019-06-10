@@ -117,7 +117,7 @@ The one says, "No, I meant, like, a real-world example. Like, not some dumb math
 
 It's about ... math? Or like, the relationship between math and human natural language? I mean, I know I have lot of room to improve as a writer, but I don't think I was _that_ unclear, so I'm puzzled why—
 
-"You can't expect me to believe that. [Contextualizing norms](https://www.lesswrong.com/posts/7cAsBPGh98pGyrhz9/decoupling-vs-contextualising-norms) are valid rationality norms. C'mon, what's your _real_ agenda here?"
+"You can't expect me to believe that. [Contextualizing norms](https://www.lesswrong.com/posts/7cAsBPGh98pGyrhz9/decoupling-vs-contextualising-norms) are valid rationality norms. C'mon, what's your _real_ agenda here, huh?"
 
 Oh. One of _those_ readers, I see. _Fine_, alright, I can probably think of something.
 
@@ -127,14 +127,12 @@ Let's see ...
 
 Oh, here's something, maybe. What's the deal the [age of majority](https://en.wikipedia.org/wiki/Age_of_majority)?
 
-Society needs to decide who it wants to be allowed to vote, or stand trial, or serve in the military, _&c._ Whether it's a good idea for a particular person to be able to do these things presumably depends on various features of that person.
+Society needs to decide who it wants to be allowed to vote, stand trial, sign contracts, serve in the military, _&c._ Whether it's a good idea for a particular person to have these privileges presumably depends on various _relevant_ features of that person: things like cognitive ability, foresight, wisdom, _&c_. In particular, it would be _pretty weird_ for someone's fitness to vote to directly depend on _how many times the Earth has gone around the sun since they were born_. What does _that_ number have to do with anything?
 
+It doesn't! But if Society isn't well-coordinated enough to _agree_ on the exact prerequisites for voting and how to measure them, but _can_ agree that most twenty-five-year-olds have them and most eleven-year-olds don't, then we end up choosing some arbitrary age cutoff as the criterion for our "legal adulthood" social construct. It _works_, but it's just a legal fiction—and not necessarily a particularly good fiction, as any bright teenagers reading this can attest.
 
+If I told you that a particular fourteen-year-old was very "mature", that's a meaningful statement—we have shared meaning attached to the word _mature_, such that my describing someone that way constrains your anticipations—but it's a _really complicated_ meaning.
 
-
-In particular, it would be _pretty weird_ for someone's fitness to vote to directly depend on _how many times the Earth has gone around the sun since they were born_.
-
-Perhaps in a smarter world inhabited by more capable creatures than humans, there could exist a Society that _did_ know how to specify in detail exactly what 
 
 
 Or consider political party self-identification.

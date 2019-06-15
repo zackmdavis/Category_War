@@ -27,9 +27,9 @@ class Entity:
 
     @classmethod
     def generate_b(cls):
-        x = normal(6.3, 1)
-        y = normal(6.3, 1)
-        z = normal(6.3, 1)
+        x = normal(6, 1)
+        y = normal(6, 1)
+        z = normal(6, 1)
         return cls(x, y, z)
 
     def project_x(self):
@@ -59,13 +59,25 @@ def plot_projection_lines(p, axes, color):
     axes.plot3D(xline3, yline3, zline3, color)
 
 
-def my_plot():
-    group_size = 20
+def letter_index(letter):
+    return {'x': 0, 'y': 1, 'z': 2}[letter]
 
-    p1 = [Entity.generate_b()
-          for _ in range(group_size)]
-    p2 = [Entity.generate_a()
-          for _ in range(group_size)]
+
+def plot_offside_interval(lo, hi, axis, axes, color):
+    offsides = [[-0.4 for _ in range(1000)] for _ in range(3)]
+    segment = np.linspace(lo, hi, 1000)
+    offsides[letter_index(axis)] = segment
+    if axis == 'z':
+        offsides[1] = [8.6 for _ in range(1000)]
+    args = offsides + [color]
+    axes.plot3D(*args)
+
+
+def my_plot():
+    group_size = 18
+
+    p1 = [Entity.generate_b() for _ in range(group_size)]
+    p2 = [Entity.generate_a() for _ in range(group_size)]
 
     p1x = [p.project_x() for p in p1]
     p2x = [p.project_x() for p in p2]
@@ -75,6 +87,15 @@ def my_plot():
 
     p1z = [p.project_z() for p in p1]
     p2z = [p.project_z() for p in p2]
+
+    xleast_p1 = min(p1, key=lambda p: p.x)
+    xmost_p2 = max(p2, key=lambda p: p.x)
+
+    yleast_p1 = min(p1, key=lambda p: p.y)
+    ymost_p2 = max(p2, key=lambda p: p.y)
+
+    zleast_p1 = min(p1, key=lambda p: p.z)
+    zmost_p2 = max(p2, key=lambda p: p.z)
 
     entities = p1 + p2 + p1x + p2x + p1y + p2y + p1z + p2z
     p = array([e.trait_vector() for e in entities])
@@ -99,9 +120,11 @@ def my_plot():
                  )
     )
 
-    xmost_p2 = max(p2, key=lambda p: p.x)
+    plot_offside_interval(xleast_p1.x, xmost_p2.x, 'x', axes, "#101010")
+    plot_offside_interval(yleast_p1.y, ymost_p2.y, 'y', axes, "#101010")
+    plot_offside_interval(zleast_p1.z, zmost_p2.z, 'z', axes, "#101010")
 
-    plot_projection_lines(p1[0], axes, "#8080f0")
+    plot_projection_lines(xleast_p1, axes, "#8080f0")
     plot_projection_lines(xmost_p2, axes, "#f09040")
 
     plot.show()

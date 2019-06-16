@@ -7,6 +7,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 from numpy import array
 from numpy.random import normal
+from sklearn import svm
 
 
 class Entity:

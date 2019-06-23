@@ -1,3 +1,5 @@
+Okay, Said, I used LaTeX for the numerical subscripts this time. I hope you're happy! (No, really—I actually mean it.)
+
 (I originally imagined this with normal distributions with different means, but choosing a discrete distribution makes explicit calculations easier, and it doesn't matter for the point I'm trying to make.)
 
 ask mods whether it's possible to upload to images.lesswrong.com

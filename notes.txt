@@ -30,3 +30,31 @@ _Author's Note on Contextualizing and the Development of Ideas_
 MacIver's book rec: https://twitter.com/DRMacIver/status/1139839288202297345
 
 Imgur post: https://imgur.com/a/yjzfM9H
+
+-------
+
+
+Simple membership tests don't necessarily have to be objectively measurable properties: it's possible to _delegate_ the category-membership test to more subjective criteria, like the presence of some signal, or the judgement of some canonical authority.
+
+In ["The Ideology Is Not the Movement"](https://slatestarcodex.com/2016/04/04/the-ideology-is-not-the-movement/), the immortal Scott Alexander writes about his model of the genesis of social groups—
+
+> Pre-existing differences are the raw materials out of which tribes are made. A good tribe combines people who have similar interests and styles of interaction _even before_ the ethnogenesis event. Any description of these differences will necessarily involve stereotypes, but a lot of them should be hard to argue. [...] There are subtle habits of thought, not yet described by any word or sentence, which atheists are more likely to have than other people. [...]
+>
+> The rallying flag is the explicit purpose of the tribe. It's usually a belief, event, or activity that get people with that specific pre-existing difference together and excited. Often it brings previously latent differences into sharp relief. People meet around the rallying flag, encounter each other, and say "You seem like a kindred soul!" or "I thought I was the only one!" Usually it suggests some course of action, which provides the tribe with a purpose.
+
+
+We can interpret Alexander's "rallying flag" as a Schelling point for category definition. We don't know how to _talk_ about the preëxisting undefinable habits of thought that make such groups work. (Although we could imagine some hypothetical science-fictional Society that _did_, and consequently had richer forms of social and political organization than our own.) But we _can_ coordinate around whether someone has pledged allegiance to the rallying flag: just _ask_ someone, "Are you an atheist?" and if they say Yes, then they are.
+
+Well, _probably_. We've seen that objective measurements like age are subject to regressional Goodhart, but subjective criteria like self-identification are furthermore subject to _adversarial_ Goodhart: once a category membership test has been established, some agents might have an incentive to create examples that _pass the test_, but don't have the complicated, illegible properties than made the test a useful proxy in the first place.
+
+Consider again the parable about the Sorter of bleggs and rubes who is at first overjoyed to be promoted to "Vice President of Sorting", only to be dismayed to learn that the change in title doesn't come with any material change in responsibilities or working conditions.
+
+Is the new title a _lie_? I think many people would be inclined to say _No_, on the grounds that they expect the "job title" (the words that get printed on business cards or employee rosters or immigration sponsorship forms) to be the canonical description of what someone "does", even if the vagaries of the workday encompass many tasks,[^booth] and an alien anthropologist tasked with observing the worksite and summarizing what each of the humans did might slice up her observations into categories with little resemblance to the company's formal org chart. Since we don't know _how_ to average over all possible alien anthropologists weighted by simplicity, it can't be _lying_ to just go with what the org chart says.
+
+[^booth]: When I worked in a supermarket, two days a week I did Tracy's bookkeeping/customer-service job while Tracy had her weekend, which entailed counting the money from last night's tills _and_ answering the phone _and_ selling money orders _and_ ... I'm actually not sure what official name this role had in Safeway's official org chart. We just called it "the booth."
+
+But "Vice President" has a _literal meaning_. Or it _used to_. _Vice_, ["in place of; subordinate to."](https://en.wiktionary.org/wiki/vice#Etymology_3) _President_, one who _presides_ over some deliberative body.
+
+[This](http://benjaminrosshoffman.com/excerpts-from-a-larger-discussion-about-simulacra/) may constitute a "security vulnerability" in [codes of ethics](https://www.lesswrong.com/posts/xdwbX9pFEr7Pomaxv/meta-honesty-firming-up-honesty-around-its-edge-cases) that have an [ethical injunction](https://www.lesswrong.com/posts/dWTEtgBfFaz6vjwQf/ethical-injunctions) against lying.
+
+_(Thanks to Ben Hoffman for the etymology of "Vice President.")_

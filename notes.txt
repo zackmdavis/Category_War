@@ -1,4 +1,9 @@
-Okay, Said, I used LaTeX for the numerical subscripts this time. I hope you're happy! (No, really—I actually mean it.)
+
+My basic read of Zack's entire post was him saying over and over "Well there might be really bad instrumental effects of these arguments, but you have to ignore that if their epistemics are good." And my immediate reaction to that was "No I don't, and that's a bad norm."
+
+
+x₁
+
 
 (I originally imagined this with normal distributions with different means, but choosing a discrete distribution makes explicit calculations easier, and it doesn't matter for the point I'm trying to make.)
 
@@ -45,3 +50,29 @@ urban                  rural
 indidividual taxes     merchant tax
 strict marriage        easy divorce
 Earth-centered         heliocenteric
+
+
+
+
+An [evolutionary psychologist](TODO: linky) studying pair bonding may aspire to objectivity, but if she finds that
+
+The Blues believe the Earth is a sphere at the center of the universe; the Greens believe the Earth is a plane that revolves around a sun.
+
+https://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/
+https://slatestarcodex.com/2013/12/29/the-spirit-of-the-first-amendment/
+
+I'm usually an "Inside View" kind of guy, but _principles_ are an Outside View thing!
+
+contrast—
+https://twitter.com/ESYudkowsky/status/1170022426891018240
+https://www.lesswrong.com/posts/k5qPoHFgjyxtvYsm7/stop-voting-for-nincompoops
+
+if one side has all the brains
+
+https://www.lesswrong.com/rationality/how-much-evidence-does-it-take
+
+"Tails Risk"
+
+the meta-hill is a Schelling point for dying on
+
+What makes paying rent to the coalition bad, but having an obsessive special interest OK?

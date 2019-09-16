@@ -1,4 +1,4 @@
-### Heads I Win, Tails?—Never Heard of Her; Or, Blatant Cherry-Picking Is the Best Kind
+### Heads I Win, Tails?—Never Heard of Her
 
 **Followup to:** [What Evidence Filtered Evidence?](https://www.lesswrong.com/posts/kJiPnaQPiy4p9Eqki/what-evidence-filtered-evidence), [Blatant Lies Are the Best Kind!](https://www.lesswrong.com/posts/KzAG4yWQJosmEjHe2/blatant-lies-are-the-best-kind) 
 
@@ -43,3 +43,8 @@ Epistemic rationalists who are actually [paying attention](https://srconstantin.
 [TODO: finish ...]
 
 to cite: "Everyone Knows", [The Correct Contrarian Cluster](https://www.lesswrong.com/posts/9KvefburLia7ptEE3/the-correct-contrarian-cluster)
+
+
+You
+
+You would say it, unless you had [something incredibly important to protect]() in those four blue rolls. But _that_ has to be someone else's story on someone else's blog.

@@ -1,5 +1,5 @@
-Heads, I Win; Tails?—Never Heard of Her
-0
+Maybe Lying Doesn't Exist
+
 Instrumental Addition: (building an artificial arithmatician, it gets PlusOf(Six, Seven) == Fourteen; trying to object that it's actually Thirteen is met with "But thirteen is an unlucky number" "You don't believe that" "No, but the Public does—if our Artificial Arithmatifcian shoving 13s in people's faces, that looks bad. It wouldn't be instrumentally rational" "If you're doing systematically correct artithmetic, you should get the right answer even on questions that don't matter. Our marketing literature says. Doesn't that make us a scam?" "How dare you?" "I wish I had better terminology for this to differentiate the thing I'm trying to point at, from _actual_ scammers. ...
 
 "We have a partnership with the Rare Disease in Cute Puppies—our logos are on each other's websites. Stuff that looks bad for us, also looks bad for _them_, which is bad for the puppies."

@@ -1,9 +1,10 @@
+"Maybe Lying ..."
 
-My basic read of Zack's entire post was him saying over and over "Well there might be really bad instrumental effects of these arguments, but you have to ignore that if their epistemics are good." And my immediate reaction to that was "No I don't, and that's a bad norm."
+Three Algorithms of Deception
 
+'My basic read of Zack's entire post was him saying over and over "Well there might be really bad instrumental effects of these arguments, but you have to ignore that if their epistemics are good." And my immediate reaction to that was "No I don't, and that's a bad norm."'
 
 x₁
-
 
 (I originally imagined this with normal distributions with different means, but choosing a discrete distribution makes explicit calculations easier, and it doesn't matter for the point I'm trying to make.)
 
@@ -76,5 +77,3 @@ https://www.lesswrong.com/rationality/how-much-evidence-does-it-take
 the meta-hill is a Schelling point for dying on
 
 What makes paying rent to the coalition bad, but having an obsessive special interest OK?
-
-—

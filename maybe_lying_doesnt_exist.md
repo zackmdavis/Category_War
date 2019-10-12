@@ -9,9 +9,13 @@
 > _I swear it_  
 > _I never meant to play those games_
 >
-> —"Deception" by Jem and the Holograms
+> —["Deception"](https://www.youtube.com/watch?v=kQKs0eQHZRs) by Jem and the Holograms
 
-In ["Against Lie Inflation"](https://slatestarcodex.com/2019/07/16/against-lie-inflation/), the immortal Scott Alexander argues that the word "lie" should be reserved for knowingly-made false statements, and not used in an expanded sense that includes unconscious motivated reasoning.
+In ["Against Lie Inflation"](https://slatestarcodex.com/2019/07/16/against-lie-inflation/), the immortal Scott Alexander argues that the word "lie" should be reserved for knowingly-made false statements, and not used in an expanded sense that includes unconscious motivated reasoning. Useful categories convey information 
+
+All of this is entirely correct. Indeed, [you can't define a word any way you want (without negative side-effects on your cognition)](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong).
+
+
 
 
 

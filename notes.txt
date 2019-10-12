@@ -1,3 +1,5 @@
+[TODO: elaborate and explain that `reporter_2` at least _comes closer_ than reporter_1; the output still varies with reality; it's just distorted; whereas the liar was constant]
+
 "Maybe Lying ..."
 
 Three Algorithms of Deception

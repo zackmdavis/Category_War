@@ -6,7 +6,7 @@ All of this is entirely correct. But Jessica Taylor (whose post ["The AI Timelin
 
 Concerning Alexander's arguments against the expanded definition, I find I have one strong objection (that appeal-to-consequences is an invalid form of reasoning for optimal-categorization questions for essentially the same reason as it is for questions of simple fact), and one more speculative objection (that our intuitive "folk theory" of lying may actually be empirically mistaken). Let me explain.
 
-(A small clarification: for myself, I _also_ tend to frown on the expanded sense of "lying". But the _reasons_ for frowning matter! People who superficially agree on a conclusion but for _different reasons_, are [not really on the same page](https://www.lesswrong.com/posts/n4ukoQzkgbAqpzqb5/argue-politics-with-your-best-friends)!)
+(A small clarification: for myself, I notice that I _also_ tend to frown on the expanded sense of "lying". But the _reasons_ for frowning matter! People who superficially agree on a conclusion but for _different reasons_, are [not really on the same page](https://www.lesswrong.com/posts/n4ukoQzkgbAqpzqb5/argue-politics-with-your-best-friends)!)
 
 ### Appeals to Consequences Are Invalid
 
@@ -44,17 +44,13 @@ Right—and conversely, because everyone knows that "lying" refers to something 
 >
 > [...] I think they lie to themselves that they're not lying (so that if you search their thoughts, they never think "I'm lying")[.]
 
-If your interest in the philosophy of language is primarily to _avoid being blamed for things_—perhaps because you percieve that you live [in a Hobbesian dystopia](https://www.lesswrong.com/posts/YRgMCXMbkKBZgMz4M/asymmetric-justice#puGDkhWCcaNJEMkdz) where the primary function of words is to elicit actions, where the [denotative structure](https://www.lesswrong.com/posts/i2bWqSFgyFxowTKWE/actors-and-scribes-words-and-deeds) of language has [decayed](https://www.lesswrong.com/posts/8XDZjfThxDxLvKWiM/excerpts-from-a-larger-discussion-about-simulacra) long ago, and all that's left is a [standardized list of approved attacks](https://www.lesswrong.com/posts/r2dTchodfqX4o5DYH/blame-games)—in that case, it makes perfect sense to worry about "lie inflation" but not about "lie deflation." If describing something as "lying" is primarily a weapon, then applying extra scrutiny to uses of that weapon is a wise arms-restriction treaty.
+If your interest in the philosophy of language is primarily to _avoid being blamed for things_—perhaps because [hard experience](https://slatestarcodex.com/2019/02/22/rip-culture-war-thread/) has taught you that you live [in a Hobbesian dystopia](https://www.lesswrong.com/posts/YRgMCXMbkKBZgMz4M/asymmetric-justice#puGDkhWCcaNJEMkdz) where the primary function of words is to elicit actions, where the [denotative structure](https://www.lesswrong.com/posts/i2bWqSFgyFxowTKWE/actors-and-scribes-words-and-deeds) of language has [decayed](https://www.lesswrong.com/posts/8XDZjfThxDxLvKWiM/excerpts-from-a-larger-discussion-about-simulacra) long ago, and all that's left is a [standardized list of approved attacks](https://www.lesswrong.com/posts/r2dTchodfqX4o5DYH/blame-games)—in that case, it makes perfect sense to worry about "lie inflation" but not about "lie deflation." If describing something as "lying" is primarily a weapon, then applying extra scrutiny to uses of that weapon is a wise arms-restriction treaty.
 
 But if your interest in the philosophy of language is to improve and refine the uniquely human power of [vibratory telepathy](https://www.lesswrong.com/posts/SXK87NgEPszhWkvQm/mundane-magic)—to construct shared maps that reflect the territory—if you're interested in revealing what kinds of deception are _actually happening_, and why—
 
 (in short, if you are an aspiring epistemic rationalist)
 
 —then the asymmetrical fear of false-positive identifications of "lying" but not false-negatives—along with the focus on "bad actors", "stigmatization", "attacks", _&c._—just looks _weird_. What does _that_ have to do with maximizing the probability you assign to the right answer??
-
-[TODO: address stabilizing Schelling point objection]  
-[TODO: maybe everyone _should_ be angrier, if lies are actualy that common and anger is a functional response?]  
-[TODO: acknowledge that Alexander must know that the reason to "prefer" a category is _because_ it affects anticipations—"its web of connotations in our minds"]
 
 ### The Optimal Categorization Depends on the Actual Psychology of Deception
 
@@ -69,11 +65,28 @@ But if your interest in the philosophy of language is to improve and refine the 
 >
 > —["Deception"](https://www.youtube.com/watch?v=kQKs0eQHZRs) by Jem and the Holograms
 
-Okay, if the fear of rhetorical warfare isn't a legitimate reason to avoid calling things lies, we're still left with the obvious objection that "lying" is a _different thing_ from "rationalizing" or "being biased". Everyone is biased in some way or another, but to _lie_ is ["[t]o give false information intentionally with intent to deceive."](https://en.wiktionary.org/wiki/lie#Etymology_2)
+Okay, if the fear of rhetorical warfare isn't a legitimate reason to avoid calling things lies, we're still left with the obvious objection that "lying" is a _different thing_ from "rationalizing" or "being biased". Everyone is biased in some way or another, but to _lie_ is ["[t]o give false information intentionally with intent to deceive."](https://en.wiktionary.org/wiki/lie#Etymology_2) Sometimes it might make sense to use the word "lie" in a [noncentral](https://www.lesswrong.com/posts/yCWPkLi8wJvewPbEp/the-noncentral-fallacy-the-worst-argument-in-the-world) sense, as when we speak of "lying to oneself" or say "Oops, I lied" in reaction to being corrected. But it's important that these senses be explicitly acknowledged as noncentral and not conflated with the central case of knowingly-speaking-falsehood-with-intent-to-decieve—as Alexander says, conflating the two can only be to the benefit of _actual liars_.
 
-Sometimes it might make sense to use the word "lie" in [noncentral](https://www.lesswrong.com/posts/yCWPkLi8wJvewPbEp/the-noncentral-fallacy-the-worst-argument-in-the-world) sense—as when we speak of "lying to oneself" or "oops, I lied" (in reaction to being corrected)
+Why would anyone disagree with this obvious ordinary view, if they _weren't_ trying to get away with the sneaky motte-and-bailey social attack that Alexander is so worried about?
 
-As Alexander says, conflating the two can only be to the benefit of _actual liars_.
+One possibility: perhaps the ordinary view relies an implied theory of human psychology that we may have reason to believe is _false_! What if _conscious_ intent to decieve is typically absent in the most common cases of people saying things that (they would realized after reflection or upon being prompted) they know not to be true?
 
+Alexander writes—
 
-> So how will people decide where to draw the line? My guess is: in a place drawn by bias and motivated reasoning, same way they decide everything else. The outgroup will be lying liars, and the ingroup will be decent people with ordinary human failings.
+> So how will people decide where to draw the line [if egregious motivated reasoning can count as "lying"]? My guess is: in a place drawn by bias and motivated reasoning, same way they decide everything else. The outgroup will be lying liars, and the ingroup will be decent people with ordinary human failings.
+
+But if the word "lying" is to actually _mean something_ rather than just being a weapon, then the ingroup and the outgroup _can't both be right_. If [symmetry considerations](https://www.lesswrong.com/posts/28bAMAxhoX3bwbAKC/are-your-enemies-innately-evil) make us doubt that one group is really that much more honest than each other, that would seem to imply that _either_ both groups are composed of decent people with ordinary human failings, _or_ that both groups are composed of lying liars. The first description certainly _sounds nicer_, but as aspiring epistemic rationalists, we're _not allowed to care_ about which descriptions sound nice; we're _only_ allowed to care about which descriptions match reality.
+
+And if all of the concepts available to us in our native language fail to match reality in different ways, then we have a tough problem that may require us to innovate.
+
+The philosopher Roderick T. Long writes—
+
+> Suppose I were to invent a new word, "zaxlebax," and define it as "a metallic sphere, like the Washington Monument." That's the definition—"a metallic sphere, like the Washington Monument." In short, I build my ill-chosen example into the definition. Now some linguistic subgroup might start using the term "zaxlebax" as though it just meant "metallic sphere," or as though it just meant "something of the same kind as the Washington Monument." And that's fine. But my definition incorporates both, and thus conceals the false assumption that the Washington Monument is a metallic sphere; any attempt to use the term "zaxlebax," meaning what I mean by it, involves the user in this false assumption.
+
+If self-deception is as ubiquitous in human life as authors such as [Robin Hanson](http://www.overcomingbias.com/tag/hypocrisy) argue (if you're reading this blog, this should not be a new idea to you!), then the ordinary concept of "lying" may actually be analogous to Long's "zaxlebax": the standard [_intensional_ definition](https://www.lesswrong.com/posts/HsznWM9A7NiuGsp28/extensions-and-intensions) ("knowingly speaking falsehood with conscious intent to decieve"/"a metallic sphere") fails to match the most common extensional examples that we want to use the word for ("people motivatedly saying convenient-but-false things without explicit conscious intent to decieve"/"the Washington Monument").
+
+Aruging for this _empirical_ thesis about human psychology is beyond the scope of this post. But _if_ we live in a sufficiently Hansonian world where the _ordinary_ meaning of "lying" fails to carve reality at the joints, then authors are faced with a tough choice: either be involved in the false assumptions of the standard believed-to-be-central intensional definition, or be deprived of the use of common [expressive vocabulary](https://www.lesswrong.com/posts/H7Rs8HqrwBDque8Ru/expressive-vocabulary). As Ben Hoffman [points out in the comments](https://slatestarcodex.com/2019/07/16/against-lie-inflation/#comment-777559) to "Against Lie Inflation", an earlier Scott Alexander didn't seem shy about calling people liars in his classic 2014 post ["In Favor of Niceness, Community, and Civilization"](https://slatestarcodex.com/2014/02/23/in-favor-of-niceness-community-and-civilization/)—
+
+> Politicians lie, but not _too much_. Take the top story on Politifact Fact Check today. Some Republican claimed his supposedly-maverick Democratic opponent actually voted with Obama's economic policies 97 percent of the time. Fact Check explains that the statistic used was actually for all votes, not just economic votes, and that members of Congress typically have to have >90% agreement with their president because of the way partisan politics work. **So it's a lie, and is properly listed as one.** [bolding mine —ZMD] But it's a lie based on slightly misinterpreting a real statistic. He didn't just totally make up a number. He didn't even just make up something else, like "My opponent personally helped design most of Obama's legislation".
+
+_Was_ the Republican consciously lying? Or did the politician (or more likely, his staffer) arrive at the [misinterpretation via unconscious motivated reasoning](https://everythingstudies.com/2019/08/19/the-prince-and-the-figurehead/) and then just not bother to scrupulously check whether the intepretation was true? And how could Alexander know?

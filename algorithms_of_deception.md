@@ -43,7 +43,9 @@ def audience(report):
     return {x: (a_i - 1)/d for x, a_i in a.items()}
 ```
 
-(If you noticed any similarity between the last two lines and the expression for [the mode of the Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution#Mode), that's _probably_ just a coincidence?)
+(If you noticed any similarity between the last two lines and the expression for [the mode of the Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution#Mode), that's _probably_ just a coincidence?)[^wrong]
+
+[^wrong]: And, um, this is actually wrong. 
 
 Let's consider multiple possibilities for the form that Reporter could take. A particularly simple implementation of Reporter (call it `reporter_0`) might look like this:
 

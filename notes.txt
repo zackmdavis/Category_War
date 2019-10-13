@@ -1,3 +1,76 @@
+
+
+This view is making some implicit assumptions about human psychology: 
+
+
+As [Ben Hoffman points out in the comments](https://slatestarcodex.com/2019/07/16/against-lie-inflation/#comment-777559), 
+
+
+> Politicians lie, but not _too much_. Take the top story on Politifact Fact Check today. Some Republican claimed his supposedly-maverick Democratic opponent actually voted with Obama's economic policies 97 percent of the time. Fact Check explains that the statistic used was actually for all votes, not just economic votes, and that members of Congress typically have to have >90% agreement with their president because of the way partisan politics work. **So it's a lie, and is properly listed as one.** But it's a lie based on slightly misinterpreting a real statistic. He didn't just totally make up a number. He didn't even just make up something else, like "My opponent personally helped design most of Obama's legislation". [bolding mine —ZMD]
+
+
+https://slatestarcodex.com/2014/05/12/weak-men-are-superweapons/
+
+
+> [P]eople think in terms of categories with central and noncentral members–a sparrow is a central bird, an ostrich a noncentral one. But if you live on the Ostrich World, which is inhabited only by ostriches, emus, and cassowaries, then probably an ostrich seems like a pretty central example of 'bird' and the first sparrow you see will be fantastically strange.
+
+What if we live in Ostrich World? I mean—what if unconscious lying is the central case?
+
+https://www.lesswrong.com/posts/pZSpbxPrftSndTdSf/honesty-beyond-internal-truth
+
+
+dissemble
+
+
+[TODO: reference http://benjaminrosshoffman.com/authenticity-vs-factual-accuracy/
+http://benjaminrosshoffman.com/blackmailers-are-privateers-in-the-war-on-hypocrisy/
+https://www.lesswrong.com/posts/bwkZD6uskCQBJDCeC/self-consciousness-wants-to-make-everything-about-itself
+https://everythingstudies.com/2019/08/19/the-prince-and-the-figurehead/
+
+
+https://slatestarcodex.com/2014/11/05/the-right-to-waive-your-rights/
+https://slatestarcodex.com/2018/03/22/navigating-and-or-avoiding-the-inpatient-mental-health-system/
+]
+
+Robert S. Feldman, James A. Forrest, and Benjamin R. Happ
+
+
+https://mises.org/library/rothbards-left-and-right-forty-years-later
+
+> Suppose I were to invent a new word, "zaxlebax," and define it as "a metallic sphere, like the Washington Monument." That's the definition—"a metallic sphere, like the Washington Monument." In short, I build my ill-chosen example into the definition. Now some linguistic subgroup might start using the term "zaxlebax" as though it just meant "metallic sphere," or as though it just meant "something of the same kind as the Washington Monument." And that's fine. But my definition incorporates both, and thus conceals the false assumption that the Washington Monument is a metallic sphere; any attempt to use the term "zaxlebax," meaning what I mean by it, involves the user in this false assumption.
+
+
+----
+
+DRAFT: "Maybe Lying Doesn't Exist"
+
+Attention conservation notice: this is _not_ a "privileged" meeting of the Blight-alarmist coordination group (if that's a thing); this is just me personally sending _my_ blog post draft to a few people who I still happen to have outgoing-mail privileges with, for them to _probably_ ignore as they see fit.
+
+Scott is too famous and too traumatized to do any real thinking these days, but the audience might learn something?
+
+Writing the "Appeals to Consequences Are Invalid" section made me feel less angry at Scott over our earlier dispute, because I'm now leaning towards the hypothesis that he's _not_ opporunistically switching philosophy stances because throwing me under the bus helped him stay out of [Overton debt](https://www.lesswrong.com/posts/DoPo4PDjgSySquHX8/heads-i-win-tails-never-heard-of-her-or-selective-reporting)! He _actually doesn't get it_. He's _actually that dumb!_ (Trauma-induced dumb, not _g_-factor dumb.)
+
+Hopefully the second section helps clarify the state of my persistent disagreement with the other Blight-alarmists on the lie/scam/fraud issue??
+
+I originally went for "Appeals to Consequences Are Insane", but I'm going with "Invalid" as a strategic concession to the target audience, who will write me off as too "mean" if I say _insane_ in the section title. (One use of _insane_ survives in the text.)
+
+Is it bad (is it lying??) if the title is kind of clickbaity? (Outrageous four-word summary incentivizes a click, but then the actual post is less outrageous.) Not sure what else I would call it.
+
+
+
+
+> (in short, if you are an aspiring epistemic rationalist)
+
+Author's note: this originally just read "if you are a rationalist", but 
+
+---
+
+Jessica explaining talking about conflict: https://www.greaterwrong.com/posts/9fB4gvoooNYa4t56S/power-buys-you-distance-from-the-crime/comment/S4QephDXJWqGJhuuH
+
+
+----
+
+
 [TODO: elaborate and explain that `reporter_2` at least _comes closer_ than reporter_1; the output still varies with reality; it's just distorted; whereas the liar was constant]
 
 "Maybe Lying ..."

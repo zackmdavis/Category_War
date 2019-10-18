@@ -1,4 +1,4 @@
-### "Algorithms of Deception!"
+# Algorithms of Deception!
 
 I want you to imagine a world consisting of a sequence of independent and identically distributed random variables $X_i$, and two computer programs.
 
@@ -55,13 +55,13 @@ def reporter_0(xs):
 
 The pairing of `audience` and `reporter_0` has a _Very Interesting Property!_ When we call our Audience on the output of this Reporter, the probability distribution that Audience returns is _very similar_ to the distribution that our random variables are from![^wrong]
 
-[^wrong]: But _only_ "very" similar: the code for `audience` isn't actually the mathematically correct thing to do in this situation; it's just an approximation that should be good enough for the point I'm trying to make in this blog post. (Specifically, the last two lines of `audience` are based on [the mode of the Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution#Mode), but if you were _actually_ going to try to predict an outcome drawn from a [categorical distribution](https://en.wikipedia.org/wiki/Categorical_distribution) like $P(X)$ using the Dirichlet distribution as a [conjugate prior](https://en.wikipedia.org/wiki/Conjugate_prior), you'd need to integrate over the Dirichlet hyperparameters; you can't just pretend that the mode/peak represents the true parameters of the categorical distribution—but as I said, we _are_ just pretending.)
+[^wrong]: But _only_ "very" similar: the code for `audience` isn't actually the mathematically correct thing to do in this situation; it's just an approximation that should be good enough for the point I'm trying to make in this blog post. (Specifically, the last two lines of `audience` are based on [the mode of the Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution#Mode), but if you were _actually_ going to try to predict an outcome drawn from a [categorical distribution](https://en.wikipedia.org/wiki/Categorical_distribution) like $P(X)$ using the Dirichlet distribution as a [conjugate prior](https://en.wikipedia.org/wiki/Conjugate_prior), you'd need to integrate over the Dirichlet hyperparameters; you shouldn't just pretend that the mode/peak represents the true parameters of the categorical distribution—but as I said, we _are_ just pretending.)
 
 ```
 >>> audience(reporter_0([x() for _ in range(100000)]))
 {1: 0.5003300528084493, 2: 0.2502900464074252, 3: 0.1873799807969275, 4: 0.062119939190270444}
 
-# Compare to the distribution of X_i expressed as a Python dictionary—
+# Compare to P(X) expressed as a Python dictionary—
 >>> {1: 1/2, 2: 1/4, 3: 3/16, 4: 1/16}
 {1: 0.5, 2: 0.25, 3: 0.1875, 4: 0.0625}
 ```
@@ -127,24 +127,24 @@ Unlike `reporter_2` (which typically returned a list with _fewer_ elements than 
 
 Again, I've presented Audience and various possible Reporters as simple Python programs for illustration and simplicity, but the same _input-output relationships_ could be embodied as part of a more complicated system—perhaps an entire conscious mind which could talk.
 
-So now imagine our Audience as a _person_ with her own hopes and fears and ambitions: ambitions whose ultimate fulfillment will require dedication, bravery—and meticulously careful planning based on an accurate estimate of $P(X)$, with almost no room for error.
+So now imagine our Audience as a _person_ with her own hopes and fears and ambitions ... ambitions whose ultimate fulfillment will require dedication, bravery—and meticulously careful planning based on an accurate estimate of $P(X)$, with almost no room for error.
 
-So, too, imagine each of our possible Reporters as a person: proud, responsible, loyal—and, entirely coincidentally, the supplier of a good that Audience's careful plans call for in proportion to the value $P(X = 4)$.
+So, too, imagine each of our possible Reporters as a person: loyal, responsible—and, entirely coincidentally, the supplier of a good that Audience's careful plans call for in proportion to the value of $P(X = 4)$.
 
-When the expected frequency of "4"s fails to appear, Audience's lifework is in ruins. All of her training, all of her carefully calibrated plans were for nothing. She confronts Reporter  in a furor of rage and grief.
+When the expected frequency of "4"s fails to appear, Audience's lifework is in ruins. All of her training, all of her carefully calibrated plans, all the interminable hours of hard labor, were for nothing. She confronts Reporter in a furor of rage and grief.
 
 "You _lied_," she says through tears of betrayal, "I _trusted you_ and _you lied to me!_"
 
+The Reporter whose behavior corresponds to `reporter_2` replies, "How _dare_ you accuse me of lying?! Sure, I'm not a perfect program free from all bias, but everything I said was true—every outcome I reported corresponded to one of the $X_i$. [You can't call that misleading!](https://www.lesswrong.com/posts/DoPo4PDjgSySquHX8/heads-i-win-tails-never-heard-of-her-or-selective-reporting)"
 
+He is perfectly sincere. Nothing in his consciousness reflects _intent_ to decieve, any more than an eight-line Python program could be said to have such "intent." (Does a `for` loop "intend" anything? Does a conditional "care"? Of course not!)
 
+The Reporter whose behavior corresponds to `reporter_3` replies, "_Lying?!_ I told you the truth, the whole truth, and nothing but the truth: everything I saw, I reported. When I said an outcome was a oneorfour, it actually was a oneorfour. Perhaps you have a different category system, such that what _I_ think of as a 'oneorfour', appears to you to be any of several completely different outcomes, which you think my 'oneorfour' concept is conflating. If those outcomes had wildly different probabilities—if one was much more common than fou—I mean, than the other—then you'd have no way of knowing that from my report. But using language in a way _you_ dislike, is not lying. [I can define a word any way I want!](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong)"
 
+He, too, is perfectly sincere.
 
-------
+### Commentary
 
-And `reporter_2` might defend itself: "How dare you accuse me of _lying_!? Sure, I'm not a perfect program free from all bias, but every outcome I reported corresponded to one of the $X_i$—I never told a mistruth."
+Much has been written on this website about reducing mental notions of "truth", "accuracy", _&c._ [to the nonmental](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design). One need not grapple with tendentious [mysteries](https://www.lesswrong.com/posts/6i3zToomS86oj9bS6/mysterious-answers-to-mysterious-questions) of "mind" or "consciousness", when so much more can be accomplished by considering systematic cause-and-effect processes [that result in](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence) the states of one physical system becoming correlated with the states of another—a "map" that reflects a "territory."
 
-And `reporter_3` might defend itself: "I can define a word any way I want! Unlike `reporter_2`, I'm not being selective—everything I saw, I reported.
-
-[TODO: explain the problem where grouping the rare "4" and the common "1" into the same category artificially makes the former seem more common, if the listener cares about the difference and doesn't know the priors—probably give this line to "Audience"]
-
-[TODO: wrap up the moral: outright-lying, selective-reporting, and category-gerrymandering are all examples of _algorithms of deception_: ways of communicating that cause listeners to make bad predictions (compared to the listener running the same inference algorithm on honest reports). It's kind of dysfunctional to care too much about lying vs. not-lying, or conscious-lying vs. unconscious-rationaliation, when the _outcomes_ are the same. (_Incentives_ matter—there's a reason vehicular manslaughter is punished differently from first-degree murder—but either way, the person is _still equally dead_.)]
+The same methodology that was essential for studying truthseeking, is equally essential for studying the propogation of falsehood. If true "beliefs" are operationalized as models that [make accurate predictions](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), then _deception_ can only be communication that results in _less_ accurate predictions (by a listener applying the same inference algorithms that would result in more accurate predictions when applied to direct observations or "honest" reports).

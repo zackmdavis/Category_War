@@ -2,7 +2,7 @@
 
 I want you to imagine a world consisting of a sequence of independent and identically distributed random variables $X_i$, and two computer programs.
 
-The first program is called Reporter. As input, it accepts a bunch of the random variables $X_i$. As output, it returns a list of set whose elements belong to the domain of the $X_i$.
+The first program is called Reporter. As input, it accepts a bunch of the random variables $X_i$. As output, it returns a list of sets whose elements belong to the domain of the $X_i$.
 
 The second program is called Audience. As input, it accepts the output of Reporter. As output, it returns a probability distribution.
 
@@ -29,7 +29,7 @@ def x():
 
 For compatibility, we can imagine that Reporter and Audience are also written in Python. This is just for demonstration in the blog post that I'm writing—the _real_ Reporter and Audience (out there in the world I'm asking you to imagine) might be much more complicated programs written for some kind of _alien_ computer the likes of which we have not yet dreamt! But I like Python, and for the moment, we can pretend.
 
-So pretend that Audience looks like this (where the dictionary represents a probability distribution, with the keys being random-variable outcomes and the values being probabilities):
+So pretend that Audience looks like this (where the dictionary, or hashmap, that gets returned represents a probability distribution, with the keys being random-variable outcomes and the values being probabilities):
 
 ```
 from collections import Counter
@@ -55,7 +55,7 @@ def reporter_0(xs):
 
 The pairing of `audience` and `reporter_0` has a _Very Interesting Property!_ When we call our Audience on the output of this Reporter, the probability distribution that Audience returns is _very similar_ to the distribution that our random variables are from![^wrong]
 
-[^wrong]: But _only_ "very" similar: the code for `audience` isn't actually the mathematically correct thing to do in this situation; it's just an approximation that should be good enough for the point I'm trying to make in this blog post. (Specifically, the last two lines of `audience` are based on [the mode of the Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution#Mode), but if you were _actually_ going to try to predict an outcome drawn from a [categorical distribution](https://en.wikipedia.org/wiki/Categorical_distribution) like $P(X)$ using the Dirichlet distribution as a [conjugate prior](https://en.wikipedia.org/wiki/Conjugate_prior), you'd need to integrate over the Dirichlet hyperparameters; you shouldn't just pretend that the mode/peak represents the true parameters of the categorical distribution—but as I said, we _are_ just pretending.)
+[^wrong]: But _only_ "very" similar: the code for `audience` is _not_ the mathematically correct thing to do in this situation; it's just an approximation that ought to be good enough for the point I'm trying to make in this blog post, for which I'm trying to keep the code simple. (Specifically, the last two lines of `audience` are based on [the mode of the Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution#Mode), but, firstly, that part about increasing the hyperparameters fractionally when you're uncertain about what was observed (`a[possibility] += 1/len(sight)`) is pretty dodgy, and secondly, if you were _actually_ going to try to predict an outcome drawn from a [categorical distribution](https://en.wikipedia.org/wiki/Categorical_distribution) like $P(X)$ using the Dirichlet distribution as a [conjugate prior](https://en.wikipedia.org/wiki/Conjugate_prior), you'd need to integrate over the Dirichlet hyperparameters; you shouldn't just pretend that the mode/peak represents the true parameters of the categorical distribution—but as I said, we _are_ just pretending.)
 
 ```
 >>> audience(reporter_0([x() for _ in range(100000)]))
@@ -78,7 +78,7 @@ def reporter_1(xs):
     return output
 ```
 
-It instead induces Audience to output a very different (and rather boring) distribution). It doesn't even matter how the $X_i$ turned up; the result will always be the same:
+It instead induces Audience to output a very different (and rather boring) distribution. It doesn't even matter how the $X_i$ turned up; the result will always be the same:
 
 ```
 >>> audience(reporter_1([x() for _ in range(100000)]))
@@ -137,14 +137,16 @@ When the expected frequency of "4"s fails to appear, Audience's lifework is in r
 
 The Reporter whose behavior corresponds to `reporter_2` replies, "How _dare_ you accuse me of lying?! Sure, I'm not a perfect program free from all bias, but everything I said was true—every outcome I reported corresponded to one of the $X_i$. [You can't call that misleading!](https://www.lesswrong.com/posts/DoPo4PDjgSySquHX8/heads-i-win-tails-never-heard-of-her-or-selective-reporting)"
 
-He is perfectly sincere. Nothing in his consciousness reflects _intent_ to decieve, any more than an eight-line Python program could be said to have such "intent." (Does a `for` loop "intend" anything? Does a conditional "care"? Of course not!)
+He is perfectly sincere. Nothing in his _consciousness_ reflects _intent_ to deceive Audience, any more than an eight-line Python program could be said to have such "intent." (Does a `for` loop "intend" anything? Does a conditional "care"? Of course not!)
 
-The Reporter whose behavior corresponds to `reporter_3` replies, "_Lying?!_ I told you the truth, the whole truth, and nothing but the truth: everything I saw, I reported. When I said an outcome was a oneorfour, it actually was a oneorfour. Perhaps you have a different category system, such that what _I_ think of as a 'oneorfour', appears to you to be any of several completely different outcomes, which you think my 'oneorfour' concept is conflating. If those outcomes had wildly different probabilities—if one was much more common than fou—I mean, than the other—then you'd have no way of knowing that from my report. But using language in a way _you_ dislike, is not lying. [I can define a word any way I want!](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong)"
+The Reporter whose behavior corresponds to `reporter_3` replies, "_Lying?!_ I told you the truth, the whole truth, and nothing but the truth: everything I saw, I reported. When I said an outcome was a oneorfour, it actually was a oneorfour. Perhaps you have a different category system, such that what _I_ think of as a 'oneorfour', appears to you to be any of several completely different outcomes, which you think my 'oneorfour' concept is conflating. If those outcomes had wildly different probabilities, if one was much more common than fou—I mean, than the other—then you'd have no way of knowing that from my report. But using language in a way _you_ dislike, is not lying. [I can define a word any way I want!](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong)"
 
 He, too, is perfectly sincere.
 
 ### Commentary
 
-Much has been written on this website about reducing mental notions of "truth", "accuracy", _&c._ [to the nonmental](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design). One need not grapple with tendentious [mysteries](https://www.lesswrong.com/posts/6i3zToomS86oj9bS6/mysterious-answers-to-mysterious-questions) of "mind" or "consciousness", when so much more can be accomplished by considering systematic cause-and-effect processes [that result in](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence) the states of one physical system becoming correlated with the states of another—a "map" that reflects a "territory."
+Much has been written on this website about reducing mental notions of "truth", "evidence", _&c._ [to the nonmental](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design). One need not grapple with tendentious [mysteries](https://www.lesswrong.com/posts/6i3zToomS86oj9bS6/mysterious-answers-to-mysterious-questions) of "mind" or "consciousness", when so much more can be accomplished by considering systematic cause-and-effect processes [that result in](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence) the states of one physical system becoming correlated with the states of another—a "map" that reflects a "territory."
 
-The same methodology that was essential for studying truthseeking, is equally essential for studying the propogation of falsehood. If true "beliefs" are operationalized as models that [make accurate predictions](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), then _deception_ can only be communication that results in _less_ accurate predictions (by a listener applying the same inference algorithms that would result in more accurate predictions when applied to direct observations or "honest" reports).
+The same methodology that was essential for studying truthseeking, is equally essential for studying the propagation of falsehood. If true "beliefs" are models that [make accurate predictions](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences), then _deception_ would presumably be communication that systematically results in _less_ accurate predictions (by a listener applying the same inference algorithms that would result in more accurate predictions when applied to direct observations or "honest" reports).
+
+In a peaceful world where most falsehood was due to random mistakes, there would be little to be gained by studying processes that systematically create erroneous maps. In a world of [conflict](https://slatestarcodex.com/2018/01/24/conflict-vs-mistake/), where there are [forces trying to slash your tires](https://www.lesswrong.com/posts/XTWkjCJScy2GFAgDt/dark-side-epistemology), one would do well do study these—_algorithms of deception!_

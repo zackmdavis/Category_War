@@ -30,14 +30,14 @@ def audience(report):
 def reporter_0(xs):
     output = []
     for x in xs:
-        output.append([x])
+        output.append({x})
     return output
 
 # lies
 def reporter_1(xs):
     output = []
     for _ in range(len(xs)):
-        output.append([4])
+        output.append({4})
     return output
 
 # selective reporting
@@ -45,7 +45,7 @@ def reporter_2(xs):
     output = []
     for x in xs:
         if x == 4 or random.random() < 0.2:
-            output.append([x])
+            output.append({x})
         else:
             continue
     return output
@@ -54,8 +54,8 @@ def reporter_2(xs):
 def reporter_3(xs):
     output = []
     for x in xs:
-        if x in [1, 4]:
-            output.append([1, 4])
+        if x == 1 or x == 4:
+            output.append({1, 4})
         else:
-            output.append([x])
+            output.append({x})
     return output

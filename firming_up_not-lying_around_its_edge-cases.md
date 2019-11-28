@@ -23,18 +23,25 @@ So the question "Is this statement actually and literally true?" is itself poten
 
 But while the former is complicated and hard to establish, the latter is ... _really just not that strict of a constraint_.
 
-Think about it. When's the last time you needed to consciously tell a bald-faced, _unambiguous_ lie?—something that could realistically be _outright proven false_ in front of your peers, rather than dismissed with a "reasonable" amount of language-lawyering.
+Think about it. When's the last time you needed to consciously tell a bald-faced, _unambiguous_ lie?—something that could realistically be _outright proven false_ in front of your peers, rather than dismissed with a "reasonable" amount of language-lawyering. (Whether "Fine" is a lie in response to "How are you?" depends on exactly what "Fine" is understood to mean in this context. ["Being acceptable, adequate, passable, or satisfactory"](https://en.wiktionary.org/wiki/fine#Adjective)—to what standard?)
 
-Maybe I'm _unusually_ honest—or possibly unusually bad at remembering when I've lied!?—but I'm not sure I even _remember_ the last time I told an outright lie. The situation just _doesn't come up that often_.
+Maybe I'm _unusually_ honest—or possibly unusually bad at remembering when I've lied!?—but I'm not sure I even _remember_ the last time I told an outright unambiguous lie. The situation just _doesn't come up that often_.
 
+Now ask yourself how often your speech has been partially optimized for any function _other_ than providing listeners with information that will help them [better anticipate their experiences](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences). The answer is, "Nearly every time you open your mouth"[^mouth]—and if you disagree, then you're lying. (Even if you only say true things, you're more likely to pick true things that make you look good, rather than your most embarrassing secrets. That's [optimization](https://www.lesswrong.com/posts/D7EcMhL26zFNbJ3ED/optimization).)
 
+[^mouth]: Actually, that's not literally true! You often open your mouth to breathe or eat without saying anything at all! Is the referent of this footnote then a blatant lie on my part?—or can I expect you to _know what I meant_?
 
+In the study of AI alignment, it's a truism that
+
+https://arbital.greaterwrong.com/p/edge_instantiation
 
 
 
 So _another_ hypothesis is that, in the face of sufficiently strong incentives to deceive, the wizard's oath just ends up with you training yourself to get _really good_ at misleading people with a variety of [not-technically-lying](https://www.lesswrong.com/posts/PrXR66hQcaJXsgWsa/not-technically-lying) rhetorical tactics (motte-and-baileys, false [implicatures](https://plato.stanford.edu/entries/implicature/), [stonewalling](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters), [selective reporting](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries), [clever rationalized arguments](https://www.lesswrong.com/posts/9f5EXt8KNNxTAihtZ/a-rational-argument), [gerrymandered category boundaries](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries), _&c._), all the while congratulating yourself on how "honest" you are for not making "literally" "false" individual statements.
 
 -----
+
+In Ayn Rand's novel _Atlas Shrugged_, [...]
 
 > "The State Science Institute," he said quietly, when they were alone in her office, "has issued a statement warning people against the use of Rearden Metal." He added, "It was on the radio. It's in the afternoon papers."
 >
@@ -48,9 +55,12 @@ So _another_ hypothesis is that, in the face of sufficiently strong incentives t
 >
 > "We can't fight it. It can't be answered," Eddie was saying slowly. "We can't demand a retraction. We can't show them our tests or prove anything. They've said nothing. They haven't said a thing that could be refuted and embarrass them professionally. It's the job of a coward. You'd expect it from some con-man or blackmailer. But, Dagny! It's the State Science Institute!"
 
-I think Eddie is right to feel horrified and betrayed here. But with respect to "wizard's code", _no lying has taken place_.
+I think Eddie is right to feel horrified and betrayed here. At the same time, with respect to wizard's code, _no lying has taken place_.
 
-I like to imagine a idealistic young clerk in Dr. Floyd Ferris's office at the State Science Institute.
+I like to imagine the statement having been drafted by an idealistic young scientist in Dr. Floyd Ferris's office at the State Science Institute. Our scientist knows that Dr. Ferris expects a statement that will make Rearden Metal look bad.
+
+
+https://www.lesswrong.com/posts/9fB4gvoooNYa4t56S/power-buys-you-distance-from-the-crime
 
 
 "It may be possible after a period of heavy usage, a sudden fissure may appear." Is this statement actually and literally true? _Yes!_ It _may be possible!_ 
@@ -69,9 +79,6 @@ Well… we have no idea who did it… no particular evidence singling out any of
 
 
 
-
-
-
 [...]
 
 Exotic scenarios of when outright-lies are acceptable doesn't help _at all_
@@ -81,30 +88,3 @@ _intellectual_ honesty, which is ubiquitous.
 
 
 I don't _know_ how to unravel the web of deceit, misinformation, fake news, gaslighting, and fraud that threatens to consume us all. But one thing I'm pretty sure _won't_ help is _clever logic puzzles about hypothetical Nazis_.
-
-
-
-
------
-
-When's the last time you had motives to optimize your communication for having some affect on people other than causing them to have more accurate anticipations of experience? _Every fucking time you open your mouth_, that's when.
-
-Suppose I see someone wearing a red shirt stealing from the cookie jar. Carol often wears red [maybe not the best example]
-
-I will grant that not-lying has the advantage of being a bright line rather than a messy border
-
-Bayesian 
-
-on the other hand, you don't want to be exploitable by motivated misunderstandings
-
-a topical example: OpenAI's Rubik's cube, Greg Brockman
-
-Katja Grace on "principles are for bargaining"
-
-disambiguate what I'm saying from "If we can't lie to others, we will lie to ourselves"
-
-by "God" I just mean the order and beauty in the universe
-
-Everybody knows that (lightning)
-
-Atlas Shrugged State Science Institute

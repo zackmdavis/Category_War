@@ -8,7 +8,7 @@ Eliezer Yudkowsky, listing advantages of a "wizard's oath" ethical code of "Don'
 
 I mean, that's _one_ hypothesis about the psychological effects of adopting the wizard's code.
 
-A potential problem is that human natural language contains a _lot_ of ambiguity. Words can be used in many ways depending on context. Even the specification "literally" in "literally false" is less useful than it initially appears when you consider that the way people _ordinarily_ speak when they have [intent to inform](http://benjaminrosshoffman.com/honesty-and-perjury/#Intent_to_inform) is actually pretty dense with metaphors that we typically don't _notice_ as metaphors because they're common enough to be recognized legitimate uses that all fluent speakers will understand.
+A potential problem is that human natural language contains a _lot_ of ambiguity. Words can be used in many ways depending on context. Even the specification "literally" in "literally false" is less useful than it initially appears when you consider that the way people _ordinarily_ speak when they're being truthful is actually pretty dense with metaphors that we typically don't _notice_ as metaphors because they're common enough to be recognized legitimate uses that all fluent speakers will understand.
 
 For example, if I want to convey the meaning that our study group has covered a lot of material in today's session, and I say, "Look how far we've come today!" it would be _pretty weird_ if you were to object, "_Liar!_ We've been in this room the whole time and haven't physically moved at all!" because in this case, it really is obvious to all ordinary English speakers that that's not what I meant by "how far we've come."
 
@@ -18,30 +18,34 @@ Other times, the "intended"[^intended] interpretation of a statement is not only
 
 So the question "Is this statement actually and literally true?" is itself potentially ambiguous. It could mean either—
 
- * "Is this statement actually and literally true _as the audience will interpet it?_"; or,
+ * "Is this statement actually and literally true _as the audience will interpret it?_"; or,
  * "Does this statement _permit an interpretation under which_ it is actually and literally true?"
 
 But while the former is complicated and hard to establish, the latter is ... _really just not that strict of a constraint_.
 
 Think about it. When's the last time you needed to consciously tell a bald-faced, _unambiguous_ lie?—something that could realistically be _outright proven false_ in front of your peers, rather than dismissed with a "reasonable" amount of language-lawyering. (Whether "Fine" is a lie in response to "How are you?" depends on exactly what "Fine" is understood to mean in this context. ["Being acceptable, adequate, passable, or satisfactory"](https://en.wiktionary.org/wiki/fine#Adjective)—to what standard?)
 
-Maybe I'm _unusually_ honest—or possibly unusually bad at remembering when I've lied!?—but I'm not sure I even _remember_ the last time I told an outright unambiguous lie. The situation just _doesn't come up that often_.
+Maybe I'm _unusually_ honest—or possibly unusually bad at remembering when I've lied!?—but I'm not sure I even _remember_ the last time I told an outright unambiguous lie. The kind of situation where I would need to do that just _doesn't come up that often_.
 
-Now ask yourself how often your speech has been partially optimized for any function _other_ than providing listeners with information that will help them [better anticipate their experiences](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences). The answer is, "Nearly every time you open your mouth"[^mouth]—and if you disagree, then you're lying. (Even if you only say true things, you're more likely to pick true things that make you look good, rather than your most embarrassing secrets. That's [optimization](https://www.lesswrong.com/posts/D7EcMhL26zFNbJ3ED/optimization).)
+Now ask yourself how often your speech has been partially optimized for any function _other_ than providing listeners with information that will help them [better anticipate their experiences](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences). The answer is, "Every time you open your mouth"[^mouth]—and if you disagree, then you're lying. (Even if you only say true things, you're more likely to pick true things that make you look good, rather than your most embarrassing secrets. That's [optimization](https://www.lesswrong.com/posts/D7EcMhL26zFNbJ3ED/optimization).)
 
 [^mouth]: Actually, that's not literally true! You often open your mouth to breathe or eat without saying anything at all! Is the referent of this footnote then a blatant lie on my part?—or can I expect you to _know what I meant_?
 
-In the study of AI alignment, it's a truism that
+In the study of AI alignment, it's a truism that failures of failures of alignment [can't be fixed by deontological "patches"](https://arbital.greaterwrong.com/p/patch_resistant). If your AI is exhibiting [weird and extreme](https://arbital.greaterwrong.com/p/edge_instantiation) behavior (with respect to what you _really wanted_, if not what you actually programmed), then adding a penalty term to exclude _that specific behavior_ will just result in the AI executing the "nearest unblocked" strategy, which will probably also be undesirable: [if you prevent your happiness-maximizing AI from administering heroin to humans](https://arbital.greaterwrong.com/p/nearest_unblocked#exampleproducinghappiness), it'll start administering cocaine; if you hardcode a list of banned happiness-producing drugs, it'll start researching new drugs, or just _pay_ humans to take heroin, _&c._
 
-https://arbital.greaterwrong.com/p/edge_instantiation
+Humans are also intelligent agents. (Um, sort of.) If you don't genuinely have the [intent to inform](http://benjaminrosshoffman.com/honesty-and-perjury/#Intent_to_inform) your audience, but consider yourself ethically bound to be honest, but your conception of _honesty_ is simply "not lying", you'll naturally gravitate towards the nearest unblocked [cognitive algorithm](https://www.lesswrong.com/posts/HcCpvYLoSFP4iAqSz/rationality-appreciating-cognitive-algorithms) [of deception](https://www.lesswrong.com/posts/fmA2GJwZzYtkrAKYJ/algorithms-of-deception).
 
-
-
-So _another_ hypothesis is that, in the face of sufficiently strong incentives to deceive, the wizard's oath just ends up with you training yourself to get _really good_ at misleading people with a variety of [not-technically-lying](https://www.lesswrong.com/posts/PrXR66hQcaJXsgWsa/not-technically-lying) rhetorical tactics (motte-and-baileys, false [implicatures](https://plato.stanford.edu/entries/implicature/), [stonewalling](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters), [selective reporting](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries), [clever rationalized arguments](https://www.lesswrong.com/posts/9f5EXt8KNNxTAihtZ/a-rational-argument), [gerrymandered category boundaries](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries), _&c._), all the while congratulating yourself on how "honest" you are for not making "literally" "false" individual statements.
+So _another_ hypothesis about the psychological effects of adopting the wizard's code is that, in the face of sufficiently strong incentives to deceive, you just end up training yourself to get _really good_ at misleading people with a variety of [not-technically-lying](https://www.lesswrong.com/posts/PrXR66hQcaJXsgWsa/not-technically-lying) rhetorical tactics (motte-and-baileys, false [implicatures](https://plato.stanford.edu/entries/implicature/), [stonewalling](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters), [selective reporting](https://www.lesswrong.com/posts/DoPo4PDjgSySquHX8/heads-i-win-tails-never-heard-of-her-or-selective-reporting), [clever rationalized arguments](https://www.lesswrong.com/posts/9f5EXt8KNNxTAihtZ/a-rational-argument), [gerrymandered category boundaries](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries), _&c._), all the while congratulating yourself on how "honest" you are for never, ever emitting any "literally" "false" individual sentences.
 
 -----
 
-In Ayn Rand's novel _Atlas Shrugged_, [...]
+Ayn Rand's novel _Atlas Shrugged_[^fiction] portrays a world of crony capitalism in which politicians and businessmen claiming to act for the "common good" (and not consciously lying) are actually using force and fraud to temporarily enrich themselves while destroying the [credit-assignment mechanisms](https://www.lesswrong.com/posts/Ajcq9xWi2fmgn8RBJ/the-credit-assignment-problem) Society needs to coordinate production.[^rand]
+
+[^fiction]: I know, [fictional evidence](https://www.lesswrong.com/posts/rHBdcHGLJ7KvLJQPk/the-logical-fallacy-of-generalization-from-fictional), but I claim that the _kind of deception_ illustrated in quoted passage to follow is _entirely_ realistic.
+
+[^rand]: Okay, that's _probably_ not how Rand or her [acolytes](https://www.lesswrong.com/posts/96TBXaHwLbFyeAxrg/guardians-of-ayn-rand) would put it, but that's [how I'm interpreting it](https://tvtropes.org/pmwiki/pmwiki.php/Main/DeathOfTheAuthor).
+
+In one scene, Eddie Willers (right-hand man to our railroad executive heroine Dagny Taggart) expresses horror that the government's official scientific authority, the State Science Institute, has issued a hit piece denouncing the new alloy, Rearden Metal, which our protagonists have been planning to use to build a critical railroad line. (In actuality, we later find out, the Institute leaders want to spare themselves the embarrassment—and therefore potential loss of legislative funding—of the innovative new alloy having been invented by private industry rather than the Institute's own metallurgy department.)
 
 > "The State Science Institute," he said quietly, when they were alone in her office, "has issued a statement warning people against the use of Rearden Metal." He added, "It was on the radio. It's in the afternoon papers."
 >
@@ -55,36 +59,30 @@ In Ayn Rand's novel _Atlas Shrugged_, [...]
 >
 > "We can't fight it. It can't be answered," Eddie was saying slowly. "We can't demand a retraction. We can't show them our tests or prove anything. They've said nothing. They haven't said a thing that could be refuted and embarrass them professionally. It's the job of a coward. You'd expect it from some con-man or blackmailer. But, Dagny! It's the State Science Institute!"
 
-I think Eddie is right to feel horrified and betrayed here. At the same time, with respect to wizard's code, _no lying has taken place_.
+I think Eddie is right to feel horrified and betrayed here. At the same time, it's notable that with respect to wizard's code, _no lying has taken place_.
 
-I like to imagine the statement having been drafted by an idealistic young scientist in Dr. Floyd Ferris's office at the State Science Institute. Our scientist knows that Dr. Ferris expects a statement that will make Rearden Metal look bad.
+I like to imagine the statement having been drafted by an idealistic young scientist in the [moral maze](https://www.lesswrong.com/posts/45mNHCMaZgsvfDXbw/quotes-from-moral-mazes) of Dr. Floyd Ferris's office at the State Science Institute. Our scientist knows that his boss, Dr. Ferris, expects a statement that will make Rearden Metal look bad; the negative consequences to the scientist's career for failing to produce such a statement will be severe. (Dr. Ferris didn't _say_ that, but [he didn't have to](https://www.lesswrong.com/posts/9fB4gvoooNYa4t56S/power-buys-you-distance-from-the-crime).) But the lab results on Rearden Metal came back with flying colors—by every available test, the alloy is superior to steel along every dimension.
 
+Pity the dilemma of our poor scientist! On the one hand, scientific integrity. On the other hand, [the incentives](https://www.lesswrong.com/posts/5nH5Qtax9ae8CQjZ9/no-it-s-not-the-incentives-it-s-you).
 
-https://www.lesswrong.com/posts/9fB4gvoooNYa4t56S/power-buys-you-distance-from-the-crime
+He decides to follow a rule that he thinks will preserve his "inner agreement with truth which allows ready recognition": after every sentence he types into his report, he will ask himself, "Is this statement actually and literally true?" For that is his mastery.
 
+Thus, his writing process goes like this—
 
-"It may be possible after a period of heavy usage, a sudden fissure may appear." Is this statement actually and literally true? _Yes!_ It _may be possible!_ 
+"It may be possible after a period of heavy usage, a sudden fissure may appear." Is this statement actually and literally true? _Yes!_ It [_may be possible!_](https://www.lesswrong.com/posts/ooypcn7qFzsMcy53R/infinite-certainty)
 
-"The possibility of a molecular reaction, at present unknown, cannot be entirely discounted." Is this statement actually and literally true? _Yes!_ The _possibility_ of a molecular reaction, at present unknown, _cannot be entirely discounted_.
+"The possibility of a molecular reaction, at present unknown, cannot be entirely discounted." Is this statement actually and literally true? _Yes!_ The _possibility_ of a molecular reaction, at present unknown, _cannot be entirely discounted_. Okay, so there's no particular evidence [singling out](https://www.lesswrong.com/posts/MwQRucYo6BZZwjKE7/einstein-s-arrogance) that possibility as [worth paying attention to](https://www.lesswrong.com/posts/X2AD2LgtKgkRNPj2a/privileging-the-hypothesis). [But there's still a chance, right?](https://www.lesswrong.com/posts/q7Me34xvSG3Wm97As/but-there-s-still-a-chance-right)
 
-"Although the tensile strength of the metal is obviously demonstrable, certain questions in regard to its behavior under unusual stress are not to be ruled out." Is this statement actually and literally true? _Yes!_ The lab tests did in fact demonstrate the metal's unprecedented tensile strength. But certain questions in regard to its behavior under unusual stress are _not to be ruled out_.
+"Although the tensile strength of the metal is obviously demonstrable, certain questions in regard to its behavior under unusual stress are not to be ruled out." Is this statement actually and literally true? _Yes!_ The lab tests demonstrated the metal's unprecedented tensile strength. But certain questions in regard to its behavior under unusual stress are _not to be ruled out_—the [probability isn't _zero_](https://www.lesswrong.com/posts/QGkYCwyC7wTDyt3yT/0-and-1-are-not-probabilities).
 
+And so on. You see the problem. Perhaps a member of the general public who _knew_ about the corruption at the State Science Institute could read the report and [infer the existence of hidden evidence](https://www.lesswrong.com/posts/kJiPnaQPiy4p9Eqki/what-evidence-filtered-evidence): "Wow, even when trying their hardest to trash Rearden Metal, _this_ is the worst they could come up with? Rearden Metal must be pretty great!"
 
-https://www.lesswrong.com/posts/q7Me34xvSG3Wm97As/but-there-s-still-a-chance-right
-https://www.lesswrong.com/posts/X2AD2LgtKgkRNPj2a/privileging-the-hypothesis
-https://www.lesswrong.com/posts/QGkYCwyC7wTDyt3yT/0-and-1-are-not-probabilities
-https://www.lesswrong.com/posts/ooypcn7qFzsMcy53R/infinite-certainty
+_But they won't_. An institution that proclaims to be dedicated to "science" is asking for a _very high_ level of trust. Science is complicated enough and natural language is ambiguous enough, that that kind of trust that can be _betrayed_ without lying.
 
-Well… we have no idea who did it… no particular evidence singling out any of the million people in this city… but let’s consider the hypothesis that this murder was committed by Mortimer Q. Snodgrass, who lives at 128 Ordinary Ln. It could have been him, after all.”
+I want to emphasize that I'm _not_ saying the report-drafting scientist in the scenario I've been discussing is a "bad person." (As it is written, [almost no one is evil; almost everything is broken.](https://blog.jaibot.com/)) Under more favorable conditions—in a world where metallurgists had the academic freedom to speak the truth as they see it without being threatened with ostracism and starvation—the _sort of person_ who finds the wizard's oath appealing, wouldn't even be _tempted_ to engage in these kinds of not-technically-lying shenanigans. But the point of the wizard's oath is to constrain you, to have a _simple_ bright-line rule to _force_ you to be truthful, _even when other people are making that genuinely difficult_.[^vassar] Yudkowsky's meta-honesty proposal is a clever attempt to strengthen the foundations of this ethic by formulating a more complicated theory that can account for the edge-cases under which even unusually honest people agree that lying is okay (due to extraordinary coercion).
 
+[^vassar]: Thanks to Michael Vassar for explaining this.
 
+I argue that this is "firming up" the wrong place. A theory of under what conditions conscious explicit unambiguous outright lies are acceptable hardly helps _at all_ with combating _intellectual_ dishonesty—and I fear that intellectual dishonesty, plus sufficient intelligence, is enough to destroy the world all on its own, without the help of conscious explicit unambiguous outright lies.
 
-[...]
-
-Exotic scenarios of when outright-lies are acceptable doesn't help _at all_
-
-_intellectual_ honesty, which is ubiquitous.
-
-
-
-I don't _know_ how to unravel the web of deceit, misinformation, fake news, gaslighting, and fraud that threatens to consume us all. But one thing I'm pretty sure _won't_ help is _clever logic puzzles about hypothetical Nazis_.
+Unfortunately, I do not, at present, have a superior alternative ethical theory of honesty to offer. I don't _know_ how to unravel the web of deceit, rationalization, excuses, disinformation, fake news, phoniness, gaslighting, and fraud that threatens to consume us all. But one thing I'm pretty sure _won't_ help is _clever logic puzzles about implausibly sophisticated Nazis_.

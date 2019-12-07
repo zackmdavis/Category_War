@@ -1,6 +1,6 @@
 ## Funk-tunul's Legacy and the Causal Cowards; Or, The Legend of the Extortion War
 
-(A traditional folk tale of the _rashunuhlist_ people, as told by tribeswoman [Jessica Taylor](https://unstableontology.com/), with slight embellishments and commentary from the present author.)
+(A traditional folk tale of the _rashunuhlist_ people, as told by [Jessica Taylor](https://unstableontology.com/), transcribed with embellishments and commentary from the present author.)
 
 In the days of auld lang syne on Earth-that-was, there was a population of agents playing the Nash demand game under a replicator dynamic with uniform random encounters. Whenever two agents met, each of them would name a number between 0 and 10. If the two numbers added up to 10 or less, both agents would receive of payoff a the number they named. But if the two numbers added up to more than 10, both agents would receive nothing. Agents that received higher payoffs left more descendants in the next generation, who took after their parents, as children do.
 
@@ -32,8 +32,14 @@ And from that day onward, whenever Funk-tunul met a fellow ceedeetee agent—if 
 
 But when Funk-tunul met a 9-bot, she would name 1.
 
-And over rest of her life, Funk-tunul reaped an average payoff of $9 \cdot \frac{1}{5} + 1 \cdot \frac{4}{5} = 2.6$, and she left almost one and a half as many descendants as the average agent of her time, ceedeetee and 9-bot alike.
+And over rest of her life, Funk-tunul reaped an average payoff of $9 \cdot \frac{1}{5} + 1 \cdot \frac{4}{5} = 2.6$, and she left almost one-and-half-again as many descendants as the average agent of her time, ceedeetee and 9-bot alike.
 
-(But notice that if Funk-tunul had _not_ named 1 when meeting 9-bots—if she had not given in to their extortion—then she would have gotten a payoff of just \frac{9}{5}, just like everyone else; she would not have outperformed the average agent of her time.)
+Notice that if Funk-tunul had _not_ named 1 when meeting 9-bots—if she had not given in to their extortion during her lifetime—then she would have gotten a payoff of $\frac{9}{5}$, just like everyone else; she would not have outperformed the average agent of her time.
 
-This is the origin of the proud race of _funk-tunul_ agents.
+This is the origin of the proud race of _funk-tunul_ agents. When the descendants of Funk-tunul met one another, they would each name 5, as had their ceedeetee ancestors.
+
+And the subpopulation of funk-tunul agents grew and grew, and the subpopulation of ceedeetee agents dwindled even further.
+
+But once the funk-tunul agents had grown in number, their policy towards the 9-bots changed. Their founder-ancestor Funk-tunul had given in to the 9-bots' extortion during her lifetime in order to establish a fitness advantage for herself with the additional payout of 1 when meeting 9-bots. But when her descendants reconsidered their collective predicament, they did not reason casually.
+
+They reasoned: suppose the fraction of ceedeetee agents in the population is $p$, the fraction of funk-tunul agents is $q$, and the fraction of 9-bots is $1 - p - q$. If we establish a policy of giving in to the 9-bots' extortion, we'll have an average payoff of $8p + 4q + 1$ and the 9-bots will have an average payoff of $9p + 9q$. If we defy the 9-bots while continuing to extort our ceedeetee cousins, we'll have an average payoff of $9p + 5q$, whereas the 9-bots will have an average payoff of $9p$.

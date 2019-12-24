@@ -1,14 +1,6 @@
-# Firming Up Not-Lying Around Its Edge-Cases Is Surprisingly Useless
+> Repeatedly asking yourself of every sentence you say aloud to another person, "Is this statement actually and literally true?", helps you build a skill for navigating out of your internal smog of not-quite-truths.
 
-**Reply to**: [Meta-Honesty: Firming Up Honesty Around Its Edge-Cases](https://www.lesswrong.com/posts/xdwbX9pFEr7Pomaxv/meta-honesty-firming-up-honesty-around-its-edge-cases)
-
-Eliezer Yudkowsky, listing advantages of a "wizard's oath" ethical code of "Don't say things that are literally false", writes—
-
-> Most people, even most unusually honest people, wander about their lives in a fog of internal distortions of reality. Repeatedly asking yourself of every sentence you say aloud to another person, "Is this statement actually and literally true?", helps you build a skill for navigating out of your internal smog of not-quite-truths. For that is our mastery.
-
-I mean, that's _one_ hypothesis about the psychological effects of adopting the wizard's code.
-
-A potential problem is that human natural language contains a _lot_ of ambiguity. Words can be used in many ways depending on context. Even the specification "literally" in "literally false" is less useful than it initially appears when you consider that the way people _ordinarily_ speak when they're being truthful is actually pretty dense with metaphors that we typically don't _notice_ as metaphors because they're common enough to be recognized legitimate uses that all fluent speakers will understand.
+A potential problem with this is that human natural language contains a _lot_ of ambiguity. Words can be used in many ways depending on context. Even the specification "literally" in "literally false" is less useful than it initially appears when you consider that the way people _ordinarily_ speak when they're being truthful is actually pretty dense with metaphors that we typically don't _notice_ as metaphors because they're common enough to be recognized legitimate uses that all fluent speakers will understand.
 
 For example, if I want to convey the meaning that our study group has covered a lot of material in today's session, and I say, "Look how far we've come today!" it would be _pretty weird_ if you were to object, "_Liar!_ We've been in this room the whole time and haven't physically moved at all!" because in this case, it really is obvious to all ordinary English speakers that that's not what I meant by "how far we've come."
 
@@ -21,7 +13,19 @@ So the question "Is this statement actually and literally true?" is itself poten
  * "Is this statement actually and literally true _as the audience will interpret it?_"; or,
  * "Does this statement _permit an interpretation under which_ it is actually and literally true?"
 
-But while the former is complicated and hard to establish, the latter is ... _really just not that strict of a constraint_.
+But while the former is complicated and hard to establish, the latter is ... not necessarily that strict of a constraint? It's much _more_ of a constraint in situations that are _known_ to the relevant actors to be adversarial, as with the Gestapo officer at the door.
+
+
+
+
+
+Yudkowsky [wrote in 2009](https://www.lesswrong.com/posts/PrXR66hQcaJXsgWsa/not-technically-lying#BYkpXbQF5DjxN9ZsX): 
+
+> ... but for me, one of the primary motivations against lying is "Once a man gets a reputation for lying, he might as well be whistling in the wind." At least if you get a reputation for Not Technically Lying, your words still mean things, they just have to be carefully double-checked.
+
+But 
+
+-------
 
 Think about it. When's the last time you needed to consciously tell a bald-faced, _unambiguous_ lie?—something that could realistically be _outright proven false_ in front of your peers, rather than dismissed with a "reasonable" amount of language-lawyering. (Whether "Fine" is a lie in response to "How are you?" depends on exactly what "Fine" is understood to mean in this context. ["Being acceptable, adequate, passable, or satisfactory"](https://en.wiktionary.org/wiki/fine#Adjective)—to what standard?)
 
@@ -79,9 +83,7 @@ And so on. You see the problem. Perhaps a member of the general public who _knew
 
 _But they won't_. An institution that proclaims to be dedicated to "science" is asking for a _very high_ level of trust. Science is complicated enough and natural language is ambiguous enough, that that kind of trust that can be _betrayed_ without lying.
 
-I want to emphasize that I'm _not_ saying the report-drafting scientist in the scenario I've been discussing is a "bad person." (As it is written, [almost no one is evil; almost everything is broken.](https://blog.jaibot.com/)) Under more favorable conditions—in a world where metallurgists had the academic freedom to speak the truth as they see it without being threatened with ostracism and starvation—the _sort of person_ who finds the wizard's oath appealing, wouldn't even be _tempted_ to engage in these kinds of not-technically-lying shenanigans. But the point of the wizard's oath is to constrain you, to have a _simple_ bright-line rule to _force_ you to be truthful, _even when other people are making that genuinely difficult_.[^vassar] Yudkowsky's meta-honesty proposal is a clever attempt to strengthen the foundations of this ethic by formulating a more complicated theory that can account for the edge-cases under which even unusually honest people agree that lying is okay (due to extraordinary coercion).
-
-[^vassar]: Thanks to Michael Vassar for explaining this.
+I want to emphasize that I'm _not_ saying the report-drafting scientist in the scenario I've been discussing is a "bad person." (As it is written, [almost no one is evil; almost everything is broken.](https://blog.jaibot.com/)) Under more favorable conditions—in a world where metallurgists had the academic freedom to speak the truth as they see it without being threatened with ostracism and starvation—the _sort of person_ who finds the wizard's oath appealing, wouldn't even be _tempted_ to engage in these kinds of not-technically-lying shenanigans. But the point of the wizard's oath is to constrain you, to have a _simple_ bright-line rule to _force_ you to be truthful, _even when other people are making that genuinely difficult_. Yudkowsky's meta-honesty proposal is a clever attempt to strengthen the foundations of this ethic by formulating a more complicated theory that can account for the edge-cases under which even unusually honest people agree that lying is okay (due to extraordinary coercion).
 
 I argue that this is "firming up" the wrong place. A theory of under what conditions conscious explicit unambiguous outright lies are acceptable hardly helps _at all_ with combating _intellectual_ dishonesty—and I fear that intellectual dishonesty, plus sufficient intelligence, is enough to destroy the world all on its own, without the help of conscious explicit unambiguous outright lies.
 

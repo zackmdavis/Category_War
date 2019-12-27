@@ -1,28 +1,82 @@
+_ Vaniver
+_ Commentary on "Failed Utopia #4-2" and "Changing Emotions"
+_ Stupidity and Dishonesty Explain Each Other Away
+_ Category Boundaries and Naïve Bayes
+_ Algorithmic Bad Faith
+_ Cromwell's Rule Arises From Symmetry, Not Fairness; Or, Don't Double-Crux With Suicide Rock
+_ the red phone; or, "All I Can Honestly Love"
+_ First Offender Models and the Unilateralist's Blessing
+_ Instrumental Categories,
+_ Principles are for Coordination
+_ memoir
+
+
+---------
+
+
+_ Algorithmic Bad Faith
+
+
+A Coordination Argument for Candor
+
+
+
+
+"Can I give you a cookie to not title it that?"
+
+I would have expected you to care about your students
+
+
+
+In favor of Community, Civilization, and FACTUALLY ACCURATE BELIEFS
+
+It's much _more_ of a constraint in situations that are _known_ to the relevant actors to be adversarial, as with the Gestapo officer at the door.
+
+In a discussion on 
+
+
+ [wrote in 2009](https://www.lesswrong.com/posts/PrXR66hQcaJXsgWsa/not-technically-lying#BYkpXbQF5DjxN9ZsX): 
+
+> ... but for me, one of the primary motivations against lying is "Once a man gets a reputation for lying, he might as well be whistling in the wind." At least if you get a reputation for Not Technically Lying, your words still mean things, they just have to be carefully double-checked.
+
+But 
+
+
+------------
+
 Here is my TODO list—  
 ✓ Funk-tunul's Legacy and Author's Note  
 ✓ reply to Scott on free speech
 _ top-level review/reply of "Meta-Honesty"
-_ Theory of Universal Algorithmic Bad Faith; Or, Unmotivated Reasoning Isn't Actually a Thing
 _ reply to Scott on lying  
 _ email reply to Vaniver with 9 Blight datapoints  
-_ "Don't Tell Me Secrets"  
+
 _ "Instrumental Categories, Wireheading, and War: a Reply to the Immortal Scott Alexander"  
 _ email explain scapegoating to Anna
-_ Two Moralities: Accomplishing Things Subject to Constraint of Not-Lying (and feeling terrible when you slip up and lie) vs. Clarity-Creation Subject to the Constraint of Respecting Confidentiality (and feeling terrible when you slip up and reveal information)
-_ a world where reason doesn't exist: https://twitter.com/zackmdavis/status/1203017876405284865
-_ work on memoir  
 
+_ a world where reason doesn't exist: https://twitter.com/zackmdavis/status/1203017876405284865
+
+_ Firming Up Not-Lying
+
+_ work on memoir  
 
 also—
 _ email: The Coalition-Splitting Maneuver, and Unilateralism  
 _ email: Strauss vs. Hayek, quantitatively  
 _ tell Wei about Timur Kuran's definition of an "activist"  
-_ Less Wrong Poetry Corner: Walter Raleigh's "The Lie"  
 _ Less Wrong Poetry Corner: My Little Pony: Friendship Is Magic's "A Kirin Tale"  
 _ Gary Drescher fan mail  
 
 the fact that I'm so eager to write other things proves that the memoir is mostly useful as a weapon (and "I need to tell the truth about my life" is my plausibly-deniable excuse for building the weapon)
 
+_ Less Wrong Poetry Corner: Walter Raleigh's "The Lie" 
+
+_ "Don't Tell Me Secrets"  
+
+_ Two Moralities: Accomplishing Things Subject to Constraint of Not-Lying (and feeling terrible when you slip up and lie) vs. Clarity-Creation Subject to the Constraint of Respecting Confidentiality (and feeling terrible when you slip up and reveal information)
+
+
+_ Theory of Universal Algorithmic Bad Faith; Or, Unmotivated Reasoning Isn't Really a Thing
 
 
 
@@ -31,13 +85,15 @@ Fear of Common Knowledge: https://www.lesswrong.com/posts/YcRZbgRbZGpu9xFox/the-
 
 Promises 
 
-There is a structure-in-the-world that I don't think you're seeing. I want to call it "algorithmic bad faith." Here are three blog posts by three different authors pointing at the thing (listed in order of the [Sliding Scale](https://tvtropes.org/pmwiki/pmwiki.php/Main/SortingAlgorithmOfTropes) of Moralizing _vs._ Math):
+There is a structure-in-the-world that I don't think you're seeing. I want to call it "algorithmic bad faith."
 
- * Ziz's[^ziz] ["False Faces"](https://sinceriously.fyi/false-faces/)
+
+Here are three blog posts by three different authors pointing at the thing (listed in order of the [Sliding Scale](https://tvtropes.org/pmwiki/pmwiki.php/Main/SortingAlgorithmOfTropes) of Moralizing _vs._ Math):
+
+ * Ziz's ["False Faces"](https://sinceriously.fyi/false-faces/)
  * Ben Hoffman's ["Bad Intent Is a Disposition, Not a Feeling"](http://benjaminrosshoffman.com/bad-faith-behavior-not-feeling/)
  * the present author's ["Algorithms of Deception!"](https://www.lesswrong.com/posts/fmA2GJwZzYtkrAKYJ/algorithms-of-deception)
 
-[^ziz]: Yes, the trans woman who [blockaded the CfAR reunion](https://archive.is/iPdd5).
 
 https://archive.is/wip/iPdd5
 
@@ -45,12 +101,11 @@ prions
 
 Theory of Universal Algorithmic Bad Faith
 
-my forthcoming memoir (working title: "['I Tell Myself to Let the Story End'](https://genius.com/Sara-bareilles-gonna-get-over-you-lyrics); [Or](https://tvtropes.org/pmwiki/pmwiki.php/Main/EitherOrTitle), [A Hill of Validity in Defense of Meaning](https://twitter.com/ESYudkowsky/status/1067185907843756032); Or, The Story About That Time Everyone I [Used to Trust](https://www.lesswrong.com/posts/wustx45CPL5rZenuo/no-safe-defense-not-even-science) Insisted on Playing Dumb About the Philosophy of Language in a Way That Was Optimized for Confusing Me Into [Cutting My Dick Off](https://en.wikipedia.org/wiki/Vaginoplasty) (Independently of the Empirical Facts Determining Whether or Not Cutting My Dick Off Is a Good Idea) and Wouldn't Even Cut It Out Even After I Spent Five Months and Thousands of Words Trying to Explain the Mistake in Exhaustive Detail Including Dozens of Links to Their Own Writing; Or, We Had [an Entire Sequence About This](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong), You Lying Motherfuckers")
+
 
 Abram Demski ("Consequential Categories")
 
 instrumental epistemic https://www.lesswrong.com/posts/7vofFovKWPrnM7y9Q/appeal-to-consequence-value-tensions-and-robust#yK4SsKSMEwPGdvGqL
-
 
 Strauss vs. Hayek
 

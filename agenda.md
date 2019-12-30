@@ -1,26 +1,26 @@
 _ Vaniver
 _ Commentary on "Failed Utopia #4-2" and "Changing Emotions"
-_ Stupidity and Dishonesty Explain Each Other Away
 _ Category Boundaries and Naïve Bayes
-_ Algorithmic Bad Faith
-_ Cromwell's Rule Arises From Symmetry, Not Fairness; Or, Don't Double-Crux With Suicide Rock
+_ Instrumental Categories, Wireheading, and War
 _ the red phone; or, "All I Can Honestly Love"
+
+_ Algorithmic Bad Faith
+
+
+_ Cromwell's Rule Arises From Symmetry, Not Fairness
 _ First Offender Models and the Unilateralist's Blessing
-_ Instrumental Categories,
-_ Principles are for Coordination
 _ memoir
 
 
 ---------
 
-
+_ Speaking Truth to Power Is a Schelling Point
 _ Algorithmic Bad Faith
-
-
-A Coordination Argument for Candor
+_ Don't Double-Crux With Suicide Rock
 
 
 
+"Heads I Win, Tails?—Never Heard of Her" is the 25th highest-karma post of all time
 
 "Can I give you a cookie to not title it that?"
 
@@ -88,11 +88,12 @@ Promises
 There is a structure-in-the-world that I don't think you're seeing. I want to call it "algorithmic bad faith."
 
 
-Here are three blog posts by three different authors pointing at the thing (listed in order of the [Sliding Scale](https://tvtropes.org/pmwiki/pmwiki.php/Main/SortingAlgorithmOfTropes) of Moralizing _vs._ Math):
+Here are three blog posts by three different authors pointing at a thing:
 
  * Ziz's ["False Faces"](https://sinceriously.fyi/false-faces/)
- * Ben Hoffman's ["Bad Intent Is a Disposition, Not a Feeling"](http://benjaminrosshoffman.com/bad-faith-behavior-not-feeling/)
+ * Benjamin Hoffman's ["Bad Intent Is a Disposition, Not a Feeling"](http://benjaminrosshoffman.com/bad-faith-behavior-not-feeling/)
  * the present author's ["Algorithms of Deception!"](https://www.lesswrong.com/posts/fmA2GJwZzYtkrAKYJ/algorithms-of-deception)
+
 
 
 https://archive.is/wip/iPdd5
@@ -119,3 +120,19 @@ Strauss vs. Hayek
 
 (D) reply to Vaniver
 
+An interesting thing about this factorization is that it's agnostic to [where you draw the category boundaries](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries) around ["dishonesty"](https://www.lesswrong.com/posts/bSmgPNS6MTJsunTzS/maybe-lying-doesn-t-exist)! _Dishonesty_ is arguably a morally-laden term: we could imagine two observers who have similar empirical beliefs about a person's psychology, but disagree on whether the person's behavior is best characterized in English as
+
+
+Actually, maybe I shouldn't be labeling the parent nodes with those words. "Dishonesty" especially is often construed as a morally-laden word, leading to meaningless semantic slapfights 
+
+ "intellectually dishonest" or ["honest but biased"](https://slatestarcodex.com/2019/07/16/against-lie-inflation/).
+
+https://www.lesswrong.com/posts/r2dTchodfqX4o5DYH/blame-games
+
+But as aspiring epistemic rationalists, we're _not allowed_ to care about morality, we're _only_ allowed to care about the map that reflects the territory. So maybe I shouldn't be using the word "dishonesty" at all. There are [cognitive inference algorithms](https://www.lesswrong.com/posts/HcCpvYLoSFP4iAqSz/rationality-appreciating-cognitive-algorithms) that build world-models and output speech that other people can use as evidence/input to their own inference algorithms.
+
+Some algorithms are better than others at constructing models that make good predictions.
+
+Some are better than others at outputting speech that 
+
+(A coalition's goals are some suitable compromise between the goals of its individual members: for example, a staple-maximizer and a paperclip-maximizer join forces to form a coalition that maximizes expected staples-plus-paperclips.)

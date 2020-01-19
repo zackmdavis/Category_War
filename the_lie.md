@@ -1,8 +1,8 @@
 # Less Wrong Poetry Corner: Walter Raleigh's "The Lie"
 
-**Followup to:** [Rationalist Poetry Fans, Unite!](https://www.lesswrong.com/posts/iNCg6mjw584r9BWZK/rationalist-poetry-fans-unite)
+**Followup to**: [Rationalist Poetry Fans, Unite!](https://www.lesswrong.com/posts/iNCg6mjw584r9BWZK/rationalist-poetry-fans-unite), [Act of Charity](https://www.lesswrong.com/posts/rwjv8bZfSuE9ZAigH/act-of-charity)
 
-This is [my favorite poem about](https://www.bartleby.com/40/48.html) _revealing information about deception!_ It goes like this—
+This is my favorite poem about _revealing information about deception!_ It goes like this (sources: [Wikipedia](https://en.wikipedia.org/wiki/The_Lie_(poem)), [Poetry Foundation](https://www.poetryfoundation.org/poems/50019/the-lie-56d22cb6afd43), [Bartleby](https://www.bartleby.com/40/48.html))—
 
 > Go, Soul, the body's guest,  
 >   Upon a thankless arrant:  
@@ -81,7 +81,7 @@ This is [my favorite poem about](https://www.bartleby.com/40/48.html) _revealing
 > If arts and schools reply,  
 > Give arts and schools the lie.  
 >  
-> Tell faith it’s fled the city;  
+> Tell faith it's fled the city;  
 >   Tell how the country erreth;  
 > Tell, manhood shakes off pity;  
 >   Tell, virtue least preferreth:  
@@ -95,3 +95,10 @@ This is [my favorite poem about](https://www.bartleby.com/40/48.html) _revealing
 > Stab at thee he that will,  
 > No stab the soul can kill.
 
+The English is a bit dated; Walter Raleigh (probably) wrote it in 1592 (probably). "Give the lie" here is an [expression meaning](https://en.wiktionary.org/wiki/give_the_lie_to) "accuse them of lying" (_not_ "tell them this specific lie", as modern readers not familiar with the expression might interpret it).
+
+The speaker is telling his soul to go to all of Society's respected institutions and reveal that the stories they tell about themselves are false: the court's shining standard of Justice is really about as shiny as a decaying stump; the chruch teaches what's good but doesn't do any good; kings think they're so powerful and mighty, but are really just the disposable figurehead of a coalition; _&c._ (I'm not totally sure exactly what _all_ of the stanzas mean because of the dated language, but I feel OK about this.)
+
+The speaker realizes this campaign is kind of suicidal ("Go, since I needs must die") and will probably result in getting stabbed. That's why he's telling his soul to do it, because—ha-ha!—immaterial souls can't be stabbed!
+
+What about you, dear reader? Have you given any thought to _revealing information about deception?!_

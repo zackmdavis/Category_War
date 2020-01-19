@@ -14,7 +14,6 @@ _ memoir
 
 ---------
 
-_ Speaking Truth to Power Is a Schelling Point
 _ Algorithmic Bad Faith
 _ Don't Double-Crux With Suicide Rock
 
@@ -26,7 +25,9 @@ _ Don't Double-Crux With Suicide Rock
 
 I would have expected you to care about your students
 
+https://www.lesswrong.com/posts/gTTWRkSz474o7s4Dg/principles-of-disagreement
 
+"When I think about who I would be willing to try this with, the name that comes to mind is Michael Vassar - which surprised me, and I asked my mind why.  The answer that came back was, "Because Michael Vassar knows viscerally what's at stake if he makes you update the wrong way; he wouldn't use the power lightly."
 
 In favor of Community, Civilization, and FACTUALLY ACCURATE BELIEFS
 

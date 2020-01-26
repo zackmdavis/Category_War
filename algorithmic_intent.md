@@ -23,3 +23,8 @@ https://www.lesswrong.com/posts/k6EPphHiBH4WWYFCj/gazp-vs-glut
 > "What do you think 'fraud' _is_, exactly?"
 
 [follow the improbability]
+
+
+"The bureaucrat, police officer, teacher, judge, or cable television company representative functions as [...], not as a co-modeling and fully interacting person. His behaviors are governed by top-down rules and scripts, with human discretion eliminated as much as possible."
+
+(Sarah Perry, "The Essence of Peopling")

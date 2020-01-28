@@ -1,7 +1,14 @@
 # Instrumental Categories, Wireheading, and War
 
-Scott Alexander writes, in response to the present author's critique of his 
+**Followup to**: [Where to Draw the Boundaries?](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries)
 
-> I think of language, following Eliezer's definitions sequence, as being a human-made project intended to help people understand each other.
+_There is an important difference between having a utility function defined over a statistical model's performance against specific real-world data (even if another mind with different values would be interested in different data), and having a utility function defined over features of the model itself._
 
-But it's _not_ a human-made project. The faculty of natural language is an _evolved_ feature of the human brain. (Wolves would not learn to talk even if their throats were shaped the right way.)
+_Arbitrariness in the map doesn't correspond to arbitrariness in the territory.
+
+ Whatever criterion your brain is using to decide which word you want,_ is _your non-arbitrary reason ..._
+
+The one comes to you and says:
+
+
+Wait. Really? Do I _really_ have to explain this? On _this_ website?!

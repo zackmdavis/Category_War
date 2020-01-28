@@ -6,9 +6,20 @@
 
 > "What do you think 'fear' _is_, exactly?"
 
+It's tempting to think that consciousness isn't part of the physical universe. Seemingly, we can imagine a world _physically_ identically to our own—the same atom-configurations evolving under the same laws of physics—but with no _consciousness_, a world inhabited by [philosophical "zombies"](https://www.lesswrong.com/posts/fdEWWr8St59bXLbQr/zombies-zombies) who move and talk, but only as mere automatons, without the spark of _mind_ within.
+
+It can't actually work that way. When we _talk_ about consciousness, we do so with our merely physical lips or merely physical keyboards. The causal explanation for talk about consciousness has to _either_ exist entirely within physics, _or_ there needs to be some place where the laws of physics are violated as the immaterial soul is observed to be "tugging" on the brain. Zombies can't exist.
+
+But if consciousness exists within physics, it should respect a certain "locality": if the configuration-of-matter that is you is conscious, then _almost_-identical configurations should also be conscious for _almost_ the same reasons. 
 
 
-https://www.lesswrong.com/posts/kYAuNJX2ecH2uFqZ9/the-generalized-anti-zombie-principle
+Thus, the [Generalized Anti-Zombie Principle](https://www.lesswrong.com/posts/kYAuNJX2ecH2uFqZ9/the-generalized-anti-zombie-principle):
+
+
+
+
+
+
 
 https://www.lesswrong.com/posts/k6EPphHiBH4WWYFCj/gazp-vs-glut
 

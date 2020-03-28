@@ -8,10 +8,12 @@ The same goes for a share of LW, albeit at a somewhat higher level of abstractio
 
 This coupling between asset prices and the real world is why the "You shouldn't be able to predict price changes, because predictable price changes correspond to a profit opportunity that many other agents are already trying to exploit" argument is taken to mean that market prices embody useful information about the world—the "randomness" of unpredictable market movements is that of _not knowing_ future information that hasn't already been taken into account, rather than the randomness of a pure [random walk](https://en.wikipedia.org/wiki/Random_walk), unpredictable but ultimately signifying nothing.
 
-That's why we have conversations like one on 16 February, when Robin Hanson said, ["In few months, China is likely to be a basket case, having crashed their economy in failed attempt to stop COVID-19 spreading"](https://twitter.com/robinhanson/status/1229209586336489472), Eliezer Yudkowsky replied, ["It seems to me like the markets don't look like they believe this."](https://twitter.com/ESYudkowsky/status/1229529150098046976) The _reason_ "It looks like the markets don't believe this" is a _relevant_ reply, 
+That's why we have conversations like one on 16 February, when Robin Hanson said, ["In few months, China is likely to be a basket case, having crashed their economy in failed attempt to stop COVID-19 spreading"](https://twitter.com/robinhanson/status/1229209586336489472), and Eliezer Yudkowsky replied, ["It seems to me like the markets don't look like they believe this."](https://twitter.com/ESYudkowsky/status/1229529150098046976)
+
+The efficient markets hypothesis is what makes "It looks like the markets don't believe this" seem like a germane reply. In contrast, if someone were to reply, "I asked my friend Kevin, and he doesn't believe it," that would prompt the obvious question, "Who is Kevin, and why should I care what he thinks about China's economy?" If one's answer to that question were, "Kevin is a smart guy and I trust him a lot", that seems a much less compelling than
 
 
-In contrast, if someone were to reply, "I asked my friend Kevin, and he doesn't believe it," that would prompt the question, "Who is Kevin, and why should I care what he thinks about China's economy?"
+
 
 As it is written: "If you're so smart, why aren't you rich?"
 
@@ -20,6 +22,13 @@ But sometimes, the answer to that question is "I am." _Speaking_ of price change
 
 
 Now I am but a humble autodidact programmer, not at all learned in the science of economics. But ... this is nuts, right? 
+
+
+https://www.lesswrong.com/posts/jAixPHwn5bmSLXiMZ/open-and-welcome-thread-february-2020?commentId=j76fGcgig2t33WwKE#wAHCXmnywzfhoQT9c
+
+> The option I bought is up 700% since I bought them, implying that as of 2/10/2020 the market thought there was less than 1/8 chance things would be as bad as they are today. At least for me this puts a final nail in the coffin of EMH.
+
+
 
 > "as strong as the strongest traders, not as strong as the average traders" https://twitter.com/ESYudkowsky/status/1050861362312818690
 

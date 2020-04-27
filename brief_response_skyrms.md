@@ -1,0 +1,21 @@
+Brief Response to Suspended Reason on Parallels Between Skyrms on Signaling and Yudkowsky on Language and Evidence
+
+(This is the continuation of [a Twitter conversation](https://twitter.com/suspendedreason/status/1250556960841359360), hosted as a _Less Wrong_ post because _Less Wrong_ lets me post more than 280 characters at a time.)
+
+I'm having trouble finding a "juicy" passage to quote due to ... uh, genre differences? Skyrms isn't preaching about the True Nature of Language to a popular audience, but rather explaining game-theory models to an academic audience with occasional remarks about how these ideas apply to human language, animal behavior, cellular systems, _&c._ The nine-page paper ["Evolution of Signalling Systems with Multiple Senders and Receivers"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2689717/pdf/rstb20080258.pdf) gives a much shorter taste of the technical content, but I don't anticipate you counting it as a precedent on its own, so I'll give my brief summary of some of what _I_ got out of [_Signals: Evolution, Learning, and Information_](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199580828.001.0001/acprof-9780199580828) and how it parallels Yudkowsky's work on [language](https://www.lesswrong.com/s/SGB7Y5WERh4skwtnb) and [evidence](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence).
+
+(One could argue that the fact that I feel like I have to do my own summarizing rather than just quoting Skyrms is a hint that what I'm seeing, I got from Skyrms-reinterpreted-in-light-of-Yudkowsky, rather than it being easy to get from Skyrms himself. But I think the insight is mostly in the math, and the relative ease of juicy quoting is just a genre difference.)
+
+Skyrms expounds on [_sender–receiver games_](https://en.wikipedia.org/wiki/Lewis_signaling_game) as introduced by David Lewis in 1960. We have two abstract agents, a "sender" and a "receiver". The sender gets to observe some state of Nature and send a "signal" to the receiver, who will then take some action, and get a payoff depending on the action taken and the state of Nature. For simplicity, suppose there are two states ($S_1$, $S_2$), two possible signals ($s_1$, $s_2$), and two possible acts ($A_1$, $A_2$), and the receiver gets a better payoff when it takes action $A_1$ (respectively $A_2$) when reality is in $S_1$ (respectively $S_2$).
+
+The thing is, the signals are completely opaque—the receiver can distinguish one from the other, but there's no reason for $s_1$ to _mean_ that the state of Nature is $S_1$ rather than $S_2$—the names are totally arbitrary. (I could have said "red" and "blue", or "♥" and "❄" rather than $s1$ and $s2$.)
+
+And yet, if you run an evolutionary-game-theory simulation where behavior that gets payoffs is more likely to be copied, our agents learn to form one of the two consistent signaling systems where each of the signals corresponds to one of the states of Nature.
+
+And that's where language comes from!! Starting with completely opaque, symmetric signals, the forces of evolution engineer _meaning_ from nothing—where the "meaning" of a signal is just how it changes a receiver's probabilities. If you've read the Sequences, this should be familiar theme: ["the true import of a thing is its entanglement with other things"](https://www.lesswrong.com/posts/34XxbRFe54FycoCDw/the-bottom-line).
+
+There's a _lot_ more to the book (what happens with more agents?—more signals?—what is deception?—how do new signals evolve? _&c._) but I hope this suffices to point out the parallel to Yudkowskian thought.
+
+> Skyrms's work appears to post-date Yudkowsky's
+
+I mean, yes, the specific book I'm citing was published in 2010 whereas the Sequences were 2007–2009, but [Brian Skyrms](https://en.wikipedia.org/wiki/Brian_Skyrms) has been doing this _style_ of philosophy for _quite_ a while, and I would be pretty surprised if he were an _Overcoming Bias_ reader, so it seems like the kind of _causal_ independence we're looking for when we talk about "priority", even if some of the publication dates overlap or are reversed? (I want to say, Skyrms and Yudkowsky are [conditionally independent](https://en.wikipedia.org/wiki/Conditional_independence) given Claude Shannon??)

@@ -12,28 +12,27 @@ It can't actually work that way. When we _talk_ about consciousness, we do so wi
 
 But if consciousness exists within physics, it should respect a certain ["locality"](https://www.lesswrong.com/posts/XDkeuJTFjM9Y2x6v6/which-basis-is-more-fundamental), a [Generalized Anti-Zombie Principle](https://www.lesswrong.com/posts/kYAuNJX2ecH2uFqZ9/the-generalized-anti-zombie-principle): if the configuration-of-matter that _is you_, is conscious, then _almost_-identical configurations should also be conscious for _almost_ the same reasons. An artificial neuron that implements the same input-output relationships as a biological one, would "play the same role" within the brain, which would continue to compute the same externally-observable behavior.
 
-We probably don't want to push the Generalized Anti-Zombie Principle so far as to say that _only_ externally-observable behavior matters and internal mechanisms don't matter at all, because substantively different internal mechanisms could compute the same behavior. In the limit, we could (pretend that we could) imagine [an incomprehensibly vast Giant Lookup Table](https://www.lesswrong.com/posts/k6EPphHiBH4WWYFCj/gazp-vs-glut) that has stored the outputs that a conscious mind would have computed in response to any input. Is such a Giant Lookup Table—an entirely static mapping of inputs to outputs—conscious? Really?
+We probably don't want to push the Generalized Anti-Zombie Principle so far as to say that _only_ externally-observable behavior matters and internal mechanisms don't matter at all, because substantively different internal mechanisms could compute the same behavior. Prosaically, [acting](https://en.wikipedia.org/wiki/Acting) exists: even the best method actors aren't really occupying the same mental state as the characters they portray would be in. In the limit, we could (pretend that we could) imagine [an incomprehensibly vast Giant Lookup Table](https://www.lesswrong.com/posts/k6EPphHiBH4WWYFCj/gazp-vs-glut) that has stored the outputs that a conscious mind would have produced in response to any input. Is such a Giant Lookup Table—an entirely static mapping of inputs to outputs—conscious? Really?
 
-But this thought experiment requires us to posit the existence of a Giant Lookup Table that _just happens_ to mimic the behavior of a conscious mind. _Why_ would that happpen? Why would that _actually_ happen, in the real world? (Or the closest possible world large enough to contain the Giant Lookup Table.)
+But this thought experiment requires us to posit the existence of a Giant Lookup Table that _just happens_ to mimic the behavior of a conscious mind. _Why_ would that happpen? Why would that _actually_ happen, in the real world? (Or the closest possibly-impossible possible world large enough to contain the Giant Lookup Table.) "Just assume it happened by coincidence, for the sake of the thought experiment" is unsatisfying, because that kind of arbitrary [thermodynamic](https://www.lesswrong.com/posts/QkX2bAkwG2EpGvNug/the-second-law-of-thermodynamics-and-engines-of-cognition) miracle doesn't help us understand what the ordinary
 
-"Just assume it happened by coincidence, for the sake of the thought experiment" is unsatisfying 
+[simple concept](https://www.lesswrong.com/posts/82eMd5KLiJ5Z6rTrr/superexponential-conceptspace-and-simple-words) of _consciousness_
 
+
+
+You can _assume_ that a broken and scrambled egg will spontaneously reassemble itself for the sake of a thought experiment, 
+
+https://www.lesswrong.com/posts/zFuCxbY9E2E8HTbfZ/perpetual-motion-beliefs [egg scrambling]
+
+https://www.lesswrong.com/posts/f4RJtHBPvDRJcCTva/when-anthropomorphism-became-stupid
 
 So far, so standard. [(Read the Sequences!)](https://www.readthesequences.com/)
 
-My interest today is in exploring
+My interest today is in exploring how well this style of argument applies 
 
 —a Generalized Generalized Anti-Zombie Principle.
 
-
-
-
-
-
-
 [sorting algorithm]
-
-[actor]
 
 [expand the generalized principle beyond "consciousness", to "intent": "consciousness" makes preidctions about heterophenomenological behavior, "intent" also makes predictions about behavior]
 

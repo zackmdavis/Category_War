@@ -20,17 +20,16 @@ The [_hard_ problem of consciousness](http://www.scholarpedia.org/article/Hard_p
 
 So far, so standard. [(Read the Sequences!)](https://www.readthesequences.com/) My interest today is in exploring how well this style of argument applies to other concepts besides _consciousness_—seeking, perhaps, a Generalized Generalized Anti-Zombie Principle.
 
-Consider the idea of _sorting_. Human alphabets aren't just a set of symbols—we also have a concept of the alphabet coming in some canonical _order_. The order of the alphabet doesn't play any role in the written language itself: you would have no trouble reading books from an alternate world where the order of the Roman alphabet ran _KUWONSEZYFIJTABHQGPLCMVDXR_, but all English words were the same—but you would have trouble _finding_ the books on the shelf.
+Consider the idea of _sorting_. Human alphabets aren't just a set of symbols—we also have a concept of the alphabet coming in some canonical _order_. The order of the alphabet doesn't play any role in the written language itself: you wouldn't have trouble reading books from an alternate world where the order of the Roman alphabet ran _KUWONSEZYFIJTABHQGPLCMVDXR_, but all English words were the same—but you would have trouble _finding_ the books on a shelf that wasn't sorted in the order you're used to. Sorting is useful because it lets us find things more easily: "The title I'm looking for starts with a _P_, but the book in front of me starts with a _B_; skip ahead" is faster than "look at every book until you find the one".
 
+In the days before computers, the work of sorting was always done by humans: if you want your physical bookshelf to be alphabetized, you probably don't have a lot of other options than manually handling the books yourself ("This title starts with a _Pl_; I should put it ... da da da, _here_, between _Pe_ and _Po_"). But the _computational work_ of sorting is simple enough that we can program computers to do it and _prove theorems_ about what is being accomplished, without getting confused about the sacred mystery of sorting-ness.
 
+Lots of very different systems can perform the work of sorting, but whether it's a human tidying her bookshelf, or a [punchcard-sorting machine](https://en.wikipedia.org/wiki/IBM_card_sorter), or a modern computer sorting in RAM, it's useful to have a [short word](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) to describe _processes_ that "take in" some list of inputs, and "output" a list with the same elements ordered with respect to some criterion, and know that the theorems we prove about sorting-in-general will apply to any system that implements sorting. (For example, sorting processes that can [only compare two items to check which is "greater"](https://en.wikipedia.org/wiki/Comparison_sort) (as opposed to being able to [exploit more detailed prior information about the distribution of elements](https://en.wikipedia.org/wiki/Sorting_algorithm#Non-comparison_sorts)) can expect to have to perform $n \log n$ comparisons, where $n$ is the length of the list.)
 
-
-
+Someone who wasn't familiar with computers might refuse to generalize 
 
 
 https://www.lesswrong.com/posts/YhgjmCxcQXixStWMC/artificial-addition
-
-
 
 
 http://zackmdavis.net/blog/2012/07/an-idea-for-a-psychology-experiment/

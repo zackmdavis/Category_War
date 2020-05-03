@@ -1,4 +1,9 @@
 
+with an $O(log n)$ binary search-like procedure
+
+an $O(n)$ linear search
+
+
 I'm _not_ talking about the problem of pressure on your beliefs
 
 For example, if you said you've never stepped foot in Albuquerque, everyone would agree that this would be falsified by a (non-doctored) photo of you in Albuquerque, because "never stepped foot in" doesn't leave very much linguistic wiggle room.

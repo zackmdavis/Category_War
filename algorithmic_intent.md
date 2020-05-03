@@ -16,26 +16,25 @@ We don't want to push the Generalized Anti-Zombie Principle so far as to say tha
 
 But this thought experiment requires us to posit the existence of a Giant Lookup Table that _just happens_ to mimic the behavior of a conscious mind. _Why_ would that happpen? Why would that _actually_ happen, in the real world? (Or the closest possibly-impossible possible world large enough to contain the Giant Lookup Table.) "Just assume it happened by coincidence, for the sake of the thought experiment" is unsatisfying, because that kind of arbitrary [thermodynamic](https://www.lesswrong.com/posts/QkX2bAkwG2EpGvNug/the-second-law-of-thermodynamics-and-engines-of-cognition) miracle doesn't help us understand what kind of cognitive work the ordinary [simple concept](https://www.lesswrong.com/posts/82eMd5KLiJ5Z6rTrr/superexponential-conceptspace-and-simple-words) of _consciousness_ is doing for us. You can _assume_ that a broken and scrambled egg will spontaneously reassemble itself for the sake of a thought experiment, but the interpretation of your thought-experimental results may seem tendentious given that we have Godlike confidence that [you will never, ever see that happen in the real world](https://www.lesswrong.com/posts/zFuCxbY9E2E8HTbfZ/perpetual-motion-beliefs).
 
-The [_hard_ problem of consciousness](http://www.scholarpedia.org/article/Hard_problem_of_consciousness) is still confusing unto me—it [_seems_ impossible](https://www.lesswrong.com/posts/XzrqkhfwtiSDgKoAF/wrong-questions) that any arrangement of mere matter could add up to the ineffable _qualia_ of subjective experience. But the easier and yet clearly _somehow_ related problem of how mere matter can do information-processing—can do things like construct "models" by [using sensory data to correlate its internal state with the state of the world](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence)—seems well-understood, and a lot of our ordinary _use_ of the concept of _consciousness_ deals with the easy problems, even if we [can't _see_ the identity](https://www.lesswrong.com/posts/KmghfjH6RgXvoKruJ/hand-vs-fingers)
+The [_hard_ problem of consciousness](http://www.scholarpedia.org/article/Hard_problem_of_consciousness) is still confusing unto me—it [_seems_ impossible](https://www.lesswrong.com/posts/XzrqkhfwtiSDgKoAF/wrong-questions) that any arrangement of mere matter could add up to the ineffable _qualia_ of subjective experience. But the easier and yet clearly _somehow_ related problem of how mere matter can do information-processing—can do things like construct "models" by [using sensory data to correlate its internal state with the state of the world](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence)—seems understanable, and a lot of our ordinary _use_ of the concept of _consciousness_ necessarily deals with the easy problems of perception and [interpreting people's self-reports](https://en.wikipedia.org/wiki/Heterophenomenology), even if we [can't _see_ the identity](https://www.lesswrong.com/posts/KmghfjH6RgXvoKruJ/hand-vs-fingers) between the easy problems and the hard problem. If I were to punch you in the face, I can predict that you'd react somehow—perhaps by saying, "Ow, that really hurt! I'm perceiving an ontologically-basic _quale_ of pain right now! I hereby commit to extract a costly revenge on you if you do that again, even at disproportionate cost to myself!" The fact that the human brain has the detailed functional structure to compute that _kind_ of response, whereas rocks and trees don't, is why we can be confident that [rocks and trees don't secretly have minds like ours](https://www.lesswrong.com/posts/f4RJtHBPvDRJcCTva/when-anthropomorphism-became-stupid).
 
+So far, so standard. [(Read the Sequences!)](https://www.readthesequences.com/) My interest today is in exploring how well this style of argument applies to other concepts besides _consciousness_—seeking, perhaps, a Generalized Generalized Anti-Zombie Principle.
 
-
-If I punch you in the face, I might expect you 
-
-"Ow, that really hurt! I'm perceiving an ontologically-basic _quale_ of pain right now!"
-
-
+Consider the idea of _sorting_. Human alphabets aren't just a set of symbols—we also have a concept of the alphabet coming in some canonical _order_. The order of the alphabet doesn't play any role in the written language itself: you would have no trouble reading books from an alternate world where the order of the Roman alphabet ran _KUWONSEZYFIJTABHQGPLCMVDXR_, but all English words were the same—but you would have trouble _finding_ the books on the shelf.
 
 
 
 
-https://www.lesswrong.com/posts/f4RJtHBPvDRJcCTva/when-anthropomorphism-became-stupid
 
-So far, so standard. [(Read the Sequences!)](https://www.readthesequences.com/)
 
-My interest today is in exploring how well this style of argument applies to other concepts besides _consciousness_—seeking a Generalized Generalized Anti-Zombie Principle.
 
-Consider the idea of _sorting_. 
+https://www.lesswrong.com/posts/YhgjmCxcQXixStWMC/artificial-addition
+
+
+
+
+http://zackmdavis.net/blog/2012/07/an-idea-for-a-psychology-experiment/
+
 
 [sorting algorithm]
 

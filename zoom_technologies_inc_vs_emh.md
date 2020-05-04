@@ -12,7 +12,8 @@ That's why we have conversations like one on 16 February, when Robin Hanson said
 
 The efficient markets hypothesis is what makes "It looks like the markets don't believe this" seem like a germane reply. In contrast, if someone were to reply, "I asked my friend Kevin, and he doesn't believe it," that would prompt the obvious question, "Who is Kevin, and why should I care what he thinks about China's economy?" If one's answer to that question were, "Kevin is a smart guy and I trust him a lot," that would seem much less compelling than "If China was likely to be a basket case in a few months, then you would expect Chinese assets to be priced lower by this competitive market of _lots_ of smart guys who I don't need to personally trust because the ones who are wrong will lose money; what do you know that _none_ of them do?" As it is written: "If you're so smart, why aren't you rich?"
 
-On the other hand, sometimes, the answer to that question is, "I am."
+Sometimes, the answer to that question is, "I am."
+
 
 
 
@@ -23,6 +24,7 @@ On the other hand, sometimes, the answer to that question is, "I am."
 Now I am but a humble autodidact programmer, not at all learned in the science of economics. But ... this is nuts, right? 
 
 
+On the other hand, 
 
  Wei Dai thought traders were failing to react to the unprecedentedly grim consequences of the novel coronavirus and bought some [put options](https://en.wikipedia.org/wiki/Put_option) (the right to sell a stock at a given price at a given future time) to bet that the market would go down, and quickly made 8x returns.
 

@@ -18,47 +18,4 @@ ZOOM, however, is Zoom Technologies, Inc., a "penny stock" of a Chinese company.
 
 I am not learned in the science of economics. But ... this is nuts, right? It makes sense that a pandemic would make a videoconferencing company more valuable. It doesn't make sense for a completely unrelated company _that may not have actually existed since 2015_ to become more valuable because it happens to have a similar name as a videoconferencing company. It's understandable for an individual investor to get confused by the ZOOM ticker symbol ... but what happened to markets aggregating information, being ["as strong as the strongest traders, not as strong as the average traders"](https://twitter.com/ESYudkowsky/status/1050861362312818690)? Increased demand for Thai food doesn't make the price of neckties go up.
 
-"Asset prices reflect all available information" would seem to be underspecified. Information _about what_? The "You shouldn't be able to predict price changes, because predictable price changes correspond to a profit opportunity that many agents are already trying to exploit" argument only shows that prices reflect information _about future prices_. In order to usefully speak of the market "believing" something, there needs to be some kind of coupling between prices, and things in the real world outside the market (such as goods and services). If that coupling gets diluted to higher [simulacrum levels](https://www.lesswrong.com/posts/fEX7G2N7CtmZQ3eB5/simulacra-and-subjectivity), such that prices only reflect a free-floating consensus of [what traders think that traders think that traders, _&c._](https://en.wikipedia.org/wiki/Keynesian_beauty_contest), then a market that is _efficient_ in a narrow technical sense, may not be performing the kind of information processing that naïve EMH proponents believe.
-
-
-
-
--------
-
-
-
-This coupling between asset prices and the real world is why the  is taken to mean that market prices embody useful information about the world—
-
-
-On the other hand, 
-
- Wei Dai thought traders were failing to react to the unprecedentedly grim consequences of the novel coronavirus and bought some [put options](https://en.wikipedia.org/wiki/Put_option) (the right to sell a stock at a given price at a given future time) to bet that the market would go down, and quickly made 8x returns.
-
-Sometimes, the answer to that question is, "I am."
-
-"implying that as of 2/10/2020 the market thought there was less than 1/8 chance things would be as bad as they are today. At least for me this puts a final nail in the coffin of EMH."
-
-> The option I bought is up 700% since I bought them, implying that as of 2/10/2020 the market thought there was less than 1/8 chance things would be as bad as they are today. At least for me this puts a final nail in the coffin of EMH.
-
-
-_Speaking_ of price changes in response to the COVID-19 pandemic, 
-
-
-https://www.lesswrong.com/posts/jAixPHwn5bmSLXiMZ/open-and-welcome-thread-february-2020?commentId=j76fGcgig2t33WwKE#wAHCXmnywzfhoQT9c
-
-
-https://time.com/5792310/zoom-zm-stocks-coronavirus/
-https://www.fool.com/investing/2020/03/27/the-sec-really-wants-investors-to-stop-buying-the.aspx
-https://markets.businessinsider.com/news/stocks/zoom-stock-confusion-fools-investors-1028951115#
-https://fortune.com/2020/03/26/zoom-stock-halt-zm-ticker/
-
-
-> "as strong as the strongest traders, not as strong as the average traders" https://twitter.com/ESYudkowsky/status/1050861362312818690
-
-> This argument just says that it shouldn't be easy to predict future price changes,
-
-> Thus, 
-
-> EY says it's only about unpredictability, not rationality: https://twitter.com/ESYudkowsky/status/918166591556091904
-
-> it looks to me like the markets don't believe this: https://twitter.com/ESYudkowsky/status/1229529150098046976
+"Asset prices reflect all available information" would seem to be underspecified. Information _about what_? The "You shouldn't be able to predict price changes, because predictable price changes correspond to a profit opportunity that many agents are already trying to exploit" argument only shows that prices reflect information _about future prices_. In order to usefully speak of the market "believing" something, there needs to be some kind of coupling between prices, and things in the real world outside the market (such as goods and services). If that coupling gets diluted to higher [simulacrum levels](https://www.lesswrong.com/posts/fEX7G2N7CtmZQ3eB5/simulacra-and-subjectivity), such that prices only reflect a free-floating consensus of [what traders think that traders think that traders, _&c._](https://en.wikipedia.org/wiki/Keynesian_beauty_contest), then a market that is _efficient_ in a narrow technical sense, may not be performing the kind of information processing that some naïve EMH proponents believe.

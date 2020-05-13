@@ -18,7 +18,7 @@ But this thought experiment requires us to posit the existence of a Giant Lookup
 
 The [_hard_ problem of consciousness](http://www.scholarpedia.org/article/Hard_problem_of_consciousness) is still confusing unto me—it [_seems_ impossible](https://www.lesswrong.com/posts/XzrqkhfwtiSDgKoAF/wrong-questions) that any arrangement of mere matter could add up to the ineffable _qualia_ of subjective experience. But the easier and yet clearly _somehow_ related problem of how mere matter can do information-processing—can do things like construct "models" by [using sensory data to correlate its internal state with the state of the world](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence)—seems understanable, and a lot of our ordinary _use_ of the concept of _consciousness_ necessarily deals with the easy problems of perception and [interpreting people's self-reports](https://en.wikipedia.org/wiki/Heterophenomenology), even if we [can't _see_ the identity](https://www.lesswrong.com/posts/KmghfjH6RgXvoKruJ/hand-vs-fingers) between the easy problems and the hard problem.
 
-[TODO: self-modeling]
+[TODO: self-modeling?]
 
 If I were to punch you in the face, I can [anticipate the experience](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences) of you reacting somehow—perhaps by saying, "Ow, that really hurt! I'm perceiving an ontologically-basic _quale_ of pain right now! I hereby commit to extract a costly revenge on you if you do that again, even at disproportionate cost to myself!" The fact that the human brain has the detailed functional structure to compute that _kind_ of response, whereas rocks and trees don't, is why we can be confident that [rocks and trees don't secretly have minds like ours](https://www.lesswrong.com/posts/f4RJtHBPvDRJcCTva/when-anthropomorphism-became-stupid).
 
@@ -26,28 +26,20 @@ So far, so standard. [(Read the Sequences!)](https://www.readthesequences.com/) 
 
 Consider the idea of _sorting_. Human alphabets aren't just a set of symbols—we also have a concept of the alphabet coming in some canonical _order_. The order of the alphabet doesn't play any role in the written language itself: you wouldn't have trouble reading books from an alternate world where the order of the Roman alphabet ran _KUWONSEZYFIJTABHQGPLCMVDXR_, but all English words were the same—but you would have trouble _finding_ the books on a shelf that wasn't sorted in the order you're used to. Sorting is useful because it lets us find things more easily: "The title I'm looking for starts with a _P_, but the book in front of me starts with a _B_; skip ahead" is faster than "look at every book until you find the one".
 
-In the days before computers, the work of sorting was always done by humans: if you want your physical bookshelf to be alphabetized, you probably don't have a lot of other options than manually handling the books yourself ("This title starts with a _Pl_; I should put it ... da da da _here_, after this title starting with _Pe_ but before its neighbor starting with _Po_"). But the _computational work_ of sorting is simple enough that we can program computers to do it and _prove theorems_ about what is being accomplished, without getting confused about the sacred mystery of sorting-ness.
+In the days before computers, the work of sorting was always done by humans: if you want your physical bookshelf to be alphabetized, you probably don't have a lot of other options than manually handling the books yourself ("This title starts with a _Pl_; I should put it ... da da da _here_, after this title starting with _Pe_ but before its neighbor starting with _Po_"). But the _computational work_ of sorting is simple enough that we can program computers to do it and _prove theorems_ about what is being accomplished, without getting confused about the [sacred mystery](https://www.lesswrong.com/posts/6i3zToomS86oj9bS6/mysterious-answers-to-mysterious-questions) of sorting-ness.
 
-Very different systems can perform the work of sorting, but whether it's a human tidying her bookshelf, or a [punchcard-sorting machine](https://en.wikipedia.org/wiki/IBM_card_sorter), or a modern computer sorting in RAM, it's useful to have a [short word](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) to describe _processes_ that "take in" some list of inputs, and "output" a list with the same elements ordered with respect to some criterion, for which we can know that the theorems we prove about sorting-in-general will apply to any system that implements sorting. (For example, sorting processes that can [only compare two items to check which is "greater"](https://en.wikipedia.org/wiki/Comparison_sort) (as opposed to being able to [exploit more detailed prior information about the distribution of elements](https://en.wikipedia.org/wiki/Sorting_algorithm#Non-comparison_sorts)) can expect to have to perform $n \log n$ comparisons, where $n$ is the length of the list.)
+Very different systems can perform the work of sorting, but whether it's a human tidying her bookshelf, or a [punchcard-sorting machine](https://en.wikipedia.org/wiki/IBM_card_sorter), or a modern computer sorting in RAM, it's useful to have a [short word](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) to describe _processes_ that "take in" some list of inputs, and "output" a list with the same elements ordered with respect to some criterion, for which we can know that the theorems we prove about sorting-in-general will [apply to any system](http://zackmdavis.net/blog/2012/07/an-idea-for-a-psychology-experiment/) that implements sorting. (For example, sorting processes that can [only compare two items to check which is "greater"](https://en.wikipedia.org/wiki/Comparison_sort) (as opposed to being able to [exploit more detailed prior information about the distribution of elements](https://en.wikipedia.org/wiki/Sorting_algorithm#Non-comparison_sorts)) can expect to have to perform $n \log n$ comparisons, where $n$ is the length of the list.)
 
 Someone who wasn't familiar with computers might refuse to recognize sorting algorithms as _real_ sorting, as opposed to mere ["artificial sorting"](https://www.lesswrong.com/posts/YhgjmCxcQXixStWMC/artificial-addition). After all, a human sorting her bookshelf _intends_ to put the books in order, whereas the computer is just an automaton following instructions, and doesn't intend anything at all—a zombie sorter!
 
-But this position is kind of silly, a [gerrymandered concept definition](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries). To be sure, it's true that the internal workings of the human are _very_ different from that of the computer. The human wasn't special-purpose programmed to sort and is necessarily doing a lot _more_ things: the subjective experience of eagerly looking forward to how much easier it will be to find things after the bookshelf is sorted, has no analogue inside the computer. But that subjective experience isn't particularly relevant to the _work of sorting_, both the human and computer have to be doing the same _kind_ of operations. The exact sequence of comparisons performed can differ, as it would between a computer program implementing [quicksort](https://en.wikipedia.org/wiki/Quicksort) and another implementing [merge sort](https://en.wikipedia.org/wiki/Merge_sort), but the comparisons—the act of taking two elements, two books, and placing them somewhere that _depends_ on which one is "greater", needs to happen _in order to get the right answer_.
+But this position is kind of silly, a [gerrymandered concept definition](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries). To be sure, it's true that the internal workings of the human are _very_ different from that of the computer. The human wasn't special-purpose programmed to sort and is necessarily doing a lot _more_ things: the subjective experience of eagerly looking forward to how much easier it will be to find things after the bookshelf is sorted, has no analogue inside the computer. [TODO: perception] But that subjective experience isn't particularly relevant to the _work of sorting_, both the human and computer have to be doing the same _kind_ of operations. The exact sequence of comparisons performed can differ, as it would between a computer program implementing [quicksort](https://en.wikipedia.org/wiki/Quicksort) and another implementing [merge sort](https://en.wikipedia.org/wiki/Merge_sort), but the comparisons—the act of taking two _things_ and placing them somewhere that _depends_ on which one is "greater", needs to happen _in order to get the right answer_.
 
-The concept of "sorting into alphabetical order" may have been invented before our concept of "computers", but the most natural concept of sorting—the one that [carves reality at the joints](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary)—includes computers performing quicksort, mergesort, _&c._., despite the lack of intent. We could say that intent is epiphenominal _with respect to_ sorting.
+The concept of "sorting into alphabetical order" may have been invented before our concept of "computers", but the most natural concept of sorting—the one that [carves reality at the joints](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary)—includes computers performing quicksort, mergesort, _&c._., despite the lack of intent. We might say that intent is epiphenominal _with respect to_ sorting.
 
-
-https://www.lesswrong.com/posts/h6fzC6wFYFxxKDm8u/the-fabric-of-real-things
-https://www.lesswrong.com/posts/NhQju3htS9W6p6wE6/stuff-that-makes-stuff-happen
-
-http://zackmdavis.net/blog/2012/07/an-idea-for-a-psychology-experiment/
+But even if we can understand _sorting_ without understanding intent, intent isn't epiphenominal _to the universe_. There are sensory experiences that will cause you to usefully attribute _intent_ to some causal processes and not others; intent is part of [the fabric](https://www.lesswrong.com/posts/h6fzC6wFYFxxKDm8u/the-fabric-of-real-things) of [stuff that makes stuff happen](https://www.lesswrong.com/posts/NhQju3htS9W6p6wE6/stuff-that-makes-stuff-happen).
 
 
-[sorting algorithm]
 
-[expand the generalized principle beyond "consciousness", to "intent": "consciousness" makes preidctions about heterophenomenological behavior, "intent" also makes predictions about behavior]
-
-[false faces]
 
 > "Accuse me of _fraud_? How _dare_ you?! Sure, I'm not a perfect person free from all bias, but—"
 
@@ -57,7 +49,17 @@ http://zackmdavis.net/blog/2012/07/an-idea-for-a-psychology-experiment/
 
 > "What do you think 'fraud' _is_, exactly?"
 
+https://www.lesswrong.com/posts/JoERzF8ePGr4zP9vv/self-deception-hypocrisy-or-akrasia
+
+https://www.lesswrong.com/posts/D7EcMhL26zFNbJ3ED/optimization
+
 [follow the improbability]
+
+[false faces]
+
+[Robin Hanson]
+
+https://sinceriously.fyi/false-faces/
 
 [optimization—when you can predict something better by observing the outcome rather than the mechanisms]
 
@@ -67,7 +69,12 @@ https://www.lesswrong.com/posts/28bAMAxhoX3bwbAKC/are-your-enemies-innately-evil
 
 https://www.lesswrong.com/posts/N9oKuQKuf7yvCCtfq/can-crimes-be-discussed-literally
 
+https://unstableontology.com/2019/07/24/metaphors-and-conceptual-figure-ground-inversions/
+
 https://sideways-view.com/2016/11/26/if-you-cant-lie-to-others-you-must-lie-to-yourself/
+
+explain how: https://www.lesswrong.com/posts/Mc6QcrsbH5NRXbCRX/dissolving-the-question
+why do I _think_ the question is right: https://www.lesswrong.com/posts/rQEwySCcLtdKHkrHp/righting-a-wrong-question
 
 
 "The bureaucrat, police officer, teacher, judge, or cable television company representative functions as [...], not as a co-modeling and fully interacting person. His behaviors are governed by top-down rules and scripts, with human discretion eliminated as much as possible."

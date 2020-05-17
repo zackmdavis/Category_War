@@ -4,7 +4,7 @@ from math import factorial, floor
 
 N = 100  # number of agents
 n = 50  # experiments per round
-ε = .01  # size of edge for B
+ε = .005  # size of edge for B
 m = 1  # mistrust factor
 
 def binomial(p, n, k):
@@ -30,17 +30,12 @@ class Agent:
         return "<Agent credence={}>".format(self.credence)
 
     def experiment(self):
-        if self.credence <= 0.5:
-            choice = a
-        else:
-            choice = b
-
-        results = [choice() for _ in range(n)]
+        results = [b() for _ in range(n)]
         return results
 
     def discount_factor(self, reporter_credence):
         # let me try a simpler function than the paper
-        return min(1, 5*abs(reporter_credence - self.credence))
+        return min(1, 2*abs(reporter_credence - self.credence))
 
     def update(self, hits, trials, discount):
         # our beliefs are over two mutually-exclusive and exhaustive
@@ -68,17 +63,18 @@ def histogram(credences):
 
 
 def simulation():
-    agents = [Agent((1/(N+1))*(i+1)) for i in range(N)]
+    agents = [Agent(random.random()) for i in range(N)]
     print([round(agent.credence, 3) for agent in agents])
     print()
     print(histogram([agent.credence for agent in agents]))
 
-
-    for round_ in range(100):
-        experiments = [
-            (summarize_experiment(a.experiment()), a.credence)
-            for a in agents
-        ]
+    for round_ in range(50):
+        experiments = []
+        for agent in agents:
+            if agent.credence >= 0.5:
+                experiments.append(
+                    (summarize_experiment(agent.experiment()), agent.credence)
+                )
         for agent in agents:
             for experiment, reporter_credence in experiments:
                 hits, trials = experiment

@@ -1,10 +1,11 @@
 import random
-from math import factorial
 
-N = 20  # number of agents
+from math import factorial, floor
+
+N = 100  # number of agents
 n = 50  # experiments per round
 ε = .01  # size of edge for B
-
+m = 1  # mistrust factor
 
 def binomial(p, n, k):
     return factorial(n)/(factorial(k)*factorial(n-k)) * p**k * (1-p)**(n-k)
@@ -37,6 +38,10 @@ class Agent:
         results = [choice() for _ in range(n)]
         return results
 
+    def discount_factor(self, reporter_credence):
+        # let me try a simpler function than the paper
+        return min(1, 5*abs(reporter_credence - self.credence))
+
     def update(self, hits, trials, discount):
         # our beliefs are over two mutually-exclusive and exhaustive
         # hypotheses: "actors are unsure whether the success rate of B is
@@ -51,22 +56,35 @@ class Agent:
         raw_posterior_good = binomial(0.5 + ε, trials, hits) * self.credence
         raw_posterior_bad = binomial(0.5 - ε, trials, hits) * (1 - self.credence)
         normalizing_factor = raw_posterior_good + raw_posterior_bad
-        self.credence = raw_posterior_good / normalizing_factor
-        # TODO: discount
+        posterior = raw_posterior_good / normalizing_factor
+        self.credence = discount * self.credence + (1-discount)*posterior
+
+
+def histogram(credences):
+    buckets = [0 for _ in range(10)]
+    for credence in credences:
+        buckets[min(9, floor(credence*10))] += 1
+    return(buckets)
 
 
 def simulation():
     agents = [Agent((1/(N+1))*(i+1)) for i in range(N)]
     print([round(agent.credence, 3) for agent in agents])
+    print()
+    print(histogram([agent.credence for agent in agents]))
 
-    for round_ in range(10):
-        experiments = [a.experiment() for a in agents]
-        summaries = [summarize_experiment(e) for e in experiments]
+
+    for round_ in range(100):
+        experiments = [
+            (summarize_experiment(a.experiment()), a.credence)
+            for a in agents
+        ]
         for agent in agents:
-            for summary in summaries:
-                hits, trials = summary
-                agent.update(hits, trials, None)
+            for experiment, reporter_credence in experiments:
+                hits, trials = experiment
+                agent.update(hits, trials, agent.discount_factor(reporter_credence))
 
-        print([round(agent.credence, 3) for agent in agents])
+        print(histogram([agent.credence for agent in agents]))
+        # print([round(agent.credence, 3) for agent in agents])
 
 simulation()

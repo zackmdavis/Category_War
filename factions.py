@@ -1,17 +1,25 @@
 import random
 
-from math import factorial, floor
+from math import factorial, floor, sqrt
 
-N = 100  # number of agents
-n = 50  # experiments per round
-ε = .005  # size of edge for B
-m = 1  # mistrust factor
+agent_count = 200  # number of agents
+trial_count = 50  # trials per experiment
+round_count = 20  # number of rounds
+ε = 0.01  # size of edge for B
+mistrust = 2  # mistrust factor
+question_count = 3
+
 
 def binomial(p, n, k):
-    return factorial(n)/(factorial(k)*factorial(n-k)) * p**k * (1-p)**(n-k)
+    return (
+        factorial(n) / (factorial(k) * factorial(n - k)) *
+        p**k * (1 - p)**(n - k)
+    )
 
-def a():
-    return random.random() < 0.5
+
+def euclidean_distance(v, w):
+    return sqrt(sum((v[i] - w[i]) ** 2 for i in range(len(v))))
+
 
 def b():
     return random.random() < 0.5 + ε
@@ -22,65 +30,83 @@ def summarize_experiment(results):
 
 
 class Agent:
-    def __init__(self, initial_credence):
-        # credence that B is better
-        self.credence = initial_credence
-
-    def __repr__(self):
-        return "<Agent credence={}>".format(self.credence)
+    def __init__(self, initial_credences):
+        self.credences = initial_credences
 
     def experiment(self):
-        results = [b() for _ in range(n)]
+        results = [b() for _ in range(trial_count)]
         return results
 
-    def discount_factor(self, reporter_credence):
-        # let me try a simpler function than the paper
-        return min(1, 2*abs(reporter_credence - self.credence))
+    def discount_factor(self, reporter_credences):
+        return min(1, mistrust * euclidean_distance(self.credences, reporter_credences))
 
-    def update(self, hits, trials, discount):
-        # our beliefs are over two mutually-exclusive and exhaustive
-        # hypotheses: "actors are unsure whether the success rate of B is
-        # better, p_B = .5 + ε, or worse, p_B = .5 − ε"
-        #
-        # I'll call the hypotheses H₊ and H₋.
-        #
-        # Bayes's theorem says
-        # P(H₊|E) = P(E|H₊)P(H₊) / P(E|H₊)P(H₊) + P(E|H₋)P(H₋)
-        #
-        # But P(E|H₊) is a binomial probability
-        raw_posterior_good = binomial(0.5 + ε, trials, hits) * self.credence
-        raw_posterior_bad = binomial(0.5 - ε, trials, hits) * (1 - self.credence)
+    def update(self, question, hits, trials, discount):
+        # P(H₊|E) = P(E|H₊)P(H₊) / (P(E|H₊)P(H₊) + P(E|H₋)P(H₋))
+        raw_posterior_good = binomial(0.5 + ε, trials, hits) * self.credences[question]
+        raw_posterior_bad = binomial(0.5 - ε, trials, hits) * (
+            1 - self.credences[question]
+        )
         normalizing_factor = raw_posterior_good + raw_posterior_bad
         posterior = raw_posterior_good / normalizing_factor
-        self.credence = discount * self.credence + (1-discount)*posterior
+        self.credences[question] = (
+            discount * self.credences[question] + (1 - discount) * posterior
+        )
 
 
-def histogram(credences):
-    buckets = [0 for _ in range(10)]
-    for credence in credences:
-        buckets[min(9, floor(credence*10))] += 1
-    return(buckets)
+def simulation(agents):
+    for _ in range(round_count):
+        for question in range(question_count):
+            experiments = []
+            for agent in agents:
+                if agent.credences[question] >= 0.5:
+                    experiments.append(
+                        (summarize_experiment(agent.experiment()), agent.credences)
+                    )
+            for agent in agents:
+                for experiment, reporter_credences in experiments:
+                    hits, trials = experiment
+                    agent.update(
+                        question,
+                        hits,
+                        trials,
+                        agent.discount_factor(reporter_credences),
+                    )
+
+    return agents
 
 
-def simulation():
-    agents = [Agent(random.random()) for i in range(N)]
-    print([round(agent.credence, 3) for agent in agents])
-    print()
-    print(histogram([agent.credence for agent in agents]))
+import matplotlib.pyplot as plot
+from matplotlib.colors import ListedColormap
+from mpl_toolkits.mplot3d import Axes3D
 
-    for round_ in range(50):
-        experiments = []
-        for agent in agents:
-            if agent.credence >= 0.5:
-                experiments.append(
-                    (summarize_experiment(agent.experiment()), agent.credence)
-                )
-        for agent in agents:
-            for experiment, reporter_credence in experiments:
-                hits, trials = experiment
-                agent.update(hits, trials, agent.discount_factor(reporter_credence))
+from sklearn.cluster import KMeans
 
-        print(histogram([agent.credence for agent in agents]))
-        # print([round(agent.credence, 3) for agent in agents])
 
-simulation()
+def plot_beliefs(agents):
+    beliefs = [agent.credences for agent in agents]
+
+    cluster_model = KMeans(n_clusters=8)
+    cluster_model.fit(beliefs)
+
+    figure = plot.figure()
+    axes = Axes3D(figure)
+    for scale_setter in [axes.set_xlim, axes.set_ylim, axes.set_zlim]:
+        scale_setter(0, 1)
+
+    axes.scatter(
+        *[[agent.credences[i] for agent in agents] for i in range(3)],
+        c=cluster_model.predict(beliefs),
+        cmap=ListedColormap(
+            ["red", "orangered", "green", "blue", "purple", "black", "brown", "gray"]
+        ),
+    )
+    plot.show()
+
+
+if __name__ == "__main__":
+    agents = [
+        Agent([random.random() for _ in range(question_count)])
+        for i in range(agent_count)
+    ]
+    simulation(agents)
+    plot_beliefs(agents)

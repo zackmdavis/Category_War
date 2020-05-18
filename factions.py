@@ -34,18 +34,19 @@ class Agent:
         results = [b() for _ in range(self.trial_count)]
         return results
 
+    def pure_update(self, question, hits, trials):
+        raw_posterior_good = binomial(0.5 + ε, trials, hits) * self.credences[question]
+        raw_posterior_bad = binomial(0.5 - ε, trials, hits) * (1 - self.credences[question])
+        normalizing_factor = raw_posterior_good + raw_posterior_bad
+        return raw_posterior_good / normalizing_factor
+
     def discount_factor(self, reporter_credences):
         return min(
             1, self.mistrust * euclidean_distance(self.credences, reporter_credences)
         )
 
     def update(self, question, hits, trials, discount):
-        raw_posterior_good = binomial(0.5 + ε, trials, hits) * self.credences[question]
-        raw_posterior_bad = binomial(0.5 - ε, trials, hits) * (
-            1 - self.credences[question]
-        )
-        normalizing_factor = raw_posterior_good + raw_posterior_bad
-        posterior = raw_posterior_good / normalizing_factor
+        posterior = self.pure_update(question, hits, trials)
         self.credences[question] = (
             discount * self.credences[question] + (1 - discount) * posterior
         )

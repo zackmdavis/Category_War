@@ -1,13 +1,8 @@
 import random
 
-from math import factorial, floor, sqrt
+from math import factorial, sqrt
 
-agent_count = 200  # number of agents
-trial_count = 50  # trials per experiment
-round_count = 20  # number of rounds
 ε = 0.01  # size of edge for B
-mistrust = 2  # mistrust factor
-question_count = 3
 
 
 def binomial(p, n, k):
@@ -30,18 +25,21 @@ def summarize_experiment(results):
 
 
 class Agent:
-    def __init__(self, initial_credences):
+    def __init__(self, initial_credences, trial_count, mistrust):
         self.credences = initial_credences
+        self.trial_count = trial_count
+        self.mistrust = mistrust
 
     def experiment(self):
-        results = [b() for _ in range(trial_count)]
+        results = [b() for _ in range(self.trial_count)]
         return results
 
     def discount_factor(self, reporter_credences):
-        return min(1, mistrust * euclidean_distance(self.credences, reporter_credences))
+        return min(
+            1, self.mistrust * euclidean_distance(self.credences, reporter_credences)
+        )
 
     def update(self, question, hits, trials, discount):
-        # P(H₊|E) = P(E|H₊)P(H₊) / (P(E|H₊)P(H₊) + P(E|H₋)P(H₋))
         raw_posterior_good = binomial(0.5 + ε, trials, hits) * self.credences[question]
         raw_posterior_bad = binomial(0.5 - ε, trials, hits) * (
             1 - self.credences[question]
@@ -53,7 +51,22 @@ class Agent:
         )
 
 
-def simulation(agents):
+def simulation(
+    agent_count,  # number of agents
+    question_count,  # numer of questions
+    round_count,  # number of rounds
+    trial_count,  # number of trials per round
+    mistrust,  # mistrust factor
+):
+    agents = [
+        Agent(
+            [random.random() for _ in range(question_count)],
+            trial_count=trial_count,
+            mistrust=mistrust,
+        )
+        for i in range(agent_count)
+    ]
+
     for _ in range(round_count):
         for question in range(question_count):
             experiments = []
@@ -82,11 +95,20 @@ from mpl_toolkits.mplot3d import Axes3D
 from sklearn.cluster import KMeans
 
 
-def plot_beliefs(agents):
+def plot_beliefs(agents, cluster=True):
     beliefs = [agent.credences for agent in agents]
 
-    cluster_model = KMeans(n_clusters=8)
-    cluster_model.fit(beliefs)
+    if cluster:
+        cluster_model = KMeans(n_clusters=8)
+        cluster_model.fit(beliefs)
+        graph_kwargs = {
+            'c': cluster_model.predict(beliefs),
+            'cmap': ListedColormap(
+                ["red", "orangered", "green", "blue", "purple", "black", "brown", "deepskyblue"]
+            )
+        }
+    else:
+        graph_kwargs = {}
 
     figure = plot.figure()
     axes = Axes3D(figure)
@@ -95,18 +117,13 @@ def plot_beliefs(agents):
 
     axes.scatter(
         *[[agent.credences[i] for agent in agents] for i in range(3)],
-        c=cluster_model.predict(beliefs),
-        cmap=ListedColormap(
-            ["red", "orangered", "green", "blue", "purple", "black", "brown", "gray"]
-        ),
+        **graph_kwargs
     )
     plot.show()
 
 
 if __name__ == "__main__":
-    agents = [
-        Agent([random.random() for _ in range(question_count)])
-        for i in range(agent_count)
-    ]
-    simulation(agents)
+    agents = simulation(
+        agent_count=200, round_count=20, question_count=3, trial_count=50, mistrust=2
+    )
     plot_beliefs(agents)

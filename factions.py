@@ -1,3 +1,5 @@
+# Graphing requirements: scipy and matplotlib
+
 import random
 
 from math import factorial, sqrt
@@ -34,9 +36,9 @@ class Agent:
         results = [b() for _ in range(self.trial_count)]
         return results
 
-    def pure_update(self, question, hits, trials):
-        raw_posterior_good = binomial(0.5 + ε, trials, hits) * self.credences[question]
-        raw_posterior_bad = binomial(0.5 - ε, trials, hits) * (1 - self.credences[question])
+    def pure_update(self, credence, hits, trials):
+        raw_posterior_good = binomial(0.5 + ε, trials, hits) * credence
+        raw_posterior_bad = binomial(0.5 - ε, trials, hits) * (1 - credence)
         normalizing_factor = raw_posterior_good + raw_posterior_bad
         return raw_posterior_good / normalizing_factor
 
@@ -45,8 +47,9 @@ class Agent:
             1, self.mistrust * euclidean_distance(self.credences, reporter_credences)
         )
 
-    def update(self, question, hits, trials, discount):
-        posterior = self.pure_update(question, hits, trials)
+    def update(self, question, hits, trials, reporter_credences):
+        discount = self.discount_factor(reporter_credences)
+        posterior = self.pure_update(self.credences[question], hits, trials)
         self.credences[question] = (
             discount * self.credences[question] + (1 - discount) * posterior
         )
@@ -83,11 +86,13 @@ def simulation(
                         question,
                         hits,
                         trials,
-                        agent.discount_factor(reporter_credences),
+                        reporter_credences,
                     )
 
     return agents
 
+
+# graph it!
 
 import matplotlib.pyplot as plot
 from matplotlib.colors import ListedColormap

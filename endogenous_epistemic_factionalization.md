@@ -37,6 +37,8 @@ $$P(H_{+}|E) = \frac{P(E|H_{+})P(H_{+})}{P(E|H_{+})P(H_{+}) + P(E|H_{-})P(H_{-})
 where E is the record of how many successes we got in how many times we tried action B. The likelihoods $P(E|H_{+})$ and $P(E|H_{-})$ can be calculated from the probability mass function of the [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution), so the agents have all the information they need to update their beliefs based on experiments with B.
 
 ```
+from math import factorial
+
 def binomial(p, n, k):
     return (
         factorial(n) / (factorial(k) * factorial(n - k)) *
@@ -62,6 +64,8 @@ If all the agents update on the experimental results published by the agents who
 But suppose the agents don't trust each other's reports. ("Sure, she _says_ he performed $B_2$ 50 times and observed 26 successes, but she _also_ believes that $B_1$ is better than $A_1$, which is _crazy_. Are we sure she didn't just make up those 50 trials of $B_2$?") Specifically, our agents assign a probability that a report is made-up (and therefore should not be updated on) in proportion to their distance from the reporter in our three-dimensional beliefspace, and a "mistrust factor" (a parameter to the simulation).
 
 ```
+from math import sqrt
+
 class Agent:
     ...
 

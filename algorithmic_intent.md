@@ -40,7 +40,9 @@ Specifically, whatever "intent" is, it seems intimately related to our concept o
 
 Note that this is a "third person" perspective: we're [not talking about the subjective feeling](http://benjaminrosshoffman.com/bad-faith-behavior-not-feeling/) of _intending_ something, just systems that systematically steer reality into otherwise-improbable states that rank high with respect to some preference ordering.
 
-Robin Hanson writes about [hidden motives in everyday life](http://elephantinthebrain.com/): 
+Robin Hanson writes about [hidden motives in everyday life](http://elephantinthebrain.com/):
+
+
 
 
 Thus, [politics isn't about policy](http://www.overcomingbias.com/2008/09/politics-isnt-a.html), [school is not about learning](http://www.overcomingbias.com/2010/08/school-isnt-about-learning.html), [medicine is not about health](http://www.overcomingbias.com/2008/03/showing-that-yo.html), _&c._

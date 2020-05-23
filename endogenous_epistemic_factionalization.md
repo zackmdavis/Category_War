@@ -61,16 +61,16 @@ If all the agents update on the experimental results published by the agents who
 
 ![](https://i.imgur.com/E61Hp4W.png)
 
-But suppose the agents don't trust each other's reports. ("Sure, she _says_ he performed $B_2$ 50 times and observed 26 successes, but she _also_ believes that $B_1$ is better than $A_1$, which is _crazy_. Are we sure she didn't just make up those 50 trials of $B_2$?") Specifically, our agents assign a probability that a report is made-up (and therefore should not be updated on) in proportion to their distance from the reporter in our three-dimensional beliefspace, and a "mistrust factor" (a parameter to the simulation).
+But suppose the agents don't trust each other's reports. ("Sure, she _says_ she performed $B_2$ 50 times and observed 26 successes, but she _also_ believes that $B_1$ is better than $A_1$, which is _crazy_. Are we sure she didn't just make up those 50 trials of $B_2$?") Specifically, our agents assign a probability that a report is made-up (and therefore should not be updated on) in proportion to their distance from the reporter in our three-dimensional beliefspace, and a "mistrust factor" (a parameter to the simulation).
 
 ```
 from math import sqrt
 
+def euclidean_distance(v, w):
+    return sqrt(sum((v[i] - w[i]) ** 2 for i in range(len(v))))
+
 class Agent:
     ...
-
-    def euclidean_distance(v, w):
-        return sqrt(sum((v[i] - w[i]) ** 2 for i in range(len(v))))
 
     def discount_factor(self, reporter_credences):
         return min(

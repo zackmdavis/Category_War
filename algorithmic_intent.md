@@ -110,3 +110,5 @@ why do I _think_ the question is right: https://www.lesswrong.com/posts/rQEwySCc
 "The bureaucrat, police officer, teacher, judge, or cable television company representative functions as [...], not as a co-modeling and fully interacting person. His behaviors are governed by top-down rules and scripts, with human discretion eliminated as much as possible."
 
 (Sarah Perry, "The Essence of Peopling")
+
+pretending to be stupid: https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/

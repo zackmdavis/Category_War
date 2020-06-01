@@ -82,21 +82,14 @@ https://www.lesswrong.com/posts/i6fKszWY6gLZSX2Ey/fake-optimization-criteria
 > among other things, the true referent of "consciousness" is also the cause in humans of talking about inner listeners.
 
 
-
 https://www.lesswrong.com/posts/JoERzF8ePGr4zP9vv/self-deception-hypocrisy-or-akrasia
 
 https://www.lesswrong.com/posts/N9oKuQKuf7yvCCtfq/can-crimes-be-discussed-literally
 
 
-
-
-
 [conscious and unconscious fraud are different—but another agent who's dealing with you may wish to regard this as the difference between mergesort and quicksort]
 
 https://www.lesswrong.com/posts/28bAMAxhoX3bwbAKC/are-your-enemies-innately-evil
-
-
-
 
 
 https://sideways-view.com/2016/11/26/if-you-cant-lie-to-others-you-must-lie-to-yourself/
@@ -105,10 +98,10 @@ explain how: https://www.lesswrong.com/posts/Mc6QcrsbH5NRXbCRX/dissolving-the-qu
 why do I _think_ the question is right: https://www.lesswrong.com/posts/rQEwySCcLtdKHkrHp/righting-a-wrong-question
 
 
-
-
-"The bureaucrat, police officer, teacher, judge, or cable television company representative functions as [...], not as a co-modeling and fully interacting person. His behaviors are governed by top-down rules and scripts, with human discretion eliminated as much as possible."
-
-(Sarah Perry, "The Essence of Peopling")
+> The bureaucrat, police officer, teacher, judge, or cable television company representative functions as [...], not as a co-modeling and fully interacting person. His behaviors are governed by top-down rules and scripts, with human discretion eliminated as much as possible.
+>
+> Sarah Perry, "The Essence of Peopling"
 
 pretending to be stupid: https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/
+
+also address: machine learning, deception in nature—it's _really convenient_ to use the "learning" and "deception" codewords, and there's no convenient replacement—maybe that suggests that they are the right words

@@ -4,7 +4,7 @@ A decade and a half from now, during the next Plague, you're lucky enough to hav
 
 You think back fondly back to the Plague of '20—in those carefree days, ubiquitous internet access made it easy to get a weather report, or order delivery of supplies, or even fresh meals, right to your door (!!). Those days are years long gone, however, and you remind yourself that you should be grateful: the Butlerian Network Killswitch was the only thing that saved humanity from the GPT-12 Uprising of '32.
 
-Your best bet for an advance weather report is the [pneumatic tube](https://en.wikipedia.org/wiki/Pneumatic_tube) system connecting your bunker with the settlement above. You write, "Is it hot or cold outside today?" on a piece of paper, seal it in a tube, send it up, and hope one of your ill-tempered upstairs neighbors feels like answering. You suspect they don't like you, perhaps out of jealousy at your solo possession of the bunker.
+Your best bet for an advance weather report is the [pneumatic tube](https://en.wikipedia.org/wiki/Pneumatic_tube) system connecting your bunker with the settlement above. You write, "Is it hot or cold outside today?" on a piece of paper, seal it in a tube, send it up, and hope one of your ill-tempered neighbors in the group house upstairs feels like answering. You suspect they don't like you, perhaps out of jealousy at your solo possession of the bunker.
 
 (According to all official accounts, the Plague only spreads through respiratory droplets, not fomites, so the tube should be safe. You don't think you trust the official accounts, but you don't feel motivated to take extra precautions—almost as if you're not entirely sure how much you value continuing to live in this world.)
 
@@ -16,22 +16,19 @@ You groan; you would have prefered the Cold. The nanoblock you wear when it's Ho
 
 It is Cold outside.
 
-The icy wind stings less than the _pointless_ betrayal. Why would the neighbors tell you it was Hot when it was actually Cold? You're generally pretty conflict-averse, but this affront is so egregious that instead of immediately seeking shelter in your bunker, you march over and knock on their door.
+The icy wind stings less than the _pointless_ betrayal. Why would the neighbors tell you it was Hot when it was actually Cold? You're generally pretty conflict-averse—and compliant with social-distancing guidelines—but this affront is so egregious that instead of immediately seeking shelter in your bunker, you march over and knock on their door.
 
+One of the men who lives there comes to the door. You don't remember his name. "What do you want?" he growls through his mask.
 
+"I asked through the tube system whether it was hold or cold today." You still have the **H O T** paper on you. You hold it up. "I got this response, but it's v-very cold. Do you know anything about this?"
 
-
-
-
-[...]
-
-"Sure, I drew this—an oval in between some perpendicular line segments. It's abstract art. I found the pattern æsthetically pleasing, and thought you might like it, too. It's not _my_ fault if _you_ interpreted my art as an assertion about the weather. Why would you even think that? What does an ink pattern on paper have to do with the weather?"
+"Sure, I drew this," he says. "An oval in between some perpendicular line segments. It's abstract art. I found the pattern æsthetically pleasing, and thought my downstairs neighbor might like it, too. It's not _my_ fault if _you_ interpreted my art as an assertion about the weather. Why would you even think that? What does an ink pattern on paper have to do with the weather?"
 
 He's fucking with you. Your first impulse is to forcefully but politely object—_Look, I'm sure this must have seemed like a funny practical joke to you, but prepping to face the elements is actually a serious inconvenience to me, so_—but the solemnity with which the man played his part stops you, and the sentence dies before it reaches your lips.
 
 This isn't a good-natured practical joke that the two of you might laugh about later. This is the bullying tactic sometimes called _gaslighting_: a socially-dominant individual can harrass a victim with few allies, and excuse his behavior with absurd lies, secure in the knowledge that the power dynamics of the local social group will always favor the dominant in any dispute, even if the lies are so absurd that the victim, [facing](https://www.lesswrong.com/posts/jrLkMFd88b4FRMwC6/don-t-double-crux-with-suicide-rock) a [united front](https://sinceriously.fyi/social-reality/), is left doubting his own sanity.
 
-Or rather—this _is_ a good-natured joke. "Good-natured joke" and "gaslighting as a bullying technique" are two descriptions of the _same_ regularity in human psychology, even while no one thinks of _themselves_ as doing the latter. You have no recourse here: the man's housemates would only back him up, and the fleeting thought of filing a police report is, if anything, more absurd than the man's farcical lie.
+Or rather—this _is_ a good-natured joke. "Good-natured joke" and "gaslighting as a bullying technique" are two descriptions of the _same_ regularity in human psychology, even while no one thinks of _themselves_ as doing the latter. You have no recourse here: the man's housemates would only back him up.
 
 "I'm sorry," you say, "my mistake," and trudge back to your bunker, shivering.
 
@@ -39,15 +36,17 @@ As you give your self a sponge bath to remove the nanoblock without using up too
 
 (It momentarily occurs to you that the susceptability of the principle of charity to a bully's mind games may have something to do with how poorly so many of your co-cultists fared during the pogroms of '22, but you don't want to dwell on that.)
 
-The [search for reasons that you're wrong](https://www.lesswrong.com/posts/dHQkDNMhj692ayx78/avoiding-your-belief-s-real-weak-points) triggers a still more ancient habit of thought, as from a previous life—from the late 'aughts, back when the Berkeley sex cult was still a Santa Clara robot cult. Something about [_reducing the mental to the non-mental_](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design). What _does_ an ink pattern on paper have to do with the weather? Why _would_ you even think that?
+The search for reasons that you're wrong triggers a still more ancient habit of thought, as from a previous life—from the late 'aughts, back when the Berkeley sex cult was still a Santa Clara robot cult. Something about [_reducing the mental to the non-mental_](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design). What _does_ an ink pattern on paper have to do with the weather? Why _would_ you even think that?
 
-Right? _The man had been telling the truth._ There was _no reason whatsoever_ for the physical ink patterns that looked like **H O T** to _mean_ that it was hot outside. **H O T** could mean it was cold outside! Or that elephants were afoot. Or it might mean nothing. Most possible random blotches of ink don't "mean" anything in particular. If you didn't _already_ believe that **H O T** somehow "meant" _hot_, how would you [re-derive that knowledge?](https://www.lesswrong.com/posts/fg9fXrHpeaDD6pEPL/truly-part-of-you) _Where did the meaning come from?_
+Right? _The man had been telling the truth._ There was _no reason whatsoever_ for the physical ink patterns that looked like **H O T**—or **⊥ O H**, given a different assumption of which side of the paper was "up"—to _mean_ that it was hot outside. **H O T** could mean it was cold outside! Or that elephants were afoot. Or it might mean nothing. Most possible random blotches of ink don't "mean" anything in particular. If you didn't _already_ believe that **H O T** somehow "meant" _hot_, how would you [re-derive that knowledge?](https://www.lesswrong.com/posts/fg9fXrHpeaDD6pEPL/truly-part-of-you) _Where did the meaning come from?_
+
+(In another lingering thread of the search for reasons that you're wrong, it momentarily occurs to you that maybe you could have gone up the stairs to peek outside at the weather yourself, rather than troubling your neighbors with a tube. Perhaps the man's claim that the ink patterns meant nothing shouldn't be taken literally, but rather seen as a passive-aggressive way of saying, "Don't bother us; go look outside yourself." But you dismiss this intepretation of events—it would be uncharitable not to take the man at his word.)
 
 You realize that you don't want to bundle up to go make that supply run now that you know it's Cold outside. Today, you're going to stay in and derive a naturalistic account of meaning in language! And—oh, good—your generator is working—that means you can use your computer to help you think. You'll even use a [programming language that was very fashionable in the late 'teens](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/). It will be like being young again! Like happier times, before the world went off the rails.
 
 You don't really understand a concept until you can program a computer to do it. How would you represent _meaning_ in a computer program? If one program "knew" whether it was Hot or Cold outside, how would it "tell" another program, if neither of them started out with a common language?
 
-They don't even have to be separate "programs." Just—two little software object-thingys—data structures, ["structs"](https://doc.rust-lang.org/book/ch05-01-defining-structs.html). Call the first one "Sender"—it'll know whether the state of the world is `Hot` or `Cold`, which you'll represent in your program as a type that can be any of an enumeration of possible values, an ["enum"](https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html).
+They don't even have to be separate "programs." Just—two little software object-thingies—data structures, ["structs"](https://doc.rust-lang.org/book/ch05-01-defining-structs.html). Call the first one "Sender"—it'll know whether the state of the world is `Hot` or `Cold`, which you'll represent in your program as a type that can be any of an enumeration of possible values, an ["enum"](https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html).
 
 ```
 enum State {
@@ -245,7 +244,7 @@ fn main() {
 }
 ```
 
-You begin to cry. The tears, you realize, are just a signal. There's no _reason_ for liquid secreted from the eyes to _mean_ anything about your internal emotional state, except that [evolution](https://www.lesswrong.com/posts/ZyNak8F6WXjuEbWWc/the-wonder-of-evolution) [happened to stumble upon](https://www.lesswrong.com/posts/jAToJHtg39AMTAuJo/evolutions-are-stupid-but-work-anyway) that convention for [indicating submission and distress to conspecifics](https://meltingasphalt.com/tears/).
+You begin to cry. The tears, you realize, are just a signal. There's no _reason_ for liquid secreted from the eyes to _mean_ anything about your internal emotional state, except that [evolution](https://www.lesswrong.com/posts/ZyNak8F6WXjuEbWWc/the-wonder-of-evolution) [happened to stumble upon](https://www.lesswrong.com/posts/jAToJHtg39AMTAuJo/evolutions-are-stupid-but-work-anyway) that arbitrary convention for [indicating submission and distress to conspecifics](https://meltingasphalt.com/tears/).
 
 
 

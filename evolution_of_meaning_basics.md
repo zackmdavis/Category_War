@@ -1,6 +1,6 @@
 ### Philosophy in the Darkest Timeline: Basics of the Evolution of Meaning
 
-A decade and a half from now, during the next Plague, you're lucky enough to have an underground bunker to wait out the months until herd immunity. Unfortunately, as your food stocks dwindle, you realize you'll have to make a perlious journey out to the surface world for a supply run. Ever since the botched geoengineering experiment of '29—and perhaps more so, the Great War of [10:00–11:30 _a.m._](https://genius.com/8105785) 4 August 2033—your region has been suffering increasingly erratic weather. It's likely to be _either_ extremely hot outside _or_ extremely cold: you don't know which one, but knowing is critical for deciding what protective gear you need to wear on your supply run. (The 35K SPF nano-sunblock will be essential if it's Hot, but harmful in the Cold, and _vice versa_ for your synthweave hyperscarf.)
+A decade and a half from now, during the next Plague, you're lucky enough to have an underground bunker to wait out the months until herd immunity. Unfortunately, as your food stocks dwindle, you realize you'll have to make a perilous journey out to the surface world for a supply run. Ever since the botched geoengineering experiment of '29—and perhaps more so, the Great War of [10:00–11:30 _a.m._](https://genius.com/8105785) 4 August 2033—your region has been suffering increasingly erratic weather. It's likely to be _either_ extremely hot outside _or_ extremely cold: you don't know which one, but knowing is critical for deciding what protective gear you need to wear on your supply run. (The 35K SPF nano-sunblock will be essential if it's Hot, but harmful in the Cold, and _vice versa_ for your synthweave hyperscarf.)
 
 You think back fondly back to the Plague of '20—in those carefree days, ubiquitous internet access made it easy to get a weather report, or order delivery of supplies, or even fresh meals, right to your door (!!). Those days are years long gone, however, and you remind yourself that you should be grateful: the Butlerian Network Killswitch was the only thing that saved humanity from the GPT-12 Uprising of '32.
 
@@ -26,7 +26,7 @@ One of the men who lives there comes to the door. You don't remember his name. "
 
 He's fucking with you. Your first impulse is to forcefully but politely object—_Look, I'm sure this must have seemed like a funny practical joke to you, but prepping to face the elements is actually a serious inconvenience to me, so_—but the solemnity with which the man played his part stops you, and the sentence dies before it reaches your lips.
 
-This isn't a good-natured practical joke that the two of you might laugh about later. This is the bullying tactic sometimes called _gaslighting_: a socially-dominant individual can harrass a victim with few allies, and excuse his behavior with absurd lies, secure in the knowledge that the power dynamics of the local social group will always favor the dominant in any dispute, even if the lies are so absurd that the victim, [facing](https://www.lesswrong.com/posts/jrLkMFd88b4FRMwC6/don-t-double-crux-with-suicide-rock) a [united front](https://sinceriously.fyi/social-reality/), is left doubting his own sanity.
+This isn't a good-natured practical joke that the two of you might laugh about later. This is the bullying tactic sometimes called _gaslighting_: a socially-dominant individual can harass a victim with few allies, and excuse his behavior with absurd lies, secure in the knowledge that the power dynamics of the local social group will always favor the dominant in any dispute, even if the lies are so absurd that the victim, [facing](https://www.lesswrong.com/posts/jrLkMFd88b4FRMwC6/don-t-double-crux-with-suicide-rock) a [united front](https://sinceriously.fyi/social-reality/), is left doubting his own sanity.
 
 Or rather—this _is_ a good-natured joke. "Good-natured joke" and "gaslighting as a bullying technique" are two descriptions of the _same_ regularity in human psychology, even while no one thinks of _themselves_ as doing the latter. You have no recourse here: the man's housemates would only back him up.
 
@@ -34,15 +34,15 @@ Or rather—this _is_ a good-natured joke. "Good-natured joke" and "gaslighting 
 
 As you give your self a sponge bath to remove the nanoblock without using up too much of your water supply, the fresh memory of what just happened triggers an ancient habit of thought you learned from the Berkeley sex cult you were part of back in the 'teens. Something about a "principle of charity." The man had "obviously" just been fucking with you—but _was_ he? Why assume the worst? Maybe _you're_ the one who's wrong for interpreting the symbols **H O T** as a weather report.
 
-(It momentarily occurs to you that the susceptability of the principle of charity to a bully's mind games may have something to do with how poorly so many of your co-cultists fared during the pogroms of '22, but you don't want to dwell on that.)
+(It momentarily occurs to you that the susceptibility of the principle of charity to a bully's mind games may have something to do with how poorly so many of your co-cultists fared during the pogroms of '22, but you don't want to dwell on that.)
 
 The search for reasons that you're wrong triggers a still more ancient habit of thought, as from a previous life—from the late 'aughts, back when the Berkeley sex cult was still a Santa Clara robot cult. Something about [_reducing the mental to the non-mental_](https://www.lesswrong.com/posts/p7ftQ6acRkgo6hqHb/dreams-of-ai-design). What _does_ an ink pattern on paper have to do with the weather? Why _would_ you even think that?
 
-Right? _The man had been telling the truth._ There was _no reason whatsoever_ for the physical ink patterns that looked like **H O T**—or **⊥ O H**, given a different assumption of which side of the paper was "up"—to _mean_ that it was hot outside. **H O T** could mean it was cold outside! Or that wolves were afoot. (You shudder involuntarily and wish your brain had generated a different arbitary example; you still occasionally have nightmares about your injuries during the Summer of Wolves back in '25.)
+Right? _The man had been telling the truth._ There was _no reason whatsoever_ for the physical ink patterns that looked like **H O T**—or **⊥ O H**, given a different assumption of which side of the paper was "up"—to _mean_ that it was hot outside. **H O T** could mean it was cold outside! Or that wolves were afoot. (You shudder involuntarily and wish your brain had generated a different arbitrary example; you still occasionally have nightmares about your injuries during the Summer of Wolves back in '25.)
 
 Or it might mean nothing. Most possible random blotches of ink don't "mean" anything in particular. If you didn't _already_ believe that **H O T** somehow "meant" _hot_, how would you [re-derive that knowledge?](https://www.lesswrong.com/posts/fg9fXrHpeaDD6pEPL/truly-part-of-you) _Where did the meaning come from?_
 
-(In another lingering thread of the search for reasons that you're wrong, it momentarily occurs to you that maybe you could have gone up the stairs to peek outside at the weather yourself, rather than troubling your neighbors with a tube. Perhaps the man's claim that the ink patterns meant nothing shouldn't be taken literally, but rather seen as a passive-aggressive way of saying, "Don't bother us; go look outside yourself." But you dismiss this intepretation of events—it would be uncharitable not to take the man at his word.)
+(In another lingering thread of the search for reasons that you're wrong, it momentarily occurs to you that maybe you could have gone up the stairs to peek outside at the weather yourself, rather than troubling your neighbors with a tube. Perhaps the man's claim that the ink patterns meant nothing shouldn't be taken literally, but rather seen as a passive-aggressive way of saying, "Don't bother us; go look outside yourself." But you dismiss this interpretation of events—it would be uncharitable not to take the man at his word.)
 
 You realize that you don't want to bundle up to go make that supply run now that you know it's Cold outside. Today, you're going to stay in and derive a naturalistic account of meaning in language! And—oh, good—your generator is working—that means you can use your computer to help you think. You'll even use a [programming language that was very fashionable in the late 'teens](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/). It will be like being young again! Like happier times, before the world went off the rails.
 
@@ -198,9 +198,9 @@ impl Reciever {
 
 Now you just need a learning rule that updates the state–signal and signal–action propensity mappings in a way that might result in the Sender and Reciever picking up one of the two conventions that assign meanings to $S1$ and $S2$.
 
-Suppose the Sender and Reciver have a common interest in the Reciever taking the action appropriate to the state of the world—the Sender _wants_ the receiver to be informed. Maybe the Receiver needs to make a supply run, and, if successful, the Sender is rewarded with some of the supplies.
+Suppose the Sender and Receiver have a common interest in the Reciever taking the action appropriate to the state of the world—the Sender _wants_ the receiver to be informed. Maybe the Receiver needs to make a supply run, and, if successful, the Sender is rewarded with some of the supplies.
 
-The learning rule might then be: if the Receiver takes the correct action (`BundleUp` when the state is `Cold`, `StripDown` when the state is `Hot`), both the Sender and Receiver increment the counter in their map corresponding to what they did htat round—as if the Sender (respectively Reciever) is saying to themself, "Hey, that _worked!_ I'll make sure to be a little more likely to do that signal (respectively action) the next time I see that state (respectively signal)!"
+The learning rule might then be: if the Receiver takes the correct action (`BundleUp` when the state is `Cold`, `StripDown` when the state is `Hot`), both the Sender and Receiver increment the counter in their map corresponding to what they did that round—as if the Sender (respectively Reciever) is saying to themself, "Hey, that _worked!_ I'll make sure to be a little more likely to do that signal (respectively action) the next time I see that state (respectively signal)!"
 
 You put together a simulation showing what the Sender and Receiver's propensity maps look like after 10,000 rounds of this against random `Hot` and `Cold` states—
 
@@ -226,23 +226,23 @@ impl Reciever {
 
 fn main() {
     let mut sender = Sender::new();
-    let mut reciever = Reciever::new();
+    let mut receiver = Reciever::new();
     let states = [State::Hot, State::Cold];
     for _ in 0..10000 {
         let mut randomness_source = thread_rng();
         let state = *states.choose(&mut randomness_source).unwrap();
         let signal = sender.send(state);
-        let action = reciever.act(signal);
+        let action = receiver.act(signal);
         match (state, action) {
             (State::Hot, Action::StripDown) | (State::Cold, Action::BundleUp) => {
                 sender.reinforce(state, signal);
-                reciever.reinforce(signal, action);
+                receiver.reinforce(signal, action);
             }
             _ => {}
         }
     }
     println!("{:?}", sender);
-    println!("{:?}", reciever);
+    println!("{:?}", receiver);
 }
 ```
 
@@ -253,7 +253,7 @@ Sender { policy: {(Hot, S2): 1, (Cold, S2): 5019, (Hot, S1): 4918, (Cold, S1): 3
 Reciever { policy: {(S1, BundleUp): 3, (S1, StripDown): 4918, (S2, BundleUp): 5019, (S2, StripDown): 1} }
 ```
 
-As you expected, your agents found a meaningful signaling system: when it's Hot, the Sender (almost always) sends $S1$, and when the Receiver recieves $S1$, it (almost always) strips down. When it's Cold, the Sender sends $S2$, and when the Receiver receives $S2$, it bundles up. The agents did the right thing and got rewarded the vast supermajority of the time—$5019 + 4918 + 1 + 3 =$ 9,941 times out of 10,000 rounds.
+As you expected, your agents found a meaningful signaling system: when it's Hot, the Sender (almost always) sends $S1$, and when the Receiver receives $S1$, it (almost always) strips down. When it's Cold, the Sender sends $S2$, and when the Receiver receives $S2$, it bundles up. The agents did the right thing and got rewarded the vast supermajority of the time—$5019 + 4918 + 1 + 3 =$ 9,941 times out of 10,000 rounds.
 
 You run the program again.
 
@@ -262,19 +262,19 @@ Sender { policy: {(Hot, S2): 4879, (Cold, S1): 4955, (Hot, S1): 11, (Cold, S2): 
 Reciever { policy: {(S2, BundleUp): 1, (S1, BundleUp): 4955, (S1, StripDown): 11, (S2, StripDown): 4879} }
 ```
 
-The time, the agents got sucked in to the attractor of the opposite signaling system: $S1$ means Cold, and $S2$ means Hot. By chance, it seems to have taken a little bit longer this time to establish what signal to use for Hot—the `(Hot, S1): 11` and `(S1, StripDown): 11` entries mean that there were a full ten times when the agents succeeded that way before the opposite convention happened to take over. But the reinforcement learning rule guarantees that one system or the other has to take over. The initial symmetry—the Sender with no particular reason to prefer either signal given the state, the Receiver with no particular reason to prefer either act given the signal—is unstable. Once the agents happen to succeed by randomly doing things one way, they become more likely to do things _that way_ again—a convention crystalizing out of the noise.
+The time, the agents got sucked in to the attractor of the opposite signaling system: $S1$ means Cold, and $S2$ means Hot. By chance, it seems to have taken a little bit longer this time to establish what signal to use for Hot—the `(Hot, S1): 11` and `(S1, StripDown): 11` entries mean that there were a full ten times when the agents succeeded that way before the opposite convention happened to take over. But the reinforcement learning rule guarantees that one system or the other has to take over. The initial symmetry—the Sender with no particular reason to prefer either signal given the state, the Receiver with no particular reason to prefer either act given the signal—is unstable. Once the agents happen to succeed by randomly doing things one way, they become more likely to do things _that way_ again—a convention crystallizing out of the noise.
 
 _And that's where meaning comes from!_ In another world, it _could be_ the case that the symbols **H O T** corresponded to the temperature-state that we call "cold", but that's not the convention that the English of our world happened to settle on. The meaning of a word "lives", [not in the word/symbol/signal itself](https://www.lesswrong.com/posts/dMCFk2n2ur8n62hqB/feel-the-meaning), but in the self-reinforcing network of correlations between the signal, the agents who use it, and the world.
 
-Although ... it may be premature to interpret the results of the simple model of the sender–receiver game as having established [_denotative_ meaning, as opposed to enactive language](https://www.lesswrong.com/posts/i2bWqSFgyFxowTKWE/actors-and-scribes-words-and-deeds). To say that $S1$ means "The `state` is `State::Hot`" is privileging the Sender's perspective—couldn't you just as well intepret it as a command, "Set `action` to `Action::BundleUp`"?
+Although ... it may be premature to interpret the results of the simple model of the sender–receiver game as having established [_denotative_ meaning, as opposed to enactive language](https://www.lesswrong.com/posts/i2bWqSFgyFxowTKWE/actors-and-scribes-words-and-deeds). To say that $S1$ means "The `state` is `State::Hot`" is privileging the Sender's perspective—couldn't you just as well interpret it as a command, "Set `action` to `Action::BundleUp`"?
 
-The _source code_ of your simulation uses the English words "sender", "receiver", "signal", "action" ... but _those_ are just signals sent from your past self (the author of the program) to your current self (the [reader of the program](https://www.goodreads.com/quotes/9168-programs-must-be-written-for-people-to-read-and-only)). The compiler would output the same machine code if you had given your variables random names like `ekzfbhopo3` or `yoojcbkur9`. The _directional_ asymmetry between the `Sender` and the `Receiver` is real: the code `let signal = sender.send(state); let action = reciever.act(signal);` means that `action` depends on `signal` which depends on `state`, and the same dependency structure would exist if the code had been `let myvtlqdrg4 = ekzfbhopo3.ekhujxiqy8(meuvornra3); let dofnnwikc0 = yoojcbkur9.qwnspmbmi5(myvtlqdrg4);`. But the _interpretation_ of `signal` (or `myvtlqdrg4`) as a representation (passively mapping the world, not _doing_ anything) and `action` (or `dofnnwikc0`) as an operation (_doing_ something in the world, but lacking semantics), isn't part of the program itself, and maybe the distinction isn't as primitive as you tend to think it is: does a prey animal's [alarm call](https://en.wikipedia.org/wiki/Alarm_signal) merely convey the information "A predator is nearby", or is it a command, "Run!"?
+The _source code_ of your simulation uses the English words "sender", "receiver", "signal", "action" ... but _those_ are just signals sent from your past self (the author of the program) to your current self (the [reader of the program](https://www.goodreads.com/quotes/9168-programs-must-be-written-for-people-to-read-and-only)). The compiler would output the same machine code if you had given your variables random names like `ekzfbhopo3` or `yoojcbkur9`. The _directional_ asymmetry between the `Sender` and the `Receiver` is real: the code `let signal = sender.send(state); let action = receiver.act(signal);` means that `action` depends on `signal` which depends on `state`, and the same dependency structure would exist if the code had been `let myvtlqdrg4 = ekzfbhopo3.ekhujxiqy8(meuvornra3); let dofnnwikc0 = yoojcbkur9.qwnspmbmi5(myvtlqdrg4);`. But the _interpretation_ of `signal` (or `myvtlqdrg4`) as a representation (passively mapping the world, not _doing_ anything) and `action` (or `dofnnwikc0`) as an operation (_doing_ something in the world, but lacking semantics), isn't part of the program itself, and maybe the distinction isn't as primitive as you tend to think it is: does a prey animal's [alarm call](https://en.wikipedia.org/wiki/Alarm_signal) merely convey the information "A predator is nearby", or is it a command, "Run!"?
 
 You realize that the implications of this line of inquiry could go beyond just language. You know almost nothing about biochemistry, but you've heard various compounds popularly spoken of as if _meaning_ things about a person's state: cortisol is "the stress hormone", estrogen and testosterone are female and male "sex hormones." But the chemical formulas for those are like, what, sixty atoms?
 
 Take testosterone. How could some particular arrangement of sixtyish atoms _mean_ "maleness"? It _can't_—or rather, not any more or less than the symbols **H O T** can mean hot temperature. If testosterone levels have myriad specific effects on the body—on muscle development _and_ body hair _and_ libido _and_ aggression _and_ cetera—it _can't_ be because that particular arrangement of sixtyish atoms contains or summons some essence of maleness. It has to be because the body happens to rely on the convention of using that arrangement of atoms as a signal to regulate various developmental programs.
 
-And, and—your thoughts race in a different direction—you suspect that part of what made your simulation converge on a meaningful signaling system so quickly was that you assumed your agents' interests were aligned—the Sender and Reciver both got the same reward in the same circumstances. What if that weren't true? Now that you have a reductionist account of meaning, you can build off that to develop an account of _deception_: once a signaling system has been established, senders whose interests diverge from their receivers might have an incentive to deviate from the conventional usage of the signal in order to trick receivers into acting in a way that benefits the sender—with [the possible side-effect of undermining the convention that made the signal meaningful in the first place](https://www.lesswrong.com/posts/fEX7G2N7CtmZQ3eB5/simulacra-and-subjectivity) ...
+And, and—your thoughts race in a different direction—you suspect that part of what made your simulation converge on a meaningful signaling system so quickly was that you assumed your agents' interests were aligned—the Sender and Receiver both got the same reward in the same circumstances. What if that weren't true? Now that you have a reductionist account of meaning, you can build off that to develop an account of _deception_: once a signaling system has been established, senders whose interests diverge from their receivers might have an incentive to deviate from the conventional usage of the signal in order to trick receivers into acting in a way that benefits the sender—with [the possible side-effect of undermining the convention that made the signal meaningful in the first place](https://www.lesswrong.com/posts/fEX7G2N7CtmZQ3eB5/simulacra-and-subjectivity) ...
 
 In the old days, all this philosophy would have made a great post for the robot-cult blog. Now you have no cult, and no one has any blogs. Back then, the future beckoned with so much hope and promise—at least, hope and promise that life would be fun _before_ the prophesied robot apocalypse in which all would be consumed in a cloud of tiny molecular paperclips.
 
@@ -288,4 +288,4 @@ You begin to cry. The tears, you realize, are just a signal. There's no _reason_
 
 #### Bibliography
 
-The evolution of the two-state, two-signal, two-act signaling system is based on the account in Chapter 1 of Brian Skyrms's _Singals: Evolution, Learning, and Information_.
+The evolution of the two-state, two-signal, two-act signaling system is based on the account in Chapter 1 of Brian Skyrms's _Signals: Evolution, Learning, and Information_.

@@ -67,11 +67,11 @@ impl Sender {
 }
 
 #[derive(Debug)]
-struct Reciever {
+struct Receiver {
     policy: HashMap<(Signal, Action), u32>,
 }
 
-impl Reciever {
+impl Receiver {
     fn new() -> Self {
         let mut sender = Self {
             policy: HashMap::new(),
@@ -105,21 +105,21 @@ impl Reciever {
 
 fn main() {
     let mut sender = Sender::new();
-    let mut reciever = Reciever::new();
+    let mut receiver = Receiver::new();
     let states = [State::Hot, State::Cold];
     for _ in 0..10000 {
         let mut randomness_source = thread_rng();
         let state = *states.choose(&mut randomness_source).unwrap();
         let signal = sender.send(state);
-        let action = reciever.act(signal);
+        let action = receiver.act(signal);
         match (state, action) {
             (State::Hot, Action::StripDown) | (State::Cold, Action::BundleUp) => {
                 sender.reinforce(state, signal);
-                reciever.reinforce(signal, action);
+                receiver.reinforce(signal, action);
             }
             _ => {}
         }
     }
     println!("{:?}", sender);
-    println!("{:?}", reciever);
+    println!("{:?}", receiver);
 }

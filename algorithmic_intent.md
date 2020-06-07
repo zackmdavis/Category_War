@@ -105,3 +105,5 @@ why do I _think_ the question is right: https://www.lesswrong.com/posts/rQEwySCc
 pretending to be stupid: https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/
 
 also address: machine learning, deception in nature—it's _really convenient_ to use the "learning" and "deception" codewords, and there's no convenient replacement—maybe that suggests that they are the right words
+
+https://www.greaterwrong.com/posts/DSnamjnW7Ad8vEEKd/trivers-on-self-deception/comment/CandwLBdJXXq7Qxet

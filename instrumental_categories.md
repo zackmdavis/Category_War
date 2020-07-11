@@ -25,3 +25,5 @@ what that _means_ is that (at some appropriate level of abstraction) there's a l
  The only two reasons you could _possibly_ want to do this would be to wirehead yourself (corrupt your map to make the territory look nicer than it really is, making yourself _feel_ happier at the cost of sabotaging your ability to navigate the real world) or as information warfare (corrupt shared maps to sabotage other agents' ability to navigate the real world, in a way such that you benefit from their confusion).
 
 https://getpocket.com/explore/item/is-lab-grown-meat-really-meat
+
+utility of certainty

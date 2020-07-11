@@ -1,4 +1,4 @@
-# Instrumental Categories, Wireheading, and War
+# Unnatural Categories Are Optimized for Deception
 
 **Followup to**: [Where to Draw the Boundaries?](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries)
 

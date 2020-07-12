@@ -204,14 +204,14 @@ the meta-hill is a Schelling point for dying on
 
 What makes paying rent to the coalition bad, but having an obsessive special interest OK?
 
-
 So, sure, I'd lie to a Nazi at my door asking me if I'm hiding any Jews. (Or about, um, being Jewish.) I also recommend lying to psychiatrists (who face incentives to [throw you in prison for 5.9 days](https://slatestarcodex.com/2018/03/22/navigating-and-or-avoiding-the-inpatient-mental-health-system/) in order to ensure [they don't get personally blamed for anything](https://slatestarcodex.com/2014/11/05/the-right-to-waive-your-rights/)).
 
 > No exit—her shreds of awareness were saying, beating it into the pavements in the sound of her steps—no exit ... no refuge ... no signals ... no way to tell destruction from safety, or enemy from friend. ... Like that dog she had heard about, she thought ... somebody's dog in somebody's laboratory ... the dog who got his signals switched on him, and saw no way to tell satisfaction from torture, saw food changed to beatings and beatings to food, saw his eyes and ears deceiving him and his judgement futile and his consciousness impotent in a shifting, swimming, shapeless world—and gave up, refusing to eat at that price or live in a world of that kind. No!—was the only conscious word in her brain—no!—no!—no!—not your way, not your world—even if this "no" is all that's to be left of mine!
 >
 > —_Atlas Shrugged_ by Ayn Rand
 
-
 Said on graphs: https://www.lesswrong.com/posts/y4bkJTtG3s5d6v36k/stupidity-and-dishonesty-explain-each-other-away?commentId=zcBFbHL2azWBSa4kY
 
 Imgur post: https://imgur.com/a/aTcjknM
+
+The answer is that we can apply our criteria for optimization, looking for theories that predict observed behavior that can be [specified using fewer bits](https://www.lesswrong.com/posts/f4txACqDWithRi7hs/occam-s-razor) by "looking backwards" from what goals the behavior achieves, rather than "looking forward" at the psychological mechanisms computing the behavior, which, in the absence [(as far as I know)](https://www.lesswrong.com/posts/vNBxmcHpnozjrJnJP/no-one-knows-what-science-doesn-t-know) of sufficiently advanced cognitive neuroscience, we can mostly only understand by the ["empathic inference"](https://www.lesswrong.com/posts/9fpWoXpNv83BAHJdc/the-comedy-of-behaviorism) of imagining what we would do if we were the subject, using our own brain as a "black box" to predict others. [TODO: simplify!!]

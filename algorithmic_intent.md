@@ -1,9 +1,9 @@
 ## Algorithmic Intent: A Hansonian Generalized Anti-Zombie Principle
 
 > "Why didn't you tell him the truth? Were you afraid?"
-
+>
 > "I'm not _afraid_. I _chose_ not to tell him, because I anticipated negative consequences if I did so."
-
+>
 > "What do you think 'fear' _is_, exactly?"
 
 It's tempting to think that consciousness isn't part of the physical universe. Seemingly, we can imagine a world _physically_ identically to our own—the same atom-configurations evolving under the same laws of physics—but with no _consciousness_, a world inhabited by [philosophical "zombies"](https://www.lesswrong.com/posts/fdEWWr8St59bXLbQr/zombies-zombies) who move and talk, but only as mere automatons, without the spark of _mind_ within.
@@ -38,80 +38,67 @@ But even if we can understand _sorting_ without understanding intent, intent isn
 
 Specifically, whatever "intent" is—however confused our current concept of it may be—it's going to be, among other things, the cause of [optimized](https://www.lesswrong.com/posts/D7EcMhL26zFNbJ3ED/optimization) behavior. We can think of something as an optimization process if it's easier to predict its effects on the world by attributing _goals_ to it, rather than by simulating its detailed actions and internal state. ["To figure out a strange plot, look at what happens, then ask who benefits."](https://www.hpmor.com/chapter/97)
 
-[Alex Flint identifies _robustness to perturbations_ as another feature of optimizing systems](https://www.lesswrong.com/posts/znfkdCoHMANwqc2WE/the-ground-of-optimization-1). If you scrambled the books on the shelf while the human was taking a bathroom break away from sorting, when she came back she would _notice_ the rearranged books, and sort them again—that's because she _intends_ to achieve the outcome of the shelf being sorted. Sorting algorithms don't, in general, have this property: if you shuffle a subarray in memory that the operation of the algorithm assumes has already been sorted, there's nothing in the code to notice or care that the "intended" output was not achieved.
+Alex Flint [identifies _robustness to perturbations_ as another feature of optimizing systems](https://www.lesswrong.com/posts/znfkdCoHMANwqc2WE/the-ground-of-optimization-1). If you scrambled the books on the shelf while the human was taking a bathroom break away from sorting, when she came back she would _notice_ the rearranged books, and sort them again—that's because she _intends_ to achieve the outcome of the shelf being sorted. Sorting algorithms don't, in general, have this property: if you shuffle a subarray in memory that the operation of the algorithm assumes has already been sorted, there's nothing in the code to notice or care that the "intended" output was not achieved.
 
 Note that this is a "behaviorist", "third person" perspective: we're [not talking about some subjective feeling](http://benjaminrosshoffman.com/bad-faith-behavior-not-feeling/) of _intending_ something, just systems that systematically steer reality into otherwise-improbable states that rank high with respect to some preference ordering.
 
-Robin Hanson often writes about [hidden motives in everyday life](http://elephantinthebrain.com/), advancing the thesis that people's actual goals are more selfish than the high-minded story we tell other people, and even the story we represent to ourselves. If you take a strictly first-person perspective on _intent_, the very idea of hidden motives seems absurd—a contradiction in terms. What would it even _mean_, to intend something without being aware of it? How would you _identify_ an alleged hidden motive?
+Robin Hanson often writes about [hidden motives in everyday life](http://elephantinthebrain.com/), advancing the thesis that [the criteria that control our decisions aren't the same as](https://www.lesswrong.com/posts/i6fKszWY6gLZSX2Ey/fake-optimization-criteria) the high-minded story we tell other people, and even the story we represent to ourselves. If you take a strictly first-person perspective on _intent_, the very idea of hidden motives seems absurd—a contradiction in terms. What would it even _mean_, to intend something without being aware of it? How would you _identify_ an alleged hidden motive?
 
 The answer is that positing hidden motives can simplify our predictions of behavior. It can be easier to "look backwards" from what goals the behavior achieves, and _continues_ to achieve in the presence of perturbations, than to "look forwards" from a detailed model of the underlying psychological mechanisms (which are [typically unknown](https://www.lesswrong.com/posts/vNBxmcHpnozjrJnJP/no-one-knows-what-science-doesn-t-know)).
 
-Hanson and coauthor Kevin Simler discuss the example of nonhuman primates grooming each other—manually combing each other's fur to remove dirt and parasites. One might assume that the function of grooming is just what it appears to be: hygiene. But that doesn't explain why primates spend more time grooming than they need to, why they predominately groom others rather than themselves, and why the amount of time a species spends grooming is unrelated to the amount of hair it has to groom, but _is_ related to the size of social groupings. These anomalies make more sense if we posit that grooming has been optimized for social functions, to provide a _credible_ signal of trust.[^elephant] (The [signal has to cost something](https://en.wikipedia.org/wiki/Signalling_theory)—in this case, time—in order for it to not be profitable to fake.) The hygienic function of grooming isn't unreal—parasites do in fact get removed—but the world [_looks more confusing_](https://www.lesswrong.com/posts/5JDkW4MYXit2CquLs/your-strength-as-a-rationalist) if you assume the behavior is optimized solely for hygiene.
+Hanson and coauthor Kevin Simler discuss the example of nonhuman primates grooming each other—manually combing each other's fur to remove dirt and parasites. One might assume that the function of grooming is just what it appears to be: hygiene. But that doesn't explain why primates spend more time grooming than they need to, why they predominately groom others rather than themselves, and why the amount of time a species spends grooming is unrelated to the amount of hair it has to groom, but _is_ related to the size of social groupings. These anomalies make more sense if we posit that grooming has been optimized for social-political functions, to provide a _credible_ signal of trust.[^elephant] (The [signal has to cost something](https://en.wikipedia.org/wiki/Signalling_theory)—in this case, time—in order for it to not be profitable to fake.) The hygienic function of grooming isn't unreal—parasites do in fact get removed—but the world [_looks more confusing_](https://www.lesswrong.com/posts/5JDkW4MYXit2CquLs/your-strength-as-a-rationalist) if you assume the behavior is optimized solely for hygiene.
 
 [^elephant]: Robin Hanson and Kevin Simler, _The Elephant in the Brain: Hidden Motives in Everyday Life_, Ch. 1, "Animal Behavior"
 
 This kind of multiplicity of purposes is ubiquitous: thus, [nobody does the thing they are supposedly doing](https://www.lesswrong.com/posts/8iAJ9QsST9X9nzfFy/nobody-does-the-thing-that-they-are-supposedly-doing): [politics isn't about policy](http://www.overcomingbias.com/2008/09/politics-isnt-a.html), [school is not about learning](http://www.overcomingbias.com/2010/08/school-isnt-about-learning.html), [medicine is not about health](http://www.overcomingbias.com/2008/03/showing-that-yo.html), _&c._
 
-There are functional reasons for some of the purposes of social behavior to be covert, to conceal or misrepresent information that it wouldn't be profitable for others to know, and when lying is hard because it's too expensive to maintain two mental representations (the real map for ourselves, and a fake map for our victims). This is sometimes explained as, "We self-decieve in order to better decieve others," but I fear that this formulation might suggest more "central planning" than is actually necessary: "self-deception" can _arise_ from different parts of the mind working at cross-purposes.
+There are functional reasons for some of the purposes of social behavior to be covert, to conceal or misrepresent information that it wouldn't be profitable for others to know, and when lying is hard because it's too expensive to maintain two mental representations (the real map for ourselves, and a fake map for our victims). This is sometimes explained as, "We self-decieve in order to better decieve others," but I fear that this formulation might suggest more "central planning" than is really necessary: "self-deception" can _arise_ from different parts of the mind working at cross-purposes.
 
-[Ziz discusses the example of a father](https://sinceriously.fyi/false-faces/) attempting to practice [nonviolent communication](https://en.wikipedia.org/wiki/Nonviolent_Communication) with his unruly teenage son: the father wants to have an honest and peaceful discussion of feelings and needs, but is afraid he'll lose control and become angry and threatening.
+Ziz [discusses the example of a father](https://sinceriously.fyi/false-faces/) attempting to practice [nonviolent communication](https://en.wikipedia.org/wiki/Nonviolent_Communication) with his unruly teenage son: the father wants to have an honest and peaceful discussion of feelings and needs, but is afraid he'll lose control and become angry and threatening.
 
-But angry threats aren't just a _random mistake_, in the sense that it's a random mistake if I forget to carry the one while adding 143 + 28. Random mistakes don't serve a purpose and don't resist correction: there's no plausible reason for me to _want_ the incorrect answer 143 + 28 = 161, and if you say, "Hey, you forgot to carry the one," I'll almost certainly just say "Oops" and get it right the second time.
+But angry threats aren't just a _random mistake_, in the way it's a random mistake if I forget to carry the one while adding 143 + 28. Random mistakes don't serve a purpose and don't resist correction: there's no plausible reason for me to _want_ the incorrect answer 143 + 28 = 161, and if you say, "Hey, you forgot to carry the one," I'll almost certainly just say "Oops" and get it right the second time. Even if I'm more likely to make arithmetic errors when I'm tired, the errors probably won't correlate in a way that _steers the future_ in a particular direction: you can't use information about _what I want_ to make better predictions about what _specific_ errors I'll make, nor use observations of specific errors to infer what I want.
 
 In contrast, the father is likely to "lose control" and make angry threats precisely _when_ peaceful behavior _isn't getting him what he wants_. That's what anger is _designed to do_ from an [evolutionary perspective](https://www.lesswrong.com/posts/epZLSoNvjW53tqNj9/evolutionary-psychology): [threaten to impose costs or withold benefits to induce conspecifics to place more weight on the angry individual's welfare](https://www.cep.ucsb.edu/topics/anger.htm).
 
-[_Less Wrong_ commenter Caravelle tells a story about finding a loophole in an online game](https://www.lesswrong.com/posts/DSnamjnW7Ad8vEEKd/trivers-on-self-deception?commentId=CandwLBdJXXq7Qxet), and being _outraged_ to later be accused of cheating by the game administrators—only in retrospect remembering that, on first discovering the hack, they had specifically _said_ not to tell the administrators. The earlier Caravelle-who-discovered-the-bug must have known that the admins wouldn't allow it (or else why instruct teammates to keep quiet about it?), but the later Caravelle-who-exploited-the-bug was able to protest with perfect sincerity that they couldn't have known.
+Another example: _Less Wrong_ commenter Caravelle [tells a story about finding a loophole in an online game](https://www.lesswrong.com/posts/DSnamjnW7Ad8vEEKd/trivers-on-self-deception?commentId=CandwLBdJXXq7Qxet), and being _outraged_ to later be accused of cheating by the game administrators—only in retrospect remembering that, on first discovering the hack, they had specifically _told_ their teammates not to tell the administrators. The earlier Caravelle-who-discovered-the-bug must have known that the admins wouldn't allow it (or else why instruct teammates to keep quiet about it?), but the later Caravelle-who-exploited-the-bug was able to protest with perfect sincerity that they couldn't have known.
 
-Our ordinary language may lack the vocabulary to adequately describe cases such as these where people act from a mixture of overt and hidden motives. Does the father _intend_ to blame and threaten? Did the gamer _intend_ to cheat? We want to say _No_—not in the same sense that someone consciously intends to sort her bookshelf. And yet in order to [compress the length of the message needed to describe our observations](https://www.lesswrong.com/posts/f4txACqDWithRi7hs/occam-s-razor), it seems useful to have [short codewords](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) to talk about the aspects of these behaviors that seem _optimized_: it's _not a coincidence_ when someone "loses control" and makes angry threats when being nice isn't getting them what they want, and it's _not a coincidence_ if they calm down if the threat succeeds.
+Another example: someone asks me an innocuous-as-far-as-they-know question that I don't feel like answering. Maybe we're making a cake, and I feel self-conscious about my lack of baking experience. You ask, "Why did you just add an eighth-cup of vanilla?" I initially mishear you as having said, "Did you just add ..." and reply, "Yes." It's only a moment later that I realize that _that's not what you asked_: you said "_Why_ did you ...", not "_Did_ you ...". But I don't correct myself, and you don't press the point. I am not a cognitive scientist and I don't _know_ what was really going on in my brain when I misheard you: maybe my audio processing is just slow. But it seems awfully _convenient_ for me that I momentarily misheard your question _specifically_ when I didn't want to answer it and thereby reveal that I don't know what I'm doing—almost as if some elephant in my brain bet that it could get away with pretending to mishear you, and the bet paid off.
 
-[needing to qualify words as our ontology changes
-https://www.lesswrong.com/posts/wR4PaDp2Knu5coeXx/metaphorical-extensions-and-conceptual-figure-ground
-https://unstableontology.com/2019/07/24/metaphors-and-conceptual-figure-ground-inversions/]
+The Hansonian Generalized Anti-Zombie Principle calls for us to posit _something like_ "intent" causally upstream of optimized behavior (even if the causal link might be complicated and we might be wrong about the details of what _intent_ is). You can't have a zombie that _just happens_ to systematically select actions that result in outcomes that rank high with respect to a compactly-describable preference ordering _for no reason_.
 
+This is similar to how the ordinary Generalized Anti-Zombie Principle calls for us to posit some kind of "consciousness" casually upstream of reports of phenomenological experience (even if the causal link might be complicated and we might be wrong about the details of what _consciousness_ is). If you're _already_ familiar with conscious humans, then maybe you can specifically engineer a non-conscious chatbot that imitates the surface behaviors of humans talking about their phenomenological experiences, but you can't have a zombie that spontaneously talks about being conscious _for no reason_.
 
+However, our existing language may lack the vocabulary to adequately describe optimized behavior that comes from a mixture of overt and hidden motives. Does the father _intend_ to blame and threaten? Did the gamer _intend_ to cheat? Was I only _pretending_ to mishear your question, rather than actually mishearing it? We want to say _No_—not in the same sense that someone consciously intends to sort her bookshelf. And yet it seems useful to have [short codewords](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) to talk about the aspects of these behaviors that seem _optimized_: it's _not a coincidence_ when someone "loses control" and makes angry threats when being nice isn't getting them what they want, and it's _not a coincidence_ if they calm down if the threat succeeds.
 
+As Jessica Taylor explains, when our existing language lacks the vocabulary to accomodate our expanded ontology in the wake of a new discovery, one strategy for adapting our language is to define new senses of existing words that [metaphorically extend the original meaning](https://www.lesswrong.com/posts/wR4PaDp2Knu5coeXx/metaphorical-extensions-and-conceptual-figure-ground). The statement "Ice is a form of water" might be new information to a child or a primative AI who has already seen (liquid) water, and already seen ice, but didn't _know_ that the former turns into the latter when sufficiently cold.
 
- 
-https://www.greaterwrong.com/posts/DSnamjnW7Ad8vEEKd/trivers-on-self-deception/comment/CandwLBdJXXq7Qxet
+The word _water_ in the sentence "Ice is a form of water" actually has a _different_ [extensional meaning](https://www.lesswrong.com/posts/HsznWM9A7NiuGsp28/extensions-and-intensions) than the word _water_ in the sentence "Water is a liquid", but both definitions can coexist—as long as we're careful to precisely [disambiguate which sense](https://www.lesswrong.com/posts/y5MxoeacRKKM3KQth/fallacies-of-compression) of the word is meant in contexts where [equivocation](https://www.lesswrong.com/posts/shoMpaoZypfkXv84Y/variable-question-fallacies) [could be deceptive](http://web.archive.org/web/20200529221511/https://slatestarcodex.com/2014/11/03/all-in-all-another-brick-in-the-motte/).
 
+We might wish to apply a similar linguistic tactic in order to be able to concisely _talk_ about cases where we think someone's behavior is _optimized to achieve goals_, but the computation that determines the behavior isn't necessarily overt or conscious.
 
-[can crimes be discussed literally
-https://www.lesswrong.com/posts/N9oKuQKuf7yvCCtfq/can-crimes-be-discussed-literally ]
+_Algorithmic_ seems like a promising candidate for a disambiguating adjective to make it clear that we're talking about _the optimization criteria implied by_ a system's inputs and outputs, rather than [what it subjectively feels like to be that system](https://www.lesswrong.com/posts/yA4gF5KrboK2m2Xu7/how-an-algorithm-feels-from-inside). We could then speak of an "algorithmic intent" that doesn't necessarily imply "(conscious) intent", similarly to how ice is a form of "water" despite not being "(liquid) water". We might similarly want to speak of algorithmic "honesty" (refering to [signals](https://www.lesswrong.com/posts/4hLcbXaqudM9wSeor/philosophy-in-the-darkest-timeline-basics-of-the-evolution) selected on the criterion of improving the maps agents use to navigate the territory), ["deception"](https://www.lesswrong.com/posts/fmA2GJwZzYtkrAKYJ/algorithms-of-deception) (refering to signals selected for making maps _less_ accurate), or even "fraud" (_deception_ that moves resources to the agent sending the deceptive signal).
 
-http://unremediatedgender.space/2016/Sep/psychology-is-about-invalidating-peoples-identities/
-
-https://www.lesswrong.com/posts/i6fKszWY6gLZSX2Ey/fake-optimization-criteria
+I claim that these broad functionalist, "algorithmic" senses of "mental" words like _intent_ often are more relevant and useful for making sense of the world than the original, narrower definitions that were invented by humans dealing with other humans.
 
 
-> "Accuse me of _fraud_? How _dare_ you?! Sure, I'm not a perfect person free from all bias, but—"
-
-> "Bias. Is that your word for having a disposition to communicate in a way that causes others to make incorrect predictions about the value you have to offer, in a direction that moves resources towards you?"
-
-> "Uh. I guess you could say that."
-
-> "What do you think 'fraud' _is_, exactly?"
+https://www.lesswrong.com/posts/FT9Lkoyd5DcCoPMYQ/partial-summary-of-debate-with-benquo-and-jessicata-pt-1?commentId=coWFfoYqdeuSPpTqe#vPekZcouSruiCco3c
 
 
-> among other things, the true referent of "consciousness" is also the cause in humans of talking about inner listeners.
+
+[fireflies deceptive
+machine learning actually learns, not just quasi-learns
+sorting algorithms actually sort, not just quasi-sort
+in the future, if you sue a company for fraud, the excuse that they used GPT-2 to generate their marketing material shouldn't hold up in court (link: Honesty and Perjury)
+risky to allow this in human communities, because negative-valence words can be used for scapegoating (link: "Against Lie Inflation", "Maybe Lying Doesn't Exist", "Can Crimes Be Discussed Literally"]
 
 
-https://www.lesswrong.com/posts/JoERzF8ePGr4zP9vv/self-deception-hypocrisy-or-akrasia
 
 
-[conscious and unconscious fraud are different—but another agent who's dealing with you may wish to regard this as the difference between mergesort and quicksort]
-
-https://www.lesswrong.com/posts/28bAMAxhoX3bwbAKC/are-your-enemies-innately-evil
-
-https://sideways-view.com/2016/11/26/if-you-cant-lie-to-others-you-must-lie-to-yourself/
-
-explain how: https://www.lesswrong.com/posts/Mc6QcrsbH5NRXbCRX/dissolving-the-question
-why do I _think_ the question is right: https://www.lesswrong.com/posts/rQEwySCcLtdKHkrHp/righting-a-wrong-question
+"_Liar!_" "What? You can argue that I'm wrong, but I actually believe what I'm saying!" "Oh, _consciously_, maybe; I was accusing you of being an _algorithmic_ liar."
 
 
-> The bureaucrat, police officer, teacher, judge, or cable television company representative functions as [...], not as a co-modeling and fully interacting person. His behaviors are governed by top-down rules and scripts, with human discretion eliminated as much as possible.
->
-> Sarah Perry, "The Essence of Peopling"
+Ascribing unconscious motives to people is a risky rhetorical move that could go horribly wrong if it became an accepted community social norm.
 
-pretending to be stupid: https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/
 
-also address: machine learning, deception in nature—it's _really convenient_ to use the "learning" and "deception" codewords, and there's no convenient replacement—maybe that suggests that they are the right words
+Unfortunately, as an aspiring epistemic rationalist, I'm _not allowed to care_ whether some descriptions might be harmful for a human community to adopt; I'm _only_ allowed to care about what descriptions [compress the length of the message needed to describe my observations](https://www.lesswrong.com/posts/f4txACqDWithRi7hs/occam-s-razor).
+

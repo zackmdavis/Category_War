@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{units}
+
+\begin{document}
+
+\renewcommand{\arraystretch}{1.2}
+
+The joint distribution $P(\mathrm{blueness}, \mathrm{eggness}, \mathrm{palladium})$ factorizes as
+
+$$\sum_{\mathrm{category}} P(\mathrm{category}) \cdot P(\mathrm{blueness}|\mathrm{category}) \cdot P(\mathrm{eggness}|\mathrm{category}) \cdot P(\mathrm{palladium}|\mathrm{category})$$
+
+
+\begin{table}[h!]
+  \begin{tabular}{l|r|r|r|r|r|r|r|r|}
+    & \multicolumn{8}{c}{blueness/eggness} \\
+    category & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ \hline
+    blegg & 0 & 0 & 0 & 0 & 0 & $\nicefrac{1}{4}$ & $\nicefrac{1}{2}$ & $\nicefrac{1}{4}$ \\ \hline
+    rube & $\nicefrac{1}{4}$ & $\nicefrac{1}{2}$ & $\nicefrac{1}{4}$ & 0 & 0 & 0 & 0 & 0 \\ \hline
+    ?? & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ \\ \hline
+  \end{tabular}
+\end{table}
+
+
+\begin{table}[h!]
+    \begin{tabular}{l|r|r|r|r|r|r|r|r|}
+      & \multicolumn{8}{c}{eggness} \\
+      & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+      \hline
+blueness = 0, palladium = 0 & $\frac{49}{1600}$ & $\frac{97}{1600}$ & $\frac{49}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 0, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 1, palladium = 0 & $\frac{97}{1600}$ & $\frac{193}{1600}$ & $\frac{97}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 1, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 2, palladium = 0 & $\frac{49}{1600}$ & $\frac{97}{1600}$ & $\frac{49}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 2, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 3, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 3, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 4, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 4, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 5, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 5, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $\frac{3}{100}$ & $\frac{3}{50}$ & $\frac{3}{100}$ \\ \hline
+blueness = 6, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 6, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $\frac{3}{50}$ & $\frac{3}{25}$ & $\frac{3}{50}$ \\ \hline
+blueness = 7, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 7, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $\frac{3}{100}$ & $\frac{3}{50}$ & $\frac{3}{100}$ \\ \hline
+    \end{tabular}
+\end{table}
+
+\end{document}

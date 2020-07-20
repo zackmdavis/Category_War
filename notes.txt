@@ -271,3 +271,7 @@ what that _means_ is that (at some appropriate level of abstraction) there's a l
 https://getpocket.com/explore/item/is-lab-grown-meat-really-meat
 
 utility of certainty
+
+(not even one unit of epistemology, I feel like my epistemology will let me make exactly as good predictions as yours will about any [...] in the vicinity)
+
+> You _can_ define a word any way you want, you just have to pay the costs [later, when saying you can still do Bayesian inference on the gerrymandered category]

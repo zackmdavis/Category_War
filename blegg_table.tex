@@ -1,48 +1,68 @@
 \documentclass{article}
 \usepackage{units}
+\usepackage{tabu}
 
 \begin{document}
 
 \renewcommand{\arraystretch}{1.2}
 
-The joint distribution $P(\mathrm{blueness}, \mathrm{eggness}, \mathrm{palladium})$ factorizes as
+The joint distribution $P(\mathrm{blueness}, \mathrm{eggness}, \mathrm{vanadium})$ factorizes as
 
-$$\sum_{\mathrm{category}} P(\mathrm{category}) \cdot P(\mathrm{blueness}|\mathrm{category}) \cdot P(\mathrm{eggness}|\mathrm{category}) \cdot P(\mathrm{palladium}|\mathrm{category})$$
+$$\sum_{\mathrm{category}} P(\mathrm{category}) \cdot P(\mathrm{blueness}|\mathrm{category}) \cdot P(\mathrm{eggness}|\mathrm{category}) \cdot P(\mathrm{vanadium}|\mathrm{category})$$
 
 
 \begin{table}[h!]
-  \begin{tabular}{l|r|r|r|r|r|r|r|r|}
-    & \multicolumn{8}{c}{blueness/eggness} \\
-    category & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ \hline
+  \begin{tabu}{l|[1.5pt]r|r|r|r|r|r|r|r|}
+    & \multicolumn{8}{c}{$P(\mathrm{color\ or\ shape\ score}|\mathrm{category})$} \\
+    category & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ \tabucline[1.5pt]{-}
     blegg & 0 & 0 & 0 & 0 & 0 & $\nicefrac{1}{4}$ & $\nicefrac{1}{2}$ & $\nicefrac{1}{4}$ \\ \hline
     rube & $\nicefrac{1}{4}$ & $\nicefrac{1}{2}$ & $\nicefrac{1}{4}$ & 0 & 0 & 0 & 0 & 0 \\ \hline
     ?? & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ & $\nicefrac{1}{8}$ \\ \hline
-  \end{tabular}
+  \end{tabu}
 \end{table}
 
 
 \begin{table}[h!]
-    \begin{tabular}{l|r|r|r|r|r|r|r|r|}
+  \begin{tabu}{l|[1.5pt]c|}
+     \multicolumn{2}{c}{$P(\mathrm{vanadium}| \mathrm{category})$} \\ \tabucline[1.5pt]{-}
+    blegg & 1 \\ \hline
+    rube & 0 \\ \hline
+    ?? & 0 \\ \hline
+  \end{tabu}
+\end{table}
+
+\begin{table}[h!]
+  \begin{tabu}{l|[1.5pt]c|}
+    category & $P(\mathrm{category})$ \\ \tabucline[1.5pt]{-}
+    blegg & \nicefrac{12}{25} \\ \hline
+    rube & \nicefrac{12}{25} \\ \hline
+    ?? & \nicefrac{1}{25} \\ \hline
+  \end{tabu}
+\end{table}
+
+
+\begin{table}[h!]
+    \begin{tabu}{l|[1.5pt]r|r|r|r|r|r|r|r|}
       & \multicolumn{8}{c}{eggness} \\
       & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
-      \hline
-blueness = 0, palladium = 0 & $\frac{49}{1600}$ & $\frac{97}{1600}$ & $\frac{49}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
-blueness = 0, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
-blueness = 1, palladium = 0 & $\frac{97}{1600}$ & $\frac{193}{1600}$ & $\frac{97}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
-blueness = 1, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
-blueness = 2, palladium = 0 & $\frac{49}{1600}$ & $\frac{97}{1600}$ & $\frac{49}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
-blueness = 2, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
-blueness = 3, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
-blueness = 3, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
-blueness = 4, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
-blueness = 4, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
-blueness = 5, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
-blueness = 5, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $\frac{3}{100}$ & $\frac{3}{50}$ & $\frac{3}{100}$ \\ \hline
-blueness = 6, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
-blueness = 6, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $\frac{3}{50}$ & $\frac{3}{25}$ & $\frac{3}{50}$ \\ \hline
-blueness = 7, palladium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
-blueness = 7, palladium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $\frac{3}{100}$ & $\frac{3}{50}$ & $\frac{3}{100}$ \\ \hline
-    \end{tabular}
+      \tabucline[1.5pt]{-}
+blueness = 0, vanadium = 0 & $\frac{49}{1600}$ & $\frac{97}{1600}$ & $\frac{49}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 0, vanadium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 1, vanadium = 0 & $\frac{97}{1600}$ & $\frac{193}{1600}$ & $\frac{97}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 1, vanadium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 2, vanadium = 0 & $\frac{49}{1600}$ & $\frac{97}{1600}$ & $\frac{49}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 2, vanadium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 3, vanadium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 3, vanadium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 4, vanadium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 4, vanadium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ \hline
+blueness = 5, vanadium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 5, vanadium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $\frac{3}{100}$ & $\frac{3}{50}$ & $\frac{3}{100}$ \\ \hline
+blueness = 6, vanadium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 6, vanadium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $\frac{3}{50}$ & $\frac{3}{25}$ & $\frac{3}{50}$ \\ \hline
+blueness = 7, vanadium = 0 & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ & $\frac{1}{1600}$ \\ \hline
+blueness = 7, vanadium = 1 & $0$ & $0$ & $0$ & $0$ & $0$ & $\frac{3}{100}$ & $\frac{3}{50}$ & $\frac{3}{100}$ \\ \hline
+    \end{tabu}
 \end{table}
 
 \end{document}

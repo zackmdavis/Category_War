@@ -54,8 +54,9 @@ In addition to these economies _within_ the system that you're currently program
 
 But if another system _does_ need to do cognitive work concerning our sortable objects, category labels can be used as signals to link up the models between different systems. Suppose there's some delicate vanadium-ore processing machinery elsewhere in the factory that needs to handle both bleggs and gretrahedrons. You want to be able to send commands to that machine, telling it to process a `BLEGG` using its _own_ models, _without_ having to send over all the binary code of the Bayesian network and feature extractors that we used to identify the blegg. The ore-processor's models might be different from the three-feature models we used to identify bleggs in the Sorting room—maybe it needs to vary its drill speed in proportion to the density of a particular blegg's flexible outer material.
 
+[another diagram about using a signal to link up different models]
 
-
+[there are more facts about bleggs than just three]
 
 is a _specific mathematical model_ that makes _specific_ (probabilistic) predictions. What it _means_ is that if we see a black-and-white photo of an egg-shaped object (specifically, one with an eggness score of 7)
 
@@ -65,6 +66,6 @@ is a _specific mathematical model_ that makes _specific_ (probabilistic) predict
 
 
 
-
+[argument from common usage]
 
 For this reason [it is written of the third virtue of lightness](https://yudkowsky.net/rational/virtues/): you _cannot_ make a true map of the category by drawing lines upon paper according to impulse; you must observe the joint distribution and draw lines on paper that correspond to what you see. If, seeing the category unclearly, you think that you can shift a line just a little to the right, just a little to the left, according to your caprice, this is just the same mistake.

@@ -66,11 +66,9 @@ We think the egg-shaped object is almost certainly a blegg (specifically, with p
 
 $$P(\mathrm{category} = \mathrm{blegg} | \mathrm{eggness} = 7) = \frac{\frac{1}{4} \cdot \frac{12}{25}}{\frac{1}{4} \cdot \frac{12}{25} + 0 \cdot \frac{12}{25} + \frac{1}{8} \cdot \frac{1}{25}} = \frac{24}{25} = 0.96$$
 
-We can then use our updated beliefs about category membership (0.96 blegg/0 rube/0.04 unknown, as contrasted to the 0.48/0.48/0.04 prior) to get our updated posterior distribution on 0–7 blueness score (0.005/0.005/0.005/0.005/0.005/0.245/0.485/0.245—left as an excercise for the reader).
+We can then use our updated beliefs about category membership (0.96 blegg/0 rube/0.04 unknown, as contrasted to the 0.48/0.48/0.04 prior) to get our updated posterior distribution on the 0–7 blueness score (0.005/0.005/0.005/0.005/0.005/0.245/0.485/0.245—left as an excercise for the reader).
 
-As a human learning math, it's helpful to examine [multiple representations of the same mathematical object](https://en.wikipedia.org/wiki/Multiple_representations_(mathematics_education)).
-
-We've already seen our blueness–eggness–vanadium model represented as a table, and factorized into a graphical model. We've done also some algebraic calculations with it. But we can also visualize it: the set of camera observations that the model classifies as a blegg with probability $\ge 0.96$ can be thought of a area with a boundary in two-dimensional blueness–eggness space:
+As a human learning math, it's helpful to examine [multiple representations of the same mathematical object](https://en.wikipedia.org/wiki/Multiple_representations_(mathematics_education)). We've already seen our blueness–eggness–vanadium model represented as a table, and factorized into a graphical model. We've done also some algebraic calculations with it. But we can also visualize it: the set of camera observations that the model classifies as a blegg with probability $\ge 0.96$ can be thought of a area with a boundary in two-dimensional blueness–eggness space:
 
 ![](file:///home/zmd/Documents/Drafts/Category_War/bleggspace.png)
 

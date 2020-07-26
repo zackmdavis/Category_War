@@ -10,19 +10,25 @@ So the one comes back to you and says:
 
 > That seems wrong—why wouldn't I care about the utility of having a particular model? I agree that categories derive much of their usefulness from "carving reality at the joints"—that's _one_ important kind of consequence of choosing to draw category boundaries in a particular way. [TODO: introduce "morality"]
 
-> I don't see why I shouldn't be willing to trade off one unit of categorizational nonawkwardness for $X$ units of morality, even if trading off one million units of categorizational nonawkwardness for the same $X$ units of morality would be bad.
+> I don't see why I shouldn't be willing to trade off one unit of categorizational nonawkwardness for $X$ units of morality, even if trading off a million units of categorizational nonawkwardness for the same $X$ units of morality would be bad.
 
 > [TODO: Palestine/Israel metaphor]
 
 > I think of language, following Eliezer Yudkwosky's ["A Human's Guide to Words"](https://www.lesswrong.com/s/SGB7Y5WERh4skwtnb), as being a human-made project intended to help people understand each other. It draws on the structure of reality, but has many free variables, so that the structure of reality doesn't constrain it completely. This forces us to make decisions, and since these are not about factual states of the world—what the definition of a word _really_ is, in God's dictionary—we have nothing to make those decisions on except consequences.
 
-Okay, I think I see the problem. I see how one might have gotten that out of "A Human's Guide to Words"—_if you skipped all the parts with math_. I am now prepared to explain _exactly_ what's wrong here in _more detail_ than [my previous attempt](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries): not just _that_ this position is not in harmony with the hidden Bayesian structure of language and cognition, but how the hidden Bayesian structure of language and cognition explains _why_ an intelligent system might find this particular mistake _tempting_ in the first place.
+... okay, I think I see the problem. I see how one might have gotten that out of "A Human's Guide to Words"—_if you skipped all the parts with math_. I am now prepared to explain _exactly_ what's wrong here [in _more detail_](https://www.lesswrong.com/posts/2TPph4EGZ6trEbtku/explainers-shoot-high-aim-low) than [my previous attempt](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries): not just _that_ this position is not in harmony with the hidden Bayesian structure of language and cognition, but how the hidden Bayesian structure of language and cognition explains _why_ an intelligent system might find this particular mistake _tempting_ in the first place, and what breaks as a result.
 
 Category "boundaries" are a useful _visual metaphor_ for helping explain the cognitive function of categorization. If you have the visualization but you _don't_ have the math, you might think you have the freedom to "redraw" the category "boundaries." Simple, compact boundaries might _tend_ to be more useful, but more complicated boundaries aren't _false_ and therefore aren't forbidden if you have some non-epistemic reason to prefer them ... right?
 
 Only in the sense that _no_ hypothesis is "false"! Hypotheses make probabilistic predictions. As long as you [never assign a probability of _zero_](https://www.lesswrong.com/posts/QGkYCwyC7wTDyt3yT/0-and-1-are-not-probabilities) (which is a log-odds of negative infinity), nothing you believe can ever be _definitively_ [(infinitely)](https://www.lesswrong.com/posts/ooypcn7qFzsMcy53R/infinite-certainty) "falsified"—it "just" makes worse predictions than other hypotheses.
 
-Category "boundaries" are a convenient _visualization_ for a probabilistic model that makes predictions about the real world. You _can't_ "redraw the boundaries" without messing with the model that generates them, which means messing with your predictions about the real world.
+Because category "boundaries" are merely a _visualization_ for a probabilistic model that makes predictions about the real world, you _can't_ "redraw the boundaries" associated with a communication signal without messing with the model that generates them, which means messing with your predictions about the real world.
+
+Might there be some non-epistemic reason for an agent to prefer a model that makes worse predictions? Sure! Correct maps are useful for steering reality into configurations ranked higher in your preference ordering—but causing a _different_ agent to have _incorrect_ maps might make them _mis_-navigate reality in a way that benefits you! We call this [_deception_](https://www.lesswrong.com/posts/fmA2GJwZzYtkrAKYJ/algorithms-of-deception).
+
+In a closely related phenomenon, a poorly-designed agent might get confused and end up manipulating its _own_ beliefs: optimizing its map to _inaccurately_ portray a high-value territory, rather than optimizing the territory to be high-value using a map that reflects the territory. We call this _wireheading_.
+
+Intelligent systems with shared interests will want to design communication protocols to efficiently share information in accordance with the [_mathematical laws_](https://www.lesswrong.com/posts/eY45uCCX7DdwJ4Jha/no-one-can-exempt-you-from-rationality-s-laws) of probability and information theory. Systems that communicate in ways that _depart_ from these laws, do so in order to achieve non-shared interests (deception), possibly non-shared interests of subsystems _within_ an agent (wireheading).
 
 -----
 
@@ -34,7 +40,7 @@ The feature data consists of the blueness–eggness–vanadium-content joint dis
 
 ![blueness–eggness–vanadium joint distribution](https://i.imgur.com/zR83zOq.png)
 
-This seems like ... not the most useful representation? The data is all there, so _in principle_, you could code whatever you needed to do based off this, but it seems like it would be an unmaintainable mess: you'd sooner _resign_ than write a 128-case [switch statement](https://en.wikipedia.org/wiki/Switch_statement). Furthermore, when the system is deployed, you hope to typically be able to give the binning robot commands based on _only_ the color and shape observations, because the Sorting Scanner that the vanadium readings come from is expensive to run. You _could_ just do a Bayesian update on the entire joint distribution, of course, but it seems like it should be possible to be more efficient by exploiting regularities in the data, not entirely unlike how your colleague's system has _already_ made your job much simpler by giving you blueness and eggness feature scores rather than raw camera data. Eyeballing the table, you notice it seems to have a lot of redundancy: most of the probability-mass is concentrated in two regions where the blueness and eggness scores are either both high, or both low, and vanadium is _only_ found with both blueness and eggness are high.
+This seems like ... not the most useful representation? The data is all there, so _in principle_, you could code whatever you needed to do based off the full table, but it seems like it would be an unmaintainable mess: you'd sooner _resign_ than write a 128-case [switch statement](https://en.wikipedia.org/wiki/Switch_statement). Furthermore, when the system is deployed, you hope to typically be able to give the binning robot commands based on _only_ the color and shape observations, because the Sorting Scanner that the vanadium readings come from is expensive to run. You _could_ just do a Bayesian update on the entire joint distribution, of course, but it seems like it should be possible to be more efficient by exploiting regularities in the data, not entirely unlike how your colleague's system has _already_ made your job much simpler by giving you blueness and eggness feature scores rather than raw camera data. Eyeballing the table, you notice it seems to have a lot of redundancy: most of the probability-mass is concentrated in two regions where the blueness and eggness scores are either both high or both low—and vanadium is _only_ found when both blueness and eggness are high.
 
 O tragedy O the stars! _If only_ there were _some more convenient and flexible way_ to represent this knowledge—some kind of deep structural insight to rescue you from this cruel predicament!
 
@@ -42,30 +48,32 @@ O tragedy O the stars! _If only_ there were _some more convenient and flexible w
 
 $$\sum_{\mathrm{category}} P(\mathrm{category}) \cdot P(\mathrm{blueness}|\mathrm{category}) \cdot P(\mathrm{eggness}|\mathrm{category}) \cdot P(\mathrm{vanadium}|\mathrm{category})$$
 
-(The distribution in this made-up toy example factorizes _exactly_, but [in a messy real-world application, you might have a range of "reasonable" approximate models to choose from](https://www.lesswrong.com/posts/Zvu6ZP47dMLHXMiG3/optimized-propaganda-with-bayesian-networks-comment-on).)
+(The distribution in this made-up toy example factorizes _exactly_, but [in a messy real-world application](https://www.lesswrong.com/posts/Zvu6ZP47dMLHXMiG3/optimized-propaganda-with-bayesian-networks-comment-on), you might have a range of "reasonable" approximate models to choose from.)
 
 We can simplify our representation of our observations by using a naïve Bayes model where a central "category" node is posited to underlie all of our observations: we believe that each object either "is a blegg" (and therefore contains vanadium and has high blueness and eggness scores) with probability 0.48, "is a rube" (and therefore has no vanadium and low blueness and eggness scores) with probability 0.48, or belongs to a catch-all "other"/error class with probability 0.04. (Maybe the camera is buggy sometimes, or maybe there are some other random objects mixed in with the rubes and bleggs?)
 
 ![factorized object distribution](https://i.imgur.com/zIaDccJ.png)
 
-Whereas the full joint distribution had 127 degrees of freedom (a table of $8 \cdot 8 \cdot 2 = 128$ separate probabilites, constrained to add up to 1), the naïve-Bayes representation only has 50 ($3 \cdot 1$ prior probabilities for the categories, plus $3 \cdot 8 = 24$, $3 \cdot 8 = 24$, and $3 \cdot 1 = 3$-entry _conditional_ probability tables for each of the features, with each table constrained to add up to 1). (The advantage would be much larger for more complicated problems—the joint distribution grows exponentially with more features, quickly becoming infeasible to _store and represent_, let alone _learn_.)
+Whereas the full joint distribution had 127 degrees of freedom (a table of $8 \cdot 8 \cdot 2 = 128$ separate probabilites, constrained to add up to 1), the naïve-Bayes representation only has 50 ($3 \cdot 1$ prior probabilities for the categories, plus $3 \cdot 8 = 24$, $3 \cdot 8 = 24$, and $3 \cdot 1 = 3$-entry _conditional_ probability tables for each of the features, with each table constrained to add up to 1). The advantage would be much larger for more complicated problems—the joint distribution grows exponentially with more features, quickly becoming infeasible to _store and represent_, let alone _learn_.
 
-In addition to these economies _within_ the system that you're currently programming, categories are also useful for _communicating_ with other systems. The robot arm that puts bleggs in the blegg bin doesn't necessarily need to _know_ about the blueness and eggness scores; you only need to program it to act appropriately when told that an object is a `BLEGG`.
+In addition to these economies _within_ the system that you're currently programming, labels for categories are also useful for _communicating_ with other systems. The robot arm that puts bleggs in the blegg bin doesn't need to _know_ about the blueness and eggness scores: it can close its claws around rubes and bleggs alike, and you only need to program it to drop an object into the correct bin when told that the object "is a blegg" or "is a rube".
 
-But if another system _does_ need to do cognitive work concerning our sortable objects, category labels can be used as signals to link up the models between different systems. Suppose there's some delicate vanadium-ore processing machinery elsewhere in the factory that needs to handle both bleggs and gretrahedrons. You want to be able to send commands to that machine, telling it to process a `BLEGG` using its _own_ models, _without_ having to send over all the binary code of the Bayesian network and feature extractors that we used to identify the blegg. The ore-processor's models might be different from the three-feature models we used to identify bleggs in the Sorting room—maybe it needs to vary its drill speed in proportion to the density of a particular blegg's flexible outer material.
+But crucially, "is a blegg" is useful _verbal shorthand_ for a _specific mathematical model_ that makes _specific_ (probabilistic) predictions. Suppose we see a black-and-white photo of an egg-shaped object: specifically, one with an eggness score of 7. Given that observation of $\mathrm{eggness} = 7$, we can update our probabilities of category membership.
 
-[another diagram about using a signal to link up different models]
+$$P(\mathrm{category} = c | \mathrm{eggness} = 7) = \frac{P(\mathrm{eggness} = 7|\mathrm{\mathrm{category} = c})P(\mathrm{category} = c)}{\sum_{d \in \{\mathrm{blegg}, \mathrm{rube}, \mathrm{??} \} } P(\mathrm{eggness} = 7| \mathrm{category}=d)P(\mathrm{category} = d)}$$
 
-[there are more facts about bleggs than just three]
+We think the egg-shaped object is almost certainly a blegg (specifically, with probability 0.96), even if the black-and-white photo doesn't directly tell us whether it's blue, _because_
 
-is a _specific mathematical model_ that makes _specific_ (probabilistic) predictions. What it _means_ is that if we see a black-and-white photo of an egg-shaped object (specifically, one with an eggness score of 7)
+$$P(\mathrm{category} = \mathrm{blegg} | \mathrm{eggness} = 7) = \frac{\frac{1}{4} \cdot \frac{12}{25}}{\frac{1}{4} \cdot \frac{12}{25} + 0 \cdot \frac{12}{25} + \frac{1}{8} \cdot \frac{1}{25}} = \frac{24}{25} = 0.96$$
 
+We can then use our updated beliefs about category membership (0.96 blegg/0 rube/0.04 unknown, as contrasted to the 0.48/0.48/0.04 prior) to get our updated posterior distribution on 0–7 blueness score (0.005/0.005/0.005/0.005/0.005/0.245/0.485/0.245—left as an excercise for the reader).
 
+As a human learning math, it's helpful to examine [multiple representations of the same mathematical object](https://en.wikipedia.org/wiki/Multiple_representations_(mathematics_education)).
 
+We've already seen our blueness–eggness–vanadium model represented as a table, and factorized into a graphical model. We've done also some algebraic calculations with it. But we can also visualize it: the set of camera observations that the model classifies as a blegg with probability $\ge 0.96$ can be thought of a area with a boundary in two-dimensional blueness–eggness space:
 
+![](file:///home/zmd/Documents/Drafts/Category_War/bleggspace.png)
 
+If you were trying to _teach_ someone about the hidden Bayesian structure of language and cognition, but didn't expect your audience to sit through the actual math, you might _start_ with this visual representation, [TODO: the boundary is drawn for human convenience, &c.]
 
-
-[argument from common usage]
-
-For this reason [it is written of the third virtue of lightness](https://yudkowsky.net/rational/virtues/): you _cannot_ make a true map of the category by drawing lines upon paper according to impulse; you must observe the joint distribution and draw lines on paper that correspond to what you see. If, seeing the category unclearly, you think that you can shift a line just a little to the right, just a little to the left, according to your caprice, this is just the same mistake.
+![](file:///home/zmd/Documents/Drafts/Category_War/blegg-star-space.png)

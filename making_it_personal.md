@@ -13,3 +13,8 @@ Call him Eugene N.
 
 
 And that is why I blog about the philosophy of language.
+
+
+
+argumentative theory of reasoning
+https://crookedtimber.org/2020/07/24/in-praise-of-negativity/

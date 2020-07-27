@@ -259,7 +259,9 @@ https://www.lesswrong.com/posts/N9oKuQKuf7yvCCtfq/can-crimes-be-discussed-litera
 
 ----
 
+There's no rule of rationality against _lying_.
 
+https://arbital.greaterwrong.com/p/executable_philosophy?l=112
 
 what that _means_ is that (at some appropriate level of abstraction) there's a little [Bayesian network](https://www.lesswrong.com/posts/hzuSDMx7pd2uxFc5w/causal-diagrams-and-causal-models) in my head with "blueness" and "eggness" observation nodes hooked up to a central "blegg" category-membership node, such that if I see a black-and-white photograph of an egg-shaped object, I can use the observation of its shape to update my beliefs about its blegg-category-membership, and then use my beliefs about category-membership to update my beliefs about its blueness. This cognitive algorithm is useful if we live in a world where objects that have the appropriate statistical structure—if the joint distribution P(blegg, blueness, eggness) approximately factorizes as P(blegg)·P(blueness|blegg)·P(eggness|blegg).
 
@@ -296,9 +298,16 @@ The ore-processor's models might be different from the three-feature models we u
 
 [there are more facts about bleggs than just three]
 
+https://www.foodsafety.gov/food-safety-charts/safe-minimum-cooking-temperature
 
-
+https://www.greaterwrong.com/users/zack_m_davis?offset=360
 
 [argument from common usage]
 
 For this reason [it is written of the third virtue of lightness](https://yudkowsky.net/rational/virtues/): you _cannot_ make a true map of the category by drawing lines upon paper according to impulse; you must observe the joint distribution and draw lines on paper that correspond to what you see. If, seeing the category unclearly, you think that you can shift a line just a little to the right, just a little to the left, according to your caprice, this is just the same mistake.
+
+"But she still did it because she valued that choice above others—because of the feeling of importance she attached to that decision."
+https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values
+
+As it is written of the tenth virtue, "Even if you cannot do the math, knowing that the math exists tells you that the dance step is precise and has no room in it for your whims."
+

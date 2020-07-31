@@ -26,9 +26,9 @@ Because category "boundaries" are merely a _visualization_ for a probabilistic m
 
 Might there be some non-epistemic reason for an agent to prefer a model that makes worse predictions? Sure! Correct maps are useful for steering reality into configurations ranked higher in your preference ordering—but causing a _different_ agent to have _incorrect_ maps might make them _mis_-navigate reality in a way that benefits you! We call this [_deception_](https://www.lesswrong.com/posts/fmA2GJwZzYtkrAKYJ/algorithms-of-deception).
 
-In a closely related phenomenon, a poorly-designed agent might get confused and end up manipulating its _own_ beliefs: optimizing its map to _inaccurately_ portray a high-value territory, rather than optimizing the territory to be high-value using a map that reflects the territory. We call this _wireheading_.
+In a closely related phenomenon, a poorly-designed agent might get confused and end up manipulating its _own_ beliefs: optimizing its map to _inaccurately_ portray a high-value territory, rather than optimizing the territory to be high-value using a map that reflects the territory—a kind of _self_-deception. We call this _wireheading_.
 
-Intelligent systems with shared interests will want to design communication protocols to efficiently share information in accordance with the [_mathematical laws_](https://www.lesswrong.com/posts/eY45uCCX7DdwJ4Jha/no-one-can-exempt-you-from-rationality-s-laws) of probability and information theory. Systems that communicate in ways that _depart_ from these laws, do so in order to achieve non-shared interests (deception), possibly non-shared interests of subsystems _within_ an agent (wireheading).
+Intelligent systems with shared interests will design communication protocols to efficiently share information in accordance with the [_mathematical laws_](https://www.lesswrong.com/posts/eY45uCCX7DdwJ4Jha/no-one-can-exempt-you-from-rationality-s-laws) of probability and information theory. Systems that communicate in ways that _depart_ from these laws, do so in order to achieve non-shared interests (deception), possibly non-shared interests of subsystems _within_ an agent (wireheading).
 
 -----
 
@@ -81,6 +81,8 @@ If you were trying to _teach_ someone about the hidden Bayesian structure of lan
 [TODO Objection: but you can do Bayesian inference with the "gerrymandered" boundary! It still has a lot of mutual information with the data! Reply: but it increases the mean squared error of feature predictions.]
 
 [TODO Example: "safe" meat temperature. If we start out with a discrete distribution between 100F and 200F. If I tell you the temperature is between 165 and 200, I've cut down your uncertainty from lg(100)=6.643 to lg(35)=5.1292: 1.514 bits, because I cut down the number of possibilities by a factor of 2.85, and lg(2.85)=1.514. But if I told you the temperature was _either_ between 165 and 190, OR between 130 and 140, that's ALSO cutting it down to 35 possibilities, but it doesn't answer the question I want to know about, which is whether I'll get sick from eating. Objection: but isn't that "instrumental"? It "safe" depends on your values! Reply: no, it's a conditional prediction about bacteria and getting sick.]
+
+[TODO: decision-determined problems]
 
 [TODO Example: wireheading—believing I'm attractive]
 

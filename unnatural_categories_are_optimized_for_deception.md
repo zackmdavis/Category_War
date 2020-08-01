@@ -72,17 +72,20 @@ As a human learning math, it's helpful to examine [multiple representations of t
 
 ![](file:///home/zmd/Documents/Drafts/Category_War/bleggspace.png)
 
-If you were trying to _teach_ someone about the hidden Bayesian structure of language and cognition, but didn't expect your audience to sit through the actual math, you might _start_ with this visual representation, [TODO: the boundary is drawn for human convenience, &c.]
+If you were trying to _teach_ someone about the hidden Bayesian structure of language and cognition, but didn't expect your audience to sit through the actual math, you might be tempted to 
+
+
+[TODO: the boundary is drawn for human convenience, &c.]
 
 ![](file:///home/zmd/Documents/Drafts/Category_War/blegg-star-space.png)
 
 [TODO Objection: but I assign utility to doing it this way. Reply: where would that utility function come from?]
+[TODO: decision-determined problems]
 
 [TODO Objection: but you can do Bayesian inference with the "gerrymandered" boundary! It still has a lot of mutual information with the data! Reply: but it increases the mean squared error of feature predictions.]
 
 [TODO Example: "safe" meat temperature. If we start out with a discrete distribution between 100F and 200F. If I tell you the temperature is between 165 and 200, I've cut down your uncertainty from lg(100)=6.643 to lg(35)=5.1292: 1.514 bits, because I cut down the number of possibilities by a factor of 2.85, and lg(2.85)=1.514. But if I told you the temperature was _either_ between 165 and 190, OR between 130 and 140, that's ALSO cutting it down to 35 possibilities, but it doesn't answer the question I want to know about, which is whether I'll get sick from eating. Objection: but isn't that "instrumental"? It "safe" depends on your values! Reply: no, it's a conditional prediction about bacteria and getting sick.]
 
-[TODO: decision-determined problems]
 
 [TODO Example: wireheading—believing I'm attractive]
 

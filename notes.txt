@@ -281,19 +281,32 @@ utility of certainty
 
 But if another system _does_ need to make inferences about an object's features, 
 
-so it's simpler to just give it the 28-byte JSON payload `{"object_category": "BLEGG"}` rather than th
+
+
+https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace
+
+Suppose there's a robot arm in the Sorting room that puts bleggs in the blegg bin, which gets taken to the vanadium-ore processing room, where a more sophisticated  vanadium-ore processing machinery elsewhere in the factory that needs to handle both bleggs and gretrahedrons.
+
+The ore-processor's models might be different from the three-feature models we used to _identify_ bleggs in the Sorting room—maybe it needs to vary its drill speed in proportion to the density of a particular blegg's flexible outer material.
+
+
+Maybe the robot arm that puts bleggs in the blegg bin doesn't need to _know_ about the blueness and eggness scores: it can close its claws around rubes and bleggs alike, and you only need to program it to drop an object into the correct bin when told that the object "is a blegg" or "is a rube".
+
+But if other machines in the factory need to do something more complicated—if they need to make _further inferences_ about something already known to be in the "vanadium-ore-containing blue eggs" cluster, it's a more efficient communication protocol to 
+
 
 is a _specific mathematical model_ that makes _specific_ (probabilistic) predictions. What it _means_ is that if we see a black-and-white photo of an egg-shaped object (specifically, one with an eggness score of 7)
 
 Scott on "voluntary"
 
-Suppose there's some delicate vanadium-ore processing machinery elsewhere in the factory that needs to handle both bleggs and gretrahedrons.
-
-The ore-processor's models might be different from the three-feature models we used to _identify_ bleggs in the Sorting room—maybe it needs to vary its drill speed in proportion to the density of a particular blegg's flexible outer material.
 
 
 
- do cognitive work concerning our sortable objects, category labels can be used as signals to link up the models between different systems. Suppose there's some delicate vanadium-ore processing machinery elsewhere in the factory that needs to handle both bleggs and gretrahedrons. You want to be able to send commands to that machine, telling it to process a `BLEGG` using its _own_ models, _without_ having to send over all the binary code of the Bayesian network and feature extractors that we used to identify the blegg. The ore-processor's models might be different from the three-feature models we used to identify bleggs in the Sorting room—maybe it needs to vary its drill speed in proportion to the density of a particular blegg's flexible outer material.
+ do cognitive work concerning our sortable objects, category labels can be used as signals to link up the models between different systems. Suppose there's some delicate vanadium-ore processing machinery elsewhere in the factory that needs to handle both bleggs and gretrahedrons. You want to be able to send commands to that machine, telling it to process a `BLEGG` using its _own_ models, _without_ having to
+
+send over all the binary code of the Bayesian network and feature extractors that we used to identify the blegg.
+
+The ore-processor's models might be different from the three-feature models we used to identify bleggs in the Sorting room—maybe it needs to vary its drill speed in proportion to the density of a particular blegg's flexible outer material.
 
 [another diagram about using a signal to link up different models]
 
@@ -307,7 +320,7 @@ https://www.greaterwrong.com/users/zack_m_davis?offset=360
 
 For these reasons [it is written of the third virtue of lightness](https://yudkowsky.net/rational/virtues/): you _cannot_ make a true map of the category by drawing lines upon paper according to impulse; you must observe the joint distribution and draw lines on paper that correspond to what you see. If, seeing the category unclearly, you think that you can shift a line just a little to the right, just a little to the left, according to your caprice, this is just the same mistake.
 
-As it is written of the tenth virtue of percision, even if you cannot do the math, knowing that the math exists tells you that the dance step is precise and has no room in it for your whims.
+As it is written of the tenth virtue of precision, even if you cannot do the math, knowing that the math exists tells you that the dance step is precise and has no room in it for your whims.
 
 And as it is written of a virtue which is nameless: perhaps your conception of rationality is that it is rational to believe the words of the Great Teacher, and the Great Teacher says, "[]," and you look up at the sky and see blue.
 
@@ -317,10 +330,14 @@ How will you discover your mistake? Not by comparing your description to itself.
 
 But by comparing it to that which you did not name.
 
-
-
 "But she still did it because she valued that choice above others—because of the feeling of importance she attached to that decision."
 https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values
 
 
+[TODO Example: wireheading—believing I'm attractive]
 
+[TODO Discuss Fallis and Lewis's criterion of deception having to benefit the deciever, because that explains why it would be systematic]
+
+[TODO Example: butterfly mimickry]
+
+[TODO Example: is artificial meat "real meat"]

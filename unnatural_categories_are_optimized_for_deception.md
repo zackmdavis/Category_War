@@ -86,10 +86,11 @@ This is also, at an abstract high level, how human natural language works—how 
 
 I am not a cognitive scientist and I don't _know_ the details of _how_ language works in the brain. But I do know a _little_ information theory and probability theory—enough to glimpse a bit of how the laws of mathematics constain how language _has_ to work, to the extent that it works.
 
+In studying or explaining the math, I like to focus on simple examples with explicit probability distributions that I can do my own calculations for with pencil or Python. If I want to tell a story to go along with the math, I want to make the story about factory machines that I could actually program.
 
+The actual implementation of natural language in human brains is going to be _much_ more complicated, of course. Telling a story problem about computer programs controlling factory machines has the advantage not only of being a simple explanation of the [math](https://www.lesswrong.com/posts/bkSkRwo9SRYxJMiSY/beautiful-probability) that we can [trust](https://www.lesswrong.com/posts/BL9DuE2iTCkrnuYzx/trust-in-bayes) governs the more complicated real-world phenomenon. It's also less tempting to rationalize about the story problem about factory machines, than it is to directly think about language.
 
-
-
+Humans are designed to decieve each other—it's always tempting to speak in a way that propagates misinformation while retaining deniability that we weren't _lying_—it's the other guy's _fault_ for misinterpreting what I _really meant_. When we think designing messages for computer programs to give commands to each other about quantifiable observables, this excuse vanishes: if there's a bug in deterministic computer code such that the robot arm puts an object in the rube bin when it gets the `BLEGG` message, then that's what happens. There's no room to use the complexity of humans and their political games to obscure the behavior of the physical system and how it's processing information.
 
 -----
 
@@ -116,6 +117,8 @@ When you reprogram your machine-learning system to send an `{"object_category": 
 _Other than_ the fact that _some aspects_ of these situations can be usefully _visualized_ as changes to a two-dimensional diagram depicting an area with a boundary, what do these situations have to do with each other? They don't. Countries aren't Bayesian networks. They just aren't. Why would you expect to understand a machine-learning concept by telling a story about national borders?
 
 ------
+
+We're not done explaining the problem with unnautral categories yet. The gerrymandered _blegg\*_ boundary doesn't have the nice property of corresponding to the category labels in our nice factorized naïve Bayes model—but it still contains information. You can still do a Bayesian update on being told that an object belongs to the squiggly region in configuration space. 
 
 [TODO Objection: but you can do Bayesian inference with the "gerrymandered" boundary! It still has a lot of mutual information with the data! Reply: but it increases the mean squared error of feature predictions.]
 

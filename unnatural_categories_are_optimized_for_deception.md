@@ -8,9 +8,7 @@ _Arbitrariness in the map doesn't correspond to arbitrariness in the territory. 
 
 So the one comes back to you and says:
 
-> That seems wrong—why wouldn't I care about the utility of having a particular model? I agree that categories derive much of their usefulness from "carving reality at the joints"—that's _one_ very important kind of consequence of choosing to draw category boundaries in a particular way. But other consequences might matter too, if we have some _moral_ reason to _value_ drawing our categories a particular way.
-
-> I don't see why I shouldn't be willing to trade off one unit of categorizational nonawkwardness for $X$ units of morality, even if trading off a million units of categorizational nonawkwardness for the same $X$ units of morality would be bad.
+> That seems wrong—why wouldn't I care about the utility of having a particular model? I agree that categories derive much of their usefulness from "carving reality at the joints"—that's _one_ very important kind of consequence of choosing to draw category boundaries in a particular way. But other consequences might matter too, if we have some _moral_ reason to _value_ drawing our categories a particular way. I don't see why I shouldn't be willing to trade off one unit of categorizational nonawkwardness for $X$ units of morality, even if trading off a million units of categorizational nonawkwardness for the same $X$ units of morality would be bad.
 
 > [TODO: Palestine/Israel metaphor]
 
@@ -90,7 +88,7 @@ In studying or explaining the math, I like to focus on simple examples with expl
 
 The actual implementation of natural language in human brains is going to be _much_ more complicated, of course. Telling a story problem about computer programs controlling factory machines has the advantage not only of being a simple explanation of the [math](https://www.lesswrong.com/posts/bkSkRwo9SRYxJMiSY/beautiful-probability) that we can [trust](https://www.lesswrong.com/posts/BL9DuE2iTCkrnuYzx/trust-in-bayes) governs the more complicated real-world phenomenon. It's also less tempting to rationalize about the story problem about factory machines, than it is to directly think about language.
 
-Humans are designed to decieve each other—it's always tempting to speak in a way that propagates misinformation while retaining deniability that we weren't _lying_—it's the other guy's _fault_ for misinterpreting what I _really meant_. When we think designing messages for computer programs to give commands to each other about quantifiable observables, this excuse vanishes: if there's a bug in deterministic computer code such that the robot arm puts an object in the rube bin when it gets the `BLEGG` message, then that's what happens. There's no room to use the complexity of humans and their political games to obscure the behavior of the physical system and how it's processing information.
+Humans are designed to decieve each other—it's always tempting to speak in a way that propagates misinformation while retaining deniability that we weren't _lying_—it's the other guy's _fault_ for misinterpreting what I _really meant_. When we think about designing messages for computer programs to give commands to each other about quantifiable observables, this excuse vanishes: if there's a bug in deterministic computer code such that the robot arm puts an object in the rube bin when it gets the `BLEGG` message, then that's what happens. There's no room to use the complexity of humans and their political games to obscure the behavior of the physical system and how it's processing information.
 
 -----
 
@@ -116,15 +114,28 @@ When you reprogram your machine-learning system to send an `{"object_category": 
 
 _Other than_ the fact that _some aspects_ of these situations can be usefully _visualized_ as changes to a two-dimensional diagram depicting an area with a boundary, what do these situations have to do with each other? They don't. Countries aren't Bayesian networks. They just aren't. Why would you expect to understand a machine-learning concept by telling a story about national borders?
 
+[TODO: math of correct cognition can be mapped to a boundary, and so can a country]
+
 ------
 
-We're not done explaining the problem with unnautral categories yet. The gerrymandered _blegg\*_ boundary doesn't have the nice property of corresponding to the category labels in our nice factorized naïve Bayes model—but it still contains information. You can still do a Bayesian update on being told that an object belongs to the squiggly region in configuration space. 
+So, that's what's wrong with the national-borders metaphor, but we haven't yet really explained the problem with "unnatural" categories—those that you would visualize as a squiggly, "gerrymandered" boundary. The squiggly _blegg\*_ boundary doesn't have the nice property of corresponding to the category labels in our nice factorized naïve Bayes model, but it still contains information. You can still do a Bayesian update on being told that an object lies within a squiggly boundary in configuration space. If that update eliminates half of your probability-mass, that's one information-theoretic bit, no matter how the category is shaped in Thingspace.
 
-[TODO Objection: but you can do Bayesian inference with the "gerrymandered" boundary! It still has a lot of mutual information with the data! Reply: but it increases the mean squared error of feature predictions.]
+If you only care about how much probability you assign to the _exact_ answer, then a bit is a bit. But if an approximate answer is approximately as good—if your answerspace has a metric on it, so that "approximate" can mean something—then some bits can be more valuable than others.
+
+Suppose some random variable $X$ is uniformly distributed on the set $\{1, 2, 3, 4, 5, 6, 7, 8\}$. You have the option of being told whether an observation $x$ is even or odd, or whether $x$ is greater or less than 4.5. Either way, you eliminate half of your hypotheses: the entropy of your probability distribution goes from $log_2 8 = 3$ to $log_2 4 = 2$. You've learned 1 bit.
+
+But if you learn whether $x$ is even or odd, your mean [squared error](https://www.benkuhn.net/squared/) only goes down from 10.5 to 10, whereas if you learn whether $x$ is 1–4 or 5–8, your mean squared error plummets to 2.5. By being compact, the "1–4 or 5–8" category system is much more useful for getting _close_ to the right answer than the "even/odd" category system, even though they both provide the same amount of information about the _exact_ answer.
+
+The same goes for natural categories _vs._ squiggly category "boundaries" in higher dimensions. 
+
+
+
+[TODO: footnote or hyperlink calculations]
 
 ------
 
 [TODO Objection: but I assign utility to doing it this way. Reply: where would that utility function come from?]
+[TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey]
 [TODO: decision-determined problems]
 
 -----

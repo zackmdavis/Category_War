@@ -126,16 +126,20 @@ Suppose some random variable $X$ is uniformly distributed on the set $\{1, 2, 3,
 
 But if you learn whether $x$ is even or odd, your mean [squared error](https://www.benkuhn.net/squared/) only goes down from 10.5 to 10, whereas if you learn whether $x$ is 1–4 or 5–8, your mean squared error plummets to 2.5. By being compact, the "1–4 or 5–8" category system is much more useful for getting _close_ to the right answer than the "even/odd" category system, even though they both provide the same amount of information about the _exact_ answer.
 
-The same goes for natural categories _vs._ squiggly category "boundaries" in higher dimensions. 
+The same goes for natural categories _vs._ squiggly category "boundaries" in higher dimensions. For our blueness–eggness–vanadium distribution, your mean squared error before being told anything about an object is about 27.26 (with respect to Euclidean distance on blueness-score ✕ eggness-score ✕ 1-if-vanadium-present-else-0).
 
+On being told that an object is a blegg, your mean squared error plummets to about 0.46. On being told that an object is a blegg\*, your mean squared error only goes down to about 4.13. In this sense, the gerrymandered blegg\* concept is _quantitatively less informative_ than the original, compact blegg concept.
 
-
-[TODO: footnote or hyperlink calculations]
+[TODO: double-check and footnote or hyperlink calculations]
+[TODO: choice of metric depends on your values]
 
 ------
 
 [TODO Objection: but I assign utility to doing it this way. Reply: where would that utility function come from?]
-[TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey]
+[TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey
+https://www.lesswrong.com/posts/RQpNHSiWaXTvDxt6R/coherent-decisions-imply-consistent-utilities
+https://www.lesswrong.com/posts/DQ4pyHoAKpYutXwSr/underappreciated-points-about-utility-functions-of-both
+]
 [TODO: decision-determined problems]
 
 -----

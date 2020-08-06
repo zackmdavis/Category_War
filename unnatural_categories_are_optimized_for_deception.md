@@ -150,15 +150,17 @@ I'm reminded of the claim that everyone is intrinsically selfish—that we only 
 
 There's a _trivial_ sense in which you can interpret any action taken by an agent as being taken because the agent _values taking that action_. This theory [is compatible with all possible behaviors and therefore explains nothing](https://www.lesswrong.com/posts/jiBFC7DcCrZjGmZnJ/conservation-of-expected-evidence).
 
-But the value of decision-theoretic utility functions isn't that "Because utility!" serves as an all-purpose excuse. It's that [simple coherence deciderata _imply_ that a rational agent's behavior be describable as maximizing expected utility for some utility function](https://www.lesswrong.com/posts/RQpNHSiWaXTvDxt6R/coherent-decisions-imply-consistent-utilities)—with corresponding _constraints_ on the shape of that behavior.
+But the value of decision-theoretic utility functions isn't that "Because utility!" serves as an all-purpose excuse. It's that [simple coherence deciderata _imply_ that a rational agent's behavior be describable as maximizing expected utility for some utility function](https://www.lesswrong.com/posts/RQpNHSiWaXTvDxt6R/coherent-decisions-imply-consistent-utilities)—with corresponding _constraints_ on the shape of that behavior. [TODO: sentence about Allias paradox]
 
-In [the von Neumann and Morgenstern formulation](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem), agents make choices between _lotteries_: probability distributions over outcomes. Given a few hard-to-deny axioms of what sane decisionmaking should look like, we can prove that agents' choices be describable as maximizing some utility function over _outcomes_. _Not_ over lotteries—
+In [the von Neumann and Morgenstern formalism](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem), agents make choices between _lotteries_: probability distributions over outcomes. Given a few hard-to-deny axioms of what sane decisionmaking should look like, we can prove that agents' choices correspond to maximizing some utility function over _outcomes_. _Not_ over lotteries.
+
+The phenomenon that the lottery formalism attempts to capture is that when you take an action in the real world, you don't know what will happen with certainty; rather, you have some probability distribution over what will happen as a result of your action, and you want to choose the action with the best result in expectation. Actions are justified in terms of _expected_ utility: the sum of the utilities of the possible outcomes weighted by probability. Inside the formalism, it doesn't make sense to talk about preferences for taking an action as distinct from that action's distribution of consequences, because [...]
 
 
 
 [TODO Objection: but I assign utility to doing it this way. Reply: where would that utility function come from?]
 [TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey
-
+ "the utility of certainty" https://www.lesswrong.com/posts/zNcLnqHF5rvrTsQJx/zut-allais
 https://www.lesswrong.com/posts/DQ4pyHoAKpYutXwSr/underappreciated-points-about-utility-functions-of-both
 ]
 [TODO: decision-determined problems]

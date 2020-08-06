@@ -136,7 +136,19 @@ But _given_ a metric on the variables that you care about using to inform and ma
 
 ------
 
-The one says, "You're not addressing my crux! I don't doubt what you say about minimizing prediction error. But what if I don't care about that? Suppose I assign _high utility_ to using the squiggly _blegg\*_ category boundary—such that the utility of using my preferred category outweighs the disutility of making less accurate predictions. You _can_ define a word any way you want—if you're willing to pay the costs."
+The one says, "You're still not addressing my crux! I don't doubt what you say about minimizing prediction error. But what if I don't care about that? My utility function assigns high value to using the squiggly _blegg\*_ category boundary—such that the utility of using my preferred category outweighs the disutility of making less accurate predictions. You _can_ define a word any way you want—if you're willing to pay the costs."
+
+... so, you just intrinsically assign high utility to using the same communication signal to encode eggness-2/blueness-1 observations as eggness-6/blueness-6 observations, given the joint distribution specified in my story problem about sorting objects in a factory? Really?
+
+"... yes!"
+
+... okay, but where would that kind of exotic utility function come from? How would it arise naturally in an intelligent system?
+
+I think a fundamental misunderstanding of what the "utility function" concept is good for is masking the real reason we're having this argument.
+
+I'm reminded of the claim that everyone is intrinsically selfish—that we only do things because of their effects on our own state of mind. [When confronted with the counterexample of a mother sacrificing her life to save her child, the reply goes: "But she still did it because _she valued_ that choice above others—because of the _feeling of importance_ she attached to that decision."](https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values)
+
+There's a trivial sense in which you can interpret any action taken by an agent as being taken because the agent _values taking that action_. 
 
 
 

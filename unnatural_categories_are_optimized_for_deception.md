@@ -126,15 +126,21 @@ Suppose some random variable $X$ is uniformly distributed on the set $\{1, 2, 3,
 
 But if you learn whether $x$ is even or odd, your mean [squared error](https://www.benkuhn.net/squared/) only goes down from 10.5 to 10, whereas if you learn whether $x$ is 1–4 or 5–8, your mean squared error plummets to 2.5. By being compact, the "1–4 or 5–8" category system is much more useful for getting _close_ to the right answer than the "even/odd" category system, even though they both provide the same amount of information about the _exact_ answer.
 
-The same goes for natural categories _vs._ squiggly category "boundaries" in higher dimensions. For our blueness–eggness–vanadium distribution, your mean squared error before being told anything about an object is about 27.26 (with respect to Euclidean distance on blueness-score ✕ eggness-score ✕ 1-if-vanadium-present-else-0).
+The same goes for natural categories _vs._ squiggly category "boundaries" in higher dimensions. For our blueness–eggness–vanadium distribution, your mean squared error before being told anything about an object is about 27.26 (with respect to Euclidean distance on blueness-score ✕ eggness-score ✕ 1-if-vanadium-present-else-0). On being told that an object is a blegg, your mean squared error plummets to about 0.46. On being told that an object is a blegg\*, your mean squared error only goes down to about 4.13.
 
-On being told that an object is a blegg, your mean squared error plummets to about 0.46. On being told that an object is a blegg\*, your mean squared error only goes down to about 4.13. In this sense, the gerrymandered blegg\* concept is _quantitatively less informative_ than the original, compact blegg concept.
+In this sense, the gerrymandered blegg\* concept is _quantitatively less informative_ than the original, compact blegg concept. The _metric_ we assigned to blueness–eggness–vanadium space was our choice, and could depend on our values: if we simply _don't care_ about predicting how blue an object is, we could disregard the blueness score and only define a concept on the eggness–vanadium subspace. Or if we don't care about predicting blueness _very much_, we could calculate our error score with respect to a metric that gave blueness very little weight.
 
-[it's quantitatively less informative because of the data, not our values]
-[TODO: double-check and footnote or hyperlink calculations]
-[TODO: choice of metric depends on your values]
+But _given_ a metric on the variables that you care about using to inform and make predictions (which depends on your values), which categories are cognitively useful depends on the the distribution of data in the world (not on your values). You can't define a word any way you want.
+
+[TODO: double-check and footnote or hyperlink calculations; quote how the squared error changes with different metrics]
 
 ------
+
+The one says, "You're not addressing my crux! I don't doubt what you say about minimizing prediction error. But what if I don't care about that? Suppose I assign _high utility_ to using the squiggly _blegg\*_ category boundary—such that the utility of using my preferred category outweighs the disutility of making less accurate predictions. You _can_ define a word any way you want—if you're willing to pay the costs."
+
+
+
+
 
 [TODO Objection: but I assign utility to doing it this way. Reply: where would that utility function come from?]
 [TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey

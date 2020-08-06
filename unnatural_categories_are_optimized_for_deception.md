@@ -148,15 +148,17 @@ I think a fundamental misunderstanding of what the "utility function" concept is
 
 I'm reminded of the claim that everyone is intrinsically selfish—that we only do things because of their effects on our own state of mind. [When confronted with the counterexample of a mother sacrificing her life to save her child, the reply goes: "But she still did it because _she valued_ that choice above others—because of the _feeling of importance_ she attached to that decision."](https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values)
 
-There's a trivial sense in which you can interpret any action taken by an agent as being taken because the agent _values taking that action_. 
+There's a _trivial_ sense in which you can interpret any action taken by an agent as being taken because the agent _values taking that action_. This theory [is compatible with all possible behaviors and therefore explains nothing](https://www.lesswrong.com/posts/jiBFC7DcCrZjGmZnJ/conservation-of-expected-evidence).
 
+But the value of decision-theoretic utility functions isn't that "Because utility!" serves as an all-purpose excuse. It's that [simple coherence deciderata _imply_ that a rational agent's behavior be describable as maximizing expected utility for some utility function](https://www.lesswrong.com/posts/RQpNHSiWaXTvDxt6R/coherent-decisions-imply-consistent-utilities)—with corresponding _constraints_ on the shape of that behavior.
 
+In [the von Neumann and Morgenstern formulation](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem), agents make choices between _lotteries_: probability distributions over outcomes. Given a few hard-to-deny axioms of what sane decisionmaking should look like, we can prove that agents' choices be describable as maximizing some utility function over _outcomes_. _Not_ over lotteries—
 
 
 
 [TODO Objection: but I assign utility to doing it this way. Reply: where would that utility function come from?]
 [TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey
-https://www.lesswrong.com/posts/RQpNHSiWaXTvDxt6R/coherent-decisions-imply-consistent-utilities
+
 https://www.lesswrong.com/posts/DQ4pyHoAKpYutXwSr/underappreciated-points-about-utility-functions-of-both
 ]
 [TODO: decision-determined problems]

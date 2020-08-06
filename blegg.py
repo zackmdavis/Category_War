@@ -68,6 +68,26 @@ for blueness in range(8):
                 labeled_distribution[(c, blueness, eggness, vanadium)] = v
 
 
+def squared_error(distribution, metric):
+    grand_error = 0
+    for guess, guess_probability in distribution.items():
+        for actual, actual_probability in distribution.items():
+            grand_error += guess_probability * actual_probability * metric(actual, guess)
+    return grand_error
+
+def bleggspace_metric(u, v):
+    return sum((u[i] - v[i])**2 for i in range(3))
+
+def bleggspace_metric_strip_labels(u, v):
+    return bleggspace_metric(u[1:], v[1:])
+
+print(labeled_distribution)
+print(badly_labeled_distribution)
+print("rube/blegg/?? initial mean squared error", squared_error(labeled_distribution, bleggspace_metric_strip_labels))
+print("blegg*/not initial mean squared error", squared_error(badly_labeled_distribution, bleggspace_metric_strip_labels))
+print("square-err after learning blegg", squared_error({k: v for k, v in labeled_distribution.items() if k[0] == 'blegg'}, bleggspace_metric_strip_labels))
+print("square-err after learning blegg*", squared_error({k: v for k, v in badly_labeled_distribution.items() if k[0] == True}, bleggspace_metric_strip_labels))
+
 
 total = sum(labeled_distribution.values())
 print(labeled_distribution)

@@ -130,6 +130,7 @@ The same goes for natural categories _vs._ squiggly category "boundaries" in hig
 
 On being told that an object is a blegg, your mean squared error plummets to about 0.46. On being told that an object is a blegg\*, your mean squared error only goes down to about 4.13. In this sense, the gerrymandered blegg\* concept is _quantitatively less informative_ than the original, compact blegg concept.
 
+[it's quantitatively less informative because of the data, not our values]
 [TODO: double-check and footnote or hyperlink calculations]
 [TODO: choice of metric depends on your values]
 

@@ -318,17 +318,6 @@ https://www.greaterwrong.com/users/zack_m_davis?offset=360
 
 [argument from common usage]
 
-For these reasons [it is written of the third virtue of lightness](https://yudkowsky.net/rational/virtues/): you _cannot_ make a true map of the category by drawing lines upon paper according to impulse; you must observe the joint distribution and draw lines on paper that correspond to what you see. If, seeing the category unclearly, you think that you can shift a line just a little to the right, just a little to the left, according to your caprice, this is just the same mistake.
-
-As it is written of the tenth virtue of precision, even if you cannot do the math, knowing that the math exists tells you that the dance step is precise and has no room in it for your whims.
-
-And as it is written of a virtue which is nameless: perhaps your conception of rationality is that it is rational to believe the words of the Great Teacher, and the Great Teacher says, "[]," and you look up at the sky and see blue.
-
-If you think: "It may look like the sky is blue, such that I'd ordinarily think that someone who said 'The sky is green' was being deceptive. But surely the Great Teacher wouldn't tell blantant lies about his own philosophy of language for political convenience," you lose a chance to discover your mistake.
-
-How will you discover your mistake? Not by comparing your description to itself.
-
-But by comparing it to that which you did not name.
 
 "But she still did it because she valued that choice above others—because of the feeling of importance she attached to that decision."
 https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values
@@ -341,3 +330,36 @@ https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrument
 [TODO Example: butterfly mimickry]
 
 [TODO Example: is artificial meat "real meat"]
+
+
+https://www.lesswrong.com/posts/zNcLnqHF5rvrTsQJx/zut-allais
+
+
+I think a fundamental misunderstanding of what the "utility function" concept is good for is masking the real reason we're having this argument.
+
+I'm reminded of the claim that everyone is intrinsically selfish—that we only do things because of their effects on our own state of mind. [When confronted with the counterexample of a mother sacrificing her life to save her child, the reply goes: "But she still did it because _she valued_ that choice above others—because of the _feeling of importance_ she attached to that decision."](https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values)
+
+  
+
+In [the von Neumann and Morgenstern formalism](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem), agents make choices between _lotteries_: probability distributions over outcomes. Given a few hard-to-deny axioms of what sane decisionmaking should look like, we can prove that agents' choices correspond to maximizing some utility function over _outcomes_. _Not_ over lotteries.
+
+The phenomenon that the lottery formalism captures is that when you take some action or execute some plan in the real world, you don't know what will happen with certainty; rather, you have some probability distribution over what will happen as a result of your actions.
+
+
+and you want to choose the action with the best result in expectation. Actions are justified in terms of _expected_ utility: the sum of the utilities of the possible outcomes weighted by probability. Inside the formalism, it doesn't make sense to talk about preferences for taking an action as something distinct from that action's distribution of consequences, because the formalism describes _how to compute_ what action to take given a model of the world (expressible as a map from actions to probability distributions) and given your preferences (expressible as a utility function). [TODO: use "plan" as a synonym for action]
+
+When applying the formalism to real life, preferences should be folded into the "outcomes".
+
+Suppose I'm deciding whether to run a mile to the store to buy soap, or order the soap online.
+
+[TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey
+ "the utility of certainty" https://www.lesswrong.com/posts/zNcLnqHF5rvrTsQJx/zut-allais
+
+]
+
+[TODO Example: "safe" meat temperature. If we start out with a discrete distribution between 100F and 200F. If I tell you the temperature is between 165 and 200, I've cut down your uncertainty from lg(100)=6.643 to lg(35)=5.1292: 1.514 bits, because I cut down the number of possibilities by a factor of 2.85, and lg(2.85)=1.514. But if I told you the temperature was _either_ between 165 and 190, OR between 130 and 140, that's ALSO cutting it down to 35 possibilities, but it doesn't answer the question I want to know about, which is whether I'll get sick from eating. Objection: but isn't that "instrumental"? It "safe" depends on your values! Reply: no, it's a conditional prediction about bacteria and getting sick.]
+
+
+[TODO: Objection: what if wireheading is good? Don't we like candy, even if it could be construed as "deceiving" our nutrition detectors as they were designed? Reply: maybe you can get away with wireheading the "taste" system if you have some _other_ system making sure you make sane nutrition.]
+
+[TODO: decision-determined problems]

@@ -24,7 +24,7 @@ Because category "boundaries" are merely a _visualization_ for a probabilistic m
 
 Might there be some non-epistemic reason for an agent to prefer a model that makes worse predictions? Sure! Correct maps are useful for steering reality into configurations ranked higher in your preference ordering—but causing a _different_ agent to have _incorrect_ maps might make them _mis_-navigate reality in a way that benefits you! We call this [_deception_](https://www.lesswrong.com/posts/fmA2GJwZzYtkrAKYJ/algorithms-of-deception).
 
-In a closely related phenomenon, a poorly-designed agent might get confused and end up manipulating its _own_ beliefs: optimizing its map to _inaccurately_ portray a high-value territory, rather than optimizing the territory to be high-value using a map that reflects the territory—a kind of _self_-deception. We call this _wireheading_.
+In a closely related phenomenon, a poorly-designed agent might get confused and end up manipulating its _own_ beliefs: optimizing its map to _inaccurately_ portray a high-value territory, rather than optimizing the territory to be high-value by using a map that reflects the territory—a kind of _self_-deception. We call this _wireheading_.
 
 Intelligent systems with shared interests will design communication protocols to efficiently share information in accordance with the [_mathematical laws_](https://www.lesswrong.com/posts/eY45uCCX7DdwJ4Jha/no-one-can-exempt-you-from-rationality-s-laws) of probability and information theory. Systems that communicate in ways that _depart_ from these laws, do so in order to achieve non-shared interests (deception), possibly non-shared interests of subsystems _within_ an agent (wireheading).
 
@@ -70,11 +70,11 @@ We can then use our updated beliefs about category membership (0.96 blegg/0 rube
 
 ------
 
-In addition to categories facilitating efficient probabilistic inference _within_ the system that you're currently programming, _labels_ for categories turn out to be useful for _communicating_ with other systems. Maybe there's a robot arm in the Sorting room that puts bleggs in a blegg bin, which gets taken to a room elsewhere in the factory where there's sophisticated vanadium ore-processing machinery that has to handle both bleggs and gretrahedrons.
+In addition to categories facilitating efficient probabilistic inference _within_ the system that you're currently programming, _labels_ for categories turn out to be useful for _communicating_ with other systems. Maybe there's a robot arm in the Sorting room that puts bleggs in a blegg bin, which gets taken to a room elsewhere in the factory where there's sophisticated vanadium-ore-processing machinery that has to handle both bleggs and gretrahedrons.
 
 Maybe the binning arm doesn't need to _know_ about the blueness and eggness scores: it can close its claws around rubes and bleggs alike, and you only need to program it to pick up an object from a certain spot on the conveyor belt and place it into the correct bin. But maybe the vanadium-ore-processing machine does need to do further information processing before it can operate on an object—maybe it needs to vary its drill speed in proportion to the density of a particular blegg's flexible outer material (which it can estimate based on how brightly the blegg glows in the dark), but it uses a different drilling pattern for gretrahedrons.
 
-If you need to send commands to the binning arm and the ore-processing machine, it's a more efficient communication protocol to just be able to send the 28-byte JSON payload `{"object_category": "BLEGG"}` and let the other machines do their work using their _own_ models of bleggs, rather than having to send over the raw camera data plus the binary code of the Bayesian network and feature extractors that the classifier system initially used to identify bleggs.
+If you need to send commands to the binning arm and the ore-processing machine, it's a more efficient communication protocol to just be able to send the 28-byte JSON payload `{"object_category": "BLEGG"}` and let the other machines do their work using their _own_ models of bleggs, rather than having to send over the raw camera data plus the binary code of the Bayesian network and feature extractors that the feature-extraction and classifier systems initially used to identify bleggs.
 
 The `{"object_category": "BLEGG"}` message is a useful _shorthand_ for "linking up" the models between different machines. Different machines might not use the _same_ model: the classifer system uses blueness and eggness scores to _identify_ bleggs, but the ore-processing machine, having been _told_ that an object is a blegg, can take its blueness and eggness for granted and only needs to reason about its luminescence and vanadium content.
 
@@ -88,7 +88,11 @@ In studying or explaining the math, I like to focus on simple examples with expl
 
 The actual implementation of natural language in human brains is going to be _much_ more complicated, of course. Telling a story problem about computer programs controlling factory machines has the advantage not only of being a simple explanation of the [math](https://www.lesswrong.com/posts/bkSkRwo9SRYxJMiSY/beautiful-probability) that we can [trust](https://www.lesswrong.com/posts/BL9DuE2iTCkrnuYzx/trust-in-bayes) governs the more complicated real-world phenomenon. It's also less tempting to rationalize about the story problem about factory machines, than it is to directly think about language.
 
+(As it is written of the tenth virtue of precision: even if you cannot do the math, knowing that the math exists tells you that the dance step is precise and has no room in it for your whims.)
+
 Humans are designed to decieve each other—it's always tempting to speak in a way that propagates misinformation while retaining deniability that we weren't _lying_—it's the other guy's _fault_ for misinterpreting what I _really meant_. When we think about designing messages for computer programs to give commands to each other about quantifiable observables, this excuse vanishes: if there's a bug in deterministic computer code such that the robot arm puts an object in the rube bin when it gets the `BLEGG` message, then that's what happens. There's no room to use the complexity of humans and their political games to obscure the behavior of the physical system and how it's processing information.
+
+[TODO: more cleanly distinguish two reasons for example choice: simplicity, and sidestepping political intuitions. Link to "Toolbox-thinking and law-thinking".]
 
 -----
 
@@ -97,6 +101,8 @@ As a human learning math, it's helpful to examine [multiple representations of t
 ![](file:///home/zmd/Documents/Drafts/Category_War/bleggspace.png)
 
 **Figure 2.**
+
+[TODO: highlight the significance of "with probability > p"—inside/outside the boundaries is a simplification that loses information if we're using a model where the classes generate overlapping observations in whatever subspace we're making observations in]
 
 If you were trying to _teach_ someone about the hidden Bayesian structure of language and cognition, but thought your audience was too stupid or lazy to understand the actual math, you might be tempted to skip the part about factorizing a joint distribution into a star-shaped Bayesian network and just talk about "drawing" "boundaries" in configuration space for human convenience, perhaps with a hokey metaphor about national borders. Then the audience might walk away with the idea that there's no reason not to replace the old _blegg_ concept and its boring compact boundary, with a new _blegg\*_ concept that has an exciting squiggly border.
 
@@ -112,13 +118,11 @@ When we say that [the United States purchased Alaska from the Russian Empire](ht
 
 When you reprogram your machine-learning system to send an `{"object_category": "BLEGG"}` message when it sees an object with an eggness score of 2 and a blueness score of 1, then your vanadium-ore-processing machine wears down its drill bits trying to process a rube.
 
-_Other than_ the fact that _some aspects_ of these situations can be usefully _visualized_ as changes to a two-dimensional diagram depicting an area with a boundary, what do these situations have to do with each other? They don't. Countries aren't Bayesian networks. They just aren't. Why would you expect to understand a machine-learning concept by telling a story about national borders?
-
-[TODO: math of correct cognition can be mapped to a boundary, and so can a country]
+_Other than_ the fact that _some aspects_ of both of these situations can be usefully _visualized_ as changes to a two-dimensional diagram depicting an area with a boundary, what do these situations have to do with each other? They don't. Countries aren't Bayesian networks. They just aren't. When we depict a country on a map, we're _not talking_ about a cognitive system that can use observations of latitude to estimate probabilities of country-membership and then use that distribution on country-membership to get an updated probability distribution on longitude. (I mean, given a world map, you _could_ program such a thing, but it seems kind of useless—it's not clear why anyone would _want_ that particular program.) Why would you expect to understand an AI-theory concept by telling a story about national borders?
 
 ------
 
-So, that's what's wrong with the national-borders metaphor, but we haven't yet really explained the problem with "unnatural" categories—those that you would visualize as a squiggly, "gerrymandered" boundary. The squiggly _blegg\*_ boundary doesn't have the nice property of corresponding to the category labels in our nice factorized naïve Bayes model, but it still contains information. You can still do a Bayesian update on being told that an object lies within a squiggly boundary in configuration space. If that update eliminates half of your probability-mass, that's one information-theoretic bit, no matter how the category is shaped in Thingspace.
+So, that's what's wrong with the national-borders metaphor. But we haven't yet really explained the problem with "unnatural" categories—those that you would _visualize as_ a squiggly, "gerrymandered" boundary. The squiggly _blegg\*_ boundary doesn't have the nice property of corresponding to the category labels in our nice factorized naïve Bayes model, but it still contains information. You can still do a Bayesian update on being told that an object lies within a squiggly boundary in configuration space. If that update eliminates half of your probability-mass, that's one information-theoretic bit, no matter how the category is shaped in Thingspace.
 
 If you only care about how much probability you assign to the _exact_ answer, then a bit is a bit. But if an approximate answer is approximately as good—if your answerspace has a metric on it, so that "approximate" can mean something—then some bits can be more valuable than others.
 
@@ -130,7 +134,7 @@ The same goes for natural categories _vs._ squiggly category "boundaries" in hig
 
 In this sense, the gerrymandered blegg\* concept is _quantitatively less informative_ than the original, compact blegg concept. The _metric_ we assigned to blueness–eggness–vanadium space was our choice, and could depend on our values: if we simply _don't care_ about predicting how blue an object is, we could disregard the blueness score and only define a concept on the eggness–vanadium subspace. Or if we don't care about predicting blueness _very much_, we could calculate our error score with respect to a metric that gave blueness very little weight.
 
-But _given_ a metric on the variables that you care about using to inform and make predictions (which depends on your values), which categories are cognitively useful depends on the the distribution of data in the world (not on your values). You can't define a word any way you want.
+But _given_ a metric on the variables that you care about predicting and using to inform predictions, which categories are cognitively useful depends on the the distribution of data in the world (not on your values). You can't define a word any way you want.
 
 [TODO: double-check and footnote or hyperlink calculations; quote how the squared error changes with different metrics]
 
@@ -138,39 +142,63 @@ But _given_ a metric on the variables that you care about using to inform and ma
 
 The one says, "You're still not addressing my crux! I don't doubt what you say about minimizing prediction error. But what if I don't care about that? My utility function assigns high value to using the squiggly _blegg\*_ category boundary—such that the utility of using my preferred category outweighs the disutility of making less accurate predictions. You _can_ define a word any way you want—if you're willing to pay the costs."
 
-... so, you just intrinsically assign high utility to using the same communication signal to encode eggness-2/blueness-1 observations as eggness-6/blueness-6 observations, given the joint distribution specified in my story problem about sorting objects in a factory? Really?
+... so, what, you just intrinsically assign high utility to using the same communication signal to encode eggness-2/blueness-1 observations as eggness-6/blueness-6 observations, given the joint distribution specified in my story problem about sorting objects in a factory? Really?
 
 "... yes!"
 
 ... okay, but where would that kind of exotic utility function come from? How would it arise naturally in an intelligent system?
 
-I think a fundamental misunderstanding of what the "utility function" concept is good for is masking the real reason we're having this argument.
-
-I'm reminded of the claim that everyone is intrinsically selfish—that we only do things because of their effects on our own state of mind. [When confronted with the counterexample of a mother sacrificing her life to save her child, the reply goes: "But she still did it because _she valued_ that choice above others—because of the _feeling of importance_ she attached to that decision."](https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values)
-
 There's a _trivial_ sense in which you can interpret any action taken by an agent as being taken because the agent _values taking that action_. This theory [is compatible with all possible behaviors and therefore explains nothing](https://www.lesswrong.com/posts/jiBFC7DcCrZjGmZnJ/conservation-of-expected-evidence).
 
-But the value of decision-theoretic utility functions isn't that "Because utility!" serves as an all-purpose excuse. It's that [simple coherence deciderata _imply_ that a rational agent's behavior be describable as maximizing expected utility for some utility function](https://www.lesswrong.com/posts/RQpNHSiWaXTvDxt6R/coherent-decisions-imply-consistent-utilities)—with corresponding _constraints_ on the shape of that behavior. [TODO: sentence about Allias paradox]
+The value of [decision-theoretic utility functions](https://www.lesswrong.com/posts/DQ4pyHoAKpYutXwSr/underappreciated-points-about-utility-functions-of-both) isn't that "Because utility!" serves as an all-purpose excuse for any possible behavior. It's that [simple coherence deciderata _imply_ that an agent's behavior should be _describable as_ maximizing expected utility for some utility function](https://www.lesswrong.com/posts/RQpNHSiWaXTvDxt6R/coherent-decisions-imply-consistent-utilities)—with corresponding _constraints_ on the shape of that behavior.
 
-In [the von Neumann and Morgenstern formalism](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem), agents make choices between _lotteries_: probability distributions over outcomes. Given a few hard-to-deny axioms of what sane decisionmaking should look like, we can prove that agents' choices correspond to maximizing some utility function over _outcomes_. _Not_ over lotteries.
+Situations like the [Allias paradox](https://www.lesswrong.com/posts/zJZvoiwydJ5zvzTHK/the-allais-paradox) illustrate what these constaints look like. Consider an AI faced with playing the following game. There's a switch that can be turned On or Off, that starts out on in the Off position.
 
-The phenomenon that the lottery formalism attempts to capture is that when you take an action in the real world, you don't know what will happen with certainty; rather, you have some probability distribution over what will happen as a result of your action, and you want to choose the action with the best result in expectation. Actions are justified in terms of _expected_ utility: the sum of the utilities of the possible outcomes weighted by probability. Inside the formalism, it doesn't make sense to talk about preferences for taking an action as distinct from that action's distribution of consequences, because [...]
+At midnight, a coin is flipped. If the coin comes up Tails, the game ends. If the coin comes up Heads, then at a quarter past midnight, if the switch is Off, then the AI gets paid $100, and if the switch is On, a six-sided die is rolled, and the AI gets paid $110 if the die doesn't come up 6.
+
+Suppose that, before midnight, the AI is willing to pay a dollar to flip the switch On (as if it thought that winning $110 with a probability of 5/12 is better than winning $100 with a probability of 1/2). Suppose the coin comes up Heads, and the AI is then willing to pay another dollar to flip the switch Off again (as if it thought that $100 with certainty is better than $110 with probability 5/6). Then the AI is two dollars poorer in exchange for the switch being in the same position it started in.
+
+[TODO: sentence about violating the independence axiom]
+
+Must we condemn such an AI as "irrational"? I mean, maybe not; it depends on what you mean by "rational". (If you speak overmuch of the Way, you will not attain it.) If, for some inscrutable reason, you specifically programmed the AI to prefer options it considers "certain", or to want switches to be "On" before midnight but "Off" after midnight, then it would be functioning as designed.
+
+What we _can_ say about such an AI, is that it's _not optimizing for acquiring money_.[^fully] (We say that a system is an optimizer if it systematically steers reality into configurations that rank higher with respect to some preference ordering. This helps us make predictions about what _effects_ the system has, without having to model the details of _how_ it brings those effects about.) A well-designed agent that was optimizing for acquiring money would be expected to obey the independence axiom.
+
+[^fully]: At least, not _fully_ optimizing.
+
+If the AI playing the Allais game isn't coherently optimizing for acquiring money, what _is_ it optimizing for? To tell, we'd need to observe its behavior in different environments. If it is trying to acquire money but is just _biased_, then we'd expect it to make choices that result in money but continue to exhibit Allais-like glitches around gambles involving probabilities close to 1. If it just likes switches to be off after midnight, then we'd expect it to turn switches off at that time even if there's no gambling game going on.
+
+This methodology for attributing goals to an agent—consider it to be "optimizing for" outcomes that it systematically achieves across a variety of environments—applies to the behavior of sending communication signals, just as it does to the behavior of flipping switches.
+
+Back to the rube/factory. Our classifier system that sends a `BLEGG` message when it gets camera data corresponding to the compact _blegg_ concept is optimized for sending messages that allow other systems to minimize the squared error of their predictions of objects with respect to our standard metric on blueness–eggness–vanadium space. We _don't_ intrinsically assign utility to using that particular category system; the category is the _solution_ to an optimization problem.
+
+A system that sends a `BLEGG` message when it gets camera data corresponding to the gerrymandered _blegg\*_ concept would be optimized for ... what? If you don't instrinsically assign utility to using that particular category system, then _why_ would you program the system that way? What optimization problem is being solved?
+
+Well. Suppose that, besides your dayjob as a machine-learning engineer, you _also_ happen to own an interest in the firm that supplies rubes and bleggs to this very factory.
+
+Suppose the factory pays more for vanadium-containing objects than palladium-containing ones—and that the accounts-payable records of what the factory owes its suppliers are compiled based on statistics from the sorting room you are currently in the process of automating, not the ore-processing room.
+
+
+Suppose you have a grudge against Bob the Big Boss 
 
 
 
-[TODO Objection: but I assign utility to doing it this way. Reply: where would that utility function come from?]
-[TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey
- "the utility of certainty" https://www.lesswrong.com/posts/zNcLnqHF5rvrTsQJx/zut-allais
-https://www.lesswrong.com/posts/DQ4pyHoAKpYutXwSr/underappreciated-points-about-utility-functions-of-both
-]
-[TODO: decision-determined problems]
 
------
 
-[TODO Example: "safe" meat temperature. If we start out with a discrete distribution between 100F and 200F. If I tell you the temperature is between 165 and 200, I've cut down your uncertainty from lg(100)=6.643 to lg(35)=5.1292: 1.514 bits, because I cut down the number of possibilities by a factor of 2.85, and lg(2.85)=1.514. But if I told you the temperature was _either_ between 165 and 190, OR between 130 and 140, that's ALSO cutting it down to 35 possibilities, but it doesn't answer the question I want to know about, which is whether I'll get sick from eating. Objection: but isn't that "instrumental"? It "safe" depends on your values! Reply: no, it's a conditional prediction about bacteria and getting sick.]
+[...]
 
 ----
 
-[...]
+For these reasons [it is written of the third virtue of lightness](https://yudkowsky.net/rational/virtues/): you _cannot_ make a true map of the category by drawing lines upon paper according to impulse; you must observe the joint distribution and draw lines on paper that correspond to what you see. If, seeing the category unclearly, you think that you can shift a line just a little to the right, just a little to the left, according to your caprice, this is just the same mistake.
+
+And as it is written of a virtue which is nameless: perhaps your conception of rationality is that it is rational to believe the words of the Great Teacher, who [lives in an area where claiming that the sky is blue would be political suicide](https://www.lesswrong.com/posts/DoPo4PDjgSySquHX8/heads-i-win-tails-never-heard-of-her-or-selective-reporting).
+
+And the Great Teacher says, "Some people I usually respect for their willingness to publicly die on a hill of facts, now seem to be talking as if color references are necessarily a factual statement about frequencies of light. But using language in a way _you_ dislike, is not lying. You're not standing in defense of truth if you insist on a word, brought explicitly into question, being used with some particular meaning." And you look up at the sky and see blue.
+
+If you think: "It may look like the sky is blue, such that I'd ordinarily think that someone who said 'The sky is green' was being deceptive. But surely the Great Teacher wouldn't egregiously mislead people about his own philosophy of language when being egregiously misleading happened to be politically convenient," you lose a chance to discover your mistake.
+
+How will you discover your mistake? Not by comparing your description to itself.
+
+But by comparing it to that which you did not name.
 
 _(Thanks to Jessica Taylor for discussion.)_

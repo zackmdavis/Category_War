@@ -50,6 +50,7 @@ def conditional_entropy(distribution, condition):
 base_rates = {"blegg": Fraction(12, 25), "rube": Fraction(12, 25), "other": Fraction(1, 25)}
 
 blegg_star_cells = {(i, j) for i in range(5,8) for j in range(5,8)} | {(6, k) for k in range(1, 5)}  | {(l, 1) for l in range(2, 6)} | {(2,2)}
+rube_star_cells = {(i, 0) for i in range(0,3)} | {(1,0), (1,1), (0,2), (1,2)}
 
 distribution = {}
 labeled_distribution = {}
@@ -58,7 +59,12 @@ badly_labeled_distribution = {}
 for blueness in range(8):
     for eggness in range(8):
         for vanadium in range(2):
-            bad_label = (eggness, blueness) in blegg_star_cells
+            if (eggness, blueness) in blegg_star_cells:
+                bad_label = 'blegg*'
+            elif (eggness, blueness) in rube_star_cells:
+                bad_label = 'rube*'
+            else:
+                bad_label = 'other'
             badly_labeled_distribution[(bad_label, blueness, eggness, vanadium)] = 0
             distribution[(blueness, eggness, vanadium)] = 0
             for c, p in base_rates.items():
@@ -81,12 +87,30 @@ def bleggspace_metric(u, v):
 def bleggspace_metric_strip_labels(u, v):
     return bleggspace_metric(u[1:], v[1:])
 
+
+def shaded_error(distribution, metric):
+    squerr = squared_error(distribution, metric)
+    average_revenue = 0
+    for actual, actual_probability in distribution.items():
+        if actual[0] in ['blegg', 'blegg*']:
+            average_revenue += 2*actual_probability
+        elif actual[0] in ['rube', 'rube*']:
+            average_revenue += actual_probability
+    return squerr - 20*average_revenue
+
 print(labeled_distribution)
 print(badly_labeled_distribution)
-print("rube/blegg/?? initial mean squared error", squared_error(labeled_distribution, bleggspace_metric_strip_labels))
-print("blegg*/not initial mean squared error", squared_error(badly_labeled_distribution, bleggspace_metric_strip_labels))
-print("square-err after learning blegg", squared_error({k: v for k, v in labeled_distribution.items() if k[0] == 'blegg'}, bleggspace_metric_strip_labels))
-print("square-err after learning blegg*", squared_error({k: v for k, v in badly_labeled_distribution.items() if k[0] == True}, bleggspace_metric_strip_labels))
+print("rube/blegg/?? initial mean squared error", float(squared_error(labeled_distribution, bleggspace_metric_strip_labels)))
+print("blegg*/not initial mean squared error", float(squared_error(badly_labeled_distribution, bleggspace_metric_strip_labels)))
+
+# TODO: to measure actual goodness of category system, need to sum over after
+# learning all categories, not just the blegg case
+
+print("square-err after learning blegg", float(squared_error({k: v for k, v in labeled_distribution.items() if k[0] == 'blegg'}, bleggspace_metric_strip_labels)))
+print("square-err after learning blegg*", float(squared_error({k: v for k, v in badly_labeled_distribution.items() if k[0] == 'blegg*'}, bleggspace_metric_strip_labels)))
+
+print("shady-score after learning blegg", float(shaded_error({k: v for k, v in labeled_distribution.items() if k[0] == 'blegg'}, bleggspace_metric_strip_labels)))
+print("shady-score after learning blegg*", float(shaded_error({k: v for k, v in badly_labeled_distribution.items() if k[0] == 'blegg*'}, bleggspace_metric_strip_labels)))
 
 
 total = sum(labeled_distribution.values())

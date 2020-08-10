@@ -318,14 +318,18 @@ https://www.greaterwrong.com/users/zack_m_davis?offset=360
 
 [argument from common usage]
 
+There's simply _no such thing as lying_ if you're allowed to arbitrarily redefine words and claim without evidence that ["everybody knows"](https://www.lesswrong.com/posts/BNfL58ijGawgpkh9b/everybody-knows) what you mean!
+
+If you want to lie, you might be able to get away with it! There's [no God to prevent it](TODO: linky "Beyond the Reach of God")!
 
 "But she still did it because she valued that choice above others—because of the feeling of importance she attached to that decision."
 https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values
 
+[Do I need to define "communication signal" somewhere?]
 
 [TODO Example: wireheading—believing I'm attractive]
 
-[TODO Discuss Fallis and Lewis's criterion of deception having to benefit the deciever, because that explains why it would be systematic]
+
 
 [TODO Example: butterfly mimickry]
 

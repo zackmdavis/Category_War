@@ -26,7 +26,7 @@ Might there be some non-epistemic reason for an agent to prefer a model that mak
 
 In a closely related phenomenon, a poorly-designed agent might get confused and end up manipulating its _own_ beliefs: optimizing its map to _inaccurately_ portray a high-value territory, rather than optimizing the territory to be high-value by using a map that reflects the territory—a kind of _self_-deception. We call this _wireheading_.
 
-Intelligent systems with shared interests will design communication protocols to efficiently share information in accordance with the [_mathematical laws_](https://www.lesswrong.com/posts/eY45uCCX7DdwJ4Jha/no-one-can-exempt-you-from-rationality-s-laws) of probability and information theory. Systems that communicate in ways that _depart_ from these laws, do so in order to achieve non-shared interests (deception), possibly non-shared interests of subsystems _within_ an agent (wireheading).
+Intelligent systems with shared interests will design communication protocols to efficiently encode information in accordance with the [_mathematical laws_](https://www.lesswrong.com/posts/eY45uCCX7DdwJ4Jha/no-one-can-exempt-you-from-rationality-s-laws) of probability and information theory. Systems that communicate in ways that deviate from efficient encodings, do so in order to achieve non-shared interests (via deception), possibly non-shared interests of subsystems _within_ an agent (wireheading).
 
 -----
 
@@ -128,7 +128,7 @@ If you only care about how much probability you assign to the _exact_ answer, th
 
 Suppose some random variable $X$ is uniformly distributed on the set $\{1, 2, 3, 4, 5, 6, 7, 8\}$. You have the option of being told whether an observation $x$ is even or odd, or whether $x$ is greater or less than 4.5. Either way, you eliminate half of your hypotheses: the entropy of your probability distribution goes from $log_2 8 = 3$ to $log_2 4 = 2$. You've learned 1 bit.
 
-But if you learn whether $x$ is even or odd, your mean [squared error](https://www.benkuhn.net/squared/) only goes down from 10.5 to 10, whereas if you learn whether $x$ is 1–4 or 5–8, your mean squared error plummets to 2.5. By being compact, the "1–4 or 5–8" category system is much more useful for getting _close_ to the right answer than the "even/odd" category system, even though they both provide the same amount of information about the _exact_ answer.
+But if you learn whether $x$ is even or odd, your mean squared error only goes down from 10.5 to 10, whereas if you learn whether $x$ is 1–4 or 5–8, your mean squared error plummets to 2.5. [(The squared error has nicer mathematical properties than the absolute error.)]((https://www.benkuhn.net/squared/)) By being compact, the "1–4 or 5–8" category system is much more useful for getting _close_ to the right answer than the "even/odd" category system, even though they both provide the same amount of information about the _exact_ answer.
 
 The same goes for natural categories _vs._ squiggly category "boundaries" in higher dimensions. For our blueness–eggness–vanadium distribution, your mean squared error before being told anything about an object is about 27.26 (with respect to Euclidean distance on blueness-score ✕ eggness-score ✕ 1-if-vanadium-present-else-0). On being told that an object is a blegg, your mean squared error plummets to about 0.46. On being told that an object is a blegg\*, your mean squared error only goes down to about 4.13.
 
@@ -136,11 +136,11 @@ In this sense, the gerrymandered blegg\* concept is _quantitatively less informa
 
 But _given_ a metric on the variables that you care about predicting and using to inform predictions, which categories are cognitively useful depends on the the distribution of data in the world (not on your values). You can't define a word any way you want.
 
-[TODO: double-check and footnote or hyperlink calculations; quote how the squared error changes with different metrics]
+[TODO: rewrite cleaner code and double-check and footnote-hyperlink calculations; quote how the squared error changes with different metrics]
 
 ------
 
-The one says, "You're still not addressing my crux! I don't doubt what you say about minimizing prediction error. But what if I don't care about that? My utility function assigns high value to using the squiggly _blegg\*_ category boundary—such that the utility of using my preferred category outweighs the disutility of making less accurate predictions. You _can_ define a word any way you want—if you're willing to pay the costs."
+The one replies: "You're still not addressing my crux! I don't doubt what you say about minimizing prediction error. But what if I don't care about that? My utility function assigns high value to using the squiggly _blegg\*_ category boundary—such that the utility of using my preferred category outweighs the disutility of making less accurate predictions. You _can_ define a word any way you want—if you're willing to pay the costs."
 
 ... so, what, you just intrinsically assign high utility to using the same communication signal to encode eggness-2/blueness-1 observations as eggness-6/blueness-6 observations, given the joint distribution specified in my story problem about sorting objects in a factory? Really?
 
@@ -160,34 +160,56 @@ Suppose that, before midnight, the AI is willing to pay a dollar to flip the swi
 
 [TODO: sentence about violating the independence axiom]
 
-Must we condemn such an AI as "irrational"? I mean, maybe not; it depends on what you mean by "rational". (If you speak overmuch of the Way, you will not attain it.) If, for some inscrutable reason, you specifically programmed the AI to prefer options it considers "certain", or to want switches to be "On" before midnight but "Off" after midnight, then it would be functioning as designed.
+Must we condemn such an AI as "irrational"? I mean, maybe not; it depends on what you mean by "rational". (If you speak overmuch of the Way, you will not attain it.) If, for some reason, you specifically programmed the AI to prefer options it considers "certain", or to want switches to be "On" before midnight but "Off" after midnight, then it would be functioning as designed.
 
 What we _can_ say about such an AI, is that it's _not optimizing for acquiring money_.[^fully] (We say that a system is an optimizer if it systematically steers reality into configurations that rank higher with respect to some preference ordering. This helps us make predictions about what _effects_ the system has, without having to model the details of _how_ it brings those effects about.) A well-designed agent that was optimizing for acquiring money would be expected to obey the independence axiom.
 
 [^fully]: At least, not _fully_ optimizing.
 
-If the AI playing the Allais game isn't coherently optimizing for acquiring money, what _is_ it optimizing for? To tell, we'd need to observe its behavior in different environments. If it is trying to acquire money but is just _biased_, then we'd expect it to make choices that result in money but continue to exhibit Allais-like glitches around gambles involving probabilities close to 1. If it just likes switches to be off after midnight, then we'd expect it to turn switches off at that time even if there's no gambling game going on.
+If the AI playing this game isn't coherently optimizing for acquiring money, what _is_ it optimizing for? To tell, we'd need to observe its behavior in different environments. If it is trying to acquire money but is just _biased_ to prefer certainty (in violation of the vNM axioms), then we'd expect it to make choices that result in money but continue to exhibit Allais-like glitches around gambles involving probabilities close to 1. If it just likes switches to be off after midnight, then we'd expect it to turn switches off at that time even if there's no gambling game going on.
 
 This methodology for attributing goals to an agent—consider it to be "optimizing for" outcomes that it systematically achieves across a variety of environments—applies to the behavior of sending communication signals, just as it does to the behavior of flipping switches.
 
-Back to the rube/factory. Our classifier system that sends a `BLEGG` message when it gets camera data corresponding to the compact _blegg_ concept is optimized for sending messages that allow other systems to minimize the squared error of their predictions of objects with respect to our standard metric on blueness–eggness–vanadium space. We _don't_ intrinsically assign utility to using that particular category system; the category is the _solution_ to an optimization problem.
+Back to the factory. Our classifier system that sends a `BLEGG` message when it gets camera data corresponding to the compact _blegg_ concept is optimized for sending messages that allow other systems to minimize the squared error of their predictions of objects with respect to our standard metric on blueness–eggness–vanadium space. We _don't_ intrinsically assign utility to using that particular category system; the category is the _solution_ to an optimization problem about how to efficiently get blueness–eggness–vanadium information from one place to another.
 
 A system that sends a `BLEGG` message when it gets camera data corresponding to the gerrymandered _blegg\*_ concept would be optimized for ... what? If you don't instrinsically assign utility to using that particular category system, then _why_ would you program the system that way? What optimization problem is being solved?
 
-Well. Suppose that, besides your dayjob as a machine-learning engineer, you _also_ happen to own an interest in the firm that supplies rubes and bleggs to this very factory.
+Well. Suppose that, besides your dayjob as a machine-learning engineer, you _also_ happen to own a side interest in the firm that supplies rubes and bleggs to this very factory. And suppose that vanadium fetches higher market prices than palladium, such that the factory is to pay the supplier $2 per blegg but only $1 per rube—and that the accounts-payable records are to be compiled based on how much the classifier you're coding sends `BLEGG` and `RUBE` messages, not how much metal actually gets harvested.
 
-Suppose the factory pays more for vanadium-containing objects than palladium-containing ones—and that the accounts-payable records of what the factory owes its suppliers are compiled based on statistics from the sorting room you are currently in the process of automating, not the ore-processing room.
+You can't help but notice that you stand to make more money if the system you're programming sends `BLEGG` messages more often. You can't just make it send `BLEGG` all the time—someone would notice and you'd get fired. But the ore-processing room can cope with a _few_ suboptimally-sorted objects. Surely it's no big deal if you just ... adjusted the category boundary of `BLEGG`-ness a bit?
+
+We saw earlier that the _blegg_ concept does better than the _blegg\*_ concept with respect to mean squared error (given a metric on the feature space).
+
+That's not the only possible scoring function. Suppose instead we score our category system by which one best minimizes the squared error _minus_ [TODO: specify exact function after rewriting code] revenue to the supplier. [TODO: run the numbers;  rewrite cleaner code and double-check and footnote-hyperlink calculations]
+
+So with respect to _that_ scoring function, the _blegg\*_ category "boundary" is preferable.
+
+-----
+
+The one says, "But now it sounds like you're agreeing with me! The compact _blegg_ category serves the factory owner's goals better, which you formalized in terms of minimizing average squared error. The squiggly _blegg\*_ boundary makes the factory perform less well, but it serves the moonlighting engineer's goals better, which you formalized in terms of minimizing squared error minus supplier revenue. There's no rule of rationality against the engineer using the _blegg\*_ category boundary if it suits their goals better."
+
+Only in the same sense that there's no rule of rationality against _lying!_
+
+Minimizing the squared error scoring function is _about_ map–territory correspondence: ways of communicating that help the factory machines make better predictions about the objects get a higher score.
+
+Minimizing the squared-error-minus-revenue scoring function is a _compromise_ between map–territory correspondence and saying whatever makes the supplier the most money.
+
+If we assume that the factory doesn't need to make any decisions based on the blueness of eggness scores of rubes or unclassified objects, then as far as the _inputs and outputs_ between the supplier and the various machines in the factory are concerned, there's _no difference_ between adopting the gerrymandered _blegg\*_ cateogry and keeping the old categories but just _lying_ that every
+
+Depending on your goals, lying can be rational! If you don't care about other agents having accurate beliefs and just want them to believe whatever makes them behave in a way that benefits you—or whatever makes them happy—then you can do that! 
 
 
-Suppose you have a grudge against Bob the Big Boss 
 
 
+-----
 
+[explain wireheading via attractiveness]
 
+-----
 
-[...]
+[meat]
 
-----
+-----
 
 For these reasons [it is written of the third virtue of lightness](https://yudkowsky.net/rational/virtues/): you _cannot_ make a true map of the category by drawing lines upon paper according to impulse; you must observe the joint distribution and draw lines on paper that correspond to what you see. If, seeing the category unclearly, you think that you can shift a line just a little to the right, just a little to the left, according to your caprice, this is just the same mistake.
 
@@ -195,7 +217,7 @@ And as it is written of a virtue which is nameless: perhaps your conception of r
 
 And the Great Teacher says, "Some people I usually respect for their willingness to publicly die on a hill of facts, now seem to be talking as if color references are necessarily a factual statement about frequencies of light. But using language in a way _you_ dislike, is not lying. You're not standing in defense of truth if you insist on a word, brought explicitly into question, being used with some particular meaning." And you look up at the sky and see blue.
 
-If you think: "It may look like the sky is blue, such that I'd ordinarily think that someone who said 'The sky is green' was being deceptive. But surely the Great Teacher wouldn't egregiously mislead people about his own philosophy of language when being egregiously misleading happened to be politically convenient," you lose a chance to discover your mistake.
+If you think: "It may look like the sky is blue, such that I'd ordinarily think that someone who said 'The sky is green' was being deceptive. But surely the Great Teacher wouldn't egregiously mislead people about the philosophy of language when being egregiously misleading happens to be politically convenient," you lose a chance to discover your mistake.
 
 How will you discover your mistake? Not by comparing your description to itself.
 

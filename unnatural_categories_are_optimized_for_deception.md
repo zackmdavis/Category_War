@@ -194,20 +194,28 @@ Minimizing the squared error scoring function is _about_ map–territory corresp
 
 Minimizing the squared-error-minus-revenue scoring function is a _compromise_ between map–territory correspondence and saying whatever makes the supplier the most money.
 
-If we assume that the factory doesn't need to make any decisions based on the blueness of eggness scores of rubes or unclassified objects, then as far as the _inputs and outputs_ between the supplier and the various machines in the factory are concerned, there's _no difference_ between adopting the gerrymandered _blegg\*_ cateogry and keeping the old categories but just _lying_ that every
+If we assume that the factory doesn't need to make any decisions based on the blueness or eggness scores of rubes or unclassified objects, then as far as the _inputs and outputs_ between the supplier and the various machines in the factory are concerned, there's _no difference_ between adopting the gerrymandered _blegg\*_ cateogry and keeping the old categories but just _lying_ that 3 rubes out of every 16[^lying-frequencies-rube] and 7 unclassified objects out of every 64[^lying-frequencies-unclassified] are bleggs!
 
-Depending on your goals, lying can be rational! If you don't care about other agents having accurate beliefs and just want them to believe whatever makes them behave in a way that benefits you—or whatever makes them happy—then you can do that! 
+[^lying-frequencies-rube]:
 
+[^lying-frequencies-unclassified]: The 
 
+Depending on your goals, deception can be rational! If you don't care about other agents having accurate models and just want them to believe whatever makes them behave in a way that benefits you, or whatever makes them happy, then you can do that! There's nothing physically stopping you! But in order to help you _decide_ whether decieving people is the right thing to do, it helps to _notice_ that what you're doing is decieving people!
+
+And this Orwellian _mind game_ of redefining words in unnatural ways, confident that you'll be able to dodge any accusations of dishonesty with the excuse of, "Oh, but I'm not lying about the location of entities in configuration space—I can still tell you the blueness or eggness score of any individual object if you ask about that—I'm just chopping up the space into an alternate category system that better satisfies my goals, and reusing existing words for my new categories", is just a really sophisticated way of deceiving people without having to admit to yourself that you're deceiving people!
+
+I'll admit, it's clever! You are very smart! And it's _true_ that words don't have intrinsic definitions! And it's _true_ that there are many ways to chop up configuration space into categories depending on your goals—you might want to run your clustering algorithm with respect to different subspaces or with different weights on the axes depending on exactly what variables you want your category to predict!
+
+However! It's _also_ true that there are _mathematical laws_ describing the relationship between the categories you 
 
 
 -----
 
-[explain wireheading via attractiveness]
+[wireheading: explain wireheading via attractiveness]
 
 -----
 
-[meat]
+[mimickry: butterflies and meat. The thing that distinguishes mimickry from deception is that mimickry is actually seeking resemblance in the territory, not just the map. The boundary between mimickry and deception is actually somewhat fuzzy insofar as the map is part of the territory: changing the "title" coordinate does change the job. ]
 
 -----
 

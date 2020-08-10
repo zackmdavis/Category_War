@@ -354,6 +354,8 @@ and you want to choose the action with the best result in expectation. Actions a
 
 When applying the formalism to real life, preferences should be folded into the "outcomes".
 
+[TODO: at some point, I need to address and cite Fallis/Lewis vs. Skyrms on the definition of deception—I found Fallis/Lewis's paper convincing (that Skyrms's definition is too broad), but when developing my thesis, Skryms's definition feels more natural, which is either a point for Skryms, or maybe my sense is actually compatible with Fallis/Lewis]
+
 Suppose I'm deciding whether to run a mile to the store to buy soap, or order the soap online.
 
 [TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey
@@ -367,3 +369,8 @@ Suppose I'm deciding whether to run a mile to the store to buy soap, or order th
 [TODO: Objection: what if wireheading is good? Don't we like candy, even if it could be construed as "deceiving" our nutrition detectors as they were designed? Reply: maybe you can get away with wireheading the "taste" system if you have some _other_ system making sure you make sane nutrition.]
 
 [TODO: decision-determined problems]
+
+
+-----
+
+Suppose that the word "attractive" gets applied to people who are 80th-percentile-or-above in the trait of attractiveness. (Of course, actual language use is not so quantitatively precise, but we continue the methodology of using simple numerical examples to help us understand the structure of cognition.) Suppose I want to believe that I'm attractive.

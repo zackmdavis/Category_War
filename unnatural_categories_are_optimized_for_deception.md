@@ -190,33 +190,29 @@ The one says, "But now it sounds like you're agreeing with me! The compact _bleg
 
 Only in the same sense that there's no rule of rationality against _lying!_
 
-Minimizing the squared error scoring function is _about_ map–territory correspondence: ways of communicating that help the factory machines make better predictions about the objects get a higher score.
+Minimizing the squared error score is _about_ map–territory correspondence: ways of communicating that help the factory machines make better predictions about the objects get a higher score.
 
-Minimizing the squared-error-minus-revenue scoring function is a _compromise_ between map–territory correspondence and saying whatever makes the supplier the most money.
+Minimizing the squared-error-minus-revenue [TODO: rephrase in light of actual function] score is a _compromise_ between map–territory correspondence and saying whatever makes the supplier the most money.
 
-If we assume that the factory doesn't need to make any decisions based on the blueness or eggness scores of rubes or unclassified objects, then as far as the _inputs and outputs_ between the supplier and the various machines in the factory are concerned, there's _no difference_ between adopting the gerrymandered _blegg\*_ cateogry and keeping the old categories but just _lying_ that 3 rubes out of every 16[^lying-frequencies-rube] and 7 unclassified objects out of every 64[^lying-frequencies-unclassified] are bleggs!
+If we assume that the factory doesn't need to make any decisions based on the blueness or eggness scores of rubes or unclassified objects, then as far as the _inputs and outputs_ between the supplier and the various machines in the factory are concerned, there's _no difference_ between adopting the gerrymandered _blegg\*_ category and keeping the old categories but just _lying_ that 3 rubes out of every 16[^lying-frequencies-rube] and 7 unclassified objects out of every 64[^lying-frequencies-unclassified] are bleggs!
 
 [^lying-frequencies-rube]: [TODO]
 
 [^lying-frequencies-unclassified]: The [TODO]
 
-Depending on your goals, deception can be rational! If you don't care about other agents having accurate models and just want them to believe whatever makes them behave in a way that benefits you, or whatever makes them happy, then you can do that! There's nothing physically stopping you! But in order to help you _decide_ whether decieving people is the right thing to do, it helps to _notice_ that what you're doing is decieving people!
+Depending on your goals, deception can be rational! If you don't care about other agents having accurate models and just want them to believe whatever makes them behave in a way that benefits you, or whatever makes them happy, then you can do that! There's [no God to stop you](https://www.lesswrong.com/posts/sYgv4eYH82JEsTD34/beyond-the-reach-of-god)! But in order to help you _decide_ whether deceiving people is the right thing to do, it helps to _notice_ that what you're doing is decieving people!
 
-And this Orwellian _mind game_ of redefining words in unnatural ways, confident that you'll be able to dodge any accusations of dishonesty with the excuse of, "Oh, but I'm not lying about the location of entities in configuration space—I can still tell you the blueness or eggness score of any individual object if you ask about that—I'm just chopping up the space into an alternate category system that better satisfies my goals, and reusing existing words for my new categories", is just a really sophisticated way of deceiving people without having to admit to yourself that you're deceiving people!
+And this Orwellian _mind game_ of redefining words in unnatural ways, confident that you'll be able to dodge any accusations of dishonesty with the excuse of, "Oh, but I'm not lying about the location of points in configuration space—I can still tell you the blueness or eggness score of any individual object if you ask about that—I'm just chopping up the space into an alternate category system that better satisfies my goals, and reusing existing words for my new categories", is just a really sophisticated way of deceiving people without having to admit to yourself that you're deceiving people!
 
-I'll admit, it's clever! You are very smart! And it's _true_ that words don't have intrinsic definitions! And that the same word or communication signal can be used with different meanings that can be inferred from context! And that there are many ways to chop up configuration space into categories depending on your goals—you might want to run your clustering algorithm with respect to different subspaces or with different weights on the axes depending on exactly what variables you want your category to predict!
+I'll admit, it's clever! You are very smart! And it's _true_ that words don't have intrinsic definitions! And that the same word can be used with different meanings that can be inferred from context! And that there are many ways to chop up configuration space into categories depending on your goals—you might want to run your clustering algorithm with respect to different subspaces or with different weights on the axes depending on exactly what variables you want your category to predict!
 
-However! It's _also_ true that there are mathematical laws describing the relationship between the categories you attach to your communication signals, and what the agents receiving those signals are able to infer, such that some categories are better-performing cognitive technology than others! And if there's _already_ a equilibrium where agents are using an _existing_ signal to make decision-relevant predictions, then sending that signal under conditions that correspond to a different and worse-performing category is going to cause agents that receive the signal to make worse predictions and therefore worse decisions! So you're deceiving them! Because that's what _deception_ means![^defn-of-deception]
+However! It's _also_ true that there are mathematical laws describing the relationship between the categories you attach to your communication signals, and what the agents receiving those signals are able to infer, such that some categories are better-performing cognitive technology than others! The "I'm not lying about the location of point in configuration space" excuse is _nonsense_ because language relies on inductive inference; [an omniscient being that _knew_ and could _communicate_ the exact location of a point would have no need of category labels](https://www.lesswrong.com/posts/i2dfY65JciebF3CAo/empty-labels). So if there's _already_ a equilibrium where agents are using an _existing_ signal to make decision-relevant predictions, then sending that signal under conditions that correspond to a different and worse-performing category is going to cause agents that receive the signal to make worse predictions and therefore worse decisions! So you're deceiving them! Because that's what _deception_ means!
 
-[^defn-of-deception]: [TODO: contrast Fallis and Lewis's definition to Skryms—maybe move this earlier]
-
------
-
-[wireheading: explain wireheading via attractiveness]
+It's not wrong for the supplier to _want_ to make more money by supplying more bleggs. But to do that _legitimately_, they need to _actually come up with more bleggs in the territory_. Scribbling new definitions on the map to pass off rubes as bleggs is just committing fraud!
 
 -----
 
-[mimickry: butterflies and meat. The thing that distinguishes mimickry from deception is that mimickry is actually seeking resemblance in the territory, not just the map. The boundary between mimickry and deception is actually somewhat fuzzy insofar as the map is part of the territory: changing the "title" coordinate does change the Job.]
+[mimickry: butterflies and meat. The thing that distinguishes mimickry from deception is that mimickry is actually seeking resemblance in the territory, not just the map. The boundary between mimickry and deception is actually somewhat fuzzy insofar as the map is part of the territory: changing the "title" coordinate does change the Job. I like how this links back to the "Job" example in "Where to Draw the Boundaries?"]
 
 -----
 

@@ -190,6 +190,17 @@ The one says, "But now it sounds like you're agreeing with me! The compact _bleg
 
 Only in the same sense that there's no rule of rationality against _lying!_
 
+_Exactly_ the same sense! Suppose I'm selling you some number of gold and silver bars, but you don't examine the metal yourself; you trust that the invoice I give you is accurate. Consider the following two scenarios.
+
+In the first scenario, I _lie_: the invoice says I delivered 60 gold bars and 20 silver bars, but I actually delivered 40 gold bars and 40 silver bars.
+
+In the second scenario, I tell the truth—with respect to a category system that better suits my goals. The invoice says I delivered 60 gold bars and 20 silver bars—and I did. It's just that what _I_ call "gold bars", you call "gold bars, _or_ silver bars with odd serial numbers", and what I call "silver bars", you call "silver bars with even serial numbers".
+
+These are not actually two different scenarios. These are two descriptions of the _same_ scenario: the same physical invoice, the same physical metal. If there's any difference between the two worlds, it must be in the minds of the participants: if you _expected_ me to tell the truth with respect to your definition of 'gold', then you would feel betrayed when I didn't, but if you already _knew_ that I define 'gold' differently, then you would not feel betrayed.
+
+But we can only learn words by seeing how they are used: the true meaning of a signal is, _and can only be_, "conditions are such that this signal was sent." If there's no court to create common knowledge as to which meaning is 'correct' (such that those trying to profit by misusing the signal can be punished for fraud), then in equilibrium, a buyer who doesn't care about serial numbers also has no reason to care whether my definition is correct, or whether gold 'really' means yellowish-atomic-number-79-metal but people lie about it a third of the time.
+
+
 Minimizing the squared error score is _about_ map–territory correspondence: ways of communicating that help the factory machines make better predictions about the objects get a higher score.
 
 Minimizing the squared-error-minus-revenue [TODO: rephrase in light of actual function] score is a _compromise_ between map–territory correspondence and saying whatever makes the supplier the most money.

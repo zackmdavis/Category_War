@@ -122,3 +122,13 @@ Suppose that the word "attractive" gets applied to people who are 80th-percentil
 ----
 
 [TODO section: Skyrms and his critics on deception]
+
+
+"Explicitly And With Public Focus On The Language And Its Meaning" (deception is impossible in equilibrium, but there's no reason to try to move to a less efficient equilibrium unless you're trying to profit outside of equilibrium)
+
+
+I want to claim there's an isomorphism between "lying x% of the time" and "defining a new category system such that x% of the data is misclassified with respect to the old system." But it's not _exactly_ an isomorphism
+
+
+
+

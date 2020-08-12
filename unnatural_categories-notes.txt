@@ -1,0 +1,124 @@
+
+There's no rule of rationality against _lying_.
+
+https://arbital.greaterwrong.com/p/executable_philosophy?l=112
+
+what that _means_ is that (at some appropriate level of abstraction) there's a little [Bayesian network](https://www.lesswrong.com/posts/hzuSDMx7pd2uxFc5w/causal-diagrams-and-causal-models) in my head with "blueness" and "eggness" observation nodes hooked up to a central "blegg" category-membership node, such that if I see a black-and-white photograph of an egg-shaped object, I can use the observation of its shape to update my beliefs about its blegg-category-membership, and then use my beliefs about category-membership to update my beliefs about its blueness. This cognitive algorithm is useful if we live in a world where objects that have the appropriate statistical structure—if the joint distribution P(blegg, blueness, eggness) approximately factorizes as P(blegg)·P(blueness|blegg)·P(eggness|blegg).
+
+
+"Category boundaries" are just a _visual metaphor_ for the math: the set of things I'll classify as a blegg with probability greater than _p_ is conveniently _visualized_ as an area with a boundary in blueness–eggness space. If you _don't understand_ the relevant math and philosophy—or are pretending not to understand only and exactly when it's politically convenient—you might think you can redraw the boundary any way you want, but you can't, because the "boundary" visualization is _derived from_ a statistical model which corresponds to _empirically testable predictions about the real world_. Fucking with category boundaries corresponds to fucking with the model, which corresponds to fucking with your ability to interpret sensory data.
+
+ The only two reasons you could _possibly_ want to do this would be to wirehead yourself (corrupt your map to make the territory look nicer than it really is, making yourself _feel_ happier at the cost of sabotaging your ability to navigate the real world) or as information warfare (corrupt shared maps to sabotage other agents' ability to navigate the real world, in a way such that you benefit from their confusion).
+
+https://getpocket.com/explore/item/is-lab-grown-meat-really-meat
+
+utility of certainty
+
+(not even one unit of epistemology, I feel like my epistemology will let me make exactly as good predictions as yours will about any [...] in the vicinity)
+
+> You _can_ define a word any way you want, you just have to pay the costs [later, when saying you can still do Bayesian inference on the gerrymandered category]
+
+
+But if another system _does_ need to make inferences about an object's features, 
+
+
+
+https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace
+
+Suppose there's a robot arm in the Sorting room that puts bleggs in the blegg bin, which gets taken to the vanadium-ore processing room, where a more sophisticated  vanadium-ore processing machinery elsewhere in the factory that needs to handle both bleggs and gretrahedrons.
+
+The ore-processor's models might be different from the three-feature models we used to _identify_ bleggs in the Sorting room—maybe it needs to vary its drill speed in proportion to the density of a particular blegg's flexible outer material.
+
+
+Maybe the robot arm that puts bleggs in the blegg bin doesn't need to _know_ about the blueness and eggness scores: it can close its claws around rubes and bleggs alike, and you only need to program it to drop an object into the correct bin when told that the object "is a blegg" or "is a rube".
+
+But if other machines in the factory need to do something more complicated—if they need to make _further inferences_ about something already known to be in the "vanadium-ore-containing blue eggs" cluster, it's a more efficient communication protocol to 
+
+
+is a _specific mathematical model_ that makes _specific_ (probabilistic) predictions. What it _means_ is that if we see a black-and-white photo of an egg-shaped object (specifically, one with an eggness score of 7)
+
+Scott on "voluntary"
+
+
+
+
+ do cognitive work concerning our sortable objects, category labels can be used as signals to link up the models between different systems. Suppose there's some delicate vanadium-ore processing machinery elsewhere in the factory that needs to handle both bleggs and gretrahedrons. You want to be able to send commands to that machine, telling it to process a `BLEGG` using its _own_ models, _without_ having to
+
+send over all the binary code of the Bayesian network and feature extractors that we used to identify the blegg.
+
+The ore-processor's models might be different from the three-feature models we used to identify bleggs in the Sorting room—maybe it needs to vary its drill speed in proportion to the density of a particular blegg's flexible outer material.
+
+[another diagram about using a signal to link up different models]
+
+[there are more facts about bleggs than just three]
+
+https://www.foodsafety.gov/food-safety-charts/safe-minimum-cooking-temperature
+
+https://www.greaterwrong.com/users/zack_m_davis?offset=360
+
+[argument from common usage]
+
+There's simply _no such thing as lying_ if you're allowed to arbitrarily redefine words and claim without evidence that ["everybody knows"](https://www.lesswrong.com/posts/BNfL58ijGawgpkh9b/everybody-knows) what you mean!
+
+If you want to lie, you might be able to get away with it! There's [no God to prevent it](TODO: linky "Beyond the Reach of God")!
+
+"But she still did it because she valued that choice above others—because of the feeling of importance she attached to that decision."
+https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values
+
+[Do I need to define "communication signal" somewhere?]
+
+[TODO Example: wireheading—believing I'm attractive]
+
+
+
+[TODO Example: butterfly mimickry]
+
+[TODO Example: is artificial meat "real meat"]
+
+
+https://www.lesswrong.com/posts/zNcLnqHF5rvrTsQJx/zut-allais
+
+
+I think a fundamental misunderstanding of what the "utility function" concept is good for is masking the real reason we're having this argument.
+
+I'm reminded of the claim that everyone is intrinsically selfish—that we only do things because of their effects on our own state of mind. [When confronted with the counterexample of a mother sacrificing her life to save her child, the reply goes: "But she still did it because _she valued_ that choice above others—because of the _feeling of importance_ she attached to that decision."](https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values)
+
+  
+
+In [the von Neumann and Morgenstern formalism](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem), agents make choices between _lotteries_: probability distributions over outcomes. Given a few hard-to-deny axioms of what sane decisionmaking should look like, we can prove that agents' choices correspond to maximizing some utility function over _outcomes_. _Not_ over lotteries.
+
+The phenomenon that the lottery formalism captures is that when you take some action or execute some plan in the real world, you don't know what will happen with certainty; rather, you have some probability distribution over what will happen as a result of your actions.
+
+
+and you want to choose the action with the best result in expectation. Actions are justified in terms of _expected_ utility: the sum of the utilities of the possible outcomes weighted by probability. Inside the formalism, it doesn't make sense to talk about preferences for taking an action as something distinct from that action's distribution of consequences, because the formalism describes _how to compute_ what action to take given a model of the world (expressible as a map from actions to probability distributions) and given your preferences (expressible as a utility function). [TODO: use "plan" as a synonym for action]
+
+When applying the formalism to real life, preferences should be folded into the "outcomes".
+
+[TODO: at some point, I need to address and cite Fallis/Lewis vs. Skyrms on the definition of deception—I found Fallis/Lewis's paper convincing (that Skyrms's definition is too broad), but when developing my thesis, Skryms's definition feels more natural, which is either a point for Skryms, or maybe my sense is actually compatible with Fallis/Lewis]
+
+Suppose I'm deciding whether to run a mile to the store to buy soap, or order the soap online.
+
+[TODO: this is a misunderstanding of what "utility" is. "Because of the feeling of importance she attached to that decision". vNM showed that their axioms plus preferences over lotteries imply behaving as if maximizing a utility function. It's not that an agent assigns utility to choosing this and such lottery; it's just that if it's behaving coherently, it has to act as if assigned utilities to the _outcomes within_ the lottery. Similarly, it would be weird and vacuous to assign utility to choosing a particular communication system, but we can look at what info the system is optimized to convey
+ "the utility of certainty" https://www.lesswrong.com/posts/zNcLnqHF5rvrTsQJx/zut-allais
+
+]
+
+[TODO Example: "safe" meat temperature. If we start out with a discrete distribution between 100F and 200F. If I tell you the temperature is between 165 and 200, I've cut down your uncertainty from lg(100)=6.643 to lg(35)=5.1292: 1.514 bits, because I cut down the number of possibilities by a factor of 2.85, and lg(2.85)=1.514. But if I told you the temperature was _either_ between 165 and 190, OR between 130 and 140, that's ALSO cutting it down to 35 possibilities, but it doesn't answer the question I want to know about, which is whether I'll get sick from eating. Objection: but isn't that "instrumental"? It "safe" depends on your values! Reply: no, it's a conditional prediction about bacteria and getting sick.]
+
+
+[TODO: Objection: what if wireheading is good? Don't we like candy, even if it could be construed as "deceiving" our nutrition detectors as they were designed? Reply: maybe you can get away with wireheading the "taste" system if you have some _other_ system making sure you make sane nutrition.]
+
+
+
+
+-----
+
+Suppose that the word "attractive" gets applied to people who are 80th-percentile-or-above in the trait of attractiveness. (Of course, actual language use is not so quantitatively precise, but we continue the methodology of using simple numerical examples to help us understand the structure of cognition.) Suppose I want to believe that I'm attractive.
+
+[TODO: What if calling someone unattractive makes them sad?! Reply: decision-determined problems, optimization coming from upstream]
+
+[Objection: but isn't wireheading good? Candy is "deceiving" your taste-nutrition system. Reply: maybe, but you'd better make damned sure you don't need that decision to make decsions]
+
+----
+
+[TODO section: Skyrms and his critics on deception]

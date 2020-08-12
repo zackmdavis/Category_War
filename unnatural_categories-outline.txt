@@ -1,0 +1,19 @@
+* Teaser
+* The One's Opening Statement
+* I Think I See the Problem ...
+* Boundaries Are a Visual Metaphor for Probabilistic Models Conventionally Attached to Communication Signals
+* Skyrms and Critics on Deception
+* Thesis Statement
+* Factory 1: naïve Bayes
+* Factory 2: Other Machines, Motivation for Simple Stories
+* Factory 3: "boundaries"
+* Mean Squared Error
+* The One's Reply: But, But, My Utility!
+* Counterreply: Really?
+* Coherent Optimization Implies a Utility Function
+* Allaisbot Example
+* Factory 4: If Categories Are an Answer, What Is the Question?
+* The One Replies: It Sounds Like You're Agreeing With Me—It Depends on Goals
+* No Rule of Rationality Against Lying
+* A Continuum Between Deception and Mimickry
+* Dénouement

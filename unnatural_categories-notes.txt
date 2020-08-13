@@ -131,4 +131,14 @@ I want to claim there's an isomorphism between "lying x% of the time" and "defin
 
 
 
+----
+
+If there's any difference between the two worlds, it must be in the minds of the participants.
+
+
+if you _expected_ me to tell the truth with respect to your definition of 'gold', then you would feel betrayed when I didn't, but if you already _knew_ that I define 'gold' differently, then you would not feel betrayed.
+
+
+If there's no court to create common knowledge as to which meaning is 'correct' (such that those trying to profit by misusing the signal can be punished for fraud), then in equilibrium, a buyer who doesn't care about serial numbers also has no reason to care whether my definition is correct, or whether gold 'really' means yellowish-atomic-number-79-metal but people lie about it a third of the time.
+
 

@@ -1,6 +1,6 @@
-## Comment on "Toward a Formal Analysis of Deceptive Signaling"
+## "If Everyone Knows We're Lying, Is a Lie Really a Lie?": Comment on "Toward a Formal Analysis of Deceptive Signaling" and "Propositional Content in Signals"
 
-[In this 2017 paper](http://philsci-archive.pitt.edu/13337/) (eventually [published in a 2019 volume of _Synthese_](https://link.springer.com/article/10.1007/s11229-017-1536-3)), Don Fallis and Peter J. Lewis grapple with potential flaws in previous work on how to formalize the concept of _deception_! The traditional account of deception is about _intentionally_ causing someone to have a _false belief_. If you don't end up with a false belief, then you clearly have not been deceived, but if no one _intended_ you to have that false belief—maybe someone who uttered a false thing to you just genuinely misspoke—then we don't want to say that that person has deceived you. But this definition has a few problems.
+[In a 2017 paper](http://philsci-archive.pitt.edu/13337/) (eventually [published in a 2019 volume of _Synthese_](https://link.springer.com/article/10.1007/s11229-017-1536-3)), Don Fallis and Peter J. Lewis grapple with potential flaws in previous work on how to formalize the concept of _deception_! The traditional account of deception is about _intentionally_ causing someone to have a _false belief_. If you don't end up with a false belief, then you clearly have not been deceived, but if no one _intended_ you to have that false belief—maybe someone who uttered a false thing to you just genuinely misspoke—then we don't want to say that that person has deceived you. But this definition has a few problems.
 
 First, this "intentionally" business seems too anthropocentric if we want a concept of _deception_ that can cover what's going on with [mimickry, camoflage, "playing dead", fake alarm calls, _&c._ in nonhuman animals](https://en.wikipedia.org/wiki/Deception_in_animals), which don't necessarily have enough cognition involved for "intentionally" to apply. (And, I feel compelled to add, deception practiced by future artificial intelligences may have an alien shape to it that may go beyond merely human notions of "intent".)
 
@@ -18,11 +18,18 @@ We're not quite done yet. I've been informally saying "update in the wrong direc
 
 Fallis and Lewis argue that this criterion is too broad. Raising the probability of a false state happens _all the time_ in situations that we pretty obviously don't want to call misleading. Suppose you think the world is in one of three states $S1$, $S2$, or $S3$ with equal probability. Then you learn that it's definitely not $S3$. So your probabilities on $S1$ and $S2$ go up from $\frac{1}{3}$ to $\frac{1}{2}$. But one of those is _false_! You increased the probability you assigned to a hypothesis that is _false_! Have you thereby been misled? I'm going to go with Fallis and Lewis here and say _No_.
 
-You might think this is an easy fix. Worrying about increasing the probability assigned to false states is _retarded_; just swap in a better concept of what it means for a probability distribution to be more or less "accurate", like the logarithmic rule—heck, even the Brier rule—and the problem goes away.
+You might think this is an easy fix. Worrying about increasing the probability assigned to false states is _retarded_; just swap in a better concept of what it means for a probability distribution to be more or less "accurate"—like [the logarithmic rule](https://www.lesswrong.com/posts/afmj8TKAqH6F2QMfZ/a-technical-explanation-of-technical-explanation)—heck, even the Brier rule—and the problem goes away.
 
-Not so fast. As a real-life illustration of deception, Skyrms gives the example of a predatory _Photuris_ firefly that sends the mating signal of a different firefly species, the _Photinus_, in order to attract prey. Skyrms implores us to "think about this, not in terms of some propositional content imputed to the signal, but in terms of its informational content"—how it affects probabilities.
+Not so fast. As a real-life illustration of deception in animals, Skyrms gives the example of a predatory _Photuris_ firefly that sends the mating signal of a _different_ firefly species, the _Photinus_, in order to attract the latter as prey. Skyrms implores us to "think about this, not in terms of some propositional content imputed to the signal, but in terms of its informational content"—how it affects probabilities.
 
-Suppose there are three states: 
+Consider three possible states of the world a prey _Photinus_ firefly might encounter: either a potential mate is present, or a _Photuris_ predator is present, or there's no one there. Upon receiving the mating signal, the "no one there" possibility is eliminated, and the probabilities of the "mate present" and "predator present" states both increase (maintaining the same ratio of probabilities because neither hypothesis predicts the observed signal _more_ strongly).
 
-A prey firefly, on observing the signal, can eliminate the possibility that there's 
+If we're using something like the logarithmic rule and only consider a signal _misleading_ if it decreases the probability assigned to the true state, then we're forced to conclude that the predator sending the mating signal of another species is not being misleading.
 
+[TODO: account of how ]
+
+Amazingly, Fallis and Lewis actually bite this bullet!?!
+
+> Although we agree with Skyrms that it _seems_ deceptive, we contend that the mating signal sent by a female Photuris is not actually misleading or deceptive. [...] Of course, this is not to say that a [predator] female _Photuris_ is not being sneaky. But not all sneaky behavior (such as failing to reveal the whole truth) counts as deception.
+
+I think this is a _lame_ dodge.

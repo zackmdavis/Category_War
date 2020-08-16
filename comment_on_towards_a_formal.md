@@ -26,7 +26,7 @@ Consider three possible states of the world a prey _Photinus_ firefly might enco
 
 If we're using something like the logarithmic rule and only consider a signal _misleading_ if it decreases the probability assigned to the true state, then we're forced to conclude that the predator sending the mating signal of another species is not being misleading.
 
-[TODO: account of how ]
+[TODO: fleshed out mathematical account of how the first lying Photuris leads to a new equilibrium and all the deception crystalizes out according to Fallis and Lewis]
 
 Amazingly, Fallis and Lewis actually bite this bullet!?!
 

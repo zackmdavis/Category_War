@@ -260,7 +260,9 @@ https://www.lesswrong.com/posts/N9oKuQKuf7yvCCtfq/can-crimes-be-discussed-litera
 ----
 
 Cailin O'Connor (_Games in the Philosophy of Biology_ §5.5)
-> In the case of deception, though, part of the issue seems to be that we generally ground judgments of what is deceptive in terms of human behavior. It may be that there is no neat, unitary concept underlying these judgments.------------------
+> In the case of deception, though, part of the issue seems to be that we generally ground judgments of what is deceptive in terms of human behavior. It may be that there is no neat, unitary concept underlying these judgments.
+
+------------------
 
 https://www.greaterwrong.com/posts/Nwgdq6kHke5LY692J/alignment-by-default#comment-jaJZhFKoz26w93L2o
 > The abstractions learned in order to select actions from a given action-space in an attempt to maximize a given reward function—these, I see little reason to expect will be natural.

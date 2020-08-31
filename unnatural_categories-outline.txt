@@ -1,8 +1,13 @@
+make sure to cover—
+* motte-and-bailey (still wrong even if you're being "nice")
+* "Magical Categories" in FAI sense
+* wireheading
+
+
 * Teaser
 * The One's Opening Statement
 * I Think I See the Problem ...
 * Boundaries Are a Visual Metaphor for Probabilistic Models Conventionally Attached to Communication Signals
-* Skyrms and Critics on Deception
 * Thesis Statement
 * Factory 1: naïve Bayes
 * Factory 2: Other Machines, Motivation for Simple Stories
@@ -14,7 +19,8 @@
 * Allaisbot Example
 * Factory 4: If Categories Are an Answer, What Is the Question?
 * The One Replies: It Sounds Like You're Agreeing With Me—It Depends on Goals
-* No Rule of Rationality Against Lying; Contrast Game Theory of Little Agents to Top-Down Factory Design
+* No Rule of Rationality Against Lying
 * "Explicitly And With Public Focus On The Language And Its Meaning"
-* A Continuum Between Deception and Mimickry
+* Wireheading
+* A Continuum Between Deception and Mimickry: duck and meat examples
 * Dénouement

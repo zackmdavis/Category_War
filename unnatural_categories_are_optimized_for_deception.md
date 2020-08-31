@@ -20,7 +20,7 @@ Category "boundaries" are a useful _visual metaphor_ for helping explain the cog
 
 Only in the sense that _no_ hypothesis is "false"! Categories, words, correspond to hypotheses—probabilistic models that [make predictions](https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences). If I see a dolphin in the water, and I _say_, "Hey, there's a dolphin!", and you _understand_ me, that enables you to predict quite a lot about there being this-and-such kind of aquatic mammal with fins, a tail, _&c._ in the water.
 
-This AI technology whereby the [cause-and-effect evidential entanglement](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence) of photons bouncing off the dolphin hiting my eyes and causing me to emit sound waves hitting your eardrum, enabled you to make predictions about what's in the water, works _because_ we happen to live in a world where the distribution of creatures has [cluster-structure](https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace) whereby dolphins have lots of things in common with each other, such that humans with a shared interest in communicating with each other [learned a convention that maps the signal](https://www.lesswrong.com/posts/4hLcbXaqudM9wSeor/philosophy-in-the-darkest-timeline-basics-of-the-evolution) "dolphin" to a _concept_ of dolphins in each human's mind.
+This AI technology whereby the [cause-and-effect evidential entanglement](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence) of photons bouncing off the dolphin hitting my eyes and causing me to emit sound waves hitting your eardrum, enabled you to make predictions about what's in the water, works _because_ we happen to live in a world where the distribution of creatures has [cluster-structure](https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace) whereby dolphins have lots of things in common with each other, such that humans with a shared interest in communicating with each other [learned a convention that maps the signal](https://www.lesswrong.com/posts/4hLcbXaqudM9wSeor/philosophy-in-the-darkest-timeline-basics-of-the-evolution) "dolphin" to a _concept_ of dolphins in each human's mind.
 
 But the _dolphin_ concept/model/hypothesis is subject to the universal [_mathematical laws_](https://www.lesswrong.com/posts/eY45uCCX7DdwJ4Jha/no-one-can-exempt-you-from-rationality-s-laws) of reasoning under uncertainty. In particular, probability-mass flows _between_ hypotheses: as long as you [never assign a probability of _zero_](https://www.lesswrong.com/posts/QGkYCwyC7wTDyt3yT/0-and-1-are-not-probabilities) (which is a log-odds of negative infinity), nothing you believe can ever be _definitively_ [(infinitely)](https://www.lesswrong.com/posts/ooypcn7qFzsMcy53R/infinite-certainty) "falsified"—it "just" makes worse predictions as _compared to_ other hypotheses.
 
@@ -196,7 +196,7 @@ In the first scenario, I _lie_: the receipt says I delivered 60 gold bars and 20
 
 In the second scenario, I tell the truth—with respect to a category system that suits my goals. The receipt says I delivered 60 gold bars and 20 silver bars—and I did. It's just that what _I_ prefer to call "gold bars", you prefer to call "gold bars, _or_ silver bars with odd [serial numbers](https://en.wikipedia.org/wiki/Gold_bar#Security_features)", and what I call "silver bars", you call "silver bars with even serial numbers". You know this, so when you examine the actual contents of the delivery, you're disappointed but not surprised: you would have _preferred_ to transact under your definitions of 'gold' and 'silver', but you can't say you _anticipated_ it.
 
-We might question whether these are two different scenarios, or two descriptions of the _same_ scenario: the same physical receipt, the same physical metal, _the same buyer anticipations about the metal conditional on observing the receipt_. As far as information transfer is concerned, there's no functional difference between saying "I reserve the right to lie _p_% of the time about whether something belongs to category _C_" and adopting a new, less-accurate category system that misclassifies _p_% of instances with respect to the old system.
+We might question whether these are two different scenarios, or two descriptions of the _same_ scenario: the same physical receipt, the same physical metal, _the same buyer anticipations about the metal conditional on observing the receipt_. If [just we pay attention to the evidential entanglements instead of being confused by words](https://www.lesswrong.com/posts/34XxbRFe54FycoCDw/the-bottom-line), then [there's no functional difference between](https://www.lesswrong.com/posts/YptSN8riyXJjJ8Qp8/maybe-lying-can-t-exist) saying "I reserve the right to lie _p_% of the time about whether something belongs to category _C_", and adopting a new, less-accurate category system that misclassifies _p_% of instances with respect to the old system.
 
 Minimizing the squared error score is _about_ map–territory correspondence: ways of communicating that help the factory machines make better predictions about the objects, get a higher score.
 
@@ -210,12 +210,16 @@ Depending on your goals, deception can be rational! If you _don't care_ about ot
 
 -----
 
-It helps to notice what you're doing—_if_ you're trying to be an agent that coherently steers the future in some direction. But who does that, really? Maybe you just want to _feel good!_ 
+It helps to notice what you're doing—_if_ you're trying to be an agent that coherently steers the future in some direction. But who does that, really? Maybe you just want to _feel good!_ And not even coherently steer the universe into configurations where you feel good, either!
 
+Rational agents should want to have true beliefs: the map that reflects the territory, is the map that is _useful_ for navigating the territory. But you don't—can't—have unmediated access to the world; you can only _infer_ what the world is like from sensory data, and effectively live in _your model of_ the world. Given the tricky indirection involved, it's not surprising that humans and other poorly-designed agents sometimes get confused and "wirehead" themselves. If you don't notice the difference, it's a lot easier to fabricate a fake map that _falsely_ portrays the territory as being good, than to _actually_ make the territory good, and have the map reflect the territory.
 
+Similarly, if you don't notice the difference, it's a lot easier to choose language that makes the world sound good, than to actually make the world good, and have your language accurately describe the world.
 
+Suppose that the word "attractive" gets applied to people who are 80th-percentile-or-above in the underlying continuous trait of attractiveness. (Of course, actual language use is not so quantitatively precise, but we continue to follow the methodology of using simple numerical examples to help us understand the structure of cognition.)
 
-[SECTION: wireheading]
+[...]
+
 
 -----
 

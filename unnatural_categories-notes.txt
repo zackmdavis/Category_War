@@ -113,7 +113,9 @@ Suppose I'm deciding whether to run a mile to the store to buy soap, or order th
 
 -----
 
-Suppose that the word "attractive" gets applied to people who are 80th-percentile-or-above in the trait of attractiveness. (Of course, actual language use is not so quantitatively precise, but we continue the methodology of using simple numerical examples to help us understand the structure of cognition.) Suppose I want to believe that I'm attractive.
+Suppose that the word "attractive" gets applied to people who are 80th-percentile-or-above in the trait of attractiveness. (Of course, actual language use is not so quantitatively precise, but we continue the methodology of using simple numerical examples to help us understand the structure of cognition.)
+
+Suppose I want to believe that I'm attractive.
 
 [TODO: What if calling someone unattractive makes them sad?! Reply: decision-determined problems, optimization coming from upstream]
 
@@ -163,3 +165,5 @@ the "meaning" of a signal is just how it changes a receiver's probabilities. If 
 (Observations that trigger dolphin-reports from me are a _tiny_ subset of the space of possible observations.)
 
 Intelligent systems with shared interests will design communication protocols to efficiently encode information in accordance with the [_mathematical laws_](https://www.lesswrong.com/posts/eY45uCCX7DdwJ4Jha/no-one-can-exempt-you-from-rationality-s-laws) of probability and information theory. Systems that communicate in ways that deviate from efficient encodings, do so in order to achieve non-shared interests (via deception), possibly non-shared interests of subsystems _within_ an agent (wireheading).
+
+drawing a map that inaccurately represents

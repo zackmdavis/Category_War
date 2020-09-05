@@ -146,12 +146,11 @@ But _given_ a metric on the variables that you care about predicting and using t
 
 The dependence on a choice of metric on configuration space—and really, a choice of the space—gives a _sense_ in which optimal categories are [value-laden](https://arbital.greaterwrong.com/p/value_laden), but it's a specific kind of _lawful_ dependence between your values and the distribution of data in the world, not an atomic preference for using a particular encoding for its own sake.
 
-The cognitive function of categorization is to group similar things together so that we can make similar decisions about them. 
+The cognitive function of categorization is to group similar things together so that we can make similar decisions about them. A function measuring the extent to which things are "similar" has to take the things as input, but the extent to which things are _decision-relevantly_ similar also depends on what you're trying to accomplish with your decisions, and that can be algorithmically complex. It might not be just a matter of only looking at some decision-relevant subspace of a natural, "obvious" configuration space that's available to all possible minds (like not caring what color your toothbrush handle is[^color]); the dimensions of the space you do your [similarity-clustering](https://www.lesswrong.com/posts/jMTbQj9XB5ah2maup/similarity-clusters) in might themselves be complicated features (in the sense of machine learning) that agents with different values would have no reason to [logically pinpoint](https://www.lesswrong.com/posts/3FoMuCLqZggTxoC3S/logical-pinpointing) that particular criterion [by which things may be judged](https://www.lesswrong.com/posts/zqwWicCLNBSA5Ssmn/by-which-it-may-be-judged). How you should define words _depends on_ what you want, but that's _not_ the same as defining words any way you want.
 
-How you should define words _depends on_ what you want, but that's _not_ the same as defining words any way you want.
+[^color]: This example isn't quite right—actually, most possible minds aren't going to have human-like color vision! But something like color vision—making inferences about objects based on what frequencies of light they reflect—is going to be pretty broadly useful.
 
 
-[logically pinpoint](https://www.lesswrong.com/posts/3FoMuCLqZggTxoC3S/logical-pinpointing) that particular criterion [by which it may be judged](https://www.lesswrong.com/posts/zqwWicCLNBSA5Ssmn/by-which-it-may-be-judged).
 
 https://www.lesswrong.com/posts/bTsiPnFndZeqTnWpu/mixed-reference-the-great-reductionist-project
 

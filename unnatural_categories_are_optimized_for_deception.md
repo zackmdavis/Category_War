@@ -144,6 +144,24 @@ But _given_ a metric on the variables that you care about predicting and using t
 
 ------
 
+The dependence on a choice of metric on configuration space—and really, a choice of the space—gives a _sense_ in which optimal categories are [value-laden](https://arbital.greaterwrong.com/p/value_laden), but it's a specific kind of _lawful_ dependence between your values and the distribution of data in the world, not an atomic preference for using a particular encoding for its own sake.
+
+The cognitive function of categorization is to group similar things together so that we can make similar decisions about them. 
+
+How you should define words _depends on_ what you want, but that's _not_ the same as defining words any way you want.
+
+
+[logically pinpoint](https://www.lesswrong.com/posts/3FoMuCLqZggTxoC3S/logical-pinpointing) that particular criterion [by which it may be judged](https://www.lesswrong.com/posts/zqwWicCLNBSA5Ssmn/by-which-it-may-be-judged).
+
+https://www.lesswrong.com/posts/bTsiPnFndZeqTnWpu/mixed-reference-the-great-reductionist-project
+
+
+https://www.lesswrong.com/posts/PoDAyQMWEXBBBEJ5P/magical-categories
+https://www.lesswrong.com/posts/XeHYXXTGRuDrhk5XL/unnatural-categories
+
+
+------
+
 The one replies: "You're still not addressing my crux! I don't doubt what you say about minimizing prediction error. But what if I don't care about that? My utility function assigns high value to using the squiggly _blegg\*_ category boundary—such that the utility of using my preferred category outweighs the disutility of making less accurate predictions. You _can_ define a word any way you want—if you're willing to pay the costs."
 
 So, what, you just intrinsically assign high utility to using the same communication signal to encode eggness-2/blueness-1 observations as eggness-6/blueness-6 observations, given the joint distribution specified in my story problem about sorting objects in a factory? Really?

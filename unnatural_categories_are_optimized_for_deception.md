@@ -130,6 +130,8 @@ So, that's what's wrong with the national-borders metaphor. But we haven't yet r
 
 If you only care about how much probability you assign to the _exact_ answer, then a bit is a bit. But if an approximate answer is approximately as good—if your answerspace has a metric on it, so that "approximate" can mean something—then some bits can be more valuable than others.
 
+[TODO: rewrite based on better math]
+
 Suppose some random variable $X$ is uniformly distributed on the set $\{1, 2, 3, 4, 5, 6, 7, 8\}$. You have the option of being told whether an observation $x$ is even or odd, or whether $x$ is greater or less than 4.5. Either way, you eliminate half of your hypotheses: the entropy of your probability distribution goes from $log_2 8 = 3$ to $log_2 4 = 2$. You've learned 1 bit.
 
 But if you learn whether $x$ is even or odd, your mean squared error only goes down from 10.5 to 10, whereas if you learn whether $x$ is 1–4 or 5–8, your mean squared error plummets to 2.5. [(The squared error has nicer mathematical properties than the absolute error.)]((https://www.benkuhn.net/squared/)) By being compact, the "1–4 or 5–8" category system is much more useful for getting _close_ to the right answer than the "even/odd" category system, even though they both provide the same amount of information about the _exact_ answer.
@@ -254,18 +256,21 @@ What I _can_ say, however, is that [choosing](https://www.lesswrong.com/posts/Hs
 
 The map is not the territory ... but for [real agents embedded in the physical universe](https://www.lesswrong.com/posts/i3BTagvt3HbPMx6PN/embedded-agency-full-text-version), the map is _part_ of the territory. This presents some complications to applications of our anti-wireheading moral. We don't want to wirehead ourselves by making the map look good at the expense of undermining our ability to navigate the territory—but there's no bright-line distinction demarcating which configurations of atoms are "the map". [From the perspective of the eternal](https://en.wikipedia.org/wiki/Sub_specie_aeternitatis), it's _all_ just territory.
 
-In [the previous post](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries), we considered the case of an assembly-line (well, sorting line) worker in the blegg–rube factory being excited about an ostensible promotion to the position of Vice President of Sorting—only to be aggrieved on finding out that it's a promotion literally in name only, with no changes in pay, authority, or work tasks.
+In [the previous post](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries), we considered the case of an assembly line (well, sorting line) worker in the blegg–rube factory being excited about an ostensible promotion to the position of Vice President of Sorting—only to be aggrieved on finding out that it's a promotion literally in name only, with no changes in pay, authority, or work tasks.
 
-If we interpret the title as part of "the map", a communication signal with the function of encoding information about the person's job, then we want to say that the new title is _substantively misleading_: when you hear that someone's job is being a "Vice President", you predict that their work involves managing people and making high-level executive decisions for the company. Your probability that the "Vice President" has to spend all day moving objects from a conveyor belt into one of two bins based on the object's color and shape (a task that should probably be automated soon), is _lower_ than before you heard the person's title: hearing the title made you update in the wrong direction.
+If we interpret the title as part of "the map", a communication signal with the function of encoding information about the person's job, then we want to say that the new title is _substantively misleading_: when you hear that someone's job is being a "Vice President", you predict that their work involves managing people and making high-level executive decisions for the firm. Your probability that the "Vice President" has to spend all day moving objects from a conveyor belt into one of two bins based on the object's color and shape (a task that should probably be automated), is _lower_ than before you heard the person's title: hearing the title made you update in the wrong direction.
 
-But if we interpret the title as part of "the territory", a feature of the job itself, rather than a communication signal _about_ the job—then it's not misleading and _can't be_ misleading. The job happens to be one that has the symbols "Vice President" printed on the accompanying business cards and employee rosters, much like how bleggs are objects that happen to be blue. You can't say the blue is "lying"; that doesn't make any sense!
+But if we interpret the title as part of "the territory", a feature of the job itself, rather than a communication signal _about_ the job—then it's not misleading and _can't be_ misleading. The job happens to be one that has the symbols "Vice President" printed on the accompanying business cards and employee roster, much like how bleggs are objects that happen to be blue. You can't say the blue is "lying"; that doesn't make any sense!
 
-[Words are "the map", but any feature you use to infer category-membership is potentially implicated in this]
+The function of words is to serve as communication symbols, so it seems safe to say that language should usually be construed as part of "the map". Changing names and _only_ names, without altering the things that the names _refer_ to, as in the phony "Vice President" example, can only be intended to deceive. But for other features associated with a category, it may not always be obvious when we should construe them as "map" rather than "territory": using a feature to infer category-membership is formally equivalent to regarding it as a signal sent by senders of that category. Is that man _pretending to be a doctor_, or does he just happen to be wearing a lab coat?
+
+The concept we're seeking a reduction of here is that of _mimickry_. There is some existing category of entity, the original, typified by some cluster of traits. 
+
+[... mimickry: butterflies, ducks, vegan meat]
 
 the famous [_duck test_](https://en.wikipedia.org/wiki/Duck_test): if it looks like a duck, and quacks like a duck, and you can model it as a duck without making any grievous prediction errors, then it makes sense to consider it a member of the category _duck_ in the range of circumstance where your model continues to perform well.
 
-
-[... artificial meat example]
+[... ]
 
 -----
 

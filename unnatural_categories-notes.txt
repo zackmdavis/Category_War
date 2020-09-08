@@ -184,3 +184,18 @@ So, this obviously doesn't work. (Okay, it "works" if you deliberately choose to
 In political discourse, this kind of strategic equivocation is sometimes called [the motte and bailey doctrine](https://slatestarcodex.com/2014/11/03/all-in-all-another-brick-in-the-motte/): [TODO: it's still bad math even when you're being nice to someone]
 
 You can't make the world better by changing your _description_ of the world; that's wireheading. Rather, you want your description to match reality, so that you can use it to help you _figure out_ how to make the world better.
+
+
+----
+
+Jessica wrote:
+
+> Say we have a distribution P over R^n.  Let f : R^n -> C be a categorization function, where C is a finite set of categories.
+
+> The speaker will observe X (the R^n value) and tell the listener c = f(X).  The listener's distribution over X is now P(X | f(X) = c).  The (multivariate) variance of this distribution equals E[||X - E[X | f(X) = c]||^2] which is the listener's expected square error (once the listener knows the categorization)
+
+> If we take the expectation of this quantity with c being a random variable distributed as P(f(X)), we get the listener's overall expected square error (with the expectation being from the point of view of not knowing the categorization, but knowing that the listener will know the categorization).  This provides a way of scoring the categorization function f.
+
+> This is well-motivated because there are real-world problems where guessing numeric quantities is necessary and getting closer is better, e.g. buying a shirt for someone that matches their size.  Bits that help guess these quantities accurately are more valuable than bits that don't help guess these quantities.
+
+

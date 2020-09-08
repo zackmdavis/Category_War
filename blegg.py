@@ -1,149 +1,228 @@
+from collections import namedtuple
 from fractions import Fraction
-from math import log2 as lg
+from math import sqrt
+
+
+def expected_squared_error(distribution, metric):
+    """
+    If we know the distribution, and we "guess" the value of a sample from that
+    distribution (guesses proportional to actual probability-mass), how much
+    will we be wrong on average (with respect to a given metric on the space,
+    squared)?
+    """
+    grand_error = 0
+    for guess, guess_probability in distribution.items():
+        for actual, actual_probability in distribution.items():
+            grand_error += (
+                guess_probability * actual_probability * metric(actual, guess) ** 2
+            )
+    return grand_error
+
+
+def expected_squared_error_given_categorization(
+    distribution, metric, category_label_property
+):
+    category_labels = set(getattr(ω, category_label_property) for ω in distribution)
+    grand_error = 0
+    for label in category_labels:
+        # Get probability of category-membership and the distribution updated
+        # on category-membership.
+
+        # First, eliminate the probability-mass of all the other categories
+        # that we're not examining right now.
+        truncated_distribution = {
+            ω: p
+            for ω, p in distribution.items()
+            if getattr(ω, category_label_property) == label
+        }
+        category_probability = sum(truncated_distribution.values())
+        # Then, renormalize.
+        updated_distribution = {
+            ω: p / category_probability for ω, p in truncated_distribution.items()
+        }
+        category_squerr = expected_squared_error(updated_distribution, metric)
+        grand_error += category_probability * category_squerr
+    return grand_error
+
+
+FactoryOutcome = namedtuple(
+    "FactoryOutcome",
+    ["true_category", "unnatural_category", "eggness", "blueness", "vanadium"],
+)
+
+base_rates = {
+    "blegg": Fraction(12, 25),
+    "rube": Fraction(12, 25),
+    "other": Fraction(1, 25),
+}
+
 
 def scale_feature(category):
+    """
+    Given (true) `category` ∈ {"blegg", "rube", "other"}, return a length-8 list
+    of probabilities representing the marginal blueness or eggness distributon.
+    """
     if category == "blegg":
         return [0, 0, 0, 0, 0, Fraction(1, 4), Fraction(1, 2), Fraction(1, 4)]
     elif category == "rube":
         return [Fraction(1, 4), Fraction(1, 2), Fraction(1, 4), 0, 0, 0, 0, 0]
     else:
-        return [Fraction(1, 8)]*8
+        return [Fraction(1, 8)] * 8
+
 
 def boolean_feature(category):
+    """
+    Given (true) `category` ∈ {"blegg", "rube", "??"}, return 1 if the category
+    is "blegg".
+    """
     return int(category == "blegg")
 
-def conditional_joint(category, x1, x2, p):
-    return scale_feature(category)[x1]*scale_feature(category)[x2]*int(p == boolean_feature(category))
 
-# def category_from_data(datum):
-
-
-# def format_fraction(f):
-#     if f == 0:
-#         return "0"
-#     else:
-#         return "\\frac{%d}{%d}" % (f.numerator, f.denominator)
-
-# for row, indices in zip(table, [(i, j) for i in range(8) for j in range(2)]):
-#         print(
-#            "blueness = {}, vanadium = {} & ".format(*indices) +
-#             ' & '.join("${}$".format(format_fraction(cell)) for cell in row) + r" \\ \hline"
-#         )
-
-        # camera_distribution[(blueness, eggness)] = sum(sum(p*conditional_joint(c, blueness, eggness, vanadium) for c, p in {"blegg": Fraction(12, 25), "rube": Fraction(12, 25), "other": Fraction(1, 25)}.items()) for vanadium in range(2))
-
-        # print(entropy(camera_distribution.values()))
-
-def entropy(p_x):
-    return sum(p*lg(1/p) for p in p_x if p)
+def conditional_joint(category, eggness, blueness, vanadium):
+    """
+    Given true-category-membership, eggness score, blueness score, and
+    vanadium-presence, compute the probability density.
+    """
+    return (
+        scale_feature(category)[eggness]
+        * scale_feature(category)[blueness]
+        * int(vanadium == boolean_feature(category))
+    )
 
 
-def conditional_entropy(distribution, condition):
-    total = 0
-    for key, p in distribution.items():
-        p_x = sum(q for l, q in distribution.items() if l[condition] == key[condition])
-        if p:
-            total -= p * lg(p/p_x) # lg(p(x)/p(x,y))
-    return total
+def infer_unnatural_category(eggness, blueness):
+    # specify which "cells" in (eggness, blueness) space are inside the
+    # unnatural blegg*/rube* category boundaries
+    blegg_star_cells = (
+        {(i, j) for i in range(5, 8) for j in range(5, 8)}
+        | {(6, k) for k in range(1, 5)}
+        | {(l, 1) for l in range(2, 6)}
+        | {(2, 2)}
+    )
+    rube_star_cells = {(i, 0) for i in range(0, 3)} | {(0, 1), (1, 1), (0, 2), (1, 2)}
+    if (eggness, blueness) in blegg_star_cells:
+        return "blegg*"
+    elif (eggness, blueness) in rube_star_cells:
+        return "rube*"
+    else:
+        return "other*"
 
 
-base_rates = {"blegg": Fraction(12, 25), "rube": Fraction(12, 25), "other": Fraction(1, 25)}
-
-blegg_star_cells = {(i, j) for i in range(5,8) for j in range(5,8)} | {(6, k) for k in range(1, 5)}  | {(l, 1) for l in range(2, 6)} | {(2,2)}
-rube_star_cells = {(i, 0) for i in range(0,3)} | {(1,0), (1,1), (0,2), (1,2)}
-
-distribution = {}
-labeled_distribution = {}
-badly_labeled_distribution = {}
-
-for blueness in range(8):
-    for eggness in range(8):
-        for vanadium in range(2):
-            if (eggness, blueness) in blegg_star_cells:
-                bad_label = 'blegg*'
-            elif (eggness, blueness) in rube_star_cells:
-                bad_label = 'rube*'
-            else:
-                bad_label = 'other'
-            badly_labeled_distribution[(bad_label, blueness, eggness, vanadium)] = 0
-            distribution[(blueness, eggness, vanadium)] = 0
-            for c, p in base_rates.items():
-                v = p*conditional_joint(c, blueness, eggness, vanadium)
-                distribution[(blueness, eggness, vanadium)] += v
-                badly_labeled_distribution[(bad_label, blueness, eggness, vanadium)] += v
-                labeled_distribution[(c, blueness, eggness, vanadium)] = v
+def factory_distribution():
+    distribution = {}
+    for blueness in range(8):
+        for eggness in range(8):
+            for vanadium in range(2):
+                unnatural_category = infer_unnatural_category(eggness, blueness)
+                for true_category, true_category_prior in base_rates.items():
+                    p = true_category_prior * conditional_joint(
+                        true_category, blueness, eggness, vanadium
+                    )
+                    if p:
+                        distribution[
+                            FactoryOutcome(
+                                true_category=true_category,
+                                unnatural_category=unnatural_category,
+                                eggness=eggness,
+                                blueness=blueness,
+                                vanadium=vanadium,
+                            )
+                        ] = p
+    return distribution
 
 
-def squared_error(distribution, metric):
-    grand_error = 0
-    for guess, guess_probability in distribution.items():
-        for actual, actual_probability in distribution.items():
-            grand_error += guess_probability * actual_probability * metric(actual, guess)
-    return grand_error
+def eightfold_example():
+    print("{1..8} example")
+    EightfoldOutcome = namedtuple("EightfoldOutcome", ["parity", "half", "value"])
+    distribution = {
+        EightfoldOutcome(parity=value % 2, half=value < 4.5, value=value): 1 / 8
+        for value in range(1, 9)
+    }
+    assert sum(distribution.values()) == 1
+    metric = lambda u, v: u.value - v.value
+    initial_squerr = expected_squared_error(distribution, metric)
 
-def bleggspace_metric(u, v):
-    return sum((u[i] - v[i])**2 for i in range(3))
-
-def bleggspace_metric_strip_labels(u, v):
-    return bleggspace_metric(u[1:], v[1:])
-
-
-def shaded_error(distribution, metric):
-    squerr = squared_error(distribution, metric)
-    average_revenue = 0
-    for actual, actual_probability in distribution.items():
-        if actual[0] in ['blegg', 'blegg*']:
-            average_revenue += 2*actual_probability
-        elif actual[0] in ['rube', 'rube*']:
-            average_revenue += actual_probability
-    return squerr - 20*average_revenue
-
-print(labeled_distribution)
-print(badly_labeled_distribution)
-print("rube/blegg/?? initial mean squared error", float(squared_error(labeled_distribution, bleggspace_metric_strip_labels)))
-print("blegg*/not initial mean squared error", float(squared_error(badly_labeled_distribution, bleggspace_metric_strip_labels)))
-
-# TODO: to measure actual goodness of category system, need to sum over after
-# learning all categories, not just the blegg case
-
-print("square-err after learning blegg", float(squared_error({k: v for k, v in labeled_distribution.items() if k[0] == 'blegg'}, bleggspace_metric_strip_labels)))
-print("square-err after learning blegg*", float(squared_error({k: v for k, v in badly_labeled_distribution.items() if k[0] == 'blegg*'}, bleggspace_metric_strip_labels)))
-
-print("shady-score after learning blegg", float(shaded_error({k: v for k, v in labeled_distribution.items() if k[0] == 'blegg'}, bleggspace_metric_strip_labels)))
-print("shady-score after learning blegg*", float(shaded_error({k: v for k, v in badly_labeled_distribution.items() if k[0] == 'blegg*'}, bleggspace_metric_strip_labels)))
+    print("initial expected squared error: ", initial_squerr)
+    print(
+        "expected squared error given knowledge of parity: ",
+        expected_squared_error_given_categorization(distribution, metric, "parity"),
+    )
+    print(
+        "expected squared error given knowledge of 1–4/5–8: ",
+        expected_squared_error_given_categorization(distribution, metric, "half"),
+    )
+    print("------")
 
 
-total = sum(labeled_distribution.values())
-print(labeled_distribution)
-print(total)
-assert total == 1
+def factory_example():
+    print("blegg/rube factory example")
+    distribution = factory_distribution()
+    assert sum(distribution.values()) == 1
+    metrics = {
+        "basic": lambda u, v: sqrt(
+            sum(
+                (getattr(u, prop) - getattr(v, prop)) ** 2
+                for prop in ["eggness", "blueness", "vanadium"]
+            )
+        ),
+        "eggness–vanadium-only": lambda u, v: sqrt(
+            sum(
+                (getattr(u, prop) - getattr(v, prop)) ** 2
+                for prop in ["eggness", "vanadium"]
+            )
+        ),
+        "vanadium-weighted": lambda u, v: sqrt(
+            sum(
+                (
+                    (0.2 * (getattr(u, prop) - getattr(v, prop))) ** 2
+                    if prop in ["eggness", "blueness"]
+                    else (getattr(u, prop) - getattr(v, prop)) ** 2
+                )
+                for prop in ["eggness", "blueness", "vanadium"]
+            )
+        ),
+        "vanadium-only": lambda u, v: u.vanadium - v.vanadium,
+    }
+    # show off different metrics
+    for metric_name, metric in metrics.items():
+        initial_squerr = expected_squared_error(distribution, metric)
+        print(
+            "initial expected squared error ({} metric): ".format(metric_name),
+            initial_squerr,
+        )
+        for category_system in ["true_category", "unnatural_category"]:
+            later_squerr = expected_squared_error_given_categorization(
+                distribution, metric, category_system
+            )
+            print(
+                "expected squared error given knowledge of {} ({} metric)".format(
+                    category_system.replace("_", " "), metric_name
+                ),
+                later_squerr,
+            )
+
+    # now exhibit the scoring criterion that rewards deception
+    for category_system in ["true_category", "unnatural_category"]:
+        squerr = expected_squared_error_given_categorization(
+            distribution, metrics["basic"], category_system
+        )
+        revenue = sum(
+            price
+            * sum(
+                p
+                for ω, p in distribution.items()
+                if getattr(ω, category_system).startswith(object_name)
+            )
+            for (price, object_name) in [(200, "blegg"), (100, "rube")]
+        )
+        print(
+            "squared error minus revenue given knowledge of {} (basic metric)".format(
+                category_system.replace("_", " ")
+            ),
+            squerr - revenue,
+        )
 
 
-H_category_data = entropy(labeled_distribution.values())
-H_data = entropy(distribution.values())
-H_category = entropy([12/25, 12/25, 1/25])
-H_data_given_category = conditional_entropy(labeled_distribution, 0)
-H_category_given_data = conditional_entropy(labeled_distribution, slice(1, None))
-
-H_badegory_data = entropy(badly_labeled_distribution.values())
-H_badegory = entropy([sum(p for k, p in badly_labeled_distribution.items() if k[0]), sum(p for k, p in badly_labeled_distribution.items() if not k[0])])
-H_data_given_badegory = conditional_entropy(badly_labeled_distribution, 0)
-H_badegory_given_data = conditional_entropy(badly_labeled_distribution, slice(1, None))
-
-print("H(category,data)", H_category_data)
-print("H(data)", H_data)
-print("H(data|category)", H_data_given_category)
-print("H(category|data)", H_category_given_data)
-print("H(category)", H_category)
-print("H(data) − H(data|category)", H_data - H_data_given_category)
-print("H(category) − H(category|data)", H_category - H_category_given_data)
-
-print("————")
-
-print("H(badegory,data)", H_badegory_data)
-print("H(data)", H_data)
-print("H(data|badegory)", H_data_given_badegory)
-print("H(badegory|data)", H_badegory_given_data)
-print("H(badegory)", H_badegory)
-print("H(data) − H(data|badegory)", H_data - H_data_given_badegory)
-print("H(badegory) − H(badegory|data)", H_badegory - H_badegory_given_data)
+if __name__ == "__main__":
+    eightfold_example()
+    factory_example()

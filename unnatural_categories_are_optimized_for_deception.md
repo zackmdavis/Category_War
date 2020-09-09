@@ -42,8 +42,6 @@ The feature data consists of the blueness–eggness–vanadium-content joint dis
 
 ![blueness–eggness–vanadium joint distribution](https://i.imgur.com/zR83zOq.png)
 
-**Table 1.**
-
 This seems like ... not the most useful representation? The data is all there, so _in principle_, you could code whatever you needed to do based off the full table, but it seems like it would be an unmaintainable mess: you'd sooner _resign_ than write a 128-case [switch statement](https://en.wikipedia.org/wiki/Switch_statement). Furthermore, when the system is deployed, you hope to typically be able to give the binning robot messages based on _only_ the color and shape observations, because the Sorting Scanner that the vanadium readings come from is expensive to run. You _could_ just do a Bayesian update on the entire joint distribution, of course, but it seems like it should be possible to be more efficient by exploiting regularities in the data, not entirely unlike how your colleague's system has _already_ made your job much simpler by giving you blueness and eggness feature scores rather than raw camera data. Eyeballing the table, you notice it seems to have a lot of redundancy: most of the probability-mass is concentrated in two regions where the blueness and eggness scores are either both high or both low—and vanadium is _only_ found when both blueness and eggness are high.
 
 O tragedy O the stars! _If only_ there were _some more convenient and flexible way_ to represent this knowledge—some kind of deep structural insight to rescue you from this cruel predicament!
@@ -57,8 +55,6 @@ $$\sum_{\mathrm{category}} P(\mathrm{category}) \cdot P(\mathrm{blueness}|\mathr
 We can simplify our representation of our observations by using a [naïve Bayes model](https://en.wikipedia.org/wiki/Naive_Bayes_classifier), a "star-shaped" [Bayesian network](https://www.lesswrong.com/posts/hzuSDMx7pd2uxFc5w/causal-diagrams-and-causal-models) where a central "category" node is posited to underlie all of our observations: we believe that each object either "is a blegg" (and therefore contains vanadium and has high blueness and eggness scores) with probability 0.48, "is a rube" (and therefore has no vanadium and low blueness and eggness scores) with probability 0.48, or belongs to a catch-all "other"/error class with probability 0.04. (Maybe the camera is buggy sometimes, or maybe there are some other random objects mixed in with the rubes and bleggs?)
 
 ![factorized object distribution](https://i.imgur.com/zIaDccJ.png)
-
-**Figure 1.**
 
 Whereas the full joint distribution had 127 degrees of freedom (a table of $8 \cdot 8 \cdot 2 = 128$ separate probabilites, constrained to add up to 1), the naïve-Bayes representation only has 50 ($3 \cdot 1$ prior probabilities for the categories, plus $3 \cdot 8 = 24$, $3 \cdot 8 = 24$, and $3 \cdot 1 = 3$-entry _conditional_ probability tables for each of the features, with each table constrained to add up to 1). The advantage would be much larger for more complicated problems—the joint distribution table grows exponentially with more features, quickly becoming infeasible to _store and represent_, let alone _learn_.
 
@@ -103,8 +99,6 @@ Humans are designed to decieve each other—it's always tempting to speak in a w
 As a human learning math, it's helpful to examine [multiple representations of the same mathematical object](https://en.wikipedia.org/wiki/Multiple_representations_(mathematics_education)). We've already seen our blueness–eggness–vanadium model represented as a table, and factorized into a graphical model. We've done also some algebraic calculations with it. But we can also visualize it: the set of camera observations that the model classifies as a blegg with probability $\ge 0.96$ can be thought of a area with a boundary in two-dimensional blueness–eggness space:
 
 ![](file:///home/zmd/Documents/Drafts/Category_War/bleggspace.png)
-
-**Figure 2.**
 
 [TODO: highlight the significance of "with probability > p"—inside/outside the boundaries is a simplification that loses information if we're using a model where the classes generate overlapping observations in whatever subspace we're making observations in]
 
@@ -266,15 +260,25 @@ The function of words is to serve as communication symbols, so it seems safe to 
 
 The concept we're [groping towards](https://www.lesswrong.com/posts/HnS6c5Xm9p9sbm4a8/grasping-slippery-things), and hoping to formulate an elegant reduction of, is that of _mimicry_. Suppose there is some existing category of entity, an original, typified by some cluster of traits. A _mimic_ is an entity optimized to approximately match the distribution of the original in many, but not all traits, thereby being part of the same cluster as the original in some _subspace_ of the space the original is defined in, but not the space as a whole.
 
-Is mimicry deceptive?
+We can find examples in nature. Suppose one type of butterfly has evolved to be toxic to a type of predator, and also has distinctive wing markings that function as an [honest warning signal](https://en.wikipedia.org/wiki/Signalling_theory#Honest_signals) to that predator: [this butterfly is not good to eat](https://en.wikipedia.org/wiki/Aposematism). This provides an ["opportunity"](https://www.lesswrong.com/posts/pLRogvJLPPg6Mrvg4/an-alien-god) [(in evolutionary time)](https://www.lesswrong.com/posts/ZyNak8F6WXjuEbWWc/the-wonder-of-evolution) for a second species of butterfly to develop similar wing markings, so that predators will confuse it for the first type of butterfly, despite the second butterly not paying the metabolic cost of producing toxins. This kind of situation is called [_Batesian mimicry_](https://en.wikipedia.org/wiki/Batesian_mimicry).
 
-Suppose one type of butterfly has evolved to be toxic to a type of predator, and also has distinctive wing markings that function as an honest warning signal to that predator: this butterfly is not good to eat. This provides an ["opportunity"](https://www.lesswrong.com/posts/pLRogvJLPPg6Mrvg4/an-alien-god) [(in evolutionary time)](https://www.lesswrong.com/posts/ZyNak8F6WXjuEbWWc/the-wonder-of-evolution) for second species of butterfly to develop similar wing markings, so that predators will confuse it for the first type of butterfly, despite the second butterly not paying the metabolic cost of being toxic. This kind of situation is called [_Batesian mimicry_](https://en.wikipedia.org/wiki/Batesian_mimicry).
+Is Batesian mimicry deceptive? (In [our usual functionalist sense](https://www.lesswrong.com/posts/sXHQ9R5tahiaXEZhR/algorithmic-intent-a-hansonian-generalized-anti-zombie), which is obviously not a claim about butterfly _psychology_.) Is the second butterfly's very existence a kind of lie?
 
-[... mimickry: butterflies, ducks, vegan meat]
+We must answer in the affirmative: the mimic butterfly has been optimized by evolution to look like the first butterfly _because_ of the fitness payoff of being categorized by the predator as the first, toxic, kind of butterfly. The "recognized by the predator as toxic" category is a natural, compact region in wing-marking-space, but "comes apart" in the broader wing-markings–actual-toxicity space. The _reason_ for the mimic butterfly to have those particular wing-markings is _in order to_ increase the predator's expected squared error on toxicity.
 
-the famous [_duck test_](https://en.wikipedia.org/wiki/Duck_test): if it looks like a duck, and quacks like a duck, and you can model it as a duck without making any grievous prediction errors, then it makes sense to consider it a member of the category _duck_ in the range of circumstance where your model continues to perform well.
+[asymmetry]
 
-[... ]
+Is mimicry _always_ deceptive? Not necessarily—there might be some situations where the relevant set of variables are among those where the mimic matches the distribution of the original.
+
+Suppose you and I are watching some ducks in the park. I say, "I love watching these ducks!"
+
+You say, "Wrong! These aren't all ducks. This park is where a local inventor tests out his [Anatid](https://en.wikipedia.org/wiki/Anatidae)-[oid](https://en.wiktionary.org/wiki/-oid#Suffix) robots that are designed to look and act like ducks. You can't say, 'I love watching these ducks'; you need to say 'I love watching these ducks and Anatidoid robots'."
+
+[...]
+
+This (more or less) is the origin of the famous [_duck test_](https://en.wikipedia.org/wiki/Duck_test): if it looks like a duck, and quacks like a duck, and you can model it as a duck without making any grievous prediction errors, then it makes sense to consider it a member of the category _duck_ in the range of circumstances where your model continues to perform well.
+
+[... vegan meat]
 
 -----
 
@@ -282,7 +286,7 @@ For these reasons [it is written of the third virtue of lightness](https://yudko
 
 And as it is written of a virtue which is nameless: perhaps your conception of rationality is that it is rational to believe the words of the Great Teacher, who [lives in an area where claiming that the sky is blue would be political suicide](https://www.lesswrong.com/posts/DoPo4PDjgSySquHX8/heads-i-win-tails-never-heard-of-her-or-selective-reporting).
 
-And the Great Teacher says, "Some people I usually respect for their willingness to publicly die on a hill of facts, now seem to be talking as if color references are necessarily a factual statement about frequencies of light. But using language in a way _you_ dislike, is not lying. You're not standing in defense of truth if you insist on a word, brought explicitly into question, being used with some particular meaning." And you look up at the sky and see blue.
+And the Great Teacher says, "Some people I usually respect for their willingness to publicly die on a hill of facts, now seem to be talking as if color references are necessarily a factual statement about frequencies of light. But using language in a way _you_ dislike, is not lying. You're not standing in defense of Truth if you insist on a word, brought explicitly into question, being used with some particular meaning." And you look up at the sky and see blue.
 
 If you think: "It may look like the sky is blue, such that I'd ordinarily think that someone who said 'The sky is green' was being deceptive. But surely the Great Teacher wouldn't egregiously mislead people about the philosophy of language when being egregiously misleading happens to be politically convenient," you lose a chance to discover your mistake.
 

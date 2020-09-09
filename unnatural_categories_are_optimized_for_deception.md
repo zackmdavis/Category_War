@@ -264,7 +264,11 @@ But if we interpret the title as part of "the territory", a feature of the job i
 
 The function of words is to serve as communication symbols, so it seems safe to say that language should usually be construed as part of "the map". Changing names and _only_ names, without altering the things that the names _refer_ to, as in the phony "Vice President" example, can only be intended to deceive. But for other features associated with a category, it may not always be obvious when we should construe them as "map" rather than "territory": using a feature to infer category-membership is formally equivalent to regarding it as a signal sent by senders of that category. Is that man _pretending to be a doctor_, or does he just happen to be wearing a lab coat?
 
-The concept we're seeking a reduction of here is that of _mimickry_. There is some existing category of entity, the original, typified by some cluster of traits. 
+The concept we're [groping towards](https://www.lesswrong.com/posts/HnS6c5Xm9p9sbm4a8/grasping-slippery-things), and hoping to formulate an elegant reduction of, is that of _mimicry_. Suppose there is some existing category of entity, an original, typified by some cluster of traits. A _mimic_ is an entity optimized to approximately match the distribution of the original in many, but not all traits, thereby being part of the same cluster as the original in some _subspace_ of the space the original is defined in, but not the space as a whole.
+
+Is mimicry deceptive?
+
+Suppose one type of butterfly has evolved to be toxic to a type of predator, and also has distinctive wing markings that function as an honest warning signal to that predator: this butterfly is not good to eat. This provides an ["opportunity"](https://www.lesswrong.com/posts/pLRogvJLPPg6Mrvg4/an-alien-god) [(in evolutionary time)](https://www.lesswrong.com/posts/ZyNak8F6WXjuEbWWc/the-wonder-of-evolution) for second species of butterfly to develop similar wing markings, so that predators will confuse it for the first type of butterfly, despite the second butterly not paying the metabolic cost of being toxic. This kind of situation is called [_Batesian mimicry_](https://en.wikipedia.org/wiki/Batesian_mimicry).
 
 [... mimickry: butterflies, ducks, vegan meat]
 

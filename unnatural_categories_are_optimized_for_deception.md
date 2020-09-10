@@ -28,7 +28,7 @@ Because category "boundaries" are merely a visualization for a probabilistic mod
 
 Might there be some non-epistemic reason for an agent to prefer a model that makes worse predictions? Sure! Correct maps are useful for [steering reality into configurations ranked higher in your preference ordering](https://www.lesswrong.com/posts/D7EcMhL26zFNbJ3ED/optimization)—but causing a _different_ agent to have _incorrect_ maps might make them _mis_-navigate reality in a way that benefits you! We call this [_deception_](https://www.lesswrong.com/posts/fmA2GJwZzYtkrAKYJ/algorithms-of-deception).
 
-In a closely related phenomenon, a poorly-designed agent might get confused and end up manipulating its _own_ beliefs: optimizing its map to _inaccurately_ portray a high-value territory, rather than optimizing the territory to be high-value by using a map that reflects the territory—a kind of _self_-deception. We call this _wireheading_.
+In a closely related phenomenon, a poorly-designed agent might get confused and end up manipulating its _own_ beliefs: optimizing its map to _inaccurately_ portray a high-value territory, rather than optimizing the territory to be high-value by using a map that reflects the territory—a kind of _self_-deception. We call this [_wireheading_](https://www.lesswrong.com/posts/aMXhaj6zZBgbTrfqA/a-definition-of-wireheading).
 
 The laws of probability and information theory allow us to calculate how information can be efficiently encoded and transmitted from one place to another. Given some distribution of random variables, and some specification of what information about those variables you want to transmit, some encodings—some ways of "drawing" category "boundaries"—quantitatively _perform better_ than others. Agents that _want to communicate with each other_ will tend to invent or discover conventions that efficiently encode the information they're trying to communicate. Agents that communicate in ways that systematically depart from efficient encodings are better modeled as trying to deceive each other or wirehead themselves.
 
@@ -60,7 +60,9 @@ Whereas the full joint distribution had 127 degrees of freedom (a table of $8 \c
 
 It must be stressed that our "categories" here are a _specific mathematical model_ that makes _specific_ (probabilistic) predictions. Suppose we see a black-and-white photo of an egg-shaped object: specifically, one with an eggness score of 7. Given that observation of $\mathrm{eggness} = 7$, we can update our probabilities of category-membership.
 
-$$P(\mathrm{category} = c | \mathrm{eggness} = 7) = \frac{P(\mathrm{eggness} = 7|\mathrm{\mathrm{category} = c})P(\mathrm{category} = c)}{\sum_{d \in \{\mathrm{blegg}, \mathrm{rube}, \mathrm{??} \} } P(\mathrm{eggness} = 7| \mathrm{category}=d)P(\mathrm{category} = d)}$$
+$$P(\mathrm{category} = c | \mathrm{eggness} = 7) =$$
+
+$$\frac{P(\mathrm{eggness} = 7|\mathrm{\mathrm{category} = c})P(\mathrm{category} = c)}{\sum_{d \in \{\mathrm{blegg}, \mathrm{rube}, \mathrm{??} \} } P(\mathrm{eggness} = 7| \mathrm{category}=d)P(\mathrm{category} = d)}$$
 
 We think the egg-shaped object is almost certainly a blegg (specifically, with probability 0.96), even if the black-and-white photo doesn't directly tell us how blue it is, _because_
 
@@ -107,8 +109,6 @@ If you were trying to _teach_ someone about the hidden Bayesian structure of lan
 Alaska isn't even _contiguous_ with the rest of the United States. If _that's_ okay, why can't the borders of bleggness be a little squiggly?
 
 ![](file:///home/zmd/Documents/Drafts/Category_War/blegg-star-space.png)
-
-**Figure 3.**
 
 Because the "national borders" metaphor is [just a metaphor](https://www.lesswrong.com/posts/C4EjbrvG3PvZzizZb/failure-by-analogy). It _immediately_ breaks down as soon as you try to do any calculations.
 
@@ -258,25 +258,29 @@ But if we interpret the title as part of "the territory", a feature of the job i
 
 The function of words is to serve as communication symbols, so it seems safe to say that language should usually be construed as part of "the map". Changing names and _only_ names, without altering the things that the names _refer_ to, as in the phony "Vice President" example, can only be intended to deceive. But for other features associated with a category, it may not always be obvious when we should construe them as "map" rather than "territory": using a feature to infer category-membership is formally equivalent to regarding it as a signal sent by senders of that category. Is that man _pretending to be a doctor_, or does he just happen to be wearing a lab coat?
 
-The concept we're [groping towards](https://www.lesswrong.com/posts/HnS6c5Xm9p9sbm4a8/grasping-slippery-things), and hoping to formulate an elegant reduction of, is that of _mimicry_. Suppose there is some existing category of entity, an original, typified by some cluster of traits. A _mimic_ is an entity optimized to approximately match the distribution of the original in many, but not all traits, thereby being part of the same cluster as the original in some _subspace_ of the space the original is defined in, but not the space as a whole.
+The concept we're [groping towards](https://www.lesswrong.com/posts/HnS6c5Xm9p9sbm4a8/grasping-slippery-things), and hoping to formulate an elegant reduction of, is that of _mimicry_. Suppose there is some existing category of entity, an original, typified by some cluster of traits. A _mimic_ is an entity optimized to approximately match the distribution of the original in many, but not all traits, thereby being part of the same cluster as the original in some _subspace_ of the space the original is defined in, but not the space as a whole. For example, if the vector $[4, 4, 4, 4, 4] \in \mathbb{R}^5$ is the original, then $[4, 0, 0, 4, 4]$ would be a mimic: it looks the same if you project into the subspace spanned by $x_1$, $x_4$, and $x_5$.
 
 We can find examples in nature. Suppose one type of butterfly has evolved to be toxic to a type of predator, and also has distinctive wing markings that function as an [honest warning signal](https://en.wikipedia.org/wiki/Signalling_theory#Honest_signals) to that predator: [this butterfly is not good to eat](https://en.wikipedia.org/wiki/Aposematism). This provides an ["opportunity"](https://www.lesswrong.com/posts/pLRogvJLPPg6Mrvg4/an-alien-god) [(in evolutionary time)](https://www.lesswrong.com/posts/ZyNak8F6WXjuEbWWc/the-wonder-of-evolution) for a second species of butterfly to develop similar wing markings, so that predators will confuse it for the first type of butterfly, despite the second butterly not paying the metabolic cost of producing toxins. This kind of situation is called [_Batesian mimicry_](https://en.wikipedia.org/wiki/Batesian_mimicry).
 
 Is Batesian mimicry deceptive? (In [our usual functionalist sense](https://www.lesswrong.com/posts/sXHQ9R5tahiaXEZhR/algorithmic-intent-a-hansonian-generalized-anti-zombie), which is obviously not a claim about butterfly _psychology_.) Is the second butterfly's very existence a kind of lie?
 
-We must answer in the affirmative: the mimic butterfly has been optimized by evolution to look like the first butterfly _because_ of the fitness payoff of being categorized by the predator as the first, toxic, kind of butterfly. The "recognized by the predator as toxic" category is a natural, compact region in wing-marking-space, but "comes apart" in the broader wing-markings–actual-toxicity space. The _reason_ for the mimic butterfly to have those particular wing-markings is _in order to_ increase the predator's expected squared error on toxicity.
+In some sense, yes! The mimic butterfly has been optimized by evolution to look like the first butterfly _because_ of the fitness payoff of being categorized by the predator as the first, toxic, kind of butterfly. The "recognized by the predator as toxic" category is a natural, compact region in wing-marking-space, but "comes apart" into two clusters in the broader wing-markings–actual-toxicity space.
 
-[asymmetry]
+Furthermore, the evolutionary dynamics create _asymmetric_ relationship between the two categories, that isn't captured by just the two trait-clusters themselves. The _reason_ for the mimic butterfly to have those particular wing-markings is _in order to_ increase the predator's expected squared error on toxicity (which is learned from encounters with the original), so if the original's wing-markings were to change as a result of some new selection pressure, the mimic would be subjected to selection pressure to "keep up" by changing its wing-markings accordingly.
 
-Is mimicry _always_ deceptive? Not necessarily—there might be some situations where the relevant set of variables are among those where the mimic matches the distribution of the original.
+That's not true in the other direction: if the mimic's markings were to change, the original wouldn't "follow": rather, the original would benefit from the probabilistic strength of its warning signal not being diluted by the mimic anymore. Thus, the asymmetric terminology "original" and "mimic" is appropriate: it's not just that these two species happen to like like _each other_; one of them was there _first_, and the other looks like _it_.
+
+Is mimicry _always_ deceptive? Not necessarily—there might be some situations where the _relevant_ set of variables are among those where the mimic matches the distribution of the original.
 
 Suppose you and I are watching some ducks in the park. I say, "I love watching these ducks!"
 
-You say, "Wrong! These aren't all ducks. This park is where a local inventor tests out his [Anatid](https://en.wikipedia.org/wiki/Anatidae)-[oid](https://en.wiktionary.org/wiki/-oid#Suffix) robots that are designed to look and act like ducks. You can't say, 'I love watching these ducks'; you need to say 'I love watching these ducks and Anatidoid robots'."
+You say, "Wrong! These aren't all ducks. This park is where a local inventor tests out his [Anatid](https://en.wikipedia.org/wiki/Anatidae)-[oid](https://en.wiktionary.org/wiki/-oid#Suffix) robots that are designed to look and act like ducks. Therefore, you can't say, 'I love watching these ducks'; you need to say 'I love watching these ducks and Anatidoid robots'."
+
+I say, "Wow, they're so realistic! I can't even tell which ones are really robots. In fact ... since I _can't_ tell"
 
 [...]
 
-This (more or less) is the origin of the famous [_duck test_](https://en.wikipedia.org/wiki/Duck_test): if it looks like a duck, and quacks like a duck, and you can model it as a duck without making any grievous prediction errors, then it makes sense to consider it a member of the category _duck_ in the range of circumstances where your model continues to perform well.
+This is the origin of the famous [_duck test_](https://en.wikipedia.org/wiki/Duck_test): if it looks like a duck, and quacks like a duck, and you can model it as a duck without making any grievous prediction errors, then it makes sense to consider it a member of the category _duck_ in the range of circumstances where your model continues to perform well.
 
 [... vegan meat]
 

@@ -130,6 +130,8 @@ Suppose some random variable $X$ is uniformly distributed on the set $\{1, 2, 3,
 
 But if you learn whether $x$ is even or odd, your mean squared error only goes down from 10.5 to 10, whereas if you learn whether $x$ is 1–4 or 5–8, your mean squared error plummets to 2.5. [(The squared error has nicer mathematical properties than the absolute error.)]((https://www.benkuhn.net/squared/)) By being compact, the "1–4 or 5–8" category system is much more useful for getting _close_ to the right answer than the "even/odd" category system, even though they both provide the same amount of information about the _exact_ answer.
 
+[TODO: more on strictly proper scoring rules?!]
+
 The same goes for natural categories _vs._ squiggly category "boundaries" in higher dimensions. For our blueness–eggness–vanadium distribution, your mean squared error before being told anything about an object is about 27.26 (with respect to Euclidean distance on blueness-score ✕ eggness-score ✕ 1-if-vanadium-present-else-0). On being told that an object is a blegg, your mean squared error plummets to about 0.46. On being told that an object is a blegg\*, your mean squared error only goes down to about 4.13.
 
 In this sense, the gerrymandered blegg\* concept is _quantitatively less informative_ than the original, compact blegg concept. The _metric_ we assigned to blueness–eggness–vanadium space was our choice, and could depend on our values: if we simply _don't care_ about predicting how blue an object is, we could disregard the blueness score and only define a concept on the eggness–vanadium subspace. Or if we don't care about predicting blueness _very much_, we could calculate our error score with respect to a metric that gave blueness very little weight.
@@ -268,17 +270,25 @@ In some sense, yes! The mimic butterfly has been optimized by evolution to look 
 
 Furthermore, the evolutionary dynamics create _asymmetric_ relationship between the two categories, that isn't captured by just the two trait-clusters themselves. The _reason_ for the mimic butterfly to have those particular wing-markings is _in order to_ increase the predator's expected squared error on toxicity (which is learned from encounters with the original), so if the original's wing-markings were to change as a result of some new selection pressure, the mimic would be subjected to selection pressure to "keep up" by changing its wing-markings accordingly.
 
-That's not true in the other direction: if the mimic's markings were to change, the original wouldn't "follow": rather, the original would benefit from the probabilistic strength of its warning signal not being diluted by the mimic anymore. Thus, the asymmetric terminology "original" and "mimic" is appropriate: it's not just that these two species happen to like like _each other_; one of them was there _first_, and the other looks like _it_.
+That's not true in the other direction: if the mimic's markings were to change, the original wouldn't "follow": rather, the original would benefit from the probabilistic strength of its warning signal not being parasitically diluted by the mimic anymore. Thus, the asymmetric terminology "original" and "mimic" is appropriate: it's not just that these two species happen to like like _each other_; one of them was there _first_, and the other looks like _it_.
 
 Is mimicry _always_ deceptive? Not necessarily—there might be some situations where the _relevant_ set of variables are among those where the mimic matches the distribution of the original.
 
 Suppose you and I are watching some ducks in the park. I say, "I love watching these ducks!"
 
-You say, "Wrong! These aren't all ducks. This park is where a local inventor tests out his [Anatid](https://en.wikipedia.org/wiki/Anatidae)-[oid](https://en.wiktionary.org/wiki/-oid#Suffix) robots that are designed to look and act like ducks. Therefore, you can't say, 'I love watching these ducks'; you need to say 'I love watching these ducks and Anatidoid robots'."
+You say, "Wrong! These aren't all ducks. This park is where a local inventor tests out his [_Anatid_](https://en.wikipedia.org/wiki/Anatidae)-[oid](https://en.wiktionary.org/wiki/-oid#Suffix) robots that are designed to look and act like ducks. Therefore, you can't say, 'I love watching these ducks'; you need to say 'I love watching these ducks and Anatidoid robots'."
 
-I say, "Wow, they're so realistic! I can't even tell which ones are really robots. In fact ... since I _can't_ tell"
+"Wow, they're so realistic!" I say. "I can't even tell which ones are really robots! In fact," I continue, "since I _can't_ tell, I'm inclined to just keep calling them all ducks; it would be pretty awkward to refer to each one as a duck-or-Anatidoid-robot."
 
-[...]
+"But it _is_ possible to tell," you claim. "For example, if you get really close to one of on the Anatidoid robots, and there's not a lot of ambient noise, you can hear the gears inside, turning."
+
+"Okay," I say, "but I _can't_ hear the gears from here. Since I have no way of telling the difference between ducks and Anatidoid robots without doing the more expensive evidence-gathering of cornering one in a quiet place, it makes sense for me to talk and think about these robots as being a kind of duck."
+
+"But that's a _lie_! Ducks and Anatidoid robots may look and act similarly, but they're very different! Ducks are made of flesh, [...]  
+
+
+https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity
+
 
 This is the origin of the famous [_duck test_](https://en.wikipedia.org/wiki/Duck_test): if it looks like a duck, and quacks like a duck, and you can model it as a duck without making any grievous prediction errors, then it makes sense to consider it a member of the category _duck_ in the range of circumstances where your model continues to perform well.
 

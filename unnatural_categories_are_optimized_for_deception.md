@@ -294,12 +294,15 @@ This is the origin of the famous [_duck test_](https://en.wikipedia.org/wiki/Duc
 
 The features for which mimics fail to match the original need not be hidden (like a gear sound that you can't hear in a noisy park) in order for mimics to not be deceptive; they only need to be [irrelevant](https://www.lesswrong.com/posts/GSz8SrKFfW7fJK2wN/relevance-norms-or-gricean-implicature-queers-the-decoupling) in the context the category is being used. [Squirt guns](https://en.wikipedia.org/wiki/Water_gun) aren't guns—and are usually manufactured in unrealistic colors specifically to prevent being confused with real guns—but in the context of a [water fight](https://en.wikipedia.org/wiki/Water_fight), the utterance "Don't point that gun at me" (without the [privative adjective](http://www.cogsci.ucsd.edu/~coulson/Fake/fakeguns.htm) _squirt_) is understood perfectly well.
 
-Nondeceptive mimicry is _fragile_, however: it works in contexts where the all the relevant features are ones where the mimic matches the original. Mimics that can't match the distribution of the original along relevant features are deceptive: agents that observe the mimic and assign it to the same category as the original on the basis of the matching features, will use that categorization to make predictions about unobserved but nonmatching features, and be wrong. And they'll be wrong _because_ the mimic is optimized to look like the original.
+Nondeceptive mimicry is _fragile_, however: it works in contexts where the all the relevant features are ones where the mimic matches the original. Mimics that don't match the distribution of the original along relevant features are deceptive: agents that observe the mimic and assign it to the same category as the original on the basis of the matching features, will use that categorization to make predictions about unobserved but nonmatching features, and be wrong. And they'll be wrong _because_ the mimic is optimized to "look like" the original (to match on many features).
 
-https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity
+[TODO: work in https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity ]
 
-[... and that's why boundary-redrawing projects fail]
+-----
 
+If different agents using a shared language disagree on what features are "relevant", they may have an incentive to fight about how [rare and valuable short codewords](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) should be defined in their common language, in order to exert control over what inferences and decisions agents using that language can easily make and [coordinate on](https://www.lesswrong.com/posts/9QxnfMYccz9QRgZ5z/the-costly-coordination-mechanism-of-common-knowledge#Coordination_Problems).
+
+[ https://slate.com/technology/2018/07/should-lab-grown-meat-be-called-meat.html ]
 [... vegan meat]
 
 -----

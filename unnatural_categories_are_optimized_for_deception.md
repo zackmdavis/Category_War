@@ -280,17 +280,22 @@ You say, "Wrong! These aren't all ducks. This park is where a local inventor tes
 
 "Wow, they're so realistic!" I say. "I can't even tell which ones are really robots! In fact," I continue, "since I _can't_ tell, I'm inclined to just keep calling them all ducks; it would be pretty awkward to refer to each one as a duck-or-Anatidoid-robot."
 
-"But it _is_ possible to tell," you claim. "For example, if you get really close to one of on the Anatidoid robots, and there's not a lot of ambient noise, you can hear the gears inside, turning."
+"But it _is_ possible to tell," you claim. "For example, if you get really close to one of the Anatidoid robots, and there's not a lot of ambient noise, you can hear the gears inside, turning."
 
-"Okay," I say, "but I _can't_ hear the gears from here. Since I have no way of telling the difference between ducks and Anatidoid robots without doing the more expensive evidence-gathering of cornering one in a quiet place, it makes sense for me to talk and think about these robots as being a kind of duck."
+"Okay," I say, "but I _can't_ hear the gears from here. Since I have no way of telling the difference between ducks and Anatidoid robots without doing the more expensive evidence-gathering of cornering one in a quiet place, it makes sense for me to talk and think about the robots as being a kind of duck."
 
-"But that's a _lie_! Ducks and Anatidoid robots may look and act similarly, but they're very different! Ducks are made of flesh, [...]  
+"But that's a _lie_! Ducks and Anatidoid robots may look and act similarly, but they're very different! Ducks are made of flesh and blood inside, eat organic matter, and are fated to die, whereas Anatidoid robots have a plastic interior, recharge wirelessly in the inventor's lab, and are immortal."
+
+"Sure," I agree. "And if I were interacting with these entities in a context where I wanted to minimize the expected squared error of my predictions about their internal makeup, energy sources, or ultimate fate, then I would want to make that distinction. But I just want to watch some cool ducks in the park, and _in the context_ of that activity, I only need to minimize the expected squared error of my predictions about appearance and behavior."
+
+This is the origin of the famous [_duck test_](https://en.wikipedia.org/wiki/Duck_test): if it looks like a duck, and quacks like a duck, and you can model it as a duck without making any grievous prediction errors, then it makes sense to consider it a member of the category _duck_ in the range of circumstances where your model continues to perform well.
+
+The features for which mimics fail to match the original need not be hidden (like a gear sound that you can't hear in a noisy park) in order for mimics to not be deceptive; they only need to be [irrelevant](https://www.lesswrong.com/posts/GSz8SrKFfW7fJK2wN/relevance-norms-or-gricean-implicature-queers-the-decoupling) in the context the category is being used. [Squirt guns](https://en.wikipedia.org/wiki/Water_gun) aren't guns—and are usually manufactured in unrealistic colors specifically to prevent confused with real guns—but in the context of a [water fight](https://en.wikipedia.org/wiki/Water_fight), the utterance "Don't point that gun at me" (without the [privative adjective](http://www.cogsci.ucsd.edu/~coulson/Fake/fakeguns.htm) _squirt_) is understood perfectly well.
 
 
 https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity
 
-
-This is the origin of the famous [_duck test_](https://en.wikipedia.org/wiki/Duck_test): if it looks like a duck, and quacks like a duck, and you can model it as a duck without making any grievous prediction errors, then it makes sense to consider it a member of the category _duck_ in the range of circumstances where your model continues to perform well.
+[mimicry is fragile: what works for some people, some recipes, doesn't let us do away with the original-mimic distinction, and that's why boundary-redrawing projects fail]
 
 [... vegan meat]
 

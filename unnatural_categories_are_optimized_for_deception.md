@@ -100,7 +100,7 @@ Humans are designed to decieve each other—it's always tempting to speak in a w
 
 As a human learning math, it's helpful to examine [multiple representations of the same mathematical object](https://en.wikipedia.org/wiki/Multiple_representations_(mathematics_education)). We've already seen our blueness–eggness–vanadium model represented as a table, and factorized into a graphical model. We've done also some algebraic calculations with it. But we can also visualize it: the set of camera observations that the model classifies as a blegg with probability $\ge 0.96$ can be thought of a area with a boundary in two-dimensional blueness–eggness space:
 
-![](file:///home/zmd/Documents/Drafts/Category_War/bleggspace.png)
+![](https://i.imgur.com/lcapjbb.png)
 
 [TODO: highlight the significance of "with probability > p"—inside/outside the boundaries is a simplification that loses information if we're using a model where the classes generate overlapping observations in whatever subspace we're making observations in]
 
@@ -108,7 +108,7 @@ If you were trying to _teach_ someone about the hidden Bayesian structure of lan
 
 Alaska isn't even _contiguous_ with the rest of the United States. If _that's_ okay, why can't the borders of bleggness be a little squiggly?
 
-![](file:///home/zmd/Documents/Drafts/Category_War/blegg-star-space.png)
+![](https://i.imgur.com/IBKatUG.png)
 
 Because the "national borders" metaphor is [just a metaphor](https://www.lesswrong.com/posts/C4EjbrvG3PvZzizZb/failure-by-analogy). It _immediately_ breaks down as soon as you try to do any calculations.
 
@@ -292,15 +292,17 @@ You say, "Wrong! These aren't all ducks. This park is where a local inventor tes
 
 This is the origin of the famous [_duck test_](https://en.wikipedia.org/wiki/Duck_test): if it looks like a duck, and quacks like a duck, and you can model it as a duck without making any grievous prediction errors, then it makes sense to consider it a member of the category _duck_ in the range of circumstances where your model continues to perform well.
 
-The features for which mimics fail to match the original need not be hidden (like a gear sound that you can't hear in a noisy park) in order for mimics to not be deceptive; they only need to be [irrelevant](https://www.lesswrong.com/posts/GSz8SrKFfW7fJK2wN/relevance-norms-or-gricean-implicature-queers-the-decoupling) in the context the category is being used. [Squirt guns](https://en.wikipedia.org/wiki/Water_gun) aren't guns—and are usually manufactured in unrealistic colors specifically to prevent being confused with real guns—but in the context of a [water fight](https://en.wikipedia.org/wiki/Water_fight), the utterance "Don't point that gun at me" (without the [privative adjective](http://www.cogsci.ucsd.edu/~coulson/Fake/fakeguns.htm) _squirt_) is understood perfectly well.
+The features for which mimics fail to match the original need not be hidden (like gear sounds that you can't hear in a noisy park) in order for mimics to not be deceptive; they only need to be [irrelevant](https://www.lesswrong.com/posts/GSz8SrKFfW7fJK2wN/relevance-norms-or-gricean-implicature-queers-the-decoupling) in the context the category is being used. [Squirt guns](https://en.wikipedia.org/wiki/Water_gun) aren't guns—and are usually manufactured in unrealistic colors specifically to prevent being confused with real guns—but in the context of a [water fight](https://en.wikipedia.org/wiki/Water_fight), the utterance "Don't point that gun at me" (without the [privative adjective](http://www.cogsci.ucsd.edu/~coulson/Fake/fakeguns.htm) _squirt_) is understood perfectly well.
 
-Nondeceptive mimicry is _fragile_, however: it works in contexts where the all the relevant features are ones where the mimic matches the original. Mimics that don't match the distribution of the original along relevant features are deceptive: agents that observe the mimic and assign it to the same category as the original on the basis of the matching features, will use that categorization to make predictions about unobserved but nonmatching features, and be wrong. And they'll be wrong _because_ the mimic is optimized to "look like" the original (to match on many features).
+Nondeceptive mimicry is _fragile_, however: it works in contexts where the all the relevant features are ones where the mimic matches the original. Mimics that don't match the distribution of the original along relevant features are deceptive: agents that observe the mimic and assign it to the same mental category as the original on the basis of the matching features, will use that categorization to make predictions about unobserved but nonmatching features, and be wrong. And they'll be wrong _because_ the mimic is optimized to "look like" the original (to match on many features).
 
 [TODO: work in https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity ]
 
 -----
 
 If different agents using a shared language disagree on what features are "relevant", they may have an incentive to fight about how [rare and valuable short codewords](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) should be defined in their common language, in order to exert control over what inferences and decisions agents using that language can easily make and [coordinate on](https://www.lesswrong.com/posts/9QxnfMYccz9QRgZ5z/the-costly-coordination-mechanism-of-common-knowledge#Coordination_Problems).
+
+Consider the 
 
 [ https://slate.com/technology/2018/07/should-lab-grown-meat-be-called-meat.html ]
 [... vegan meat]

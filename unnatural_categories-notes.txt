@@ -198,4 +198,8 @@ Jessica wrote:
 
 > This is well-motivated because there are real-world problems where guessing numeric quantities is necessary and getting closer is better, e.g. buying a shirt for someone that matches their size.  Bits that help guess these quantities accurately are more valuable than bits that don't help guess these quantities.
 
+even EY's clarfication talks about "redrawing social or epistemic boundaries"—maybe need a separate section to address why social categories need to flow through epistemic categories with respect to some space—I think the age-of-majority (or doctor or figherfighter) is again my go-to example here; language has to refer to a cluster in social behavior, although the cluster in social behavior may get shaped by language
 
+More links—
+https://www.lesswrong.com/posts/KbjWLGJogCZY4HNsr/words-and-implications
+https://www.lesswrong.com/posts/Lotih2o2pkR2aeusW/math-that-clicks-look-for-two-way-correspondences

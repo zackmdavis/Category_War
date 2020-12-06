@@ -200,6 +200,14 @@ Jessica wrote:
 
 even EY's clarfication talks about "redrawing social or epistemic boundaries"—maybe need a separate section to address why social categories need to flow through epistemic categories with respect to some space—I think the age-of-majority (or doctor or figherfighter) is again my go-to example here; language has to refer to a cluster in social behavior, although the cluster in social behavior may get shaped by language
 
+https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff#Bias%E2%80%93variance_decomposition_of_mean_squared_error
+https://en.wikipedia.org/wiki/Mean_squared_error
+
 More links—
 https://www.lesswrong.com/posts/KbjWLGJogCZY4HNsr/words-and-implications
 https://www.lesswrong.com/posts/Lotih2o2pkR2aeusW/math-that-clicks-look-for-two-way-correspondences
+https://www.lesswrong.com/posts/hAvGi9YAPZAnnjZNY/prediction-compression-transcript-1
+https://www.lesswrong.com/posts/ex63DPisEjomutkCw/msg-len
+https://www.lesswrong.com/posts/tWLFWAndSZSYN6rPB/think-like-reality
+
+https://www.lesswrong.com/posts/F46jPraqp258q67nE/why-you-must-maximize-expected-utility

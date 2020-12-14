@@ -212,3 +212,21 @@ https://www.lesswrong.com/posts/tWLFWAndSZSYN6rPB/think-like-reality
 
 https://www.lesswrong.com/posts/F46jPraqp258q67nE/why-you-must-maximize-expected-utility
 https://www.lesswrong.com/posts/G5TwJ9BGxcgh5DsmQ/yes-requires-the-possibility-of-no
+
+
+
+
+
+This is also, at an abstract high level, how human natural language works—how it _has_ to work. There is an idea in my head. When I speak, my larynx creates pressure wave in the air. When the waves hit your eardrum and are decoded by your auditory cortex, that hopefully [triggers](https://www.lesswrong.com/posts/YF9HB6cWCJrDK5pBM/words-as-mental-paintbrush-handles) a similar idea in your head. You don't have direct access to the computations going on in my head, but your brain can _infer_ something about them from the noises I make, and that's what it means to speak and to listen in a reductionist universe.
+
+I am not a cognitive scientist and I don't _know_ the details of _how_ language works in the brain. But I do know a _little_ information theory and probability theory—enough to glimpse a bit of how the laws of mathematics constain how language _has_ to work, to the extent that it works.
+
+In studying or explaining the math, I like to focus on simple examples with explicit probability distributions that I can do my own calculations for with pencil or Python. If I want to tell a story to go along with the math, I want to make the story about factory machines that I could actually program.
+
+The actual implementation of natural language in human brains is going to be _much_ more complicated, of course. Telling a story problem about computer programs controlling factory machines has the advantage not only of being a simple explanation of the [math](https://www.lesswrong.com/posts/bkSkRwo9SRYxJMiSY/beautiful-probability) that we can [trust](https://www.lesswrong.com/posts/BL9DuE2iTCkrnuYzx/trust-in-bayes) governs the more complicated real-world phenomenon. It's also less tempting to rationalize about the story problem about factory machines, than it is to directly think about language.
+
+(As it is [written of the tenth virtue](https://yudkowsky.net/rational/virtues/) of precision: even if you cannot do the math, knowing that the math exists tells you that the dance step is precise and has no room in it for your whims.)
+
+Humans are designed to decieve each other—it's always tempting to speak in a way that propagates misinformation while retaining deniability that we weren't _lying_—it's the other guy's _fault_ for misinterpreting what I _really meant_. When we think about designing messages for computer programs to give commands to each other about quantifiable observables, this excuse vanishes: if there's a bug in deterministic computer code such that the robot arm puts an object in the rube bin when it gets the `BLEGG` message, then that's what happens. There's no room to use the complexity of humans and their political games to obscure the behavior of the physical system and how it's processing information.
+
+[TODO: more cleanly distinguish two reasons for example choice: simplicity, and sidestepping political intuitions. Link to "Toolbox-thinking and law-thinking": https://www.lesswrong.com/posts/CPP2uLcaywEokFKQG/toolbox-thinking-and-law-thinking ]

@@ -2,6 +2,24 @@ from collections import namedtuple
 from fractions import Fraction
 from math import sqrt
 
+def expected_squared_error_reimpl(distribution, metric):
+    from collections import namedtuple
+    wrap = namedtuple('wrap', ['value'])
+
+    guess = 0
+    for outcome, probability in distribution.items():
+        print(outcome, probability)
+        guess += outcome.value * probability
+    print("guess is", guess)
+    grand_error = 0
+    for actual, actual_probability in distribution.items():
+        grand_error += (
+            actual_probability * (metric(actual, wrap(value=guess)) ** 2)
+        )
+    return grand_error
+
+
+# TODO: what is the "guess" under a non-Euclidean metric?!
 
 def expected_squared_error(distribution, metric):
     """
@@ -10,13 +28,24 @@ def expected_squared_error(distribution, metric):
     will we be wrong on average (with respect to a given metric on the space,
     squared)?
     """
+    guess = 0
+    for outcome, probability in distribution.items():
+        print(outcome, probability)
+        guess += outcome.value * probability
+    print("guess is", guess)
     grand_error = 0
-    for guess, guess_probability in distribution.items():
-        for actual, actual_probability in distribution.items():
-            grand_error += (
-                guess_probability * actual_probability * metric(actual, guess) ** 2
-            )
+    for actual, actual_probability in distribution.items():
+        grand_error += (
+            actual_probability * (metric(actual, wrap(value=guess)) ** 2)
+        )
     return grand_error
+    # grand_error = 0
+    # for guess, guess_probability in distribution.items():
+    #     for actual, actual_probability in distribution.items():
+    #         grand_error += (
+    #             guess_probability * actual_probability * metric(actual, guess) ** 2
+    #         )
+    # return grand_error
 
 
 def expected_squared_error_given_categorization(
@@ -43,6 +72,7 @@ def expected_squared_error_given_categorization(
         category_squerr = expected_squared_error(updated_distribution, metric)
         grand_error += category_probability * category_squerr
     return grand_error
+
 
 
 FactoryOutcome = namedtuple(
@@ -143,6 +173,7 @@ def eightfold_example():
     initial_squerr = expected_squared_error(distribution, metric)
 
     print("initial expected squared error: ", initial_squerr)
+    print("double check", expected_squared_error_reimpl(distribution, metric))
     print(
         "expected squared error given knowledge of parity: ",
         expected_squared_error_given_categorization(distribution, metric, "parity"),
@@ -165,24 +196,26 @@ def factory_example():
                 for prop in ["eggness", "blueness", "vanadium"]
             )
         ),
-        "eggness–vanadium-only": lambda u, v: sqrt(
-            sum(
-                (getattr(u, prop) - getattr(v, prop)) ** 2
-                for prop in ["eggness", "vanadium"]
-            )
-        ),
-        "vanadium-weighted": lambda u, v: sqrt(
-            sum(
-                (
-                    (0.2 * (getattr(u, prop) - getattr(v, prop))) ** 2
-                    if prop in ["eggness", "blueness"]
-                    else (getattr(u, prop) - getattr(v, prop)) ** 2
-                )
-                for prop in ["eggness", "blueness", "vanadium"]
-            )
-        ),
-        "vanadium-only": lambda u, v: u.vanadium - v.vanadium,
+        # ... feel free to try out other metrics here!
     }
+    #     "eggness–vanadium-only": lambda u, v: sqrt(
+    #         sum(
+    #             (getattr(u, prop) - getattr(v, prop)) ** 2
+    #             for prop in ["eggness", "vanadium"]
+    #         )
+    #     ),
+    #     "vanadium-weighted": lambda u, v: sqrt(
+    #         sum(
+    #             (
+    #                 (0.2 * (getattr(u, prop) - getattr(v, prop))) ** 2
+    #                 if prop in ["eggness", "blueness"]
+    #                 else (getattr(u, prop) - getattr(v, prop)) ** 2
+    #             )
+    #             for prop in ["eggness", "blueness", "vanadium"]
+    #         )
+    #     ),
+    #     "vanadium-only": lambda u, v: u.vanadium - v.vanadium,
+    # }
     # show off different metrics
     for metric_name, metric in metrics.items():
         initial_squerr = expected_squared_error(distribution, metric)

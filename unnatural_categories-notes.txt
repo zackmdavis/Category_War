@@ -212,8 +212,7 @@ https://www.lesswrong.com/posts/tWLFWAndSZSYN6rPB/think-like-reality
 
 https://www.lesswrong.com/posts/F46jPraqp258q67nE/why-you-must-maximize-expected-utility
 https://www.lesswrong.com/posts/G5TwJ9BGxcgh5DsmQ/yes-requires-the-possibility-of-no
-
-
+https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity [near the ducks?]
 
 
 
@@ -230,3 +229,8 @@ The actual implementation of natural language in human brains is going to be _mu
 Humans are designed to decieve each other—it's always tempting to speak in a way that propagates misinformation while retaining deniability that we weren't _lying_—it's the other guy's _fault_ for misinterpreting what I _really meant_. When we think about designing messages for computer programs to give commands to each other about quantifiable observables, this excuse vanishes: if there's a bug in deterministic computer code such that the robot arm puts an object in the rube bin when it gets the `BLEGG` message, then that's what happens. There's no room to use the complexity of humans and their political games to obscure the behavior of the physical system and how it's processing information.
 
 [TODO: more cleanly distinguish two reasons for example choice: simplicity, and sidestepping political intuitions. Link to "Toolbox-thinking and law-thinking": https://www.lesswrong.com/posts/CPP2uLcaywEokFKQG/toolbox-thinking-and-law-thinking ]
+
+
+
+
+What I _can_ say, however, is that [choosing](https://www.lesswrong.com/posts/Hs3ymqypvhgFMkgLb/doublethink-choosing-to-be-biased) a [suboptimal use of categories](https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong) is not following a [cognitive algorithm](https://www.lesswrong.com/posts/HcCpvYLoSFP4iAqSz/rationality-appreciating-cognitive-algorithms) that uses a map that reflects the territory to systematically achieve goals across a wide range of environments.

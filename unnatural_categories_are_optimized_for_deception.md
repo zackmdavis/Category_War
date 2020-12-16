@@ -136,9 +136,7 @@ $$E[(x-\hat{x})^{2}]=\sum_{x\in\{2,4,6,8\}}P(X=x)\cdot(x-\hat{x})^{2}=\frac{(2-5
 
 With probability 0.5, you learn that $x$ is odd. Similar calculations (left as an exercise) also give a new expected squared error of 5 in the "odd" possible world. Averaging over both cases (trivially, $0.5 \cdot 5 + 0.5 \cdot 5 = 5$), learning whether $x$ is even or odd only brought our expected squared error down from 5.25 to 5, barely changing at all.
 
-In contrast, if you learn whether $x$ is 1–4 or 5–8, your expected squared error plummets to 1.25. (Exercise.)
-
-By being compact, the "1–4 or 5–8" category system is much more useful for getting _close_ to the right answer than the "even/odd" category system.
+In contrast, if you learn whether $x$ is 1–4 or 5–8, your expected squared error plummets to 1.25. (Exercise.) By being compact, the "1–4 or 5–8" category system is much more useful for getting _close_ to the right answer than the "even/odd" category system.
 
 The same goes for natural categories _versus_ squiggly category "boundaries" in configuration space; we just need to supply some [metric](https://en.wikipedia.org/wiki/Metric_(mathematics)) to define what "close" means.
 
@@ -190,17 +188,17 @@ Situations like [the Allias paradox](https://www.lesswrong.com/posts/zJZvoiwydJ5
 
 Suppose that, before midnight, the AI is willing to pay a dollar to flip the switch On (as if it thought that winning $110 with a probability of 5/12 is better than winning $100 with a probability of 1/2). Suppose the coin comes up Heads, and the AI is then willing to pay another dollar to flip the switch Off again (as if it thought that $100 with certainty is better than $110 with probability 5/6). Then the AI is two dollars poorer in exchange for the switch being in the same position it started in.
 
-These gambling preferences violate [the independence axiom](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem#The_axioms) of the von Neumann–Morgenstern utility theorem. You _can't_ have a utility function $U$ in terms of money for which $\frac{1}{2} \cdot U(\$100) > \frac{5}{12} \cdot U(\$110)$ and $U(\$100) > \frac{5}{6} \cdot U(\$110)$, because the sides of the second inequality are just those of the first multiplied by two, and multiplying by two should preserve the direction of inequality.
+These gambling preferences violate [the independence axiom](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem#The_axioms) of the [von Neumann–Morgenstern utility theorem](https://www.lesswrong.com/posts/F46jPraqp258q67nE/why-you-must-maximize-expected-utility). You _can't_ have a utility function $U$ in terms of money for which $\frac{1}{2} \cdot U(\$100) > \frac{5}{12} \cdot U(\$110)$ and $U(\$100) > \frac{5}{6} \cdot U(\$110)$, because the sides of the second inequality are just those of the first multiplied by two, and multiplying by two should preserve the direction of inequality.
 
-Having shown this, can we say that an AI with such behavior is "irrational"? But what does "irrational" mean? If, for some reason, you specifically programmed the AI to prefer options it considers "certain", or to want switches to be "On" before midnight but "Off" after midnight, then it would be functioning as designed.
+Having shown this, can we say that an AI with such behavior is "irrational"? But what does that even mean? If, for some reason, you specifically programmed the AI to prefer options it considers "certain", or to want switches to be "On" before midnight but "Off" after midnight, then it would be functioning as designed.
 
 What we _can_ say about such an AI, is that it doesn't have a utility function _in terms of money_, and is therefore not coherently optimizing for acquiring money. Recall that we say that a system is an optimizer if it systematically [steers the future](https://www.lesswrong.com/posts/HktFCy6dgsqJ9WPpX/belief-in-intelligence) into configurations that rank higher [with respect to some preference ordering](https://www.lesswrong.com/posts/CW6HDvodPpNe38Cry/aiming-at-the-target). This helps us make predictions about what _effects_ the system has, without having to model the details of _how_ it brings those effects about. A well-designed agent that was optimizing for acquiring money would be expected to obey the independence axiom.
 
-If the AI playing this game isn't coherently optimizing for acquiring money, what _is_ it optimizing for? To tell, we'd need to observe its behavior in different environments and see how it [responds to perturbations](https://www.lesswrong.com/posts/znfkdCoHMANwqc2WE/the-ground-of-optimization-1). If it is trying to acquire money but is just _biased_ to prefer certainty (in violation of the von Neumann–Morgenstern axioms), then we'd expect it to make choices that result in money but continue to exhibit Allais-like glitches around gambles involving probabilities close to 1. If it just likes switches to be off after midnight, then we'd expect it to turn switches off at that time even if there's no gambling game going on.
+If the AI playing this game isn't coherently optimizing for acquiring money, what _is_ it optimizing for? To tell, we'd need to observe its behavior in different environments and see how it [responds to perturbations](https://www.lesswrong.com/posts/znfkdCoHMANwqc2WE/the-ground-of-optimization-1). If it is trying to acquire money but is just _biased_ to prefer certainty (in violation of the von Neumann–Morgenstern axioms), then we'd expect it to make choices that result in money but continue to exhibit Allias-like glitches around gambles involving probabilities close to 1. If it just likes switches to be off after midnight, then we'd expect it to turn switches off at that time even if there's no gambling game going on.
 
 This methodology for attributing goals to an agent—consider it to be "optimizing for" outcomes that it systematically achieves across a variety of environments—applies to the behavior of sending communication signals, just as it does to the behavior of flipping switches.
 
-Back to the factory. Our classifier system sends a `{"object_category": "BLEGG"}` message when it gets feature data corresponding to the compact _blegg_ concept. This behavior is optimized for sending messages that allow other systems to minimize the expected squared error of their predictions of objects with respect to our standard metric on blueness–eggness–vanadium space. We _don't_ intrinsically assign utility to using that particular category system; the category is the _solution_ to an optimization problem about how to efficiently get blueness–eggness–vanadium information from one place to another.
+Back to the factory. Our classifier system sends a `{"object_category": "BLEGG"}` message when it gets feature data corresponding to the compact _blegg_ concept. This behavior is optimized for sending messages that allow other systems to minimize the expected squared error of their predictions of objects with respect to our standard metric on blueness–eggness–vanadium space. We _don't_ intrinsically "assign utility" to using that particular category system; the category is the _solution_ to an optimization problem about how to efficiently get blueness–eggness–vanadium information from one place to another.
 
 A system that sends a `{"object_category": "BLEGG"}` message when it gets camera data corresponding to the gerrymandered _blegg\*_ concept would be optimized for ... what? If you don't instrinsically assign utility to using that particular category system, then _why_ would you program the system that way? What could possibly be the problem for which the gerrymandered category is an optimized solution?
 
@@ -226,7 +224,7 @@ In the first scenario, I _lie_: the receipt says I delivered 60 gold bars and 20
 
 In the second scenario, I tell the truth—with respect to a category system that suits my goals. The receipt says I delivered 60 gold bars and 20 silver bars—and I did. It's just that what _I_ prefer to call "gold bars", you prefer to call "gold bars, _or_ silver bars with odd serial numbers", and what I call "silver bars", you call "silver bars with even serial numbers". You know this, so when you examine the actual contents of the delivery, you feel disappointed but not surprised: you would have _preferred_ to transact under your definitions of 'gold' and 'silver', but you can't say you _anticipated_ it.
 
-We might question whether these are two different scenarios, or two descriptions of the _same_ scenario: the same physical receipt, the same physical metal, _the same buyer anticipations about the metal conditional on observing the receipt_. If [we just pay attention to the evidential entanglements instead of being confused by words](https://www.lesswrong.com/posts/34XxbRFe54FycoCDw/the-bottom-line), then [there's no functional difference between](https://www.lesswrong.com/posts/YptSN8riyXJjJ8Qp8/maybe-lying-can-t-exist) saying "I reserve the right to lie _p_% of the time about whether something belongs to category _C_", and adopting a new, less-accurate category system that misclassifies _p_% of instances with respect to the old system.
+We might question whether these are two different scenarios, or two descriptions of the _same_ scenario: the same physical receipt, the same physical metal, _the same buyer anticipations about the metal conditional on observing the receipt_. If [we just pay attention to the evidential entanglements](https://www.lesswrong.com/posts/34XxbRFe54FycoCDw/the-bottom-line) instead of being [confused by words](https://www.lesswrong.com/posts/KbjWLGJogCZY4HNsr/words-and-implications), then [there's no functional difference between](https://www.lesswrong.com/posts/YptSN8riyXJjJ8Qp8/maybe-lying-can-t-exist) saying "I reserve the right to lie _p_% of the time about whether something belongs to category _C_", and adopting a new, less-accurate category system that misclassifies _p_% of instances with respect to the old system.
 
 Minimizing the squared-error score is _about_ map–territory correspondence: ways of communicating that help the factory machines make better predictions about the objects, get a higher score.
 
@@ -248,7 +246,7 @@ Suppose I want to be attractive. _Attractiveness_ is a value-laden concept in th
 
 Given all these complications, one could imagine being tempted to think that attractiveness is "subjective", and that therefore I can define it any way I want, and that therefore, if I feel sad about not being "attractive", I can fix that by _changing my definition of the word "attractive"_ such that it includes me. Because definitions can't be "false", right!? There's no rule of rationality prohibiting this boundary-redrawing project—and since I want so desperately to be "attractive", there's every rule of human decency in favor of it, right?!
 
-So, this obviously doesn't work. (Okay, it "works" if you deliberately choose to define the word "work" such that it works, but it doesn't _actually_ work.) The motion to redefine the word "attractive" came with the purported justification that words don't have intrinsic meanings, so it can't be "wrong" to redefine it. But precisely _because_ words don't have intrinsic meanings, there's no reason to _want_ to redefine an _existing_ word, _except_ to piggyback off the meaning people are _already_ using that word for.
+So, this obviously doesn't work. (Okay, it "works" if you deliberately choose to define the word "work" such that it works, but it doesn't _actually_ work.) The motion to redefine the word "attractive" came with the purported justification that words don't have intrinsic meanings, so it can't be "wrong" to redefine it. But precisely _because_ words don't have intrinsic meanings, there's no reason to _want_ to redefine an _existing_ word, _except_ to piggyback off the meaning people are _already_ using that signal for.
 
 (Note that this, in itself, isn't necessarily deceptive. Sometimes, [coining new senses of a word that piggyback off an existing meaning can be a powerful tool for extending our vocabulary to cover new phenomena that we don't already have words for](https://www.lesswrong.com/posts/wR4PaDp2Knu5coeXx/metaphorical-extensions-and-conceptual-figure-ground)—as long as we're careful to [specify which meaning is intended](https://www.lesswrong.com/posts/shoMpaoZypfkXv84Y/variable-question-fallacies) when it's not clear from context.)
 
@@ -280,7 +278,7 @@ Is Batesian mimicry deceptive? (In [our usual functionalist sense](https://www.l
 
 In some sense, yes! The mimic butterfly has been optimized by evolution to look like the first butterfly _because_ of the fitness payoff of being categorized by the predator as the first, toxic, kind of butterfly. The "categorized by the predator as toxic" category is a natural, compact region in wing-marking-space, but "comes apart" into two clusters in the broader wing-markings–actual-toxicity space.
 
-Furthermore, the evolutionary dynamics create _asymmetric_ relationship between the two categories, that isn't captured by just the two trait-clusters themselves. The _reason_ for the mimic butterfly to have those particular wing-markings is _in order to_ increase the expected squared error of the predator's predictions of toxicity (which was learned from encounters with the original), so if the original's wing-markings were to change as a result of some new selection pressure, the mimic would be subjected to selection pressure to "keep up" by changing its wing-markings accordingly.
+Furthermore, the evolutionary dynamics create [an _asymmetric_ relationship between the two categories](https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity), that isn't captured by just the two trait-clusters themselves. The _reason_ for the mimic butterfly to have those particular wing-markings is _in order to_ increase the expected squared error of the predator's predictions of toxicity (which was learned from encounters with the original), so if the original's wing-markings were to change as a result of some new selection pressure, the mimic would be subjected to selection pressure to "keep up" by changing its wing-markings accordingly.
 
 That's not true in the other direction: if the mimic's markings were to change, the original wouldn't "follow": rather, the original would benefit from the probabilistic strength of its warning signal not being parasitically diluted by the mimic anymore. Thus, the asymmetric terminology "original" and "mimic" is appropriate: it's not just that these two species happen to like like _each other_; one of them was there _first_, and the other looks like _it_.
 
@@ -310,10 +308,32 @@ Nondeceptive mimicry is _fragile_, however: it works in contexts where the all t
 
 If different agents using a shared language disagree on what features are "relevant", they may have an incentive to fight about how [rare and valuable short codewords](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) should be defined in their common language, in order to exert control over what inferences and decisions agents using that language can easily make and [coordinate on](https://www.lesswrong.com/posts/9QxnfMYccz9QRgZ5z/the-costly-coordination-mechanism-of-common-knowledge#Coordination_Problems).
 
+[TODO: transition sentence]
+
+From a moral perspective that assigns weight to the welfare of nonhuman amimals, factory farming is an [ongoing moral catastrophe](https://forum.effectivealtruism.org/posts/Dtr8aHqCQSDhyueFZ/the-possibility-of-an-ongoing-moral-catastrophe-summary): millions of animals are born into miserable conditions and suffer.
+
+Unfortunately (for the farmed animals)
+
+https://reducing-suffering.org/how-much-direct-suffering-is-caused-by-various-animal-foods/
+
 Consider the 
 
 [ https://slate.com/technology/2018/07/should-lab-grown-meat-be-called-meat.html ]
 [... vegan meat]
+
+
+
+[TODO
+factory farming is an ongoing moral catastrophe
+fortunately, substitutes are being developed
+unfortunately, the substitutes aren't being adopted
+right now, there's no real conflict; people accept veggie burger as a "marked" term, with "veggie" as a privative adjective, just as they accept toy guns
+animal rights activists might embark on a language-reform crusade that cultured meat, or plant-based meat _is_ meat, in the hopes of shaping demand
+if the substitutes are good enough, no problem—in our world, we don't care (although we could imagine a hunter-gatherer society that had a relationship with the Hunt for whom it wasn't the same)
+if the substitutes aren't good enough, meat-eaters regard this as aggression and mind control
+the vegan mind-control crowd has a real utility argument—the animals are in fact suffering and dying, but it's not cause-neutral
+]
+
 
 -----
 

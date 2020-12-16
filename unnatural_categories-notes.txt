@@ -1,3 +1,16 @@
+(If anyone wants to make this political, please take it to the ["Containment Thread on the Motivation and Political Context for My Philosophy of Language Agenda"](https://www.lesswrong.com/posts/5aqumaym7Jd2qhDcy/containment-thread-on-the-motivation-and-political-context); it may take me a few days to reply to comments, but I definitely will)
+
+
+
+-----
+
+
+
+(If anyone wants to talk about the elephant in the room, feel free to do so in the , but I continue to maintain that the correctness of my philosophy-of-language agenda can be evaluated in an elephant-independent way)
+
+
+
+
 
 There's no rule of rationality against _lying_.
 
@@ -203,16 +216,16 @@ even EY's clarfication talks about "redrawing social or epistemic boundaries"—
 https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff#Bias%E2%80%93variance_decomposition_of_mean_squared_error
 https://en.wikipedia.org/wiki/Mean_squared_error
 
-More links—
-https://www.lesswrong.com/posts/KbjWLGJogCZY4HNsr/words-and-implications
-https://www.lesswrong.com/posts/Lotih2o2pkR2aeusW/math-that-clicks-look-for-two-way-correspondences
+
 https://www.lesswrong.com/posts/hAvGi9YAPZAnnjZNY/prediction-compression-transcript-1
 https://www.lesswrong.com/posts/ex63DPisEjomutkCw/msg-len
 https://www.lesswrong.com/posts/tWLFWAndSZSYN6rPB/think-like-reality
 
-https://www.lesswrong.com/posts/F46jPraqp258q67nE/why-you-must-maximize-expected-utility
+
+More links—
+
 https://www.lesswrong.com/posts/G5TwJ9BGxcgh5DsmQ/yes-requires-the-possibility-of-no
-https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity [near the ducks?]
+
 
 
 

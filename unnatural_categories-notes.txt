@@ -1,4 +1,4 @@
-(Author's note: I continue to maintain that this is fun and basic hidden-Bayesian-structure-of-language-and-cognition stuff that anyone who liked the Sequences might enjoy and all Friendliness researchers should know instinctively and no one should feel politically threatened by, but if anyone wants to interrogate me about the elephant in the room, let's take it to the ["Containment Thread on the Motivation and Political Context for My Philosophy of Language Agenda"](https://www.lesswrong.com/posts/5aqumaym7Jd2qhDcy/containment-thread-on-the-motivation-and-political-context)—although for the context of where I'm coming from, I would recommend reading ["Sexual Dimorphism in Yudkowsky's Sequences, in Relation to My Gender Problems"]() first (it's "only", um, [TODO: real wordcount] 20,000 words), and it might take me a few days to reply because I have a dayjob)
+(Author's reluctant note: I continue to maintain that this is fun and basic hidden-Bayesian-structure-of-language-and-cognition stuff that anyone who liked the Sequences might enjoy and all Friendliness researchers should know instinctively and no one should feel politically threatened by, but if anyone wants to interrogate me about the elephant in the room, let's take it to the ["Containment Thread on the Motivation and Political Context for My Philosophy of Language Agenda"](https://www.lesswrong.com/posts/5aqumaym7Jd2qhDcy/containment-thread-on-the-motivation-and-political-context)—although for the context of where I'm coming from, I would recommend reading ["Sexual Dimorphism in Yudkowsky's Sequences, in Relation to My Gender Problems"]() first (it's "only", um, [TODO: real wordcount] 20,000 words), and it might take me a few days to reply because I have a dayjob)
 
 
 
@@ -247,18 +247,3 @@ The actual implementation of natural language in human brains is going to be _mu
 Humans are designed to decieve each other—it's always tempting to speak in a way that propagates misinformation while retaining deniability that we weren't _lying_—it's the other guy's _fault_ for misinterpreting what I _really meant_. When we think about designing messages for computer programs to give commands to each other about quantifiable observables, this excuse vanishes: if there's a bug in deterministic computer code such that the robot arm puts an object in the rube bin when it gets the `BLEGG` message, then that's what happens. There's no room to use the complexity of humans and their political games to obscure the behavior of the physical system and how it's processing information.
 
 [TODO: more cleanly distinguish two reasons for example choice: simplicity, and sidestepping political intuitions. Link to "Toolbox-thinking and law-thinking": https://www.lesswrong.com/posts/CPP2uLcaywEokFKQG/toolbox-thinking-and-law-thinking ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

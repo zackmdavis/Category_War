@@ -224,12 +224,13 @@ https://en.wikipedia.org/wiki/Mean_squared_error
 
 https://www.lesswrong.com/posts/hAvGi9YAPZAnnjZNY/prediction-compression-transcript-1
 https://www.lesswrong.com/posts/ex63DPisEjomutkCw/msg-len
+https://www.lesswrong.com/posts/mB95aqTSJLNR9YyjH/message-length
 https://www.lesswrong.com/posts/tWLFWAndSZSYN6rPB/think-like-reality
 
-
 More links—
-
+https://www.lesswrong.com/posts/9QxnfMYccz9QRgZ5z/the-costly-coordination-mechanism-of-common-knowledge#Coordination_Problems
 https://www.lesswrong.com/posts/G5TwJ9BGxcgh5DsmQ/yes-requires-the-possibility-of-no
+https://www.lesswrong.com/posts/sP2Hg6uPwpfp3jZJN/lost-purposes
 
 
 
@@ -246,4 +247,46 @@ The actual implementation of natural language in human brains is going to be _mu
 
 Humans are designed to decieve each other—it's always tempting to speak in a way that propagates misinformation while retaining deniability that we weren't _lying_—it's the other guy's _fault_ for misinterpreting what I _really meant_. When we think about designing messages for computer programs to give commands to each other about quantifiable observables, this excuse vanishes: if there's a bug in deterministic computer code such that the robot arm puts an object in the rube bin when it gets the `BLEGG` message, then that's what happens. There's no room to use the complexity of humans and their political games to obscure the behavior of the physical system and how it's processing information.
 
-[TODO: more cleanly distinguish two reasons for example choice: simplicity, and sidestepping political intuitions. Link to "Toolbox-thinking and law-thinking": https://www.lesswrong.com/posts/CPP2uLcaywEokFKQG/toolbox-thinking-and-law-thinking ]
+[TODO: more cleanly distinguish two reasons for example choice: simplicity, and sidestepping political intuitions. Link to "Toolbox-thinking and law-thinking": https://www.lesswrong.com/posts/CPP2uLcaywEokFKQG/toolbox-thinking-and-law-thinking
+]
+
+[TODO: rewrite to introduce the conflict more neutrally? Mention eggs as well as meat?]
+
+[ https://slate.com/technology/2018/07/should-lab-grown-meat-be-called-meat.html ]
+[... vegan meat]
+
+[TODO
+factory farming is an ongoing moral catastrophe
+fortunately, substitutes are being developed
+unfortunately, the substitutes aren't being adopted
+right now, there's no real conflict; people accept veggie burger as a "marked" term, with "veggie" as a privative adjective, just as they accept toy guns
+animal rights activists might embark on a language-reform crusade that cultured meat, or plant-based meat _is_ meat, in the hopes of shaping demand
+if the substitutes are good enough, no problem—in our world, we don't care (although we could imagine a hunter-gatherer society that had a relationship with the Hunt for whom it wasn't the same)
+if the substitutes aren't good enough, meat-eaters regard this as aggression and mind control
+the vegan mind-control crowd has a real utility argument—the animals are in fact suffering and dying, but it's not cause-neutral
+the cognitive function of categorization is part of the common interest of many causes: I say "nonhuman animals" not because I'm a vegan, but because it's actually accurate
+]
+
+
+
+Is artificial meat, real meat?
+
+There is a _trivial_ sense in which a smart-aleck could answer, It depends on how you draw the category boundaries of _meat_, [end-of-discussion](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters).
+
+But when such [_failures to consider the obvious next question_](https://www.lesswrong.com/posts/FWMfQKG3RpZx6irjm/semantic-stopsigns) are dragged into prominence by [half-rationalists](), the result is _not_ rationality, nor till the rationalists among us can be above insolence and triviality and
+
+pink margerine
+
+
+
+
+https://poets.org/poem/poetry
+
+
+
+billions of animals are born into miserable conditions and live lives of unbearable suffering, all so that the flesh-eating monsters that call themselves "humans" can enjoy [feasting on their corpses](https://reducing-suffering.org/how-much-direct-suffering-is-caused-by-various-animal-foods/).
+
+(Bear with me—I'm saying this to set up a [conflict](https://slatestarcodex.com/2018/01/24/conflict-vs-mistake/) scenario for making a point about the philosophy of language; you should be able to follow the upcoming thought experiment even if your own views on morality and nonhuman animal consciousness don't consider factory farming a moral catastrophe.)
+
+
+If we could get the sam

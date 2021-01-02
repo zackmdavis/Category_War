@@ -316,6 +316,8 @@ Unfortunately, we do not have arbitrarily capable physical manufacturing technol
 
 As technology to make plausible mimics/substitutes improves, however, different interest groups might face a temptation to fight over the meanings of words that was not present when the mimics weren't plausible enough for a dispute to arise. If you can extert control over the [extension](https://www.lesswrong.com/posts/HsznWM9A7NiuGsp28/extensions-and-intensions) of a word that people are _already_ using to communicate with, you can exert some control over the decisions people make while trying to _think_ using that word.
 
+[TODO: symmetry of ag interests bashing good mimics and animal interests bashing bad mimics]
+
 "Cultured" meat (grown from animal cells without the whole animal, rather than made from plants) is in its infancy, yet agricultural interests have [already made attempts to prevent it from being labeled and sold as _meat_](https://slate.com/technology/2018/07/should-lab-grown-meat-be-called-meat.html), for the obvious financial reasons. (This kind of lobbying isn't necessarily limited to just words: [in the late 19th century, dairy farmers pushed for laws that required margarine to be dyed pink](https://www.smithsonianmag.com/smart-news/1870s-dairy-lobby-turned-margarine-pink-so-people-would-buy-butter-180963328/) to prevent consumers from confusing it for butter—the law effectively interpreting color as a communication signal, rather than a property of the good itself.)
 
 On the other side, we could imagine animal-rights activists lobbying for language norms that insist that even unrealistic meat substitutes _are_ meat, because of all the suffering on factory farms that would be averted if that convention were to be upheld. Even if the most die-hard carnivores were to cling to their ways as best they could (paying the extra three syllables of saying "_animal_ meat" every time, after Society at large decided that )
@@ -323,6 +325,7 @@ On the other side, we could imagine animal-rights activists lobbying for languag
 
 https://slatestarcodex.com/2015/12/01/setting-the-default/
 
+[motte-and-bailey is wrong because of the math of equivocation, not because it's for a good cause; local validity]
 
 -----
 

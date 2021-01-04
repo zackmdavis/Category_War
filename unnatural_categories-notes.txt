@@ -1,6 +1,20 @@
-(Author's reluctant note: I continue to maintain that this is fun and basic hidden-Bayesian-structure-of-language-and-cognition stuff that anyone who liked the Sequences might enjoy and all Friendliness researchers should know instinctively and no one should feel politically threatened by, but if anyone wants to interrogate me about the elephant in the room, let's take it to the ["Containment Thread on the Motivation and Political Context for My Philosophy of Language Agenda"](https://www.lesswrong.com/posts/5aqumaym7Jd2qhDcy/containment-thread-on-the-motivation-and-political-context)—although for the context of where I'm coming from, I would recommend reading ["Sexual Dimorphism in Yudkowsky's Sequences, in Relation to My Gender Problems"]() first (it's "only", um, [TODO: real wordcount] 20,000 words), and it might take me a few days to reply because I have a dayjob)
+(I continue to maintain that this is fun and basic hidden-Bayesian-structure-of-language-and-cognition stuff that _shouldn't_ be "political", but the ["Containment Thread on the Motivation and Political Context for My Philosophy of Language Agenda"](https://www.lesswrong.com/posts/5aqumaym7Jd2qhDcy/containment-thread-on-the-motivation-and-political-context) is now available for talking about the elephant in the room if we need it.)
+
+(I intend to _eventually_ reply to all substantive critical comments on this post and the containment thread, but I have [other things to focus on this month](TODO: linky math and wellness month) (despite wanting to publish this now so that it can double as a review of ["Where to Draw the Boundaries?"](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries) for the [2019 Review](https://www.lesswrong.com/posts/QFBEjjAvT6KbaA3dY/the-lesswrong-2019-review) before the review phase ends on 11 January), so many of those replies may be kicked out to February; your patience is deeply appreciated.)
 
 
+-------
+
+[motte-and-bailey is wrong because of the math of equivocation, not because it's for a good cause; local validity]
+
+that anyone who liked the Sequences might enjoy and all Friendliness researchers should know instinctively and no one should feel politically threatened by (a
+
+
+ but if anyone wants to interrogate me about the elephant in the room, let's take it to the 
+
+
+
+—although for the context of where I'm coming from, I would recommend reading ["Sexual Dimorphism in Yudkowsky's Sequences, in Relation to My Gender Problems"]() first (it's "only", um, [TODO: real wordcount] 20,000 words), and it might take me a few days to reply because I have a dayjob)
 
 
 (If anyone wants to make this political, please take it to the ["Containment Thread on the Motivation and Political Context for My Philosophy of Language Agenda"](https://www.lesswrong.com/posts/5aqumaym7Jd2qhDcy/containment-thread-on-the-motivation-and-political-context); it may take me a few days to reply to comments, but I definitely will)
@@ -290,3 +304,10 @@ billions of animals are born into miserable conditions and live lives of unbeara
 
 
 If we could get the sam
+
+[TODO: symmetry of ag interests bashing good mimics and animal interests bashing bad mimics]
+
+"Cultured" meat (grown from animal cells without the whole animal, rather than made from plants) is in its infancy, yet agricultural interests have [already made attempts to prevent it from being labeled and sold as _meat_](https://slate.com/technology/2018/07/should-lab-grown-meat-be-called-meat.html), for the obvious financial reasons. 
+
+On the other side, we could imagine animal-rights activists lobbying for language norms that insist that even unrealistic meat substitutes _are_ meat, because of all the suffering on factory farms that would be averted if that convention were to be upheld. Even if the most die-hard carnivores were to cling to their ways as best they could (paying the extra three syllables of saying "_animal_ meat" every time, after Society at large decided that )
+

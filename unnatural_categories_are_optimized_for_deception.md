@@ -306,7 +306,7 @@ Nondeceptive mimicry is _fragile_, however: it works in contexts where the all t
 
 -----
 
-If different agents using a shared language disagree on what features are "relevant", they may have an incentive to fight about how [scarce and valuable short codewords](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) should be defined in their common language, in order to exert control over what inferences and decisions agents using that language can easily make and [coordinate on](https://www.lesswrong.com/posts/edEXi4SpkXfvaX42j/schelling-categories-and-simple-membership-tests)
+If different agents using a shared language disagree on what features are "relevant", they may have an incentive to fight about how [scarce and valuable short codewords](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) should be defined in their common language, in order to exert control over what inferences and decisions agents using that language can easily make and [coordinate on](https://www.lesswrong.com/posts/edEXi4SpkXfvaX42j/schelling-categories-and-simple-membership-tests).
 
 Let's consider how this might apply to a real-world issue. From moral perspectives that place a lot of value on the welfare of nonhuman animals, factory farming is an [ongoing moral catastrophe](https://forum.effectivealtruism.org/posts/Dtr8aHqCQSDhyueFZ/the-possibility-of-an-ongoing-moral-catastrophe-summary). Unfortunately (for the farmed animals), meat-eaters and the global agriculture industry they support aren't going to change their ways because of anyone's [desperate cry at the horror of suffering](https://reducing-suffering.org/the-horror-of-suffering/) or carefully-reasoned appeal to the global utilitarian calculus. Animal-rights advocates can sway behavior on the margin, but there's just too much biological and cultural inertia favoring the consumption of animal products for it to be feasible to _outlaw_ factory farming the way [chattel slavery was outlawed](https://en.wikipedia.org/wiki/Timeline_of_abolition_of_slavery_and_serfdom). It's not that humans _hate_ farm animals; they're just ... made out of tissue that we can use for other things.
 
@@ -330,7 +330,7 @@ If, empirically, being generous about what counts as "meat" can prevent massive 
 
 Similarly, if [telling the public that masks don't work for preventing respiratory disease can perserve supplies for medical professionals who need them more](https://www.lesswrong.com/posts/h4vWsBBjASgiQ2pn6/credibility-of-the-cdc-on-sars-cov-2#Discouraged_Use_of_Masks), then maybe that's the right thing to do.
 
-And if you live in an absurd thought experiment where saying "2 + 2 = 5" could save a quadrillion lives, maybe saying "2 + 2 = 5" is the right thing to do. But the _empirical_ question of whether you happen to live in that particular thought experiment, doesn't change the _laws_ that govern what you have when you take ●●-many plus another ●●-many, no matter what symbols are used to communicate this fact, and no matter the consequences for communicating it.
+And if you live in an absurd thought experiment where saying "2 + 2 = 5" could save [3↑↑↑3](https://www.lesswrong.com/posts/3wYTFWY3LKQCnAptN/torture-vs-dust-specks) lives, maybe saying "2 + 2 = 5" is the right thing to do. But the _empirical_ question of whether you happen to live in that particular thought experiment, doesn't change the _laws_ that govern what you have when you take ●●-many plus another ●●-many, no matter what symbols are used to communicate this fact, and no matter the consequences for communicating it.
 
 -----
 
@@ -346,4 +346,4 @@ How will you discover your mistake? Not by comparing your description to itself.
 
 But by comparing it to that which you did not name.
 
-_(Thanks to Jessica Taylor and Abram Demski for discussion.)_
+_(Thanks to Jessica Taylor, Abram Demski, and Tsvi Benson-Tilson for discussion and feedback.)_

@@ -1,6 +1,20 @@
-(I continue to maintain that this is fun and basic hidden-Bayesian-structure-of-language-and-cognition stuff that _shouldn't_ be "political", but the ["Containment Thread on the Motivation and Political Context for My Philosophy of Language Agenda"](https://www.lesswrong.com/posts/5aqumaym7Jd2qhDcy/containment-thread-on-the-motivation-and-political-context) is now available for talking about the elephant in the room if we need it.)
+***Author's Meta Note***
 
-(I intend to _eventually_ reply to all substantive critical comments on this post and the containment thread, but I have [other things to focus on this month](TODO: linky math and wellness month) despite wanting to publish this now so that it can double as a review of ["Where to Draw the Boundaries?"](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries) for the [2019 Review](https://www.lesswrong.com/posts/QFBEjjAvT6KbaA3dY/the-lesswrong-2019-review) before the review phase ends on 11 January, so many of those replies may be kicked out to February. Your patience is deeply appreciated.)
+(I continue to maintain that this is fun and basic hidden-Bayesian-structure-of-language-and-cognition stuff that _shouldn't_ be "political", but—if we need it—the ["Containment Thread on the Motivation and Political Context for My Philosophy of Language Agenda"](https://www.lesswrong.com/posts/5aqumaym7Jd2qhDcy/containment-thread-on-the-motivation-and-political-context) is now available for talking about the elephant in the room.)
+
+(I intend to _eventually_ reply to all substantive critical comments on this post and the containment thread, but I might be very slow due to life events and priorities outside of this website. Your patience is deeply appreciated.)
+
+
+-------
+
+More links—
+https://www.lesswrong.com/posts/tWLFWAndSZSYN6rPB/think-like-reality
+https://www.lesswrong.com/posts/9QxnfMYccz9QRgZ5z/the-costly-coordination-mechanism-of-common-knowledge#Coordination_Problems
+
+------
+
+
+I have [other things to focus on this month](TODO: linky math and wellness month) despite wanting to publish this now so that it can double as a review of ["Where to Draw the Boundaries?"](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries) for the [2019 Review](https://www.lesswrong.com/posts/QFBEjjAvT6KbaA3dY/the-lesswrong-2019-review) before the review phase ends on 11 January, so many of those replies may be kicked out to February. )
 
 
 -------
@@ -235,16 +249,6 @@ even EY's clarfication talks about "redrawing social or epistemic boundaries"—
 https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff#Bias%E2%80%93variance_decomposition_of_mean_squared_error
 https://en.wikipedia.org/wiki/Mean_squared_error
 
-
-https://www.lesswrong.com/posts/hAvGi9YAPZAnnjZNY/prediction-compression-transcript-1
-https://www.lesswrong.com/posts/ex63DPisEjomutkCw/msg-len
-https://www.lesswrong.com/posts/mB95aqTSJLNR9YyjH/message-length
-https://www.lesswrong.com/posts/tWLFWAndSZSYN6rPB/think-like-reality
-
-More links—
-https://www.lesswrong.com/posts/9QxnfMYccz9QRgZ5z/the-costly-coordination-mechanism-of-common-knowledge#Coordination_Problems
-https://www.lesswrong.com/posts/G5TwJ9BGxcgh5DsmQ/yes-requires-the-possibility-of-no
-https://www.lesswrong.com/posts/sP2Hg6uPwpfp3jZJN/lost-purposes
 
 
 

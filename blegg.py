@@ -1,4 +1,3 @@
-from collections import namedtuple
 from fractions import Fraction
 from math import sqrt
 
@@ -52,6 +51,48 @@ def expected_squared_error_given_categorization(
     return grand_error
 
 
+class EightfoldOutcome:
+    def __init__(self, parity, half, value):
+        self.parity = parity
+        self.half = half
+        self.value = value
+
+    def __add__(self, other):
+        return self.__class__(
+            None,
+            None,
+            self.value + other.value
+        )
+
+    def __mul__(self, p):
+        return self.__class__(
+            None,
+            None,
+            p*self.value
+        )
+
+
+def eightfold_example():
+    print("{1..8} example")
+    distribution = {
+        EightfoldOutcome(parity=value % 2, half=value < 4.5, value=value): 1 / 8
+        for value in range(1, 9)
+    }
+    assert sum(distribution.values()) == 1
+    metric = lambda u, v: u.value - v.value
+    initial_squerr = expected_squared_error(distribution, metric)
+
+    print("initial expected squared error: ", initial_squerr)
+    print(
+        "expected squared error given knowledge of parity: ",
+        expected_squared_error_given_categorization(distribution, metric, "parity"),
+    )
+    print(
+        "expected squared error given knowledge of 1–4/5–8: ",
+        expected_squared_error_given_categorization(distribution, metric, "half"),
+    )
+
+
 class FactoryOutcome:
     def __init__(self, true_category, unnatural_category, eggness, blueness, vanadium):
         self.true_category = true_category
@@ -79,17 +120,11 @@ class FactoryOutcome:
         )
 
 
-# FactoryOutcome = namedtuple(
-#     "FactoryOutcome",
-#     ["true_category", "unnatural_category", "eggness", "blueness", "vanadium"],
-# )
-
 base_rates = {
     "blegg": Fraction(12, 25),
     "rube": Fraction(12, 25),
     "other": Fraction(1, 25),
 }
-
 
 def scale_feature(category):
     """
@@ -166,47 +201,6 @@ def factory_distribution():
 
 
 
-class EightfoldOutcome:
-    def __init__(self, parity, half, value):
-        self.parity = parity
-        self.half = half
-        self.value = value
-
-    def __add__(self, other):
-        return self.__class__(
-            None,
-            None,
-            self.value + other.value
-        )
-
-    def __mul__(self, p):
-        return self.__class__(
-            None,
-            None,
-            p*self.value
-        )
-
-
-def eightfold_example():
-    print("{1..8} example")
-    distribution = {
-        EightfoldOutcome(parity=value % 2, half=value < 4.5, value=value): 1 / 8
-        for value in range(1, 9)
-    }
-    assert sum(distribution.values()) == 1
-    metric = lambda u, v: u.value - v.value
-    initial_squerr = expected_squared_error(distribution, metric)
-
-    print("initial expected squared error: ", initial_squerr)
-    print(
-        "expected squared error given knowledge of parity: ",
-        expected_squared_error_given_categorization(distribution, metric, "parity"),
-    )
-    print(
-        "expected squared error given knowledge of 1–4/5–8: ",
-        expected_squared_error_given_categorization(distribution, metric, "half"),
-    )
-    print("------")
 
 
 def factory_example():
@@ -220,29 +214,15 @@ def factory_example():
                 for prop in ["eggness", "blueness", "vanadium"]
             )
         ),
-        # ... feel free to try out other metrics here!
-
         "eggness–vanadium-only": lambda u, v: sqrt(
             sum(
                 (getattr(u, prop) - getattr(v, prop)) ** 2
                 for prop in ["eggness", "vanadium"]
             )
         ),
+        # ... feel free to try out other metrics here!
     }
-        # "vanadium-weighted": lambda u, v: sqrt(
-        #     sum(
-        #         (
-        #             (0.2 * (getattr(u, prop) - getattr(v, prop))) ** 2
-        #             if prop in ["eggness", "blueness"]
-        #             else (getattr(u, prop) - getattr(v, prop)) ** 2
-        #         )
-        #         for prop in ["eggness", "blueness", "vanadium"]
-        #     )
-        # ),
-
-    #     "vanadium-only": lambda u, v: u.vanadium - v.vanadium,
-    # }
-    # show off different metrics
+    # show off
     for metric_name, metric in metrics.items():
         initial_squerr = expected_squared_error(distribution, metric)
         print(
@@ -284,4 +264,5 @@ def factory_example():
 
 if __name__ == "__main__":
     eightfold_example()
+    print("—————")
     factory_example()

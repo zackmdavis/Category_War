@@ -6,13 +6,13 @@
 
 In order for information to be transmitted from one place to another, it needs to be conveyed by some physical medium: [material links of cause and effect that vary in response to variation at the source](https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence), correlating the states of different parts of the universe—a "map" that reflects a "territory." When you see a rock, that's only possible because the pattern of light reflected from the rock into your eyes is different from what it would have been if the rock were a different color, or if it weren't there.
 
-This is the rudimentary cognitive technology of _perception_. Notably, perception only requires technology to be present on the receiving end.
+This is the rudimentary cognitive technology of _perception_. Notably, perception only requires technology on the receiving end. Your brain and your eyes were optimized to interpret light as conveying information from elsewhere in the universe. The rock wasn't: rocks were just the same before any animals evolved to see them. The light wasn't: light reflected off rocks just the same before, too.
 
-Your brain and your eyes were optimized to interpret light as conveying information from elsewhere in the universe. The rock wasn't: 
+In contrast, the advanced cognitive technology of _communication_ is more capital-intensive: not only the receiver but also the source (now called the "sender") and the medium (now called "signals") must be optimized for the task. When you read a blog post about a rock, not only did the post _author_ need to use the technology of perception to see the rock, you and the author also needed to have a language in common, from which the author would have used different words if the rock were a different color, or if it weren't there.
 
-In contrast, the advanced cognitive technology of _communication_ is more capital-intensive: 
 
- "communication" 
+
+
 
 
 [REMAINING OUTLINE

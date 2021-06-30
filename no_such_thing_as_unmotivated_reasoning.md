@@ -1,4 +1,4 @@
-## There's No Such Thing as Unmotivated Reasoning
+## Argument as Optimization; Or, There's No Such Thing as Unmotivated Reasoning
 
 Traditional rationalists have a concept of ["motivated reasoning"](https://en.wikipedia.org/wiki/Motivated_reasoning) as a sin, and, often, the further idea that [you also shouldn't _accuse_ others of motivated reasoning](https://slatestarcodex.com/2019/07/17/caution-on-bias-arguments/).
 
@@ -8,16 +8,19 @@ It's ironic that, as effective and essential as this advice is for humans, it's 
 
 Our paradigmatic example of motivated reasoning is the political partisan: consider a fanatical adherent to the Green faction [in a Society polarized between Blue and Green camps on issues of tax policy, divorce law, and the color of the sky](https://www.lesswrong.com/posts/6hfGNLf4Hg5DXqJCF/a-fable-of-science-and-politics). Our partisan [never _lies_ about matters of fact](https://www.lesswrong.com/posts/MN4NRkMw7ggt9587K/firming-up-not-lying-around-its-edge-cases-is-less-broadly)—certainly not! Rather, he just reads everything he can about why the sky is green, why merchant taxes and no-fault divorce are the best policies, and why the greedy, hate-filled Blues who think otherwise are lying liars who hate children, reality, and themselves.
 
-If you try to engage him on the merits of income taxes, or covenant marriage, or whether the sky might actually be blue, and you manage to make some surprisingly good points he doesn't already have [cached](TODO: linky "Cached Thoughts") rebuttals to, then he'll equivocate, [stonewall](TODO: linky "Conversation Halters"), change the subject--anything to _stay in control of the conversation_, and steer it where he wants it to go: to support the Greens.
+If you try to engage him on the merits of income taxes, or covenant marriage, or whether the sky might actually be blue, and you manage to make some surprisingly good points he doesn't already have [cached](https://www.lesswrong.com/posts/2MD3NMLBPCqPfnfre/cached-thoughts) rebuttals to, then he'll equivocate, [stonewall](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters), change the subject—anything to _stay in control of the conversation_, and steer it where he wants it to go: to support the Greens.
 
-Now consider a seemingly very different kind of interlocutor—a child, probably autistic, with a special interest in trains, who reads everything he can about trains: [TODO: train facts]. If you try to engage him on the merits of any topic that isn't about trains, then he'll equivocate, stonewall, change the subject--anything to _stay in control of the conversation_, and steer it where he wants it to go: to be about trains.
+Now consider a seemingly very different kind of interlocutor—a child, probably autistic, with a special interest in trains, who reads everything he can about trains: steam locomotives, deisel engines, boxcars, gauge widths. If you try to engage him on the merits of any topic that isn't about trains, then he'll equivocate, stonewall, change the subject—anything to _stay in control of the conversation_, and steer it where he wants it to go: to be about trains.
 
-Traditional rationalists think of the political partisan as the exemplar of "motivated reasoning", and not the train enthusiast, who we would just say is very ... specialized. But if you [replace the specific content with gensyms](TODO: linky "Truly Part of You"), their behavior is actually very similar! What's going on here? Is there some general framework we can use to make sense of this?
+Traditional rationalists think of the political partisan as the exemplar of "motivated reasoning", and not the train enthusiast, who we would just say is very ... specialized. But if you [replace the specific content with gensyms](https://www.lesswrong.com/posts/fg9fXrHpeaDD6pEPL/truly-part-of-you), their behavior is actually very similar! What's going on here? Is there some general framework we can use to make sense of this?
+
+Let's consider our interlocutors as black-box processes that emit text. "There's a strong scientific consensus that the sky is green," says the partisan. With respect to the uniform prior on all 60-character-long [ASCII](https://en.wikipedia.org/wiki/ASCII) strings, there's nothing special about the string `There's a strong scientific consensus that the sky is green.`, which has probability $\left(\frac{1}{128}\right)^{60} = 2^{-420} \approx 3.69 \cdot 10^{-127}$, exactly the same probability as `p)@VO)YFEEkJJcLNLhha(ZnwK%IEnS&*IjwDOBoyCSkSxRjaHiaEUIcYTlFx` or any other length-60 string.
 
 
 ----
 
 Outline—
+
 * The optimizer can be causally upstream of the person who actually produced the text
 
 https://www.lesswrong.com/posts/PtoQdG7E8MxYJrigu/no-universally-compelling-arguments

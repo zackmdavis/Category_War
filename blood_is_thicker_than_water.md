@@ -21,6 +21,9 @@ OUTLINE—
 * Reply: story for how we end up with multiple senses attached to the same word
 
 
+Aristotle argued that they were mammals!!
+https://en.wikipedia.org/wiki/Cetology 
+
 ----
 
 As part of [a review of a book on post-traumatic stress disorder](https://slatestarcodex.com/2019/11/12/book-review-the-body-keeps-the-score/), psychiatrist Scott Alexander casually mentions the American Psychiatric Association's "philosophical commitment to categorizing by symptoms rather than cause": "[w]hen the APA decides not to [recognize developmental trauma disorder], they're not necessarily rejecting the seriousness of child abuse, only saying it's not the kind of thing they build their categories around."

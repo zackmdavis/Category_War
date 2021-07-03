@@ -2,11 +2,13 @@
 
 **Followup to**: [Where to Draw the Boundaries?](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries)
 
-_It might have been "good enough" for the purposes of the sailors of yore, but as humanity has learned more, as our model of Thingspace has expanded with more dimensions and more details, we can see the ways in which the original map failed to carve reality at the joints._
+_Without denying the obvious similarities that motivated the initial categorization `{salmon, guppies, sharks, dolphins, trout, ...}`, there is_ more structure _in the world: to maximize the probability your world-model assigns to your observations of dolphins, you need to take into consideration the many aspects of reality in which the grouping `{monkeys, squirrels, dolphins, horses ...}` makes more sense._
+
+_The old category might have been "good enough" for the purposes of the sailors of yore, but as humanity has learned more, as our model of Thingspace has expanded with more dimensions and more details, we can see the ways in which the original map failed to carve reality at the joints ..._
 
 So the one comes to you—again—and says:
 
->
+> Hold on. _In what sense_ did the original map fail to carve reality at the joints? You agree there are similarities between dolphins and fish—between dolphins and _other_ fish. That's a [cluster in configuration space](https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace)!
 
 
 -----
@@ -17,9 +19,12 @@ OUTLINE—
 * Reply: Definitions are just a pointer to help you find the cluster, root of the causal graph, conditional independence
 * Objection: But, but, if you are using phylogenetics as your criterion, why paraphyly?
 * Reply: We at least want a connected set on phylogenetic space, but we're not just looking at an unlabeled tree; it makes sense to split off groups that diverged, many examples, bats, penguins; we expect fish/mammal/reptile/bird to be mutually exclusive
+* dark skinned Indians aren'te black
 * Objection: but then shouldn't we pick different words for the convergent and phylo clusters? Uncomfortable with wavering lines around "berry"
 * Reply: story for how we end up with multiple senses attached to the same word
 
+
+I don't personally notice the difference between alligators and crocodiles, but precisely because I don't need to care, you don't see me demanding a hypernym
 
 Aristotle argued that they were mammals!!
 https://en.wikipedia.org/wiki/Cetology 

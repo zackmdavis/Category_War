@@ -46,9 +46,7 @@ If you _are_ going to define categories based on phylogeny,
 
 [You know what else are paraphyletic taxa?](https://en.wikipedia.org/wiki/Paraphyly#Non-exhaustive_list_of_paraphyletic_groups) Monkeys (excludes apes, even though the common ancestor of monkeys and apes was a monkey). Reptiles (excludes birds, even though the common ancestor of birds was a reptile). Protists (excludes animals, plants, and fungi, even though their common ancestor would have been a protist). _Prokaryotes_ (excludes eukaryotes, even though the common ancestor of eukaryotes would have been a prokaryote).
 
-
 [polyphyletic](https://en.wikipedia.org/wiki/Polyphyly)! That's even worse!
-
 
 
 [...] only possible if you _stop playing nitwit games and admit that dolphins don't belong on the fish list_.
@@ -82,12 +80,16 @@ In a sane world, this would be _utterly discrediting_ to the APA. The cognitive 
 
 -----
 
-
-
-
 https://www.lesswrong.com/posts/4Bwr6s9dofvqPWakn/science-as-attire
 
 https://www.lesswrong.com/posts/jAToJHtg39AMTAuJo/evolutions-are-stupid-but-work-anyway
 
-
 -----
+
+If you live in human civilization and don't really _need_ to carve up the life forms around you in much detail—if your use-case for thinking about acquatic animals is _watching a nature documentary_ (for entertainment??) rather than living and working with them every day, then you might think the deeper causal structure isn't buying you anything, but I think you would change your mind if you were a veternarian or a zoologist who actually had skin in the game in describing this part of the world.
+
+When people have skin in the game, they care about the underlying mechanisms and want short codewords for them. If you hurt your ankle while running, you would probably be interested to _know_ whether it was a [sprain or a stress fracture](https://ercare24.com/difference-sprain-vs-fracture/) because that affects your decisions about how to recover. You wouldn't say, "Well, all I know is that my ankle hurts—that's all a child would know—so I'm going to call it a _hurtankle_; I don't care about anatomy."
+
+Phylogenetics is also a lot more _objective_: it's easier to [stabilize a _shared_ map](https://www.lesswrong.com/posts/edEXi4SpkXfvaX42j/schelling-categories-and-simple-membership-tests) on the facts of evolutionary history (which we can all agree on in the limit of good science) then the vagaries of what I personally think tastes good on pizza.
+
+And this subjectivity also applies to animal classification. Some might be inclined to argue "bats are birds" (flappy flying animals) on the same grounds as "dolphins are fish" (flappy swimmy animals). But did you know the German word for bat is [_Fledermaus_](https://en.wiktionary.org/wiki/Fledermaus) ("flutter mouse"), which dates back to _fledarmūs_ in [Old High German](https://en.wikipedia.org/wiki/Old_High_German)? Apparently, people way back in the tenth century or so (long before evolution was understood) already thought bats were like a mammal-that-happened-to-fly rather than a bird-that-happened-to-be-furry.

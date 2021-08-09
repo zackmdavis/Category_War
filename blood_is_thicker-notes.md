@@ -1,5 +1,5 @@
 Outline of this section—
-* it's not that we've siezed on phylogenetics as "the" thing to draw definitions around, it's that phylogeyny actually has things to say about which things are all-around similar to each other
+
 * paraphyly makes sense if the excluded clades picked up salient features, that the rest of the clade didn't
 * if you had an unlabeled tree, you wouldn't know where to cut it, and you wouldn't be inspired to make up paraphyletic groups up, without a particular reason—but we do have a reason
 * this is especially true if we're interested in present-day animals
@@ -9,10 +9,7 @@ Outline of this section—
 * polyphyletic is even worse—actually a disconnected set on phylogenetic space, not just not-monophyletic
 
 
-
-
 Okay, here's my analysis of the dolphin problem. Sorry again for flipping out the other month. 😰 But, separately from me being mean and crazy, on the object level, there's absolutely no excuse for not getting this right! Aristotle got this right; why can't MIRI?!
-
 
 
 comment—

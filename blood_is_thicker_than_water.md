@@ -72,7 +72,7 @@ If someone handed you a phylogenetic tree diagram of the development of life on 
 
 In contrast, when classifying life on Earth, we're _not_ in the position of making arbitrary cuts on an unlabeled tree diagram; rather, it's only after thousands of person-years of studying the natural world that people were able to _infer_ things about evolutionary history and _discover_ the the correct diagram.
 
-It shouldn't be that surprising that the distinctions we notice in the natural world are _both_ tied to the evolutionary history, but _also_ don't always correspond to monophyletic clades. The continuity assumption in the evolutionary worldview imposes the decideratum that good categories should at least be a [connected set](https://en.wikipedia.org/wiki/Connected_space) on "phylogenetic space", not that we should never want to talk about "this clade, except for these few sub-clades that picked up a lot of important differences" as a category of interest—_especially_ when talking about present-day creatures. (No one has _seen_ the last common ancestor of the tetrapods, which lived 400 million years ago; its existence is merely inferred.)
+It shouldn't be that surprising that the distinctions we notice in the natural world are _both_ tied to the evolutionary history, but _also_ don't always correspond to monophyletic clades. The continuity assumption in the evolutionary worldview imposes the decideratum that good categories should at least be a [connected set](https://en.wikipedia.org/wiki/Connected_space) on "phylogenetic space", not that we should never want to talk about "this clade, except for these few sub-clades that picked up a lot of important differences" as a category of interest—_especially_ when talking about present-day creatures. (We talk about "last common ancestors", but no one has _seen_ such creatures that lived millions of years ago; everything but the very leaves of the phylogenetic tree are inferred, not observed.)
 
 ![](https://i.imgur.com/Yq4a1we.png)
 
@@ -83,7 +83,6 @@ The claim that dolphins shouldn't be considered "fish" because the alleged "cour
 [...]
 
 Some might be inclined to argue "bats are birds" (flappy flying animals) on the same grounds as "dolphins are fish" (flappy swimmy animals). But did you know the German word for bat is [_Fledermaus_](https://en.wiktionary.org/wiki/Fledermaus) ("flutter mouse"), which dates back to _fledarmūs_ in [Old High German](https://en.wikipedia.org/wiki/Old_High_German)? Apparently, people way back in the tenth century or so (long before evolution was understood) already thought bats were like a mammal-that-happened-to-fly rather than a bird-that-happened-to-be-furry.
-
 
 [...]
 

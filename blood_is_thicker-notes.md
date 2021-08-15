@@ -20,6 +20,9 @@ https://www.facebook.com/jeffladish/posts/10225707594824768
 
 If there are no counterarguments, can I get a retweet here to correct the earlier disinfo? Separately from me being a bad & unstable person who shouldn't have flipped out like that, on the object-level, there's no excuse for not getting this right!! 2/2
 
+https://twitter.com/razibkhan/status/1424508525242462220
+"you get the civilization you're as courageous enough to stand up for"
+
 Vaniver—
 interpretability might help with RSI!!! That settles it, I'm going into biology
 https://www.alignmentforum.org/s/mzgtmmTKKn5MuCzFJ/p/oiuZjPfknKsSc5waC

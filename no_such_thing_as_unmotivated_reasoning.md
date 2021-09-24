@@ -1,4 +1,4 @@
-## Argument as Optimization; Or, There's No Such Thing as Unmotivated Reasoning
+## There's No Such Thing as Unmotivated Reasoning; Or, Argument as Optimization
 
 Traditional rationalists have a concept of ["motivated reasoning"](https://en.wikipedia.org/wiki/Motivated_reasoning) as a sin, and, often, the further idea that [you also shouldn't _accuse_ others of motivated reasoning](https://slatestarcodex.com/2019/07/17/caution-on-bias-arguments/).
 
@@ -14,7 +14,7 @@ Now consider a seemingly very different kind of interlocutor—a child, probably
 
 Traditional rationalists think of the political partisan as the exemplar of "motivated reasoning", and not the train enthusiast, who we would just say is very ... specialized. But if you [replace the specific content with gensyms](https://www.lesswrong.com/posts/fg9fXrHpeaDD6pEPL/truly-part-of-you), their behavior is actually very similar! What's going on here? Is there some general framework we can use to make sense of this?
 
-Let's consider our interlocutors as black-box processes that emit text. "There's a strong scientific consensus that the sky is green," says the partisan. With respect to the uniform prior on all 60-character-long [ASCII](https://en.wikipedia.org/wiki/ASCII) strings, there's nothing special about the string `There's a strong scientific consensus that the sky is green.`, which has probability $\left(\frac{1}{128}\right)^{60} = 2^{-420} \approx 3.69 \cdot 10^{-127}$, exactly the same probability as `p)@VO)YFEEkJJcLNLhha(ZnwK%IEnS&*IjwDOBoyCSkSxRjaHiaEUIcYTlFx` or any other length-60 string.
+Let's consider our interlocutors as black-box processes that emit text. "There's a strong scientific consensus that the sky is green," says the partisan. With respect to the uniform distribution on all 60-character-long [ASCII](https://en.wikipedia.org/wiki/ASCII) strings, there's nothing special about the string `There's a strong scientific consensus that the sky is green.`, which has probability $\left(\frac{1}{128}\right)^{60} = 2^{-420} \approx 3.69 \cdot 10^{-127}$, exactly the same probability as `p)@VO)YFEEkJJcLNLhha(ZnwK%IEnS&*IjwDOBoyCSkSxRjaHiaEUIcYTlFx` or any other length-60 string.
 
 
 ----

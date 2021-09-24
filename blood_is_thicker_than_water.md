@@ -28,7 +28,7 @@ _What_ space? What do the dimensions of this space represent? ["Features"](https
 
 Going beyond the configuration space metaphor is important because it lets us understand how we can _learn new things about dolphins that we don't already know_. Dolphins are complicated! Dolphins are complicated in a _very specific_ way. [Dolphins are fragile](https://www.lesswrong.com/posts/GNnHHmm8EzePmKzPk/value-is-fragile): the [shortest computer program](https://en.wikipedia.org/wiki/Kolmogorov_complexity) that simulates a dolphin requires many bits of initial information, and if you changed some of the bits, you wouldn't have a dolphin anymore. [Complex functional adaptations are universal within a species](https://www.lesswrong.com/posts/Cyj6wQLW6SeF6aGLy/the-psychological-unity-of-humankind) because [each beneficial allele has to reach fixation before there can be selection pressure for the next incremental improvement](https://www.lesswrong.com/posts/ZyNak8F6WXjuEbWWc/the-wonder-of-evolution). That's why it's possible to claim that there are 206 bones in "the" human skeleton, even if most humans haven't had their bones counted. I haven't been able to find a citation on how many bones dolphins have, but I'm confident that it's the _same_ number for all or nearly-all members of a particular dolphin species.
 
-But "number of bones" _wasn't_ one of the dimensions of the "space" that we originally noticed the dolphin cluster in! That's what the "carving reality at the joints" metaphor means: genetic relatedness is an underlying _generator_ of similarities, that _includes_ the "finned swimmy animals" properties that dolphins and fish have in common, but also includes many more [high-dimensional](https://www.lesswrong.com/posts/cu7YY7WdgJBs3DpmJ/the-univariate-fallacy-1) details: how dolphins are warm-blooded, how dolphins have eyelids, the way female dolphins nurse their live-born young, the way dolphins [sleep with only half their brain at a time](https://en.wikipedia.org/wiki/Unihemispheric_slow-wave_sleep), the specific bones in the (the!) dolphin skeleton (however many there turn out to be), the way dolphins [swim in a circle to trick fish into jumping and being eaten](https://en.wikipedia.org/wiki/Mud_ring_feeding), _&c._
+But "number of bones" _wasn't_ one of the dimensions of the "space" that we originally noticed the dolphin cluster in! That's what the "carving reality at the joints" metaphor means: genetic relatedness is an underlying _generator_ of similarities, that _includes_ the "finned swimmy animals" properties that dolphins and fish have in common, but also includes many more [high-dimensional](https://www.lesswrong.com/posts/cu7YY7WdgJBs3DpmJ/the-univariate-fallacy-1) details: how dolphins are warm-blooded, how dolphins have eyelids, the way female dolphins nurse their live-born young, the way male [dolphins sometimes gang-rape female dolphins](https://slate.com/human-interest/2009/05/the-dark-secrets-that-dolphins-don-t-want-you-to-know.html), the way dolphins [sleep with only half their brain at a time](https://en.wikipedia.org/wiki/Unihemispheric_slow-wave_sleep), the specific bones in the (the!) dolphin skeleton (however many there turn out to be), the way dolphins [swim in a circle to trick fish into jumping and being eaten](https://en.wikipedia.org/wiki/Mud_ring_feeding), _&c._
 
 In contrast, "finned swimmy animals" is an intrinsically less cohesive subject matter: there _are_ similarities between them due to convergent evolution to the acquatic habitat, and it probably makes sense to want a [reasonably short word or phrase](https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes) (perhaps, "sea creatures") to describe those similarities in contexts where _only_ those similarities are relevant.
 
@@ -81,17 +81,17 @@ The claim that dolphins shouldn't be considered "fish" because the alleged "cour
 [You know what else are paraphyletic taxa?](https://en.wikipedia.org/wiki/Paraphyly#Non-exhaustive_list_of_paraphyletic_groups) Monkeys (excludes apes, even though the common ancestor of monkeys and apes was a monkey). Reptiles (excludes birds, even though the common ancestor of birds was a reptile). Protists (excludes animals, plants, and fungi, even though their common ancestor would have been a protist). _Prokaryotes_ (excludes eukaryotes, even though the common ancestor of eukaryotes would have been a prokaryote). These are pretty commonsensical categories that it makes sense to have words for! But because of the continuity of evolution, it's _not a coincidence_ that these commonsensical categories that people want words for ended up being connected sets in phylogenetic space. 
 
 The charge that pedants insisting on phylogenetic definitions 
-[...]
+[...] [The part "that's what fish used to mean" is false to fact, but acknowledge that Moby Dick as well as Aristotle]
 seems false to historical fact.
 
 Some determined contrarians might be inclined to argue "bats are birds" (flappy flying animals) on the same grounds as "dolphins are fish" (flappy swimmy animals). But did you know the German word for bat is [_Fledermaus_](https://en.wiktionary.org/wiki/Fledermaus) ("flutter mouse"), which dates back to _fledarmūs_ in [Old High German](https://en.wikipedia.org/wiki/Old_High_German)? Apparently, people way back in the tenth century or so (long before evolution was understood) already thought bats were like a mammal-that-happened-to-fly rather than a bird-that-happened-to-be-furry.
 
 Similarly, we do recognize ostriches and penguins as birds on the basis of overall similarity, even though they don't fly (although we may sometimes qualify them as "flightless birds", in recognition of [the fact that _most_ birds fly](https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity)). It would seem that "flappy flying animals" is _not_ the common usage definition of _bird_. 
 
-And in the case of dolphins, Aristole, writing in the fourth century 
+And in the case of dolphins, Aristole, writing in the fourth century BCE
 
 
-["Very extensive genera of animals, into which other subdivisions fall, are the following: one, of birds; one, of fishes; and another, of cetaceans"]()
+["Very extensive genera of animals, into which other subdivisions fall, are the following: one, of birds; one, of fishes; and another, of cetaceans"](http://classics.mit.edu/Aristotle/history_anim.1.i.html)
 
 [...]
 
@@ -119,6 +119,8 @@ https://en.wikipedia.org/wiki/Cetology
 ----
 
 -----
+
+https://jsmp.dk/posts/2021-01-24-fruits/
 
 https://www.lesswrong.com/posts/4Bwr6s9dofvqPWakn/science-as-attire
 

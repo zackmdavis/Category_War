@@ -100,6 +100,6 @@ But although the quest is an empirical one—something that can only be achieved
 
 Maybe someday it could be possible to have a real science of psychiatry that reflects the actual structure of the mind, instead of doing the equivalent of lumping sprains and stress fractures together as _hurtankles_. Maybe [even greater achievements are possible](https://www.lesswrong.com/posts/Nwgdq6kHke5LY692J/alignment-by-default). Personally, I'm not optimistic about humanity's prospects.
 
-I'm sure of one thing, though. If there _is_ a better world out there, a way to unlock the secrets of the universe and wield them in the service of our values, it's only possible if you _lying motherfuckers_ could [_stop playing nitwit games and admit that dolphins don't belong on the fish list_](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary).
+I'm sure of one thing, though. If there _is_ a better world out there, a way to unlock the secrets of the universe and wield them in the service of our values, it's only possible if we [_stop playing nitwit games and admit that dolphins don't belong on the fish list_](https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary).
 
 _(Thanks to [Tailcalled](https://www.lesswrong.com/users/tailcalled) for the "root of the causal graph" observation and [John S. Wentworth](https://www.lesswrong.com/users/johnswentworth) for explaining the importance of conditional independence.)_

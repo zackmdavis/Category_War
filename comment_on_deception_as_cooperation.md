@@ -16,7 +16,7 @@ Given a choice of distortion measure, there exists a rate–distortion function 
 
 What does this have to do with signaling games? Well, the payoff matrix of the game specifies how "good" it is (for each of the sender and receiver) if the receiver chooses a given act in a given state. But knowing how "good" it is to perform a given act in a given state amounts to the same thing (modulo a negative [affine transformation](https://en.wikipedia.org/wiki/Affine_transformation)) as knowing how "bad" it is for the communication channel to "decode" a given state as a given act! We can thus see the payoff matrix of the game giving us two different distortion measures, one each for the sender and receiver.
 
-Following an old idea from Richard Blahut, we can have a rate–distortion function $R(D_S, D_R)$ with a two-dimensional domain (visualizable as a surface or heatmap) that takes as arguments a distortion target for _each_ of the two measures, and gives the minimum rate that can meet _both_. Because this function depends only on the distribution of states from Nature, and on the payoff matrix, the sender and receiver don't need to have already chosen their strategies for us to talk about it; rather, we can see the strategies as chosen in response to this rate–distortion landscape.
+Following an old idea from Richard Blahut about designing a code for multiple end-user use cases, we can have a rate–distortion function $R(D_S, D_R)$ with a two-dimensional domain (visualizable as a surface or heatmap) that takes as arguments a distortion target for _each_ of the two measures, and gives the minimum rate that can meet _both_. Because this function depends only on the distribution of states from Nature, and on the payoff matrix, the sender and receiver don't need to have already chosen their strategies for us to talk about it; rather, we can see the strategies as chosen in response to this rate–distortion landscape.
 
 Take one of the simplest possible signaling games: three states, three signals, three acts, with sender and receiver each getting a payoff of 1 if the receiver chooses the _i_-th act in the _i_-th state for 1 ≤ _i_ ≤ 3—or rather, let's convert how-"good"-it-is payoffs, into equivalent how-"bad"-it-is distortions: sender and receiver measures both give a distortion of 1 when the _j_-th act is taken in the _i_-th state for _i_ ≠ _j_, and 0 when _i_ = _j_. 
 
@@ -32,13 +32,20 @@ $$ \begin{matrix}2,10 & 0,0 & 10,8 \cr 0,0 & 2,10 & 10,8 \cr 0,0 & 10,10 & 0,0 \
 
 In this game, the sender would prefer to equivocate between the first and second states, in order to force the receiver into picking the third action, for which the sender acheives his maximum payoff. The receiver would _prefer_ to know which of the first and second states actually obtains, in order to get a payout of 10. But the sender doesn't have the incentive to reveal that, because if he did, he would get a payout of only 2. Instead, if the sender sends the same signal for the first and second states so that the receiver can't tell the difference between them, the receiver does best for herself by picking the third action for a guaranteed payoff of 8, rather than taking the risk of guessing wrong between the first and second actions for an expected payout of ½ · 10 + ½ · 0 = 5.
 
-That's one Nash equilibrium, the one that's best for the sender. But the situtation that's best for the receiver, where the sender emits a different signal for each state (or conflates the second and third states—the receiver's decionmaking doesn't care about that distinction) is _also_ Nash: if the sender was _already_ distinguishing the first and second states, then, keeping the receiver's strategy _fixed_, the sender can't unilaterally do better by _starting_ to equivocate by sending (without loss of generality) the first signal in the second state, because that would mean eating zero payouts in the second state for as long as the receiver continued to "believe" the first signal "meant" the first state.
+That's one [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium), the one that's best for the sender. But the situtation that's best for the receiver, where the sender emits a different signal for each state (or conflates the second and third states—the receiver's decionmaking doesn't care about that distinction) is _also_ Nash: if the sender was _already_ distinguishing the first and second states, then, keeping the receiver's strategy _fixed_, the sender can't unilaterally do better by _starting_ to equivocate by sending (without loss of generality) the first signal in the second state, because that would mean eating zero payouts in the second state for as long as the receiver continued to "believe" the first signal "meant" the first state.
 
-There's a [Pareto frontier](https://en.wikipedia.org/wiki/Pareto_front) of possible endcoding/decoding strategies between these best-for-sender and best-for-receiver equilibria:
+There's a [Pareto frontier](https://en.wikipedia.org/wiki/Pareto_front) of possible endcoding/decoding strategies that interpolate between these best-for-sender and best-for-receiver equilibria:
 
-[TODO: use parameter p to interpolate between the strategies, point out that these aren't equilibria, and that they have a higher rate, and interpret what the higher rate means]
+
+
+
+the sender could send the first signal with probability _p_ and the third signal with probability 1 − _p_ when in the first state, and send the second signal with probability 1 − _p_ and the third signal with probability _p_ when in the second state.
+
+[TODO: use parameter p to interpolate between the strategies, point out that these aren't equilibria, and that they have a lower rate, and interpret what the lower rate means]
 
 In a world of speech with propositional meaning, _deception_ can only be something speakers (senders) do to listeners (receivers). But propositional meaning is a fragile and advanced technology. The _underlying_ world of signal processing is much more symmetrical. 
+
+
 
 https://www.lesswrong.com/posts/ybG3WWLdxeTTL3Gpd/communication-requires-common-interests-or-differential
 https://www.lesswrong.com/posts/YptSN8riyXJjJ8Qp8/maybe-lying-can-t-exist

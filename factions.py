@@ -1,10 +1,12 @@
 # Graphing requirements: scipy and matplotlib
 
 import random
+import enum
 
 from math import factorial, sqrt
 
 ε = 0.01  # size of edge for B
+δ = 0.015  # size of partisan bias
 
 
 def binomial(p, n, k):
@@ -18,76 +20,127 @@ def euclidean_distance(v, w):
     return sqrt(sum((v[i] - w[i]) ** 2 for i in range(len(v))))
 
 
-def b():
-    return random.random() < 0.5 + ε
+def experiment(edge):
+    return random.random() < 0.5 + edge
 
 
 def summarize_experiment(results):
     return (len([r for r in results if r]), len(results))
 
 
+class Alignment(enum.Enum):
+    Honest = 1
+    PartisanA = 2
+    PartisanB = 3
+
+
 class Agent:
-    def __init__(self, initial_credences, trial_count, mistrust):
-        self.credences = initial_credences
+    def __init__(self, initial_credences, initial_mistrusts, trial_count, alignment):
+        self.questions = []
+        assert len(initial_credences) == len(initial_mistrusts)
+        for i in range(len(initial_credences)):
+            question = {}
+            for belief in [True, False]:
+                for j, mistrust in enumerate(['honest', 'A', 'B']):
+                    question[(belief, mistrust)] = (
+                        (initial_credences[i] if belief else 1 - initial_credences[i]) *
+                        initial_mistrusts[i][j]
+                    )
+            assert sum(question.values()) - 1 < 0.0001, sum(question.values())
+            self.questions.append(question)
+
         self.trial_count = trial_count
-        self.mistrust = mistrust
+        self.alignment = alignment
+
+    def belief(self, question):
+        total_belief = 0
+        for bucket, probability in self.questions[question].items():
+            belief, _mistrust = bucket
+            if belief:
+                total_belief += probability
+        return total_belief
 
     def experiment(self):
-        results = [b() for _ in range(self.trial_count)]
-        return results
+        if self.alignment == Alignment.Honest:
+            return [experiment(ε) for _ in range(self.trial_count)]
+        elif self.alignment == Alignment.PartisanA:
+            return [experiment(ε - δ) for _ in range(self.trial_count)]
+        elif self.alignment == Alignment.PartisanB:
+            return [experiment(ε + δ) for _ in range(self.trial_count)]
+        else:
+            raise ValueError("bogus alignment")
 
-    def pure_update(self, credence, hits, trials):
-        raw_posterior_good = binomial(0.5 + ε, trials, hits) * credence
-        raw_posterior_bad = binomial(0.5 - ε, trials, hits) * (1 - credence)
-        normalizing_factor = raw_posterior_good + raw_posterior_bad
-        return raw_posterior_good / normalizing_factor
+    def update(self, question, hits, trials):
+        raw_posteriors = {}
+        for (belief, edge) in [(True, ε), (False, -ε)]:
+            for j, (mistrust, bias) in enumerate([('honest', 0), ('A', - δ), ('B', δ)]):
+                likelihood = binomial(0.5 + edge + bias, trials, hits)
+                raw_posteriors[(belief, mistrust)] = likelihood * self.questions[question][(belief, mistrust)]
 
-    def discount_factor(self, reporter_credences):
-        return min(
-            1, self.mistrust * euclidean_distance(self.credences, reporter_credences)
-        )
+        normalizing_factor = sum(raw_posteriors.values())
+        for belief in [True, False]:
+            for j, mistrust in enumerate(['honest', 'A', 'B']):
+                self.questions[question][(belief, mistrust)] = raw_posteriors[(belief, mistrust)] / normalizing_factor
 
-    def update(self, question, hits, trials, reporter_credences):
-        discount = self.discount_factor(reporter_credences)
-        posterior = self.pure_update(self.credences[question], hits, trials)
-        self.credences[question] = (
-            discount * self.credences[question] + (1 - discount) * posterior
-        )
+
+def random_mistrust_partition():
+    a, b = sorted([random.random(), random.random()])
+    partition = [a, b-a, 1-b]
+    random.shuffle(partition)
+    return partition
 
 
 def simulation(
-    agent_count,  # number of agents
+    honest_agent_count,  # number of honest agents
+    partisan_a_agent_count,
+    partisan_b_agent_count,
     question_count,  # numer of questions
     round_count,  # number of rounds
     trial_count,  # number of trials per round
-    mistrust,  # mistrust factor
 ):
-    agents = [
-        Agent(
-            [random.random() for _ in range(question_count)],
-            trial_count=trial_count,
-            mistrust=mistrust,
+
+    agents = []
+    for _ in range(honest_agent_count):
+        agents.append(
+            Agent(
+                [random.random() for _ in range(question_count)],
+                [random_mistrust_partition() for _ in range(question_count)],
+                trial_count=trial_count,
+                alignment=Alignment.Honest
+            )
         )
-        for i in range(agent_count)
-    ]
+    for _ in range(partisan_a_agent_count):
+        agents.append(
+            Agent(
+                [random.random() for _ in range(question_count)],
+                [random_mistrust_partition() for _ in range(question_count)],
+                trial_count=trial_count,
+                alignment=Alignment.PartisanA
+            )
+        )
+    for _ in range(partisan_b_agent_count):
+        agents.append(
+            Agent(
+                [random.random() for _ in range(question_count)],
+                [random_mistrust_partition() for _ in range(question_count)],
+                trial_count=trial_count,
+                alignment=Alignment.PartisanB
+            )
+        )
 
     for _ in range(round_count):
         for question in range(question_count):
             experiments = []
             for agent in agents:
-                if agent.credences[question] >= 0.5:
+                if agent.belief(question) >= 0.5:
                     experiments.append(
-                        (summarize_experiment(agent.experiment()), agent.credences)
+                        summarize_experiment(agent.experiment())
                     )
+
             for agent in agents:
-                for experiment, reporter_credences in experiments:
+                for experiment in experiments:
                     hits, trials = experiment
-                    agent.update(
-                        question,
-                        hits,
-                        trials,
-                        reporter_credences,
-                    )
+                    agent.update(question, hits, trials)
 
     return agents
 
@@ -101,20 +154,16 @@ from mpl_toolkits.mplot3d import Axes3D
 from sklearn.cluster import KMeans
 
 
-def plot_beliefs(agents, cluster=True):
-    beliefs = [agent.credences for agent in agents]
+def plot_beliefs(agents):
+    beliefs = [[agent.belief(i) for i in range(len(agents[0].questions))]
+               for agent in agents]
 
-    if cluster:
-        cluster_model = KMeans(n_clusters=8)
-        cluster_model.fit(beliefs)
-        graph_kwargs = {
-            'c': cluster_model.predict(beliefs),
-            'cmap': ListedColormap(
-                ["red", "orangered", "green", "blue", "purple", "black", "brown", "deepskyblue"]
-            )
-        }
-    else:
-        graph_kwargs = {}
+    graph_kwargs = {
+        'c': [agent.alignment.value - 1 for agent in agents],
+        'cmap': ListedColormap(
+            ["black", "red", "blue"]
+        )
+    }
 
     figure = plot.figure()
     axes = Axes3D(figure)
@@ -122,7 +171,7 @@ def plot_beliefs(agents, cluster=True):
         scale_setter(0, 1)
 
     axes.scatter(
-        *[[agent.credences[i] for agent in agents] for i in range(3)],
+        *[[agent.belief(i) for agent in agents] for i in range(3)],
         **graph_kwargs
     )
     plot.show()
@@ -130,6 +179,9 @@ def plot_beliefs(agents, cluster=True):
 
 if __name__ == "__main__":
     agents = simulation(
-        agent_count=200, round_count=20, question_count=3, trial_count=50, mistrust=2
+        honest_agent_count=20,
+        partisan_a_agent_count=60,
+        partisan_b_agent_count=60,
+        round_count=20, question_count=3, trial_count=50
     )
     plot_beliefs(agents)
